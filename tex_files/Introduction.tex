@@ -32,7 +32,6 @@ photochemical reactions occuring in the Northern Hemisphere spring after the bui
 temperature, moisture and sunlight. Hence, photochemical reactions are the major source of surface tropospheric ozone 
 \citep{Lelieveld:2000} and since \ce{O3} is produced in this way it is termed a secondary pollutant.
 
-\subsection{Meteorological Impacts on Tropospheric Ozone}
 %meterology impacts 
 Tropospheric \ce{O3} is not only impacted by emission levels, it is also affected by meteorological variables such as 
 temperature, number of hours of sunshine and wind as these impact transport, wet deposition rates and also chemical reaction 
@@ -45,15 +44,11 @@ The effect of meteorology is an aspect of atmospheric chemical transport modelli
 it is also frequently the major source of uncertainty for the calculated \ce{O3} concentrations. Wind speeds in particular may 
 lead to under- or over-predicated values of \ce{O3} concentrations \citep{Sillman:1999}. 
 
-\subsubsection{Ozone Concentration Predictions based on Meteorological Variables}
-
 Although the emphasis in this work is on photochemical model derived \ce{O3} prediction measures, there are ways of predicting 
 \ce{O3} concentrations based on meteorological variables. There are statistical approaches to forecast the \ce{O3} 
 concentration, the most common approach being multivariate linear regresson \citep{Comrie:1997}.  Neural networks can also be 
 used to predict \ce{O3} concentrations, although as described in \citep{Comrie:1997} they give is no significant improvement 
 from multivariate linear regression techniques.
-
-\subsection{Air Quality Standards}
 
 In general, there is great effort to reduce anthropogenic emissions that impact air quality and human health. For example, the 
 EPA in the US and European Union all have regulations related to air quality with a set exceedance limit for \ce{O3} 
@@ -200,7 +195,7 @@ NMVOCs there is only one which has a primarily biogenic source and this is isopr
 evident from Table \ref{t:VOClist}, biogenic VOCs are globally the most abundant VOCs \citep{Goldstein:2007}. Since the data in 
 Table \ref{t:VOClist} are mainly taken from urban cities, the impact of anthropogenic emissions outweigh those of the biogenic 
 sources \citep{Baker:2008} - although isoprene has some anthropogenic sources (see \citep{Borbon:2003}). 
-\begin{table}[!ht]  
+\begin{table}
     \begin{center}
         \begin{tabular}{ll}
             \hline \hline
@@ -267,7 +262,7 @@ Figure \ref{f:VOC_reaction} represents a general and simplified reaction scheme 
 many different VOC classes involved in tropospheric chemistry, there are many similarities between their reaction schemes. This
 shall be summarised below however for more a more detailed description of tropospheric chemistry, \citep{Atkinson:2000} should 
 be consulted. 
-\begin{figure}[ht] 
+\begin{figure}
     \begin{center}
         \includegraphics[height=100mm, width=120mm]{VOC_reaction_updated}
         \caption[what is this]{VOC reaction pathway}
@@ -323,16 +318,16 @@ As mentioned above, \ce{O3} chemistry is influenced by both VOC and \ce{NO_x} co
 depicts the non-linear relationship between \ce{O3} concentration when considered as a function of VOC concentration (in ppmC, 
 i.e. parts per million mass of a carbon unit of the VOC, \ce{CH_{2.5}}) and \ce{NO_x} concentration (in ppm, i.e. parts per 
 million mass). 
-\begin{figure}[ht]
+\begin{figure}
 	\begin{center}
-		\includegraphics[height=90mm, width=85mm]{../img/O3_isopleth_1.png}
+		\includegraphics[height=90mm, width=85mm]{O3_isopleth_1.png}
 		\caption{Ozone isopleth plots for various initial concentrations of \ce{NO_x} and a specified VOC mixture. Taken from \citep{Jenkin:2000}.}
 		\label{f:O3_isopleth}
 	\end{center}
 \end{figure}
 
-This relationship can be divided into distinct regimes: \emph{\ce{NO_x}-sensitive}, \emph{VOC-sensitive} and 
-\emph{VOC-and-\ce{NO_x}-sensitive}. The \ce{NO_x}-sensitive regime is the right-most part, the VOC-and-\ce{NO_x}-senstive 
+This relationship can be divided into distinct regimes: \textbf{\ce{NO_x}-sensitive}, \textbf{VOC-sensitive} and 
+\textbf{VOC-and-\ce{NO_x}-sensitive}. The \ce{NO_x}-sensitive regime is the right-most part, the VOC-and-\ce{NO_x}-senstive 
 regime is the middle section and the VOC-sensitive regime is the left-most part of Figure \ref{f:O3_isopleth} and these 
 correspond to high, middle and low VOC:\ce{NO_x} ratios, respectively.  These different regimes arise from how the atmosphere 
 removes \ce{NO_x} and radicals resulting from VOCs. 
@@ -377,9 +372,9 @@ season, time of day etc.
 
 Moreover, an air parcel emitted in an urban area may also evolve as outlined in Figure \ref{f:air_parcel}, as it moves 
 downwind. 
-\begin{figure}[ht]
+\begin{figure}
 	\begin{center}
-		\includegraphics[height=80mm, width=75mm]{../img/air_parcel.png}
+		\includegraphics[height=80mm, width=75mm]{air_parcel.png}
 		\caption{Air parcel evolution overlayed with ozone isopleth plots for various initial concentrations of \ce{NO_x} and VOCs. Taken from \citep{Sillman:1999}.}
 		\label{f:air_parcel}
 	\end{center}
@@ -616,9 +611,9 @@ using methods also described in literature (for example, via SAR and group react
 all reactions are also taken or estimated from literature. The reactions with \ce{O3} and the \ce{NO3} radical are also 
 included if the parent VOC has a rate of removal that is more than 1\% of its removal rate with the OH radical and its lifetime
 with respect to reaction with \ce{O3} (or \ce{NO3}, accordingly) is less than $10^7$ seconds.
-\begin{figure}[ht]
+\begin{figure}
     \begin{center}
-        \includegraphics[width=13cm]{../img/MCM_scheme.png}
+        \includegraphics[width=13cm]{MCM_scheme.png}
         \caption{Flowchart of the major reactions, reactions of intermediates and products considered in the MCM. Taken from \citep{Saunders:2003}}
         \label{f:MCM_scheme}
     \end{center}
