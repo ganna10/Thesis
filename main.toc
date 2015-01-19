@@ -14,10 +14,8 @@
 \contentsline {section}{\numberline {1.4}Chemical Mechanisms}{17}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Self-Generating Mechanisms}{17}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Master Chemical Mechanism}{18}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Statewide Air Pollution Research Center Mechanism}{21}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Regional Atmospheric Chemistry Mechanism}{22}{subsection.1.4.4}
-\contentsline {section}{\numberline {1.5}Comparison of Chemical Mechanisms}{24}{section.1.5}
-\contentsline {section}{\numberline {1.6}Project Outline}{26}{section.1.6}
-\contentsline {chapter}{\numberline {2}Methodology}{29}{chapter.2}
-\contentsline {chapter}{\numberline {3}Results}{31}{chapter.3}
-\contentsline {chapter}{\numberline {4}Conclusions}{33}{chapter.4}
+\contentsline {subsection}{\numberline {1.4.3}Regional Atmospheric Chemistry Mechanism}{21}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Comparison of Chemical Mechanisms}{23}{section.1.5}
+\contentsline {chapter}{\numberline {2}Methodology}{27}{chapter.2}
+\contentsline {chapter}{\numberline {3}Results}{29}{chapter.3}
+\contentsline {chapter}{\numberline {4}Conclusions}{31}{chapter.4}
