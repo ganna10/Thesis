@@ -1,7 +1,7 @@
 \documentclass[12pt,twoside,openright,a4paper]{report}
 \usepackage{graphicx}
 \DeclareGraphicsExtensions{.pdf, .png, .jpg}
-\usepackage{style}
+\usepackage{tex_files/style}
 
 \sloppy
 
@@ -37,15 +37,16 @@
 \chapter*{Acknowledgements}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
-\tableofcontents
+\tableofcontents{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
 \clearpage{\pagestyle{empty}\cleardoublepage}
-\listoffigures
+\listoffigures{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
 \clearpage{\pagestyle{empty}\cleardoublepage}
-\listoftables
+\listoftables{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 \chapter{Introduction} \label{s:introduction}
 \pagenumbering{arabic}
+\input{tex_files/Introduction}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 
 \chapter{Methodology} \label{s:methodology}

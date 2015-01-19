@@ -38,12 +38,16 @@
            pdfcreator={pdflatex}]{hyperref}
 
 \fancyhf{}
-\rhead{Trial}
-\lhead{yo}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyhead[LO,RE]{Chapter \thechapter}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{Jane Coates}
 \renewcommand{\headrulewidth}{2pt}
 \renewcommand{\footrulewidth}{1pt}
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\bibname}{References}
+\graphicspath{ {/local/home/coates/Documents/LaTeX/Thesis/img/} }
 
 \newlength{\Alen}
 \newlength{\minAlen}
