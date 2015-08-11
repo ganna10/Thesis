@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -82,13 +82,6 @@ William P.~L. Carter.
 \newblock \emph{Journal of the Air and Waste Management Association},
   44:\penalty0 881--899, 1994.
 
-\bibitem[Comrie(1997)]{Comrie:1997}
-Andrew~C. Comrie.
-\newblock {Comparing Neural Networks and Regression Models for Ozone
-  Forecasting}.
-\newblock \emph{Journal of the Air and Waste Management Association},
-  47:\penalty0 653--663, 1997.
-
 \bibitem[Derwent et~al.(1996)Derwent, Jenkin, and Saunders]{Derwent:1996}
 R.~G. Derwent, M.~E. Jenkin, and S.~M. Saunders.
 \newblock {Photochemical Ozone Creation Potentials for a Large Number of
@@ -150,12 +143,6 @@ A.~H. Goldstein and I.~E. Galbally.
 Allan Gross and William~R. Stockwell.
 \newblock {Comparison of the EMEP, RADM2 and RACM Mechanisms}.
 \newblock \emph{Journal of Atmospheric Chemistry}, 44:\penalty0 151--170, 2003.
-
-\bibitem[Haagen-Smit and Fox(1956)]{Haagen-Smit:1956}
-A.~J. Haagen-Smit and M.~M. Fox.
-\newblock {Ozone Formation in Photochemical Oxidation of Organic Substances}.
-\newblock \emph{Industrial and Engineering Chemistry}, 48\penalty0
-  (9):\penalty0 1484--1487, 1956.
 
 \bibitem[Haynes et~al.(1991)Haynes, Marks, McIntyre, Shephard, and
   Shine]{Haynes:1991}

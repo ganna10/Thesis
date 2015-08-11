@@ -3,44 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: /local/home/coates/Documents/PhD_References.bib
-You've used 51 entries,
+I was expecting a `,' or a `}'---line 4246 of file /local/home/coates/Documents/PhD_References.bib
+ :  author 
+ :         = "{Royal Society}",
+I'm skipping whatever remains of this entry
+You've used 49 entries,
             2760 wiz_defined-function locations,
-            935 strings with 14873 characters,
-and the built_in function-call counts, 26350 in all, are:
-= -- 2398
-> -- 1598
-< -- 27
-+ -- 541
-- -- 489
-* -- 2341
-:= -- 4066
-add.period$ -- 154
-call.type$ -- 51
-change.case$ -- 318
-chr.to.int$ -- 50
-cite$ -- 102
-duplicate$ -- 1031
-empty$ -- 2066
-format.name$ -- 570
-if$ -- 5402
+            923 strings with 14579 characters,
+and the built_in function-call counts, 25490 in all, are:
+= -- 2314
+> -- 1567
+< -- 25
++ -- 530
+- -- 480
+* -- 2276
+:= -- 3937
+add.period$ -- 148
+call.type$ -- 49
+change.case$ -- 309
+chr.to.int$ -- 48
+cite$ -- 98
+duplicate$ -- 991
+empty$ -- 1985
+format.name$ -- 557
+if$ -- 5221
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 49
-newline$ -- 264
-num.names$ -- 204
-pop$ -- 541
+missing$ -- 47
+newline$ -- 254
+num.names$ -- 196
+pop$ -- 526
 preamble$ -- 1
-purify$ -- 265
+purify$ -- 258
 quote$ -- 0
-skip$ -- 795
+skip$ -- 766
 stack$ -- 0
-substring$ -- 1496
-swap$ -- 52
+substring$ -- 1436
+swap$ -- 50
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 556
+type$ -- 534
 warning$ -- 0
-while$ -- 247
+while$ -- 237
 width$ -- 0
-write$ -- 672
+write$ -- 646
+(There was 1 error message)
