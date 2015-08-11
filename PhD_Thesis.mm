@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1408973950696" ID="ID_180927055" MODIFIED="1426675354436" TEXT="PhD Thesis">
-<node CREATED="1408973993170" FOLDED="true" ID="ID_771388674" MODIFIED="1426675307221" POSITION="left" TEXT="Introduction">
+<node CREATED="1408973993170" FOLDED="true" ID="ID_771388674" MODIFIED="1439292029268" POSITION="left" TEXT="Introduction">
 <node CREATED="1421682509436" FOLDED="true" ID="ID_1575397203" MODIFIED="1426081463626" TEXT="General introduction">
 <node CREATED="1421682812233" FOLDED="true" ID="ID_1196382123" MODIFIED="1422354352089" TEXT="Impacts of increased O3 levels on health, economy, climate">
 <node CREATED="1421688856185" FOLDED="true" ID="ID_125104924" MODIFIED="1422354349087" TEXT="EEA report 2014">
@@ -172,7 +172,7 @@
 <node CREATED="1422354427452" ID="ID_1817912824" MODIFIED="1422354431515" TEXT="Future Outlook"/>
 </node>
 </node>
-<node CREATED="1421682659361" FOLDED="true" ID="ID_672276964" MODIFIED="1426675314030" POSITION="left" TEXT="Methodology">
+<node CREATED="1421682659361" FOLDED="true" ID="ID_672276964" MODIFIED="1439292027307" POSITION="left" TEXT="Methodology">
 <node CREATED="1421682667937" FOLDED="true" ID="ID_666738114" MODIFIED="1422352660989" TEXT="Modelling">
 <node CREATED="1421682872897" ID="ID_1288537476" MODIFIED="1421682876095" TEXT="MECCA"/>
 <node CREATED="1421682876625" ID="ID_829214014" MODIFIED="1421682889519" TEXT="Adapting mechanisms to KPP"/>
@@ -250,12 +250,12 @@
 </node>
 </node>
 </node>
-<node CREATED="1408976075863" FOLDED="true" ID="ID_280447864" MODIFIED="1426675340678" POSITION="left" TEXT="Papers/Result Chapter/s">
-<node CREATED="1408976337608" FOLDED="true" ID="ID_900660818" MODIFIED="1422345493192" TEXT="Mechanism Comparison Study">
-<node CREATED="1422345134506" FOLDED="true" ID="ID_700515561" MODIFIED="1422345236495" TEXT="Research Question">
+<node CREATED="1408976075863" FOLDED="true" ID="ID_280447864" MODIFIED="1439292024691" POSITION="left" TEXT="Papers/Result Chapter/s">
+<node CREATED="1408976337608" FOLDED="true" ID="ID_900660818" MODIFIED="1439292016874" TEXT="Mechanism Comparison Study">
+<node CREATED="1422345134506" FOLDED="true" ID="ID_700515561" MODIFIED="1439292014250" TEXT="Research Question">
 <node CREATED="1422345143167" ID="ID_1259003914" MODIFIED="1422345211070" TEXT="How do the simplication techniques used in different chemical mechanisms treat maximum Ox production? In particular the treatment of the simplified degradation chemistry."/>
 </node>
-<node CREATED="1421683264106" FOLDED="true" ID="ID_1140133744" MODIFIED="1422345227629" TEXT="Conclusions">
+<node CREATED="1421683264106" FOLDED="true" ID="ID_1140133744" MODIFIED="1439292015859" TEXT="Conclusions">
 <node CREATED="1421683268186" ID="ID_209294697" MODIFIED="1421683288048" TEXT="Ox production on the first day was generally comparable to that of the MCM v3.2."/>
 <node CREATED="1421683299586" ID="ID_849461996" MODIFIED="1421683315862" TEXT="Differences in Ox production between reduced and near-explicit mechanisms were larger over multi-day scenarios, with reduced mechanisms producing lower amounts of Ox ."/>
 <node CREATED="1421683324290" ID="ID_690153503" MODIFIED="1421683325824" TEXT="Reduced mechanisms produce more Ox from smaller sized degradation products than more explicit mechanisms as VOC are broken into smaller fragments quicker in reduced mechanisms."/>
@@ -265,7 +265,7 @@
 <node CREATED="1421683404042" ID="ID_1464905366" MODIFIED="1421683416342" TEXT="The Ox produced from VOC represented by lumped species in lumped molecule mechanisms (MOZART-4, RADM2, RACM, RACM2) varies the most from the MCM v3.2. The degradation of VOC represented by lumped species is generalised which can lead to non-representative Ox production from individual VOC."/>
 </node>
 </node>
-<node CREATED="1410452545639" FOLDED="true" ID="ID_591181572" MODIFIED="1422345730133" TEXT="Systematic Testing of chemistry in Mechanisms under different conditions">
+<node CREATED="1410452545639" FOLDED="true" ID="ID_591181572" MODIFIED="1439292020316" TEXT="Systematic Testing of chemistry in Mechanisms under different conditions">
 <node CREATED="1422345257640" ID="ID_1003207466" MODIFIED="1422345273253" TEXT="Testing Conditions">
 <node CREATED="1410452586385" ID="ID_1675369587" MODIFIED="1422345023577" TEXT="dilution i.e. diurnal PBL from CARES data"/>
 <node CREATED="1410452592173" ID="ID_1333707168" MODIFIED="1422345013926" TEXT="realistic NOx conditions: CARES data? only NO or also NO2"/>
@@ -279,7 +279,7 @@
 <node CREATED="1422345305050" ID="ID_277781108" MODIFIED="1422345329908" TEXT="How is Ox production affected in the different mechanisms under non-idealistic conditions?"/>
 </node>
 </node>
-<node CREATED="1408976345416" FOLDED="true" ID="ID_1587489538" MODIFIED="1422371992751" TEXT="Solvent Emissions">
+<node CREATED="1408976345416" FOLDED="true" ID="ID_1587489538" MODIFIED="1439292023699" TEXT="Solvent Emissions">
 <node CREATED="1422345447586" FOLDED="true" ID="ID_1166931122" MODIFIED="1422371991463" TEXT="Research Question">
 <node CREATED="1422345453739" ID="ID_1008192414" MODIFIED="1422345467462" TEXT="How is O3 affected by the different solvent speciations?"/>
 <node CREATED="1422345567250" ID="ID_376511922" MODIFIED="1422345613066" TEXT="Do these different speciations affect O3 differently when using reduced mechanisms?"/>
@@ -312,8 +312,13 @@
 </node>
 <node CREATED="1408976324080" ID="ID_1790711696" MODIFIED="1421682937152" POSITION="left" TEXT="Discussion and Conclusions"/>
 <node CREATED="1422354395652" ID="ID_285753707" MODIFIED="1422354399381" POSITION="left" TEXT="Future Outlook"/>
-<node CREATED="1408976374616" FOLDED="true" ID="ID_797229895" MODIFIED="1426675355549" POSITION="right" TEXT="Publication List">
-<node CREATED="1408976380224" ID="ID_1710278902" MODIFIED="1408976396406" TEXT="Scientific Articles"/>
+<node CREATED="1439291982264" FOLDED="true" ID="ID_1215882963" MODIFIED="1439292006747" POSITION="left" TEXT="Appendix">
+<node CREATED="1439291989167" ID="ID_449348776" MODIFIED="1439292003588" TEXT="Include my contributions to each paper"/>
+</node>
+<node CREATED="1408976374616" ID="ID_797229895" MODIFIED="1439291974178" POSITION="right" TEXT="Publication List">
+<node CREATED="1408976380224" ID="ID_1710278902" MODIFIED="1408976396406" TEXT="Scientific Articles">
+<node CREATED="1439292038967" ID="ID_834254812" MODIFIED="1439292080364" TEXT="Coates, J. and Butler, T. M.: A comparison of chemical mechanisms using tagged ozone production potential (TOPP) analysis, Atmos. Chem. Phys., 15, 8795-8808, doi:10.5194/acp-15-8795-2015, 2015."/>
+</node>
 <node CREATED="1408976396832" ID="ID_551819404" MODIFIED="1408976400342" TEXT="Presentations">
 <node CREATED="1408976538160" ID="ID_1637693448" MODIFIED="1408978809794" TEXT="2013 AGU Fall Meeting, &quot;Comparing Chemical Mechanisms using Tagged Ozone Production Potentials&quot; 10th December 2013 Jane Coates and Tim Butler"/>
 <node CREATED="1408978679478" ID="ID_1850250986" MODIFIED="1408978832042" TEXT="2014 PhD Conference on Earth System Science &quot;Comparing how Chemical Mechanisms treat VOC Degradation and Impact on Ozone Production&quot; 13th March 2014 Jane Coates and Tim Butler"/>
