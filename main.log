@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  12 AUG 2015 11:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  12 AUG 2015 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3262,64 +3262,297 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page14 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [54 <./img/paper1.pdf>]
-Chapter 7.
-[55
+<img/paper1-supplement.pdf, id=1682, page=1, 614.295pt x 794.97pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-] [56
+<use img/paper1-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 82
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 82
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 82
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 82
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 82
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [55 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1698, page=2, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [56 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1753, page=3, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [57 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1799, page=4, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [58 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1804, page=5, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [59 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1810, page=6, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [60 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1830, page=7, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [61 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1840, page=8, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [62 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1875, page=9, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 82
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [63 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1880, page=10, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+2.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+2.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+2.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [64 <./img/paper1-supplement.pdf>]
+Chapter 7.
+[65
+
+] [66
 
 
 ]
 Chapter 8.
-[57
+[67
 
-] [58
+] [68
 
 
 ]
 Chapter 9.
-[59
+[69
 
-] [60
+] [70
 
 
-] [61
+] [71
 
-] [62
+] [72
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 81A2CEDB659FA4AD6E76D716A09F66FC;2243.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 21907 strings out of 495007
- 376365 string characters out of 3179690
+ 21950 strings out of 495007
+ 377535 string characters out of 3179690
  523295 words of memory out of 3000000
- 24271 multiletter control sequences out of 15000+200000
+ 24302 multiletter control sequences out of 15000+200000
  91392 words of font info for 132 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,26n,94p,463b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/chemarrow/arrow.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (76 pages, 963973 bytes).
+pe1/public/chemarrow/arrow.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/typ
+e1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/font
+s/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-su
+per/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></u
+sr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts
+/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-sup
+er/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></us
+r/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/
+type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (86 pages, 1386543 bytes).
 PDF statistics:
- 1808 PDF objects out of 2073 (max. 8388607)
- 1421 compressed objects within 15 object streams
- 206 named destinations out of 1000 (max. 500000)
- 22382 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 2047 PDF objects out of 2073 (max. 8388607)
+ 1601 compressed objects within 17 object streams
+ 216 named destinations out of 1000 (max. 500000)
+ 22442 words of extra memory for PDF output out of 24883 (max. 10000000)
 
