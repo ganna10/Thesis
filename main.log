@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  11 AUG 2015 17:27
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  12 AUG 2015 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2944,66 +2944,57 @@ Underfull \hbox (badness 7759) in paragraph at lines 3--3
 
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 8.
-
-LaTeX Warning: Marginpar on page 27 moved.
-
+LaTeX Info: Redefining \bond on input line 11.
+LaTeX Info: Redefining \dbond on input line 11.
+LaTeX Info: Redefining \tbond on input line 11.
+LaTeX Info: Redefining \bond on input line 11.
+LaTeX Info: Redefining \dbond on input line 11.
+LaTeX Info: Redefining \tbond on input line 11.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
-LaTeX Info: Redefining \bond on input line 13.
-LaTeX Info: Redefining \dbond on input line 13.
-LaTeX Info: Redefining \tbond on input line 13.
-LaTeX Info: Redefining \bond on input line 13.
-LaTeX Info: Redefining \dbond on input line 13.
-LaTeX Info: Redefining \tbond on input line 13.
-
-LaTeX Warning: Marginpar on page 27 moved.
-
-LaTeX Info: Redefining \bond on input line 16.
-LaTeX Info: Redefining \dbond on input line 16.
-LaTeX Info: Redefining \tbond on input line 16.
+LaTeX Info: Redefining \bond on input line 15.
+LaTeX Info: Redefining \dbond on input line 15.
+LaTeX Info: Redefining \tbond on input line 15.
 [27
 
 ]
+LaTeX Info: Redefining \bond on input line 18.
+LaTeX Info: Redefining \dbond on input line 18.
+LaTeX Info: Redefining \tbond on input line 18.
 LaTeX Info: Redefining \bond on input line 19.
 LaTeX Info: Redefining \dbond on input line 19.
 LaTeX Info: Redefining \tbond on input line 19.
-LaTeX Info: Redefining \bond on input line 20.
-LaTeX Info: Redefining \dbond on input line 20.
-LaTeX Info: Redefining \tbond on input line 20.
-LaTeX Info: Redefining \bond on input line 20.
-LaTeX Info: Redefining \dbond on input line 20.
-LaTeX Info: Redefining \tbond on input line 20.
+LaTeX Info: Redefining \bond on input line 19.
+LaTeX Info: Redefining \dbond on input line 19.
+LaTeX Info: Redefining \tbond on input line 19.
 LaTeX Info: Redefining \bond on input line 21.
 LaTeX Info: Redefining \dbond on input line 21.
 LaTeX Info: Redefining \tbond on input line 21.
-LaTeX Info: Redefining \bond on input line 21.
-LaTeX Info: Redefining \dbond on input line 21.
-LaTeX Info: Redefining \tbond on input line 21.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
 LaTeX Info: Redefining \bond on input line 23.
 LaTeX Info: Redefining \dbond on input line 23.
 LaTeX Info: Redefining \tbond on input line 23.
-LaTeX Info: Redefining \bond on input line 24.
-LaTeX Info: Redefining \dbond on input line 24.
-LaTeX Info: Redefining \tbond on input line 24.
-LaTeX Info: Redefining \bond on input line 24.
-LaTeX Info: Redefining \dbond on input line 24.
-LaTeX Info: Redefining \tbond on input line 24.
-LaTeX Info: Redefining \bond on input line 24.
-LaTeX Info: Redefining \dbond on input line 24.
-LaTeX Info: Redefining \tbond on input line 24.
+LaTeX Info: Redefining \bond on input line 25.
+LaTeX Info: Redefining \dbond on input line 25.
+LaTeX Info: Redefining \tbond on input line 25.
 LaTeX Info: Redefining \bond on input line 26.
 LaTeX Info: Redefining \dbond on input line 26.
 LaTeX Info: Redefining \tbond on input line 26.
-LaTeX Info: Redefining \bond on input line 27.
-LaTeX Info: Redefining \dbond on input line 27.
-LaTeX Info: Redefining \tbond on input line 27.
-LaTeX Info: Redefining \bond on input line 27.
-LaTeX Info: Redefining \dbond on input line 27.
-LaTeX Info: Redefining \tbond on input line 27.
+LaTeX Info: Redefining \bond on input line 26.
+LaTeX Info: Redefining \dbond on input line 26.
+LaTeX Info: Redefining \tbond on input line 26.
+LaTeX Info: Redefining \bond on input line 26.
+LaTeX Info: Redefining \dbond on input line 26.
+LaTeX Info: Redefining \tbond on input line 26.
 ) [28]
 Chapter 4.
 [29
@@ -3038,7 +3029,7 @@ Chapter 6.
 ] [40
 
 
-] <img/paper1.pdf, id=846, page=1, 597.50786pt x 788.14133pt>
+] <img/paper1.pdf, id=842, page=1, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
@@ -3063,7 +3054,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page1 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [41 <./img/paper1.pdf>]
-<img/paper1.pdf, id=877, page=2, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=874, page=2, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
@@ -3079,7 +3070,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page2 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [42 <./img/paper1.pdf>]
-<img/paper1.pdf, id=882, page=3, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=879, page=3, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
@@ -3095,7 +3086,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page3 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [43 <./img/paper1.pdf>]
-<img/paper1.pdf, id=887, page=4, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=884, page=4, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
@@ -3111,7 +3102,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page4 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [44 <./img/paper1.pdf>]
-<img/paper1.pdf, id=896, page=5, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=893, page=5, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
@@ -3127,7 +3118,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page5 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [45 <./img/paper1.pdf>]
-<img/paper1.pdf, id=901, page=6, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=898, page=6, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
@@ -3143,7 +3134,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page6 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [46 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1432, page=7, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1429, page=7, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
@@ -3159,7 +3150,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page7 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [47 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1458, page=8, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1455, page=8, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
@@ -3175,7 +3166,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page8 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [48 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1560, page=9, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1557, page=9, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
@@ -3191,7 +3182,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page9 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [49 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1581, page=10, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1578, page=10, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
@@ -3207,7 +3198,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page10 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [50 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1606, page=11, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1603, page=11, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
@@ -3223,7 +3214,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page11 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [51 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1630, page=12, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1627, page=12, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
@@ -3239,7 +3230,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page12 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [52 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1672, page=13, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1669, page=13, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
@@ -3255,7 +3246,7 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page13 used on input line 80.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [53 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1678, page=14, 597.50786pt x 788.14133pt>
+<img/paper1.pdf, id=1675, page=14, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
@@ -3307,10 +3298,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 21922 strings out of 495007
- 376752 string characters out of 3179690
- 525145 words of memory out of 3000000
- 24286 multiletter control sequences out of 15000+200000
+ 21904 strings out of 495007
+ 376302 string characters out of 3179690
+ 523295 words of memory out of 3000000
+ 24271 multiletter control sequences out of 15000+200000
  91392 words of font info for 132 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,26n,94p,463b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3325,10 +3316,10 @@ blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
 onts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (76 pages, 964393 bytes).
+Output written on main.pdf (76 pages, 963955 bytes).
 PDF statistics:
- 1811 PDF objects out of 2073 (max. 8388607)
- 1424 compressed objects within 15 object streams
- 209 named destinations out of 1000 (max. 500000)
+ 1808 PDF objects out of 2073 (max. 8388607)
+ 1421 compressed objects within 15 object streams
+ 206 named destinations out of 1000 (max. 500000)
  22382 words of extra memory for PDF output out of 24883 (max. 10000000)
 
