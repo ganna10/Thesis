@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  12 AUG 2015 11:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  15 AUG 2015 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1305,7 +1305,7 @@ LaTeX Info: Redefining \nameref on input line 23.
 \openout4 = `main.out'.
 
  (./main.bbl)
-<img/FU_logo.pdf, id=129, 483.8075pt x 128.48pt>
+<img/FU_logo.pdf, id=133, 483.8075pt x 128.48pt>
 File: img/FU_logo.pdf Graphic file (type pdf)
  <use img/FU_logo.pdf>
 Package pdftex.def Info: img/FU_logo.pdf used on input line 28.
@@ -1366,13 +1366,17 @@ File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 LaTeX Info: Redefining \bond on input line 8.
 LaTeX Info: Redefining \dbond on input line 8.
 LaTeX Info: Redefining \tbond on input line 8.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [5
 
 ])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [6] (./main.lot)
+
+[6] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
@@ -1396,8 +1400,7 @@ LaTeX Info: Redefining \tbond on input line 4.
 
  [9
 
-]
-[10
+] [10
 
 
 ]
@@ -1406,6 +1409,12 @@ Chapter 1.
 LaTeX Info: Redefining \bond on input line 2.
 LaTeX Info: Redefining \dbond on input line 2.
 LaTeX Info: Redefining \tbond on input line 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+]
 LaTeX Info: Redefining \bond on input line 15.
 LaTeX Info: Redefining \dbond on input line 15.
 LaTeX Info: Redefining \tbond on input line 15.
@@ -1418,9 +1427,6 @@ LaTeX Info: Redefining \tbond on input line 16.
 LaTeX Info: Redefining \bond on input line 18.
 LaTeX Info: Redefining \dbond on input line 18.
 LaTeX Info: Redefining \tbond on input line 18.
- [1
-
-]
 LaTeX Info: Redefining \bond on input line 21.
 LaTeX Info: Redefining \dbond on input line 21.
 LaTeX Info: Redefining \tbond on input line 21.
@@ -1460,28 +1466,28 @@ LaTeX Info: Redefining \tbond on input line 34.
 LaTeX Info: Redefining \bond on input line 36.
 LaTeX Info: Redefining \dbond on input line 36.
 LaTeX Info: Redefining \tbond on input line 36.
-LaTeX Info: Redefining \bond on input line 43.
-LaTeX Info: Redefining \dbond on input line 43.
-LaTeX Info: Redefining \tbond on input line 43.
-LaTeX Info: Redefining \bond on input line 43.
-LaTeX Info: Redefining \dbond on input line 43.
-LaTeX Info: Redefining \tbond on input line 43.
-LaTeX Info: Redefining \bond on input line 43.
-LaTeX Info: Redefining \dbond on input line 43.
-LaTeX Info: Redefining \tbond on input line 43.
-LaTeX Info: Redefining \bond on input line 43.
-LaTeX Info: Redefining \dbond on input line 43.
-LaTeX Info: Redefining \tbond on input line 43.
-LaTeX Info: Redefining \bond on input line 44.
-LaTeX Info: Redefining \dbond on input line 44.
-LaTeX Info: Redefining \tbond on input line 44.
-LaTeX Info: Redefining \bond on input line 44.
-LaTeX Info: Redefining \dbond on input line 44.
-LaTeX Info: Redefining \tbond on input line 44.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
+LaTeX Info: Redefining \bond on input line 43.
+LaTeX Info: Redefining \dbond on input line 43.
+LaTeX Info: Redefining \tbond on input line 43.
+LaTeX Info: Redefining \bond on input line 43.
+LaTeX Info: Redefining \dbond on input line 43.
+LaTeX Info: Redefining \tbond on input line 43.
+LaTeX Info: Redefining \bond on input line 43.
+LaTeX Info: Redefining \dbond on input line 43.
+LaTeX Info: Redefining \tbond on input line 43.
+LaTeX Info: Redefining \bond on input line 43.
+LaTeX Info: Redefining \dbond on input line 43.
+LaTeX Info: Redefining \tbond on input line 43.
+LaTeX Info: Redefining \bond on input line 44.
+LaTeX Info: Redefining \dbond on input line 44.
+LaTeX Info: Redefining \tbond on input line 44.
+LaTeX Info: Redefining \bond on input line 44.
+LaTeX Info: Redefining \dbond on input line 44.
+LaTeX Info: Redefining \tbond on input line 44.
 LaTeX Info: Redefining \bond on input line 46.
 LaTeX Info: Redefining \dbond on input line 46.
 LaTeX Info: Redefining \tbond on input line 46.
@@ -1794,6 +1800,8 @@ LaTeX Info: Redefining \tbond on input line 68.
 LaTeX Info: Redefining \bond on input line 70.
 LaTeX Info: Redefining \dbond on input line 70.
 LaTeX Info: Redefining \tbond on input line 70.
+
+[3]
 LaTeX Info: Redefining \bond on input line 72.
 LaTeX Info: Redefining \dbond on input line 72.
 LaTeX Info: Redefining \tbond on input line 72.
@@ -1851,8 +1859,6 @@ LaTeX Info: Redefining \tbond on input line 79.
 LaTeX Info: Redefining \bond on input line 81.
 LaTeX Info: Redefining \dbond on input line 81.
 LaTeX Info: Redefining \tbond on input line 81.
-
-[3]
 LaTeX Info: Redefining \bond on input line 83.
 LaTeX Info: Redefining \dbond on input line 83.
 LaTeX Info: Redefining \tbond on input line 83.
@@ -1886,6 +1892,7 @@ LaTeX Info: Redefining \tbond on input line 91.
 LaTeX Info: Redefining \bond on input line 91.
 LaTeX Info: Redefining \dbond on input line 91.
 LaTeX Info: Redefining \tbond on input line 91.
+ [4]
 LaTeX Info: Redefining \bond on input line 103.
 LaTeX Info: Redefining \dbond on input line 103.
 LaTeX Info: Redefining \tbond on input line 103.
@@ -2012,7 +2019,6 @@ LaTeX Info: Redefining \tbond on input line 121.
 LaTeX Info: Redefining \bond on input line 121.
 LaTeX Info: Redefining \dbond on input line 121.
 LaTeX Info: Redefining \tbond on input line 121.
- [4]
 LaTeX Info: Redefining \bond on input line 123.
 LaTeX Info: Redefining \dbond on input line 123.
 LaTeX Info: Redefining \tbond on input line 123.
@@ -2088,6 +2094,7 @@ LaTeX Info: Redefining \tbond on input line 135.
 LaTeX Info: Redefining \bond on input line 135.
 LaTeX Info: Redefining \dbond on input line 135.
 LaTeX Info: Redefining \tbond on input line 135.
+ [5]
 LaTeX Info: Redefining \bond on input line 137.
 LaTeX Info: Redefining \dbond on input line 137.
 LaTeX Info: Redefining \tbond on input line 137.
@@ -2118,7 +2125,6 @@ LaTeX Info: Redefining \tbond on input line 140.
 LaTeX Info: Redefining \bond on input line 141.
 LaTeX Info: Redefining \dbond on input line 141.
 LaTeX Info: Redefining \tbond on input line 141.
- [5]
 LaTeX Info: Redefining \bond on input line 161.
 LaTeX Info: Redefining \dbond on input line 161.
 LaTeX Info: Redefining \tbond on input line 161.
@@ -2131,6 +2137,7 @@ LaTeX Info: Redefining \tbond on input line 163.
 LaTeX Info: Redefining \bond on input line 164.
 LaTeX Info: Redefining \dbond on input line 164.
 LaTeX Info: Redefining \tbond on input line 164.
+ [6]
 LaTeX Info: Redefining \bond on input line 167.
 LaTeX Info: Redefining \dbond on input line 167.
 LaTeX Info: Redefining \tbond on input line 167.
@@ -2189,7 +2196,7 @@ LaTeX Info: Redefining \bond on input line 178.
 LaTeX Info: Redefining \dbond on input line 178.
 LaTeX Info: Redefining \tbond on input line 178.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/VOC_reaction_updated.png, id=448
+</local/home/coates/Documents/LaTeX/Thesis/img/VOC_reaction_updated.png, id=458
 , 686.565pt x 485.6544pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/VOC_reaction_updated.png Gr
 aphic file (type png)
@@ -2213,32 +2220,32 @@ LaTeX Info: Redefining \tbond on input line 195.
 LaTeX Info: Redefining \bond on input line 197.
 LaTeX Info: Redefining \dbond on input line 197.
 LaTeX Info: Redefining \tbond on input line 197.
+LaTeX Info: Redefining \bond on input line 199.
+LaTeX Info: Redefining \dbond on input line 199.
+LaTeX Info: Redefining \tbond on input line 199.
+LaTeX Info: Redefining \bond on input line 199.
+LaTeX Info: Redefining \dbond on input line 199.
+LaTeX Info: Redefining \tbond on input line 199.
+LaTeX Info: Redefining \bond on input line 200.
+LaTeX Info: Redefining \dbond on input line 200.
+LaTeX Info: Redefining \tbond on input line 200.
+LaTeX Info: Redefining \bond on input line 200.
+LaTeX Info: Redefining \dbond on input line 200.
+LaTeX Info: Redefining \tbond on input line 200.
+LaTeX Info: Redefining \bond on input line 202.
+LaTeX Info: Redefining \dbond on input line 202.
+LaTeX Info: Redefining \tbond on input line 202.
+LaTeX Info: Redefining \bond on input line 202.
+LaTeX Info: Redefining \dbond on input line 202.
+LaTeX Info: Redefining \tbond on input line 202.
+LaTeX Info: Redefining \bond on input line 202.
+LaTeX Info: Redefining \dbond on input line 202.
+LaTeX Info: Redefining \tbond on input line 202.
+LaTeX Info: Redefining \bond on input line 202.
+LaTeX Info: Redefining \dbond on input line 202.
+LaTeX Info: Redefining \tbond on input line 202.
 
-[6]
-LaTeX Info: Redefining \bond on input line 199.
-LaTeX Info: Redefining \dbond on input line 199.
-LaTeX Info: Redefining \tbond on input line 199.
-LaTeX Info: Redefining \bond on input line 199.
-LaTeX Info: Redefining \dbond on input line 199.
-LaTeX Info: Redefining \tbond on input line 199.
-LaTeX Info: Redefining \bond on input line 200.
-LaTeX Info: Redefining \dbond on input line 200.
-LaTeX Info: Redefining \tbond on input line 200.
-LaTeX Info: Redefining \bond on input line 200.
-LaTeX Info: Redefining \dbond on input line 200.
-LaTeX Info: Redefining \tbond on input line 200.
-LaTeX Info: Redefining \bond on input line 202.
-LaTeX Info: Redefining \dbond on input line 202.
-LaTeX Info: Redefining \tbond on input line 202.
-LaTeX Info: Redefining \bond on input line 202.
-LaTeX Info: Redefining \dbond on input line 202.
-LaTeX Info: Redefining \tbond on input line 202.
-LaTeX Info: Redefining \bond on input line 202.
-LaTeX Info: Redefining \dbond on input line 202.
-LaTeX Info: Redefining \tbond on input line 202.
-LaTeX Info: Redefining \bond on input line 202.
-LaTeX Info: Redefining \dbond on input line 202.
-LaTeX Info: Redefining \tbond on input line 202.
+[7]
 LaTeX Info: Redefining \bond on input line 205.
 LaTeX Info: Redefining \dbond on input line 205.
 LaTeX Info: Redefining \tbond on input line 205.
@@ -2404,7 +2411,7 @@ LaTeX Info: Redefining \tbond on input line 216.
 LaTeX Info: Redefining \bond on input line 216.
 LaTeX Info: Redefining \dbond on input line 216.
 LaTeX Info: Redefining \tbond on input line 216.
- [7 </local/home/coates/Documents/LaTeX/Thesis/img/VOC_reaction_updated.png>]
+ [8 </local/home/coates/Documents/LaTeX/Thesis/img/VOC_reaction_updated.png>]
 LaTeX Info: Redefining \bond on input line 218.
 LaTeX Info: Redefining \dbond on input line 218.
 LaTeX Info: Redefining \tbond on input line 218.
@@ -2448,7 +2455,7 @@ LaTeX Info: Redefining \bond on input line 230.
 LaTeX Info: Redefining \dbond on input line 230.
 LaTeX Info: Redefining \tbond on input line 230.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth_1.png, id=490, 511.9
+</local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth_1.png, id=499, 511.9
 125pt x 370.38374pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth_1.png Graphic f
 ile (type png)
@@ -2463,12 +2470,6 @@ LaTeX Info: Redefining \tbond on input line 234.
 LaTeX Info: Redefining \bond on input line 234.
 LaTeX Info: Redefining \dbond on input line 234.
 LaTeX Info: Redefining \tbond on input line 234.
-
-Underfull \hbox (badness 1028) in paragraph at lines 229--238
-\T1/lmr/m/n/12 (+20) con-cen-tra-tions. Fig-ure []1.2[] de-picts the non-linear
- re-la-tion-ship be-tween $[]$
- []
-
 LaTeX Info: Redefining \bond on input line 239.
 LaTeX Info: Redefining \dbond on input line 239.
 LaTeX Info: Redefining \tbond on input line 239.
@@ -2487,12 +2488,6 @@ LaTeX Info: Redefining \tbond on input line 240.
 LaTeX Info: Redefining \bond on input line 241.
 LaTeX Info: Redefining \dbond on input line 241.
 LaTeX Info: Redefining \tbond on input line 241.
-
-Underfull \hbox (badness 1028) in paragraph at lines 239--242
-[]\T1/lmr/m/n/12 (+20) This re-la-tion-ship can be di-vided into dis-tinct regi
-mes: $[]$\T1/lmr/bx/n/12 -sensitive\T1/lmr/m/n/12 (+20) ,
- []
-
 LaTeX Info: Redefining \bond on input line 243.
 LaTeX Info: Redefining \dbond on input line 243.
 LaTeX Info: Redefining \tbond on input line 243.
@@ -2517,7 +2512,7 @@ LaTeX Info: Redefining \tbond on input line 246.
 LaTeX Info: Redefining \bond on input line 246.
 LaTeX Info: Redefining \dbond on input line 246.
 LaTeX Info: Redefining \tbond on input line 246.
-[8]
+ [9]
 LaTeX Info: Redefining \bond on input line 250.
 LaTeX Info: Redefining \dbond on input line 250.
 LaTeX Info: Redefining \tbond on input line 250.
@@ -2611,7 +2606,8 @@ LaTeX Info: Redefining \tbond on input line 264.
 LaTeX Info: Redefining \bond on input line 264.
 LaTeX Info: Redefining \dbond on input line 264.
 LaTeX Info: Redefining \tbond on input line 264.
- [9 </local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth_1.png>]
+
+[10 </local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth_1.png>]
 LaTeX Info: Redefining \bond on input line 266.
 LaTeX Info: Redefining \dbond on input line 266.
 LaTeX Info: Redefining \tbond on input line 266.
@@ -2640,7 +2636,7 @@ LaTeX Info: Redefining \bond on input line 271.
 LaTeX Info: Redefining \dbond on input line 271.
 LaTeX Info: Redefining \tbond on input line 271.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/air_parcel.png, id=532, 635.3737
+</local/home/coates/Documents/LaTeX/Thesis/img/air_parcel.png, id=541, 635.3737
 5pt x 615.29875pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/air_parcel.png Graphic file
  (type png)
@@ -2679,7 +2675,10 @@ LaTeX Info: Redefining \tbond on input line 284.
 LaTeX Info: Redefining \bond on input line 284.
 LaTeX Info: Redefining \dbond on input line 284.
 LaTeX Info: Redefining \tbond on input line 284.
- [10 </local/home/coates/Documents/LaTeX/Thesis/img/air_parcel.png (PNG copy)>]
+
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [11 </local/home/coates/Documents/LaTeX/Thesis/img/air_parcel.png (PNG copy)>]
 LaTeX Info: Redefining \bond on input line 296.
 LaTeX Info: Redefining \dbond on input line 296.
 LaTeX Info: Redefining \tbond on input line 296.
@@ -2704,13 +2703,13 @@ LaTeX Info: Redefining \tbond on input line 305.
 LaTeX Info: Redefining \bond on input line 305.
 LaTeX Info: Redefining \dbond on input line 305.
 LaTeX Info: Redefining \tbond on input line 305.
+ [12]
 LaTeX Info: Redefining \bond on input line 308.
 LaTeX Info: Redefining \dbond on input line 308.
 LaTeX Info: Redefining \tbond on input line 308.
 LaTeX Info: Redefining \bond on input line 309.
 LaTeX Info: Redefining \dbond on input line 309.
 LaTeX Info: Redefining \tbond on input line 309.
- [11]
 LaTeX Info: Redefining \bond on input line 316.
 LaTeX Info: Redefining \dbond on input line 316.
 LaTeX Info: Redefining \tbond on input line 316.
@@ -2729,210 +2728,214 @@ LaTeX Info: Redefining \tbond on input line 328.
 LaTeX Info: Redefining \bond on input line 329.
 LaTeX Info: Redefining \dbond on input line 329.
 LaTeX Info: Redefining \tbond on input line 329.
+
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+ [13]
 LaTeX Info: Redefining \bond on input line 334.
 LaTeX Info: Redefining \dbond on input line 334.
 LaTeX Info: Redefining \tbond on input line 334.
 LaTeX Info: Redefining \bond on input line 335.
 LaTeX Info: Redefining \dbond on input line 335.
 LaTeX Info: Redefining \tbond on input line 335.
-
-[12]
 LaTeX Info: Redefining \bond on input line 346.
 LaTeX Info: Redefining \dbond on input line 346.
 LaTeX Info: Redefining \tbond on input line 346.
 LaTeX Info: Redefining \bond on input line 351.
 LaTeX Info: Redefining \dbond on input line 351.
 LaTeX Info: Redefining \tbond on input line 351.
+
+[14]
 LaTeX Info: Redefining \bond on input line 354.
 LaTeX Info: Redefining \dbond on input line 354.
 LaTeX Info: Redefining \tbond on input line 354.
-LaTeX Info: Redefining \bond on input line 359.
-LaTeX Info: Redefining \dbond on input line 359.
-LaTeX Info: Redefining \tbond on input line 359.
+) [15] [16
 
-Underfull \hbox (badness 1490) in paragraph at lines 359--361
-[]\T1/lmr/m/n/12 (+20) Predictions of fu-ture $[]$ pol-lu-tion lev-els are typ-
-i-cally per-formed us-ing
+
+]
+Chapter 2.
+(./tex_files/Methodology.tex
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 1.
+ [17
+
+]
+Underfull \hbox (badness 2837) in paragraph at lines 24--25
+[]\T1/lmr/m/n/12 (+20) All pho-to-chem-i-cal mod-els nu-mer-i-cally solve the c
+hem-i-cal species
  []
 
-[13]
-Underfull \hbox (badness 2334) in paragraph at lines 367--373
-[]\T1/lmr/m/n/12 (+20) Atmospheric mod-els can also have dif-fer-ent di-men-sio
-ns, rang-ing from
- []
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 28.
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 1264) has occurred while \output is active []
-
- [14]
-[15]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 421.
-
+ [18]
+[19]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 74.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \bond on input line 424.
-LaTeX Info: Redefining \dbond on input line 424.
-LaTeX Info: Redefining \tbond on input line 424.
- [16]
-LaTeX Info: Redefining \bond on input line 434.
-LaTeX Info: Redefining \dbond on input line 434.
-LaTeX Info: Redefining \tbond on input line 434.
-LaTeX Info: Redefining \bond on input line 435.
-LaTeX Info: Redefining \dbond on input line 435.
-LaTeX Info: Redefining \tbond on input line 435.
-LaTeX Info: Redefining \bond on input line 439.
-LaTeX Info: Redefining \dbond on input line 439.
-LaTeX Info: Redefining \tbond on input line 439.
-LaTeX Info: Redefining \bond on input line 439.
-LaTeX Info: Redefining \dbond on input line 439.
-LaTeX Info: Redefining \tbond on input line 439.
-LaTeX Info: Redefining \bond on input line 439.
-LaTeX Info: Redefining \dbond on input line 439.
-LaTeX Info: Redefining \tbond on input line 439.
-LaTeX Info: Redefining \bond on input line 439.
-LaTeX Info: Redefining \dbond on input line 439.
-LaTeX Info: Redefining \tbond on input line 439.
+LaTeX Info: Redefining \bond on input line 77.
+LaTeX Info: Redefining \dbond on input line 77.
+LaTeX Info: Redefining \tbond on input line 77.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=662, 1166.357
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+LaTeX Info: Redefining \bond on input line 87.
+LaTeX Info: Redefining \dbond on input line 87.
+LaTeX Info: Redefining \tbond on input line 87.
+LaTeX Info: Redefining \bond on input line 88.
+LaTeX Info: Redefining \dbond on input line 88.
+LaTeX Info: Redefining \tbond on input line 88.
+LaTeX Info: Redefining \bond on input line 92.
+LaTeX Info: Redefining \dbond on input line 92.
+LaTeX Info: Redefining \tbond on input line 92.
+LaTeX Info: Redefining \bond on input line 92.
+LaTeX Info: Redefining \dbond on input line 92.
+LaTeX Info: Redefining \tbond on input line 92.
+LaTeX Info: Redefining \bond on input line 92.
+LaTeX Info: Redefining \dbond on input line 92.
+LaTeX Info: Redefining \tbond on input line 92.
+LaTeX Info: Redefining \bond on input line 92.
+LaTeX Info: Redefining \dbond on input line 92.
+LaTeX Info: Redefining \tbond on input line 92.
+
+</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=687, 1166.357
 5pt x 682.55pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png Graphic file
  (type png)
 
 <use /local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>
 Package pdftex.def Info: /local/home/coates/Documents/LaTeX/Thesis/img/MCM_sche
-me.png used on input line 442.
+me.png used on input line 95.
 (pdftex.def)             Requested size: 369.88582pt x 216.45206pt.
-LaTeX Info: Redefining \bond on input line 455.
-LaTeX Info: Redefining \dbond on input line 455.
-LaTeX Info: Redefining \tbond on input line 455.
-LaTeX Info: Redefining \bond on input line 455.
-LaTeX Info: Redefining \dbond on input line 455.
-LaTeX Info: Redefining \tbond on input line 455.
-LaTeX Info: Redefining \bond on input line 461.
-LaTeX Info: Redefining \dbond on input line 461.
-LaTeX Info: Redefining \tbond on input line 461.
-LaTeX Info: Redefining \bond on input line 461.
-LaTeX Info: Redefining \dbond on input line 461.
-LaTeX Info: Redefining \tbond on input line 461.
- [17]
-LaTeX Info: Redefining \bond on input line 467.
-LaTeX Info: Redefining \dbond on input line 467.
-LaTeX Info: Redefining \tbond on input line 467.
-LaTeX Info: Redefining \bond on input line 470.
-LaTeX Info: Redefining \dbond on input line 470.
-LaTeX Info: Redefining \tbond on input line 470.
-LaTeX Info: Redefining \bond on input line 470.
-LaTeX Info: Redefining \dbond on input line 470.
-LaTeX Info: Redefining \tbond on input line 470.
-
-Underfull \vbox (badness 3557) has occurred while \output is active []
-
- [18 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>] [19]
-LaTeX Info: Redefining \bond on input line 506.
-LaTeX Info: Redefining \dbond on input line 506.
-LaTeX Info: Redefining \tbond on input line 506.
-LaTeX Info: Redefining \bond on input line 506.
-LaTeX Info: Redefining \dbond on input line 506.
-LaTeX Info: Redefining \tbond on input line 506.
-LaTeX Info: Redefining \bond on input line 509.
-LaTeX Info: Redefining \dbond on input line 509.
-LaTeX Info: Redefining \tbond on input line 509.
-LaTeX Info: Redefining \bond on input line 511.
-LaTeX Info: Redefining \dbond on input line 511.
-LaTeX Info: Redefining \tbond on input line 511.
-LaTeX Info: Redefining \bond on input line 511.
-LaTeX Info: Redefining \dbond on input line 511.
-LaTeX Info: Redefining \tbond on input line 511.
-LaTeX Info: Redefining \bond on input line 513.
-LaTeX Info: Redefining \dbond on input line 513.
-LaTeX Info: Redefining \tbond on input line 513.
-LaTeX Info: Redefining \bond on input line 516.
-LaTeX Info: Redefining \dbond on input line 516.
-LaTeX Info: Redefining \tbond on input line 516.
-LaTeX Info: Redefining \bond on input line 516.
-LaTeX Info: Redefining \dbond on input line 516.
-LaTeX Info: Redefining \tbond on input line 516.
-LaTeX Info: Redefining \bond on input line 524.
-LaTeX Info: Redefining \dbond on input line 524.
-LaTeX Info: Redefining \tbond on input line 524.
-LaTeX Info: Redefining \bond on input line 524.
-LaTeX Info: Redefining \dbond on input line 524.
-LaTeX Info: Redefining \tbond on input line 524.
-LaTeX Info: Redefining \bond on input line 524.
-LaTeX Info: Redefining \dbond on input line 524.
-LaTeX Info: Redefining \tbond on input line 524.
-LaTeX Info: Redefining \bond on input line 524.
-LaTeX Info: Redefining \dbond on input line 524.
-LaTeX Info: Redefining \tbond on input line 524.
- [20]
-LaTeX Info: Redefining \bond on input line 529.
-LaTeX Info: Redefining \dbond on input line 529.
-LaTeX Info: Redefining \tbond on input line 529.
-LaTeX Info: Redefining \bond on input line 529.
-LaTeX Info: Redefining \dbond on input line 529.
-LaTeX Info: Redefining \tbond on input line 529.
-LaTeX Info: Redefining \bond on input line 529.
-LaTeX Info: Redefining \dbond on input line 529.
-LaTeX Info: Redefining \tbond on input line 529.
-LaTeX Info: Redefining \bond on input line 529.
-LaTeX Info: Redefining \dbond on input line 529.
-LaTeX Info: Redefining \tbond on input line 529.
-LaTeX Info: Redefining \bond on input line 529.
-LaTeX Info: Redefining \dbond on input line 529.
-LaTeX Info: Redefining \tbond on input line 529.
-LaTeX Info: Redefining \bond on input line 530.
-LaTeX Info: Redefining \dbond on input line 530.
-LaTeX Info: Redefining \tbond on input line 530.
-LaTeX Info: Redefining \bond on input line 530.
-LaTeX Info: Redefining \dbond on input line 530.
-LaTeX Info: Redefining \tbond on input line 530.
-LaTeX Info: Redefining \bond on input line 533.
-LaTeX Info: Redefining \dbond on input line 533.
-LaTeX Info: Redefining \tbond on input line 533.
-LaTeX Info: Redefining \bond on input line 533.
-LaTeX Info: Redefining \dbond on input line 533.
-LaTeX Info: Redefining \tbond on input line 533.
-LaTeX Info: Redefining \bond on input line 533.
-LaTeX Info: Redefining \dbond on input line 533.
-LaTeX Info: Redefining \tbond on input line 533.
-LaTeX Info: Redefining \bond on input line 534.
-LaTeX Info: Redefining \dbond on input line 534.
-LaTeX Info: Redefining \tbond on input line 534.
-LaTeX Info: Redefining \bond on input line 534.
-LaTeX Info: Redefining \dbond on input line 534.
-LaTeX Info: Redefining \tbond on input line 534.
-LaTeX Info: Redefining \bond on input line 534.
-LaTeX Info: Redefining \dbond on input line 534.
-LaTeX Info: Redefining \tbond on input line 534.
-LaTeX Info: Redefining \bond on input line 534.
-LaTeX Info: Redefining \dbond on input line 534.
-LaTeX Info: Redefining \tbond on input line 534.
-LaTeX Info: Redefining \bond on input line 538.
-LaTeX Info: Redefining \dbond on input line 538.
-LaTeX Info: Redefining \tbond on input line 538.
-LaTeX Info: Redefining \bond on input line 538.
-LaTeX Info: Redefining \dbond on input line 538.
-LaTeX Info: Redefining \tbond on input line 538.
-LaTeX Info: Redefining \bond on input line 538.
-LaTeX Info: Redefining \dbond on input line 538.
-LaTeX Info: Redefining \tbond on input line 538.
-
-Underfull \vbox (badness 1762) has occurred while \output is active []
-
+LaTeX Info: Redefining \bond on input line 108.
+LaTeX Info: Redefining \dbond on input line 108.
+LaTeX Info: Redefining \tbond on input line 108.
+LaTeX Info: Redefining \bond on input line 108.
+LaTeX Info: Redefining \dbond on input line 108.
+LaTeX Info: Redefining \tbond on input line 108.
  [21]
-LaTeX Info: Redefining \bond on input line 553.
-LaTeX Info: Redefining \dbond on input line 553.
-LaTeX Info: Redefining \tbond on input line 553.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 114.
+LaTeX Info: Redefining \dbond on input line 114.
+LaTeX Info: Redefining \tbond on input line 114.
+LaTeX Info: Redefining \bond on input line 120.
+LaTeX Info: Redefining \dbond on input line 120.
+LaTeX Info: Redefining \tbond on input line 120.
 
-[22]) [23] [24
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [22 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>]
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+ [23]
+LaTeX Info: Redefining \bond on input line 158.
+LaTeX Info: Redefining \dbond on input line 158.
+LaTeX Info: Redefining \tbond on input line 158.
+LaTeX Info: Redefining \bond on input line 158.
+LaTeX Info: Redefining \dbond on input line 158.
+LaTeX Info: Redefining \tbond on input line 158.
+LaTeX Info: Redefining \bond on input line 161.
+LaTeX Info: Redefining \dbond on input line 161.
+LaTeX Info: Redefining \tbond on input line 161.
+LaTeX Info: Redefining \bond on input line 163.
+LaTeX Info: Redefining \dbond on input line 163.
+LaTeX Info: Redefining \tbond on input line 163.
+LaTeX Info: Redefining \bond on input line 163.
+LaTeX Info: Redefining \dbond on input line 163.
+LaTeX Info: Redefining \tbond on input line 163.
+LaTeX Info: Redefining \bond on input line 165.
+LaTeX Info: Redefining \dbond on input line 165.
+LaTeX Info: Redefining \tbond on input line 165.
+ [24]
+LaTeX Info: Redefining \bond on input line 168.
+LaTeX Info: Redefining \dbond on input line 168.
+LaTeX Info: Redefining \tbond on input line 168.
+LaTeX Info: Redefining \bond on input line 168.
+LaTeX Info: Redefining \dbond on input line 168.
+LaTeX Info: Redefining \tbond on input line 168.
+LaTeX Info: Redefining \bond on input line 175.
+LaTeX Info: Redefining \dbond on input line 175.
+LaTeX Info: Redefining \tbond on input line 175.
+LaTeX Info: Redefining \bond on input line 175.
+LaTeX Info: Redefining \dbond on input line 175.
+LaTeX Info: Redefining \tbond on input line 175.
+LaTeX Info: Redefining \bond on input line 175.
+LaTeX Info: Redefining \dbond on input line 175.
+LaTeX Info: Redefining \tbond on input line 175.
+LaTeX Info: Redefining \bond on input line 175.
+LaTeX Info: Redefining \dbond on input line 175.
+LaTeX Info: Redefining \tbond on input line 175.
+LaTeX Info: Redefining \bond on input line 180.
+LaTeX Info: Redefining \dbond on input line 180.
+LaTeX Info: Redefining \tbond on input line 180.
+LaTeX Info: Redefining \bond on input line 180.
+LaTeX Info: Redefining \dbond on input line 180.
+LaTeX Info: Redefining \tbond on input line 180.
+LaTeX Info: Redefining \bond on input line 180.
+LaTeX Info: Redefining \dbond on input line 180.
+LaTeX Info: Redefining \tbond on input line 180.
+LaTeX Info: Redefining \bond on input line 180.
+LaTeX Info: Redefining \dbond on input line 180.
+LaTeX Info: Redefining \tbond on input line 180.
+LaTeX Info: Redefining \bond on input line 180.
+LaTeX Info: Redefining \dbond on input line 180.
+LaTeX Info: Redefining \tbond on input line 180.
+LaTeX Info: Redefining \bond on input line 181.
+LaTeX Info: Redefining \dbond on input line 181.
+LaTeX Info: Redefining \tbond on input line 181.
+LaTeX Info: Redefining \bond on input line 181.
+LaTeX Info: Redefining \dbond on input line 181.
+LaTeX Info: Redefining \tbond on input line 181.
+LaTeX Info: Redefining \bond on input line 184.
+LaTeX Info: Redefining \dbond on input line 184.
+LaTeX Info: Redefining \tbond on input line 184.
+LaTeX Info: Redefining \bond on input line 184.
+LaTeX Info: Redefining \dbond on input line 184.
+LaTeX Info: Redefining \tbond on input line 184.
+LaTeX Info: Redefining \bond on input line 184.
+LaTeX Info: Redefining \dbond on input line 184.
+LaTeX Info: Redefining \tbond on input line 184.
+LaTeX Info: Redefining \bond on input line 185.
+LaTeX Info: Redefining \dbond on input line 185.
+LaTeX Info: Redefining \tbond on input line 185.
+LaTeX Info: Redefining \bond on input line 185.
+LaTeX Info: Redefining \dbond on input line 185.
+LaTeX Info: Redefining \tbond on input line 185.
+LaTeX Info: Redefining \bond on input line 185.
+LaTeX Info: Redefining \dbond on input line 185.
+LaTeX Info: Redefining \tbond on input line 185.
+LaTeX Info: Redefining \bond on input line 185.
+LaTeX Info: Redefining \dbond on input line 185.
+LaTeX Info: Redefining \tbond on input line 185.
+LaTeX Info: Redefining \bond on input line 189.
+LaTeX Info: Redefining \dbond on input line 189.
+LaTeX Info: Redefining \tbond on input line 189.
+LaTeX Info: Redefining \bond on input line 189.
+LaTeX Info: Redefining \dbond on input line 189.
+LaTeX Info: Redefining \tbond on input line 189.
+LaTeX Info: Redefining \bond on input line 189.
+LaTeX Info: Redefining \dbond on input line 189.
+LaTeX Info: Redefining \tbond on input line 189.
+ [25]
+LaTeX Info: Redefining \bond on input line 204.
+LaTeX Info: Redefining \dbond on input line 204.
+LaTeX Info: Redefining \tbond on input line 204.
 
-]
-Chapter 2.
-(./tex_files/Methodology.tex) [25
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [26
+ [26])
+[27] [28
 
 
 ]
@@ -2942,8 +2945,6 @@ Underfull \hbox (badness 7759) in paragraph at lines 3--3
 []\T1/lmr/bx/n/17.28 Paper 1: A com-par-i-son of chem-i-cal
  []
 
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 8.
 LaTeX Info: Redefining \bond on input line 11.
 LaTeX Info: Redefining \dbond on input line 11.
 LaTeX Info: Redefining \tbond on input line 11.
@@ -2956,12 +2957,12 @@ LaTeX Info: Redefining \tbond on input line 12.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
+[29
+
+]
 LaTeX Info: Redefining \bond on input line 15.
 LaTeX Info: Redefining \dbond on input line 15.
 LaTeX Info: Redefining \tbond on input line 15.
-[27
-
-]
 LaTeX Info: Redefining \bond on input line 18.
 LaTeX Info: Redefining \dbond on input line 18.
 LaTeX Info: Redefining \tbond on input line 18.
@@ -2995,41 +2996,41 @@ LaTeX Info: Redefining \tbond on input line 26.
 LaTeX Info: Redefining \bond on input line 26.
 LaTeX Info: Redefining \dbond on input line 26.
 LaTeX Info: Redefining \tbond on input line 26.
-) [28]
+) [30]
 Chapter 4.
-[29
-
-
-
-] [30
-
-
-]
-Chapter 5.
 [31
+
+
 
 ] [32
 
 
-] (./main.bbl [33
+]
+Chapter 5.
+[33
+
+] [34
+
+
+] (./main.bbl [35
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{cite.Coates:
 2015}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.85 ...item[Coates and Butler(2015)]{Coates:2015}
-                                                   [34] [35] [36]) [37]
-[38
+                                                   [36] [37] [38]) [39]
+[40
 
 
 ]
 Chapter 6.
-[39
+[41
 
-] [40
+] [42
 
 
-] <img/paper1.pdf, id=842, page=1, 597.50786pt x 788.14133pt>
+] <img/paper1.pdf, id=852, page=1, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
@@ -3053,8 +3054,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 1>
 Package pdftex.def Info: img/paper1.pdf, page1 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [41 <./img/paper1.pdf>]
-<img/paper1.pdf, id=874, page=2, 597.50786pt x 788.14133pt>
+ [43 <./img/paper1.pdf>]
+<img/paper1.pdf, id=882, page=2, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
@@ -3069,8 +3070,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 2>
 Package pdftex.def Info: img/paper1.pdf, page2 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [42 <./img/paper1.pdf>]
-<img/paper1.pdf, id=879, page=3, 597.50786pt x 788.14133pt>
+ [44 <./img/paper1.pdf>]
+<img/paper1.pdf, id=887, page=3, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
@@ -3085,8 +3086,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 3>
 Package pdftex.def Info: img/paper1.pdf, page3 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [43 <./img/paper1.pdf>]
-<img/paper1.pdf, id=884, page=4, 597.50786pt x 788.14133pt>
+ [45 <./img/paper1.pdf>]
+<img/paper1.pdf, id=892, page=4, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
@@ -3101,8 +3102,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 4>
 Package pdftex.def Info: img/paper1.pdf, page4 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [44 <./img/paper1.pdf>]
-<img/paper1.pdf, id=893, page=5, 597.50786pt x 788.14133pt>
+ [46 <./img/paper1.pdf>]
+<img/paper1.pdf, id=901, page=5, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
@@ -3117,8 +3118,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 5>
 Package pdftex.def Info: img/paper1.pdf, page5 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [45 <./img/paper1.pdf>]
-<img/paper1.pdf, id=898, page=6, 597.50786pt x 788.14133pt>
+ [47 <./img/paper1.pdf>]
+<img/paper1.pdf, id=907, page=6, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
@@ -3133,8 +3134,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 6>
 Package pdftex.def Info: img/paper1.pdf, page6 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [46 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1429, page=7, 597.50786pt x 788.14133pt>
+ [48 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1438, page=7, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
@@ -3149,8 +3150,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 7>
 Package pdftex.def Info: img/paper1.pdf, page7 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [47 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1455, page=8, 597.50786pt x 788.14133pt>
+ [49 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1463, page=8, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
@@ -3165,8 +3166,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 8>
 Package pdftex.def Info: img/paper1.pdf, page8 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [48 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1557, page=9, 597.50786pt x 788.14133pt>
+ [50 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1565, page=9, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
@@ -3181,8 +3182,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 9>
 Package pdftex.def Info: img/paper1.pdf, page9 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [49 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1578, page=10, 597.50786pt x 788.14133pt>
+ [51 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1586, page=10, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
@@ -3197,8 +3198,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 10>
 Package pdftex.def Info: img/paper1.pdf, page10 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [50 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1603, page=11, 597.50786pt x 788.14133pt>
+ [52 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1611, page=11, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
@@ -3213,8 +3214,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 11>
 Package pdftex.def Info: img/paper1.pdf, page11 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [51 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1627, page=12, 597.50786pt x 788.14133pt>
+ [53 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1636, page=12, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
@@ -3229,8 +3230,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 12>
 Package pdftex.def Info: img/paper1.pdf, page12 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [52 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1669, page=13, 597.50786pt x 788.14133pt>
+ [54 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1678, page=13, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
@@ -3245,8 +3246,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 13>
 Package pdftex.def Info: img/paper1.pdf, page13 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [53 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1675, page=14, 597.50786pt x 788.14133pt>
+ [55 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1683, page=14, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
@@ -3261,30 +3262,30 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 14>
 Package pdftex.def Info: img/paper1.pdf, page14 used on input line 81.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [54 <./img/paper1.pdf>]
+ [56 <./img/paper1.pdf>]
 Chapter 7.
-[55
-
-] [56
-
-
-]
-Chapter 8.
 [57
 
 ] [58
 
 
 ]
-Chapter 9.
+Chapter 8.
 [59
 
 ] [60
 
 
-] [61
+]
+Chapter 9.
+[61
 
 ] [62
+
+
+] [63
+
+] [64
 
 
 ]
@@ -3294,32 +3295,33 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 81A2CEDB659FA4AD6E76D716A09F66FC;2243.
+(rerunfilecheck)             Checksum: DABC2F426B277A3A3D7C3DD9AB66728C;2308.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 21907 strings out of 495007
- 376365 string characters out of 3179690
- 523295 words of memory out of 3000000
- 24271 multiletter control sequences out of 15000+200000
- 91392 words of font info for 132 fonts, out of 3000000 for 9000
+ 21959 strings out of 495007
+ 377599 string characters out of 3179690
+ 519560 words of memory out of 3000000
+ 24313 multiletter control sequences out of 15000+200000
+ 91725 words of font info for 133 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 70i,26n,94p,463b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,26n,94p,464b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/chemarrow/arrow.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (76 pages, 963973 bytes).
+ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+m-rm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/chemarrow/arrow.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (78 pages, 974819 bytes).
 PDF statistics:
- 1808 PDF objects out of 2073 (max. 8388607)
- 1421 compressed objects within 15 object streams
- 206 named destinations out of 1000 (max. 500000)
- 22382 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 1822 PDF objects out of 2073 (max. 8388607)
+ 1432 compressed objects within 15 object streams
+ 212 named destinations out of 1000 (max. 500000)
+ 22902 words of extra memory for PDF output out of 24883 (max. 10000000)
 

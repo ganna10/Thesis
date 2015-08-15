@@ -1,8 +1,8 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1408973950696" ID="ID_180927055" MODIFIED="1426675354436" TEXT="PhD Thesis">
-<node CREATED="1408973993170" FOLDED="true" ID="ID_771388674" MODIFIED="1439292029268" POSITION="left" TEXT="Introduction">
-<node CREATED="1421682509436" FOLDED="true" ID="ID_1575397203" MODIFIED="1426081463626" TEXT="General introduction">
+<node CREATED="1408973950696" ID="ID_180927055" MODIFIED="1439377646867" TEXT="PhD Thesis">
+<node CREATED="1408973993170" FOLDED="true" ID="ID_771388674" MODIFIED="1439389212845" POSITION="left" TEXT="Introduction">
+<node CREATED="1421682509436" FOLDED="true" ID="ID_1575397203" MODIFIED="1439388694186" TEXT="General introduction">
 <node CREATED="1421682812233" FOLDED="true" ID="ID_1196382123" MODIFIED="1422354352089" TEXT="Impacts of increased O3 levels on health, economy, climate">
 <node CREATED="1421688856185" FOLDED="true" ID="ID_125104924" MODIFIED="1422354349087" TEXT="EEA report 2014">
 <node CREATED="1422032109507" ID="ID_254508570" MODIFIED="1422032134543" TEXT="Air pollution is the top environmental cause of premature death in Europe. In addition to causing premature death, air pollution increases the incidence of a wide range of diseases (respiratory, cardiovascular and cancer), with both long- and short-term health effects."/>
@@ -76,7 +76,7 @@
 <node CREATED="1422258756256" ID="ID_941082988" MODIFIED="1422258940997" TEXT="There are many examples of measures in industry, transport, agriculture, power generation, urban planning and waste management that have been used across Europe to tackle air pollution: for industry: clean technologies that reduce emissions; increased efficiency in use of resources and energy; permitting according to best-available technologies, etc.; for transport: shifting to clean modes of power generation; prioritising rapid urban transit,&#xa;walking and cycling networks in cities as well as rail interurban freight and passenger travel; shifting to cleaner heavy-duty diesel vehicles and low-emissions vehicles and fuels, including fuels with reduced sulphur content; road pricing, parking fees, congestion charges, speed limits, low emission zones and retrofitting; for agriculture: improved storage of manure (e.g. closed tanks) and anaerobic digestion at large farms; improved application of manure on soil, e.g. rapid integration in the soil, and direct injection (only at large farms); improved application of urea fertiliser or substitution by ammonium nitrate, etc.; for power and heat generation and supply: increased use of low-emissions fuels and renewable combustion-free power sources (like solar, wind or hydropower); cogeneration of heat and power; distributed energy generation (e.g. mini-grids and rooftop solar power generation); permitting according to best&#x2010;available technologies; district heating and cooling, fuel taxes, carbon pricing, labels and/or standards for clean small-scale combustion equipment, etc.; for urban planning: improving the energy efficiency of buildings and making cities more impact, and thus more energy efficient, etc.; for municipal and agricultural waste management: strategies for waste reduction, waste separation, recycling and reuse or&#xa;waste reprocessing; improved methods of biological waste management such as anaerobic&#xa;waste digestion to produce biogas; low-cost alternatives to the open incineration of solid&#xa;waste; where incineration is unavoidable, use of combustion technologies with strict emission controls, etc."/>
 </node>
 </node>
-<node CREATED="1421682541329" FOLDED="true" ID="ID_388967224" MODIFIED="1422031776508" TEXT="O3 Chemistry">
+<node CREATED="1421682541329" FOLDED="true" ID="ID_388967224" MODIFIED="1439388696291" TEXT="O3 Chemistry">
 <node CREATED="1421682586080" ID="ID_552920570" MODIFIED="1421682601297" TEXT="VOC- NOx- and VOC-NOx-sensitive chemistry"/>
 <node CREATED="1421690589541" ID="ID_134171151" MODIFIED="1421691544851" TEXT="Loss of O3 through deposition (dry and also over water - Hardacre:2014), NO titration in urban areas or near soils due to large NO emissions. Over forest due to BVOC that react with O3 (Monks: 2014)"/>
 <node CREATED="1421745054304" ID="ID_1671352731" MODIFIED="1421745070619" TEXT="The &#x201c;NOx titration&#x201d; leads to the counter- intuitive effect that reducing NOx (NO) reduces the amount of ozone being suppressed and actually increases ozone (Heal et al., 2013; Sicard et al., 2013)."/>
@@ -93,7 +93,7 @@
 <node CREATED="1422263428979" ID="ID_744808148" MODIFIED="1422263430405" TEXT=" Sunlight and high temperatures favour O3 formation. Episodes of elevated O3 levels occur during periods of warm, sunny weather. However, independent of the episodic nature of O3 pollution that is strongly influenced by meteorological conditions, emissions of O3 precursor gases are sustaining a baseline of exceedances of legal concentration thresholds."/>
 </node>
 </node>
-<node CREATED="1421691519064" FOLDED="true" ID="ID_686918872" MODIFIED="1422354335113" TEXT="Climate">
+<node CREATED="1421691519064" FOLDED="true" ID="ID_686918872" MODIFIED="1439388700706" TEXT="Climate">
 <node CREATED="1421691529448" ID="ID_1009183198" MODIFIED="1421691535757" TEXT="Short-term cli- mate variability modifies the long-range transport pathways that channel ozone plumes on regional and intercontinental scales, and also impacts regional-scale ozone photo- chemistry by modifying cloud cover. The impact of climate variability on ozone trans- port and chemistry is a relatively new field of study that has explored the effects of such phenomena as El Ni&#xf1;o/Southern Oscillation (ENSO), the Pacific&#x2013;North American (PNA) pattern and the North Atlantic Oscillation (NAO). (Monks 2014)"/>
 <node CREATED="1421691586040" ID="ID_1004305609" MODIFIED="1421691588142" TEXT="ENSO has also been linked to column ozone changes above Europe with positive anomalies of tropospheric ozone column and surface ozone occurring in the spring following an El Ni&#xf1;o year, for a va- riety of reasons including changes in STE, biomass burning emissions and pollution transport pathways from Asia and North America (Koumoutsaris et al., 2008). "/>
 <node CREATED="1421691647832" ID="ID_406427387" MODIFIED="1421691666404" TEXT="The transport of ozone and other pollutants across the North Atlantic Ocean and the  Arctic is heavily influenced by the NAO. During the high phase of the NAO, wintertime pollutant transport into the Arctic is enhanced by 70 % compared to times dominated by the low phase, with the major source region being Europe, followed by North America (Eckhardt et al., 2003) "/>
@@ -102,7 +102,7 @@
 <node CREATED="1422264180981" ID="ID_455711190" MODIFIED="1422264190029" TEXT="Ozone is a greenhouse gas contributing to warming of the atmosphere."/>
 </node>
 </node>
-<node CREATED="1421756470551" FOLDED="true" ID="ID_1365541889" MODIFIED="1422354337209" TEXT="Climate Change">
+<node CREATED="1421756470551" FOLDED="true" ID="ID_1365541889" MODIFIED="1439388704323" TEXT="Climate Change">
 <node CREATED="1421756539399" ID="ID_1472565931" MODIFIED="1421756607466" TEXT="Jacob and Winner (2009) have undertaken a comprehensive review of the impact of climate change on air quality, including ozone. Despite regional differences, the dominating signal is one towards an increase of ozone levels induced by global warming (Stevenson et al., 2006), that led Wu et al. (2008) to coin the term &#x201c;climate penalty&#x201d;. The possible pathways for such a penalty include increasing continental temperatures, changing atmospheric humidity and changes in the prevalence of stable, anticyclonic conditions trapping pollutants in the boundary layer and possibly leading to higher surface ozone even without changes in anthropogenic precursor emissions. These meteorological factors may be supplemented by climate-driven changes in biogenic emissions of isoprene and in dry deposition of ozone. (Monks 2014)"/>
 <node CREATED="1421756842535" ID="ID_1387485081" MODIFIED="1421756859027" TEXT="Significant potential exists for co-benefits with coordinated air quality and climate policies. A number of reviews have recently addressed various aspects of the linkages between air quality and climate, from the chemistry interactions to the policy implications (von Schneidemesser and Monks, 2013; Isaksen et al., 2009; Fiore et al., 2012; Unger, 2012).  "/>
 <node CREATED="1421756898623" ID="ID_478782628" MODIFIED="1421756925515" TEXT="Ozone precursors NOx, NMVOCs, and CO, have little to no direct effect on climate, but influence climate and radiative forcing through their effects on ozone and methane, as well as atmospheric oxidant concentrations and indirect ecosystem effects (von Schneidemesser and Monks, 2013 and references therein). Reductions in NMVOCs and CO tend to be synergistic and result in overall decreases in RF, although the effects can be fairly minor, especially for NMVOCs (Collins et al., 2013). "/>
@@ -115,7 +115,7 @@
 <node CREATED="1422265067313" ID="ID_658326061" MODIFIED="1422265069360" TEXT="GHGs and air pollutants impact the climate system through two main pathways: direct and indirect RF (IPCC, 2013). Direct RF refers to the change of fraction of radiant energy received from the sun being either absorbed (by the well&#x2010;mixed GHGs, tropospheric O3 and stratospheric water vapour, for instance) or scattered by sulphate aerosols, for example."/>
 </node>
 </node>
-<node CREATED="1421682566745" FOLDED="true" ID="ID_416487384" MODIFIED="1422354339409" TEXT="Emissions">
+<node CREATED="1421682566745" FOLDED="true" ID="ID_416487384" MODIFIED="1439388706586" TEXT="Emissions">
 <node CREATED="1422032392488" ID="ID_1556766689" MODIFIED="1422032394149" TEXT="Directive 2010/75/EU on industrial emissions (integrated pollution prevention and control) (EU, 2010), which targets certain industrial, agricultural, and waste treatment installations."/>
 <node CREATED="1421747203341" ID="ID_909721285" MODIFIED="1421747205180" TEXT="Previous work has shown that individual megacities are not well represented by global emission inventories compared to the detailed city-scale inventories (Butler et al., 2012), which can be an issue when trying to model ozone on a larger scale."/>
 <node CREATED="1421747164781" ID="ID_836701803" MODIFIED="1421747167694" TEXT="Considering ozone concentrations as a relative contribution to the global scale, megacities contribute a surprisingly small amount to global ozone (Stock et al., 2013). "/>
@@ -126,13 +126,13 @@
 <icon BUILTIN="help"/>
 <node CREATED="1421689748819" ID="ID_21678720" MODIFIED="1421689763272" TEXT="OH activity related to O3 (Bloss, 2005)"/>
 </node>
-<node CREATED="1421682609104" FOLDED="true" ID="ID_975286480" MODIFIED="1422031787141" TEXT="OPP">
+<node CREATED="1421682609104" FOLDED="true" ID="ID_975286480" MODIFIED="1439388709306" TEXT="OPP">
 <node CREATED="1421682613113" ID="ID_874480851" MODIFIED="1421682614817" TEXT="MIR"/>
 <node CREATED="1421682618320" ID="ID_1563026530" MODIFIED="1421682619977" TEXT="MOIR"/>
 <node CREATED="1421682620641" ID="ID_868016944" MODIFIED="1421682622863" TEXT="POCP"/>
 <node CREATED="1421682623736" ID="ID_11267427" MODIFIED="1421682625680" TEXT="TOPP"/>
 </node>
-<node CREATED="1421683120666" FOLDED="true" ID="ID_354381377" MODIFIED="1422031789057" TEXT="Chemical mechanisms">
+<node CREATED="1421683120666" FOLDED="true" ID="ID_354381377" MODIFIED="1439388713381" TEXT="Chemical mechanisms">
 <node CREATED="1421683127570" ID="ID_340292369" MODIFIED="1421683134552" TEXT="Lumped structure mechanisms">
 <node CREATED="1421683162506" ID="ID_250384991" MODIFIED="1421683165432" TEXT="CBM-IV"/>
 <node CREATED="1421683166322" ID="ID_1122375410" MODIFIED="1421683167513" TEXT="CB05"/>
@@ -161,10 +161,14 @@
 <node CREATED="1421755257699" ID="ID_419537664" MODIFIED="1421755273055" TEXT="Maccarone et al. (2013) have recently shown that arylperoxy radicals (RO2 derived from aromatic hydrocarbons) are able to photo-dissociate in the visible spectrum to yield O(3 P), and hence produce O3 in the troposphere, without the need for NOx."/>
 </node>
 </node>
-<node CREATED="1421682753329" FOLDED="true" ID="ID_646294334" MODIFIED="1422031791083" TEXT="Previous Mechanism Comparison Studies">
+<node CREATED="1421682753329" FOLDED="true" ID="ID_646294334" MODIFIED="1439388720898" TEXT="Previous Mechanism Comparison Studies">
 <node CREATED="1421749546596" ID="ID_1297759379" MODIFIED="1421749561647" TEXT="Further challenges to models include, the representation of different aspects of ozone chemistry (e.g., isoprene: Archibald et al., 2010; Dunker et al., 2014; halogens: Yang et al., 2005; Saiz-Lopez et al., 2012a; chemical mechanism, Saylor and Stein, 2012) and deposition (Val Martin et al., 2014). "/>
 </node>
-<node CREATED="1421682795489" FOLDED="true" ID="ID_1971055587" MODIFIED="1422354432993" TEXT="Thesis Outline">
+<node CREATED="1439389197848" ID="ID_105602960" MODIFIED="1439389210251" TEXT="Gap and what is novel in this thesis">
+<icon BUILTIN="yes"/>
+<icon BUILTIN="yes"/>
+</node>
+<node CREATED="1421682795489" FOLDED="true" ID="ID_1971055587" MODIFIED="1439388726738" TEXT="Thesis Outline">
 <node CREATED="1422354370333" ID="ID_1509033527" MODIFIED="1422354374143" TEXT="Introduction"/>
 <node CREATED="1422354374556" ID="ID_1466653480" MODIFIED="1422354379169" TEXT="Methodology"/>
 <node CREATED="1422354379876" ID="ID_1337474535" MODIFIED="1422354386758" TEXT="Papers and contribution to each paper"/>
@@ -172,33 +176,27 @@
 <node CREATED="1422354427452" ID="ID_1817912824" MODIFIED="1422354431515" TEXT="Future Outlook"/>
 </node>
 </node>
-<node CREATED="1421682659361" FOLDED="true" ID="ID_672276964" MODIFIED="1439292027307" POSITION="left" TEXT="Methodology">
-<node CREATED="1421682667937" FOLDED="true" ID="ID_666738114" MODIFIED="1422352660989" TEXT="Modelling">
-<node CREATED="1421682872897" ID="ID_1288537476" MODIFIED="1421682876095" TEXT="MECCA"/>
-<node CREATED="1421682876625" ID="ID_829214014" MODIFIED="1421682889519" TEXT="Adapting mechanisms to KPP"/>
-<node CREATED="1422345842216" ID="ID_1919349789" MODIFIED="1422345853596" TEXT="Idealised Conditions over LA"/>
-<node CREATED="1422345854070" ID="ID_1778072307" MODIFIED="1422345858093" TEXT="NO emissions tuning"/>
-<node CREATED="1422345859897" FOLDED="true" ID="ID_1012750501" MODIFIED="1422346150658" TEXT="MCM approaches">
-<node CREATED="1422345877975" ID="ID_173577304" MODIFIED="1422345880598" TEXT="Photolysis"/>
-<node CREATED="1422345881131" ID="ID_661910504" MODIFIED="1422345892828" TEXT="Dry deposition"/>
-<node CREATED="1422345893431" ID="ID_1404021555" MODIFIED="1422345903690" TEXT="RO2-RO2 reactions"/>
-<node CREATED="1422345907112" ID="ID_504927627" MODIFIED="1422345910243" TEXT="Inorganic chemistry"/>
+<node CREATED="1421682659361" ID="ID_672276964" MODIFIED="1439378174926" POSITION="left" TEXT="Methodology">
+<node CREATED="1421682667937" ID="ID_666738114" MODIFIED="1439385503004" TEXT="Box model">
+<node CREATED="1439385511547" ID="ID_890177822" MODIFIED="1439385521511" TEXT="Why use a box model?">
+<node CREATED="1439388386477" ID="ID_284647988" MODIFIED="1439388397027" TEXT="Brief description of other types of models"/>
+<node CREATED="1439388482797" ID="ID_523826141" MODIFIED="1439388487533" TEXT="MECCA boxmodel"/>
+<node CREATED="1439388488101" ID="ID_1190097952" MODIFIED="1439388492451" TEXT="History of boxmodel"/>
+<node CREATED="1439388493253" ID="ID_150770599" MODIFIED="1439388499268" TEXT="Examples of studies using MECCA"/>
 </node>
-<node CREATED="1422345987219" FOLDED="true" ID="ID_625484645" MODIFIED="1422346153039" TEXT="Initial VOC conditions">
-<node CREATED="1422345996605" ID="ID_958146353" MODIFIED="1422346119809" TEXT="Calculated emissions for constant VOC mixing ratios till noon of first day in MCM v3.2, to ensure same amount of VOC is constant for each mechanism"/>
-<node CREATED="1422346023451" ID="ID_1558481293" MODIFIED="1422346055818" TEXT="Emissions lumped into appropriate mechanism species"/>
-<node CREATED="1422346063454" ID="ID_912639772" MODIFIED="1422346090649" TEXT="Weighted by carbon number to ensure amount of reactive carbon is constant throughout"/>
+<node CREATED="1439388594101" ID="ID_942870663" MODIFIED="1439388604420" TEXT="MECCA box model set-up">
+<node CREATED="1439385563611" ID="ID_472403076" MODIFIED="1439385598993" TEXT="photolysis approach">
+<node CREATED="1439385599987" ID="ID_800638457" MODIFIED="1439385611841" TEXT="Solar zenith angle vs radiation"/>
+</node>
+<node CREATED="1439385618443" ID="ID_1838994049" MODIFIED="1439385635723" TEXT="Constant parameters">
+<node CREATED="1439385636603" ID="ID_741293234" MODIFIED="1439385641225" TEXT="Temperature"/>
+<node CREATED="1439385641659" ID="ID_1347314972" MODIFIED="1439385647385" TEXT="Relative Humidity"/>
+<node CREATED="1439385650723" ID="ID_1809423087" MODIFIED="1439385661657" TEXT="PBL Height"/>
+<node CREATED="1439388226524" ID="ID_1281269399" MODIFIED="1439388228522" TEXT="Pressure"/>
 </node>
 </node>
-<node CREATED="1421683194690" FOLDED="true" ID="ID_1582391396" MODIFIED="1422352659589" TEXT="VOC compared">
-<node CREATED="1422345766756" ID="ID_742508396" MODIFIED="1422345770549" TEXT="Sources"/>
-<node CREATED="1422345781541" ID="ID_1914100188" MODIFIED="1422345831883" TEXT="Degradation Characteristics"/>
-<node CREATED="1422345797163" ID="ID_673288017" MODIFIED="1422352526993" TEXT="OPP in different IR">
-<node CREATED="1422345924348" ID="ID_581934411" MODIFIED="1422345947486" TEXT="Butler:2011 compares TOPP to MIR, MOIR and POCP"/>
 </node>
-<node CREATED="1422345968154" ID="ID_147512065" MODIFIED="1422345976826" TEXT="Lumping VOC into the different mechanisms"/>
-</node>
-<node CREATED="1421682674457" FOLDED="true" ID="ID_1269312892" MODIFIED="1422346204034" TEXT="Mechanisms">
+<node CREATED="1421682674457" FOLDED="true" ID="ID_1269312892" MODIFIED="1439378465545" TEXT="Chemical Mechanisms">
 <node CREATED="1421682678249" ID="ID_1273890783" MODIFIED="1421682685407" TEXT="MCM v3.2 and v3.1">
 <node CREATED="1422346168616" ID="ID_1521809504" MODIFIED="1422346174758" TEXT="Near-explicit"/>
 </node>
@@ -223,8 +221,15 @@
 <node CREATED="1421682701568" ID="ID_865657463" MODIFIED="1421682703743" TEXT="CB05">
 <node CREATED="1422346193911" ID="ID_1613619021" MODIFIED="1422346199719" TEXT="Lumped structure"/>
 </node>
+<node CREATED="1421682876625" ID="ID_829214014" MODIFIED="1421682889519" TEXT="Adapting mechanisms to KPP"/>
+<node CREATED="1422345859897" FOLDED="true" ID="ID_1012750501" MODIFIED="1439377672019" TEXT="MCM approaches">
+<node CREATED="1422345877975" ID="ID_173577304" MODIFIED="1422345880598" TEXT="Photolysis"/>
+<node CREATED="1422345881131" ID="ID_661910504" MODIFIED="1422345892828" TEXT="Dry deposition"/>
+<node CREATED="1422345893431" ID="ID_1404021555" MODIFIED="1422345903690" TEXT="RO2-RO2 reactions"/>
+<node CREATED="1422345907112" ID="ID_504927627" MODIFIED="1422345910243" TEXT="Inorganic chemistry"/>
 </node>
-<node CREATED="1421682708217" FOLDED="true" ID="ID_89789614" MODIFIED="1422354315729" TEXT="Tagging Approach">
+</node>
+<node CREATED="1421682708217" FOLDED="true" ID="ID_89789614" MODIFIED="1439387858296" TEXT="Tagging Approaches">
 <node CREATED="1421682724425" ID="ID_1287380950" MODIFIED="1421682737119" TEXT="Ox Production budgets"/>
 <node CREATED="1422352542082" ID="ID_1905162179" MODIFIED="1422352600852" TEXT="Following VOC degradation by labelling each organic degradation product with the name of the parent VOC. This counts number of NO to NO2 conversions i.e. direct effect of VOC on O3 formation."/>
 <node CREATED="1421682737504" ID="ID_1360238290" MODIFIED="1421682739639" TEXT="TOPP">
@@ -233,7 +238,14 @@
 <node CREATED="1421749589340" ID="ID_1133975995" MODIFIED="1421749598528" TEXT="Model tagging offers insights into separating processes such as transport and chemistry (see e.g. Garny et al., 2011)."/>
 <node CREATED="1422354295292" ID="ID_537301513" MODIFIED="1422354303785" TEXT="Other applications of tagging: OH reactivity"/>
 </node>
-<node CREATED="1422352663104" FOLDED="true" ID="ID_457918165" MODIFIED="1422371997679" TEXT="Solvent Sector Speciations">
+<node CREATED="1421683194690" FOLDED="true" ID="ID_1582391396" MODIFIED="1439378457313" TEXT="VOC Conditions">
+<node CREATED="1422345766756" ID="ID_742508396" MODIFIED="1422345770549" TEXT="Sources"/>
+<node CREATED="1422345781541" ID="ID_1914100188" MODIFIED="1422345831883" TEXT="Degradation Characteristics"/>
+<node CREATED="1422345797163" ID="ID_673288017" MODIFIED="1422352526993" TEXT="OPP in different IR">
+<node CREATED="1422345924348" ID="ID_581934411" MODIFIED="1422345947486" TEXT="Butler:2011 compares TOPP to MIR, MOIR and POCP"/>
+</node>
+<node CREATED="1422345968154" ID="ID_147512065" MODIFIED="1422345976826" TEXT="Lumping VOC into the different mechanisms"/>
+<node CREATED="1422352663104" FOLDED="true" ID="ID_457918165" MODIFIED="1439378441671" TEXT="Solvent Sector Speciations">
 <node CREATED="1422353090289" ID="ID_865935388" MODIFIED="1422353112482" TEXT="Constant VOC emissions until noon of day 1"/>
 <node CREATED="1422353119721" ID="ID_911244497" MODIFIED="1422353138977" TEXT="Generalised urban area of 1000 km^2"/>
 <node CREATED="1422353143409" ID="ID_602554440" MODIFIED="1422353178889" TEXT="Total NMVOC emissions are 1000 tons NMVOC/day (Warneke:2007)"/>
@@ -249,9 +261,15 @@
 <node CREATED="1422353854547" ID="ID_538406788" MODIFIED="1422353911089" TEXT="The MCM v3.2 representations of the NMVOC emissions were lumped into appropriate mechanism species by carbon number weighting"/>
 </node>
 </node>
+<node CREATED="1422345996605" ID="ID_958146353" MODIFIED="1422346119809" TEXT="Calculated emissions for constant VOC mixing ratios till noon of first day in MCM v3.2, to ensure same amount of VOC is constant for each mechanism"/>
+<node CREATED="1422346023451" ID="ID_1558481293" MODIFIED="1422346055818" TEXT="Emissions lumped into appropriate mechanism species"/>
+<node CREATED="1422346063454" ID="ID_912639772" MODIFIED="1422346090649" TEXT="Weighted by carbon number to ensure amount of reactive carbon is constant throughout"/>
 </node>
-<node CREATED="1408976075863" FOLDED="true" ID="ID_280447864" MODIFIED="1439292024691" POSITION="left" TEXT="Papers/Result Chapter/s">
-<node CREATED="1408976337608" FOLDED="true" ID="ID_900660818" MODIFIED="1439292016874" TEXT="Mechanism Comparison Study">
+<node CREATED="1439378448891" ID="ID_1059024863" MODIFIED="1439378452668" TEXT="NOx Conditions"/>
+</node>
+<node CREATED="1408976075863" FOLDED="true" ID="ID_280447864" MODIFIED="1439388674562" POSITION="left" TEXT="Papers/Result Chapter/s">
+<node CREATED="1408976337608" FOLDED="true" ID="ID_900660818" MODIFIED="1439388654161" TEXT="Mechanism Comparison Study">
+<icon BUILTIN="button_ok"/>
 <node CREATED="1422345134506" FOLDED="true" ID="ID_700515561" MODIFIED="1439292014250" TEXT="Research Question">
 <node CREATED="1422345143167" ID="ID_1259003914" MODIFIED="1422345211070" TEXT="How do the simplication techniques used in different chemical mechanisms treat maximum Ox production? In particular the treatment of the simplified degradation chemistry."/>
 </node>
@@ -265,21 +283,7 @@
 <node CREATED="1421683404042" ID="ID_1464905366" MODIFIED="1421683416342" TEXT="The Ox produced from VOC represented by lumped species in lumped molecule mechanisms (MOZART-4, RADM2, RACM, RACM2) varies the most from the MCM v3.2. The degradation of VOC represented by lumped species is generalised which can lead to non-representative Ox production from individual VOC."/>
 </node>
 </node>
-<node CREATED="1410452545639" FOLDED="true" ID="ID_591181572" MODIFIED="1439292020316" TEXT="Systematic Testing of chemistry in Mechanisms under different conditions">
-<node CREATED="1422345257640" ID="ID_1003207466" MODIFIED="1422345273253" TEXT="Testing Conditions">
-<node CREATED="1410452586385" ID="ID_1675369587" MODIFIED="1422345023577" TEXT="dilution i.e. diurnal PBL from CARES data"/>
-<node CREATED="1410452592173" ID="ID_1333707168" MODIFIED="1422345013926" TEXT="realistic NOx conditions: CARES data? only NO or also NO2"/>
-<node CREATED="1422345087672" ID="ID_28192793" MODIFIED="1422345111337" TEXT="VOC conditions from CARES campaign (that were used in Mechanism Comparison Study?)"/>
-<node CREATED="1410452620873" ID="ID_1259096425" MODIFIED="1422345033635" TEXT="&apos;cloudiness&apos; by scaling photolysis rates: 0.2, 0.5 and 0.8"/>
-<node CREATED="1410452634257" ID="ID_75122200" MODIFIED="1422345057407" TEXT="NOx- to VOC-limited conditions: vary tuned NO emissions by scaling with 0.5, 0.8, 1.2, 1.5"/>
-<node CREATED="1422345059967" ID="ID_1179720090" MODIFIED="1422345078739" TEXT="Realistic diurnal temperatures?"/>
-<node CREATED="1410452663708" ID="ID_1995965229" MODIFIED="1422283987728" TEXT="new tagging approach"/>
-</node>
-<node CREATED="1422345298005" FOLDED="true" ID="ID_298145437" MODIFIED="1422345335459" TEXT="Research Question">
-<node CREATED="1422345305050" ID="ID_277781108" MODIFIED="1422345329908" TEXT="How is Ox production affected in the different mechanisms under non-idealistic conditions?"/>
-</node>
-</node>
-<node CREATED="1408976345416" FOLDED="true" ID="ID_1587489538" MODIFIED="1439292023699" TEXT="Solvent Emissions">
+<node CREATED="1408976345416" FOLDED="true" ID="ID_1587489538" MODIFIED="1439388657565" TEXT="Solvent Emissions">
 <node CREATED="1422345447586" FOLDED="true" ID="ID_1166931122" MODIFIED="1422371991463" TEXT="Research Question">
 <node CREATED="1422345453739" ID="ID_1008192414" MODIFIED="1422345467462" TEXT="How is O3 affected by the different solvent speciations?"/>
 <node CREATED="1422345567250" ID="ID_376511922" MODIFIED="1422345613066" TEXT="Do these different speciations affect O3 differently when using reduced mechanisms?"/>
@@ -305,17 +309,27 @@
 <node CREATED="1422345558348" ID="ID_243476721" MODIFIED="1422345561156" TEXT="RADM2"/>
 </node>
 </node>
-<node CREATED="1410452577930" FOLDED="true" ID="ID_382793880" MODIFIED="1422354310336" TEXT="OH Reactivity">
-<icon BUILTIN="help"/>
-<node CREATED="1422345691447" ID="ID_541933817" MODIFIED="1422345717116" TEXT="Apply tagging technique to attributing total OH reactivity to different VOC in modelling studies"/>
+<node CREATED="1410452545639" FOLDED="true" ID="ID_591181572" MODIFIED="1439292020316" TEXT="Systematic Testing of chemistry in Mechanisms under different conditions">
+<node CREATED="1422345257640" ID="ID_1003207466" MODIFIED="1422345273253" TEXT="Testing Conditions">
+<node CREATED="1410452586385" ID="ID_1675369587" MODIFIED="1422345023577" TEXT="dilution i.e. diurnal PBL from CARES data"/>
+<node CREATED="1410452592173" ID="ID_1333707168" MODIFIED="1422345013926" TEXT="realistic NOx conditions: CARES data? only NO or also NO2"/>
+<node CREATED="1422345087672" ID="ID_28192793" MODIFIED="1422345111337" TEXT="VOC conditions from CARES campaign (that were used in Mechanism Comparison Study?)"/>
+<node CREATED="1410452620873" ID="ID_1259096425" MODIFIED="1422345033635" TEXT="&apos;cloudiness&apos; by scaling photolysis rates: 0.2, 0.5 and 0.8"/>
+<node CREATED="1410452634257" ID="ID_75122200" MODIFIED="1422345057407" TEXT="NOx- to VOC-limited conditions: vary tuned NO emissions by scaling with 0.5, 0.8, 1.2, 1.5"/>
+<node CREATED="1422345059967" ID="ID_1179720090" MODIFIED="1422345078739" TEXT="Realistic diurnal temperatures?"/>
+<node CREATED="1410452663708" ID="ID_1995965229" MODIFIED="1422283987728" TEXT="new tagging approach"/>
+</node>
+<node CREATED="1422345298005" FOLDED="true" ID="ID_298145437" MODIFIED="1422345335459" TEXT="Research Question">
+<node CREATED="1422345305050" ID="ID_277781108" MODIFIED="1422345329908" TEXT="How is Ox production affected in the different mechanisms under non-idealistic conditions?"/>
+</node>
 </node>
 </node>
 <node CREATED="1408976324080" ID="ID_1790711696" MODIFIED="1421682937152" POSITION="left" TEXT="Discussion and Conclusions"/>
 <node CREATED="1422354395652" ID="ID_285753707" MODIFIED="1422354399381" POSITION="left" TEXT="Future Outlook"/>
-<node CREATED="1439291982264" FOLDED="true" ID="ID_1215882963" MODIFIED="1439292006747" POSITION="left" TEXT="Appendix">
+<node CREATED="1439291982264" FOLDED="true" ID="ID_1215882963" MODIFIED="1439388669681" POSITION="left" TEXT="Appendix">
 <node CREATED="1439291989167" ID="ID_449348776" MODIFIED="1439292003588" TEXT="Include my contributions to each paper"/>
 </node>
-<node CREATED="1408976374616" ID="ID_797229895" MODIFIED="1439291974178" POSITION="right" TEXT="Publication List">
+<node CREATED="1408976374616" FOLDED="true" ID="ID_797229895" MODIFIED="1439377645194" POSITION="right" TEXT="Publication List">
 <node CREATED="1408976380224" ID="ID_1710278902" MODIFIED="1408976396406" TEXT="Scientific Articles">
 <node CREATED="1439292038967" ID="ID_834254812" MODIFIED="1439292080364" TEXT="Coates, J. and Butler, T. M.: A comparison of chemical mechanisms using tagged ozone production potential (TOPP) analysis, Atmos. Chem. Phys., 15, 8795-8808, doi:10.5194/acp-15-8795-2015, 2015."/>
 </node>
