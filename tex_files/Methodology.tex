@@ -19,7 +19,7 @@ Box models are the simplest type of a model and have uniform atmospheric concent
 
 Box models lack physical realism and essentially focus on processes relevant to a point in the atmosphere.
 Despite the lack of realism, box models are extremely useful for studying the detailed processes that influence air quality.
-Examples of modelling studies that have used box models include \todo{find studies}
+Examples of modelling studies that have used box models include \citet{Bin:2007}, \citet{Li:2014b} and \citet{Noelscher:2014}.
 
 All photochemical models numerically solve the chemical species conservation equation which describes the processes affecting the concentration of the different species:
 \begin{equation} \label{e:conc}
@@ -29,6 +29,7 @@ All photochemical models numerically solve the chemical species conservation equ
 \end{equation}
 In Eq. \eqref{e:conc}, $c_i$ is the concentration (in mass or volume) of species $i$, $\bar{U}$ is the wind velocity vector, $D_i$ is the molecular diffusivity of species $i$, $R_i$ is the rate of concentration change of species $i$ through chemical reactions, $S_i(\bar{x}, t)$ is the source or sink of $i$ at location $\bar{x}$, $\rho$ is the air density and $n$ is the number of predicted species.
 $R$ may also be a function of meteorological parameters such as temperature $T$ and $S$ includes emission and deposition processes affecting $i$ \citep{Russell:2000}.
+\todo{re-word this as too similar to citation}
 
 The dimension and type of the model determine the set of differential equations that will be solved at each time step of the model run. 
 Numerical methods to determine the concentration of species $i$ in Eq. \eqref{e:conc} vary between models, examples include Runge-Kutta \citep{Sandu:1997b}, Finite Element \citep{Russell:2000} or Rosenbrock methods \citep{Sandu:1997a}.

@@ -1,4 +1,4 @@
-\begin{thebibliography}{50}
+\begin{thebibliography}{53}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -84,8 +84,8 @@ William P.~L. Carter.
 
 \bibitem[Coates and Butler(2015)]{Coates:2015}
 J.~Coates and T.~M. Butler.
-\newblock A comparison of chemical mechanisms using tagged ozone production
-  potential ({TOPP}) analysis.
+\newblock {A comparison of chemical mechanisms using tagged ozone production
+  potential ({TOPP}) analysis}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 15\penalty0 (15):\penalty0
   8795--8808, 2015.
 
@@ -244,6 +244,15 @@ Jos Lelieveld and Frank~J. Dentener.
 \newblock \emph{Journal of Geophysical Research}, 105\penalty0 (D3):\penalty0
   3531--3551, 2000.
 
+\bibitem[Li et~al.(2014)Li, Rohrer, Brauers, Hofzumahaus, Lu, Shao, Zhang, and
+  Wahner]{Li:2014b}
+X.~Li, F.~Rohrer, T.~Brauers, A.~Hofzumahaus, K.~Lu, M.~Shao, Y.~H. Zhang, and
+  A.~Wahner.
+\newblock Modeling of hcho and chocho at a semi-rural site in southern china
+  during the pride-prd2006 campaign.
+\newblock \emph{Atmospheric Chemistry and Physics}, 14\penalty0 (22):\penalty0
+  12291--12305, 2014.
+
 \bibitem[Lin et~al.(2001)Lin, Jacob, and Fiore]{Lin:2001}
 C.-Y.~Cynthia Lin, Daniel~J. Jacob, and Arlene~M. Fiore.
 \newblock {Trends in exceedances of the ozone air quality standard in the
@@ -269,16 +278,36 @@ W.~J. Moxim, W.~{Levy II}, and P.~S. Kasibhatla.
 \newblock \emph{Journal of Geophysical Research}, 101\penalty0 (D7):\penalty0
   12,621--12,638, 1996.
 
+\bibitem[N{\"o}lscher et~al.(2014)N{\"o}lscher, Butler, Auld, Veres, Mu{\~n}oz,
+  Taraborrelli, Vereecken, Lelieveld, and Williams]{Noelscher:2014}
+A.C. N{\"o}lscher, T.~Butler, J.~Auld, P.~Veres, A.~Mu{\~n}oz, D.~Taraborrelli,
+  L.~Vereecken, J.~Lelieveld, and J.~Williams.
+\newblock {Using total OH reactivity to assess isoprene photooxidation via
+  measurement and model}.
+\newblock \emph{Atmospheric Environment}, 89\penalty0 (0):\penalty0 453--463,
+  2014.
+
 \bibitem[Penkett and Brice(1986)]{Penkett:1986}
 S.~A. Penkett and K.~A. Brice.
 \newblock {The spring maximum of photo-oxidants in the Northern Hemisphere
   troposphere}.
 \newblock \emph{Nature}, 319:\penalty0 655--657, 1986.
 
+\bibitem[Qi et~al.(2007)Qi, Kanaya, Takami, Hatakeyama, Kato, Sadanaga,
+  Tanimoto, and Kajii]{Bin:2007}
+Bin Qi, Yugo Kanaya, Akinori Takami, Shiro Hatakeyama, Shungo Kato, Yasuhiro
+  Sadanaga, Hiroshi Tanimoto, and Yoshizumi Kajii.
+\newblock {Diurnal peroxy radical chemistry at a remote coastal site over the
+  sea of Japan}.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 112\penalty0
+  (D17):\penalty0 n/a--n/a, 2007.
+\newblock D17306.
+
 \bibitem[Russell and Dennis(2000)]{Russell:2000}
 Armistead Russell and Robin Dennis.
 \newblock {NARSTO critical review of photochemical models and modeling}.
-\newblock \emph{Atmospheric Environment}, 34:\penalty0 2283--2324, 2000.
+\newblock \emph{Atmospheric Environment}, 34\penalty0 (12-14):\penalty0
+  2283---2324, 2000.
 
 \bibitem[Sandu et~al.(1997{\natexlab{a}})Sandu, Verwer, Blom, Spee, Carmichael,
   and Potra]{Sandu:1997a}
