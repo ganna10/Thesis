@@ -5,7 +5,7 @@ Details of the modelling set-up, including initial and boundary conditions are i
 
 Photochemical models are used to predict future air quality scenarios.
 A large array of these models are used depending on the study focus, for example, global photochemical models can predict air quality on a global scale and include the relevant chemical and dynamical processes whereas an urban model focuses on a particular urban area and includes the relevant processes (such as topography, local emission source) to the area being studie.
-Despite differing scopes between models, there are a number of common inputs inluding emissions of chemical species into the model, transport of the species, atmospheric physical and chemical transformation and numerical solutions to the applicable differential equations.
+Despite differing scopes between models, there are a number of common inputs including emissions of chemical species into the model, transport of the species, atmospheric physical and chemical transformation and numerical solutions to the applicable differential equations.
 
 Models are usually defined as either Eulerian or Lagrangian, with Eulerian models constituting most of the models used in the air quality modelling community \citep{Russell:2000}.
 Eulerian models describe the atmosphere by fixed computational cells where species enter in and out of the cell walls and the concentrations of the species within each cell are calculated as a function of time. 
@@ -27,19 +27,62 @@ All photochemical models numerically solve the chemical species conservation equ
         \frac{\partial c_i}{\partial t} \hspace{2mm} + \hspace{2mm} \nabla \cdot \bar{U}c_i \hspace{2mm} = \hspace{2mm} \nabla \rho D \nabla(c_i/\rho) \hspace{2mm} + \hspace{2mm} R_i(c_1, c_2, \dots, c_n, T, t) \\ + \hspace{2mm} S_i(\bar{x}, t), \hspace{5mm} i = 1, 2, \dots, n.
     \end{split}
 \end{equation}
-In Eq. \eqref{e:conc}, $c_i$ is the concentration (in mass or volume) of species $i$, $\bar{U}$ is the wind velocity vector, $D_i$ is the molecular diffusivity of species $i$, $R_i$ is the rate of concentration change of species $i$ through chemical reactions, $S_i(\bar{x}, t)$ is the source or sink of $i$ at location $\bar{x}$, $\rho$ is the air density and $n$ is the number of predicted species.
+In Eq.~\eqref{e:conc}, $c_i$ is the concentration (in mass or volume) of species $i$, $\bar{U}$ is the wind velocity vector, $D_i$ is the molecular diffusivity of species $i$, $R_i$ is the rate of concentration change of species $i$ through chemical reactions, $S_i(\bar{x}, t)$ is the source or sink of $i$ at location $\bar{x}$, $\rho$ is the air density and $n$ is the number of predicted species.
 $R$ may also be a function of meteorological parameters such as temperature $T$ and $S$ includes emission and deposition processes affecting $i$ \citep{Russell:2000}.
 \todo{re-word this as too similar to citation}
 
 The dimension and type of the model determine the set of differential equations that will be solved at each time step of the model run. 
-Numerical methods to determine the concentration of species $i$ in Eq. \eqref{e:conc} vary between models, examples include Runge-Kutta \citep{Sandu:1997b}, Finite Element \citep{Russell:2000} or Rosenbrock methods \citep{Sandu:1997a}.
+Numerical methods to determine the concentration of species $i$ in Eq.~\eqref{e:conc} vary between models, examples include Runge-Kutta \citep{Sandu:1997b}, Finite Element \citep{Russell:2000} or Rosenbrock methods \citep{Sandu:1997a}.
 
 Initial and boundary conditions are required to numerically solve the system of differential equations.
 Boundary conditions are typically the most difficult input to set accurately as this requires knowledge of the investigated species concentrations and transport at the boundary edges (if applicable) of the model grid.  
 Setting the initial conditions involves fixing the starting concentrations of the species being studied, these conditions are dependent on the area being studied and whether it is an urban or rural area, amongst other considerations. 
 
 \subsection{Model Description and Setup}
-Describe MECCA and set-up
+In order to assess the detailed processes producing tropospheric ozone within general air quality modelling, we used a box model to focus on the gas-phase chemistry affecting tropospheric ozone.
+All simulations in this study were performed using the MECCA (Module Efficiently Calculating the Chemistry of the Atmosphere) box model developed by \citet{Sander:2005} that was adapted to include MCM~v3.1 chemistry as described in \citet{Butler:2011}.
+The MECCA box model has been used for numerous detailed process studies of atmospheric gas-phase chemistry including \citet{Kubistin:2010}, \citet{Xie:2008} and \citet{Lourens:2012}.
+
+MECCA is written using the FORTRAN programming language and runs on UNIX/Linux platforms.
+The setup of MECCA that we used uses the KPP (Kinetic Pre-Processor) \citep{Damian:2002} to efficiently setup up the system of differential equations (Eq.~\eqref{e:conc}).
+KPP processes the specified chemistry scheme in the chemical mechanism and generates Fortran code that is then compilied by MECCA.
+KPP also has numerous choices for the numerical solver used to numerically determine the concentrations of all the species described by the chemistry.
+We have used a Rosenbrock solver (the ros3 option) throughout the study.
+
+Aside from the chemistry, MECCA also calculates physical parameters at every time step of the simulations.
+In our simulations, the pressure, temperature, relative humidity and boundary layer height are held constant at the set values of Table~\ref{t:model_setup}.
+The specific changes to these parameters that were systematically varied to answer the research question related to \todo{add section} are detailed in the relevant publication (Chapter ). \todo{TBC about this}
+
+\begin{table}
+    \begin{center}
+        \caption{General settings used for MECCA box model in this study}
+        \begin{tabular}{ll}
+            \hline \hline
+            \textbf{Model Parameter} & \textbf{Setting} \\
+            \hline \hline
+            Pressure & $1013$ hPa \\
+            Temperature & $293$ K \\
+            Relative Humidity & $81$ \% \\
+            Boundary Layer Height & $1000$ m \\
+            Latitude & $34\degree$ N \\
+            Starting Date and Time & 27th March 06:00 \\
+            Model Time Step & $20$ mins \\
+            Model Run Time & $7$ days \\
+            \hline \hline
+        \end{tabular}
+        \label{t:model_setup}
+    \end{center}
+\end{table}
+
+Photolysis rates in this study are calculated by using a paramaterisation that calculates the photolysis rate as a function of the solar zenith angle.
+This paramaterisation requires the degree of latitude for the study to be a defined variable in MECCA, we have chosen the $34\degree$ N latitude which is roughly that of the city of Los Angeles.
+The simulations start at the spring equinox (27th March) at 6am and allowed to run for seven diurnal cycles.
+
+In our setup of MECCA, all fluxes into and out of the box are handled by KPP.
+The chemical mechanism file, processed by KPP, includes specific pseudo-unimolecular reactions specifying the emissions and dry deposition of chemical species along with the relevant rate.
+The chemical species that are emitted into the model and the emission rates are read into the model using a namelist file.
+Namelist files are also used to specify the initial conditions of chemical species and the mixing ratios of those chemical species that are fixed throughout the model.
+In all simulations, methane (\ce{CH4}) was fixed to 1.75 ppmv while carbon monoxide (CO) and \ce{O3} are initialised at 200 ppbv and 40 ppbv and then allowed to evolve freely.
 
 \section{Chemical Mechanisms}
 Models use chemical mechanisms to implement the atmospheric chemistry at each time step during a model run. 

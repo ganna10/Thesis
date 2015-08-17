@@ -1,4 +1,4 @@
-\begin{thebibliography}{53}
+\begin{thebibliography}{58}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -88,6 +88,14 @@ J.~Coates and T.~M. Butler.
   potential ({TOPP}) analysis}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 15\penalty0 (15):\penalty0
   8795--8808, 2015.
+
+\bibitem[Damian et~al.(2002)Damian, Sandu, Damian, Potra, and
+  Carmichael]{Damian:2002}
+V.~Damian, A.~Sandu, M.~Damian, F.~Potra, and G.R. Carmichael.
+\newblock {The kinetic preprocessor KPP - A software environment for solving
+  chemical kinetics}.
+\newblock \emph{Computers and Chemical Engineering}, 26\penalty0 (11):\penalty0
+  1567--1579, 2002.
 
 \bibitem[Derwent et~al.(1996)Derwent, Jenkin, and Saunders]{Derwent:1996}
 R.~G. Derwent, M.~E. Jenkin, and S.~M. Saunders.
@@ -238,6 +246,18 @@ J.-H. Koo, Y.~Wang, T.~P. Kurosu, K.~Chance, A.~Rozanov, A.~Richter, S.~J.
 \newblock \emph{Atmospheric Chemistry and Physics}, 12:\penalty0 9909--9922,
   2012.
 
+\bibitem[Kubistin et~al.(2010)Kubistin, Harder, Martinez, Rudolf, Sander,
+  Bozem, Eerdekens, Fischer, Gurk, Kl\"upfel, K\"onigstedt, Parchatka,
+  Schiller, Stickler, Taraborrelli, Williams, and Lelieveld]{Kubistin:2010}
+D.~Kubistin, H.~Harder, M.~Martinez, M.~Rudolf, R.~Sander, H.~Bozem,
+  G.~Eerdekens, H.~Fischer, C.~Gurk, T.~Kl\"upfel, R.~K\"onigstedt,
+  U.~Parchatka, C.~L. Schiller, A.~Stickler, D.~Taraborrelli, J.~Williams, and
+  J.~Lelieveld.
+\newblock Hydroxyl radicals in the tropical troposphere over the suriname
+  rainforest: comparison of measurements with the box model mecca.
+\newblock \emph{Atmospheric Chemistry and Physics}, 10\penalty0 (19):\penalty0
+  9705--9728, 2010.
+
 \bibitem[Lelieveld and Dentener(2000)]{Lelieveld:2000}
 Jos Lelieveld and Frank~J. Dentener.
 \newblock {What controls tropospheric ozone?}
@@ -258,6 +278,13 @@ C.-Y.~Cynthia Lin, Daniel~J. Jacob, and Arlene~M. Fiore.
 \newblock {Trends in exceedances of the ozone air quality standard in the
   continental United States, 1980-1998}.
 \newblock \emph{Atmospheric Environment}, 35:\penalty0 3217--3228, 2001.
+
+\bibitem[Lourens(2012)]{Lourens:2012}
+AsM Lourens.
+\newblock \emph{{Air quality in the Johannesburg-Pretoria megacity: its
+  regional influence and identification of parameters that could mitigate
+  pollution}}.
+\newblock PhD thesis, North-West University, Potchefstroom Campus, 2012.
 
 \bibitem[Luecken and Mebust(2008)]{Luecken:2008}
 D.~J. Luecken and M.~R. Mebust.
@@ -308,6 +335,13 @@ Armistead Russell and Robin Dennis.
 \newblock {NARSTO critical review of photochemical models and modeling}.
 \newblock \emph{Atmospheric Environment}, 34\penalty0 (12-14):\penalty0
   2283---2324, 2000.
+
+\bibitem[Sander et~al.(2005)Sander, Kerkweg, J{\"o}ckel, and
+  Lelieveld]{Sander:2005}
+R.~Sander, A.~Kerkweg, P.~J{\"o}ckel, and J.~Lelieveld.
+\newblock {Technical Note: The new comprehensive atmospheric chemistry module
+  MECCA}.
+\newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 445--450, 2005.
 
 \bibitem[Sandu et~al.(1997{\natexlab{a}})Sandu, Verwer, Blom, Spee, Carmichael,
   and Potra]{Sandu:1997a}
@@ -383,6 +417,13 @@ Kengo Sudo and Masaaki Takashi.
 \newblock {Scientific Assessment of Ozone Depletion: 2010}.
 \newblock Technical Report 516 pp., World Meteorological Organisation, Geneva,
   Switzerland, March 2011.
+
+\bibitem[Xie et~al.(2008)Xie, Sander, P\"oschl, and Slemr]{Xie:2008}
+Z.-Q. Xie, R.~Sander, U.~P\"oschl, and F.~Slemr.
+\newblock Simulation of atmospheric mercury depletion events (amdes) during
+  polar springtime using the mecca box model.
+\newblock \emph{Atmospheric Chemistry and Physics}, 8\penalty0 (23):\penalty0
+  7165--7180, 2008.
 
 \bibitem[Yarwood et~al.(2005)Yarwood, Rao, Yocke, and Whitten]{Yarwood:2005}
 Greg Yarwood, Sunja Rao, Mark Yocke, and Gary~Z. Whitten.
