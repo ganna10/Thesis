@@ -85,13 +85,16 @@ Namelist files are also used to specify the initial conditions of chemical speci
 In all simulations, methane (\ce{CH4}) was fixed to 1.75 ppmv while carbon monoxide (CO) and \ce{O3} are initialised at 200 ppbv and 40 ppbv and then allowed to evolve freely.
 
 \section{Chemical Mechanisms}
-Models use chemical mechanisms to implement the atmospheric chemistry at each time step during a model run. 
-The mechanism includes rate coefficients, reaction pathways with the corresponding branching ratios, photolysis rates and reaction products, amongst other parameters. 
-This part of a model consumes a great deal of the computing resources, hence, when using a three-dimensional model the mechanism will include less chemical detail compared to a study incorporating a box-model. 
-To achieve this, mechanisms used primarily in three-dimensional models will aggregate compounds, include more assumptions about how reactions proceed and how the degradation products are treated when compared to mechanisms used in box-modelling studies.
+The atmospheric chemistry in AQ models is described by the chemical mechanism used by the AQ model; the chemical mechanism includes rate coefficients, reaction pathways with the corresponding branching ratios, photolysis rates and reaction products which are required to solve the concentrations of each chemical species within the system using Equation \eqref{e:conc}.
+The level of detail included in the chemical mechanism determines the amount of computing resources required for the model simulations, thus, the chemical mechanism in a 3-D model will typically be less detailed than the chemical mechanism used by a box model.
 
-The Master Chemical Mechanism (MCM) in \citep{Saunders:2003, Jenkin:2003} is a near-explicit mechanism that is used for box modelling studies. 
-Regional and global mechanisms include the Regional Atmospheric Chemistry Mechanism (RACM), the Carbon Bond Mechanism (CB-05 in \citep{Yarwood:2005}), the National Center for Atmospheric Research (NCAR) master mechanism (\citep{Madronich:1989}) and the Statewide Air Pollution Research Center (SAPRC), although many mechanisms include reduced mechanisms that are applicable to different model dimensions. 
+As different modelling scopes and models determine the level of chemical detail of the chemical mechanism, many different chemical mechanisms have been developed by the AQ modelling community.
+Chemical mechanisms can range from self-generating mechanisms, such as \citet{Aumont:2005}, which attempt to fully describe the chemistry occuring within the boundary layer, to %%here
+write out the chemical reactions occuring at each time step using a 'generator' program to 
+Self-generating (or explicit) chemical mechanisms are extremely detailed and are an attempt to fully describe the thousands of reactions taking place within the boundary layer.
+%To achieve this, mechanisms used primarily in three-dimensional models will aggregate compounds, include more assumptions about how reactions proceed and how the degradation products are treated when compared to mechanisms used in box-modelling studies.  
+%The Master Chemical Mechanism (MCM) in \citep{Saunders:2003, Jenkin:2003} is a near-explicit mechanism that is used for box modelling studies. 
+%Regional and global mechanisms include the Regional Atmospheric Chemistry Mechanism (RACM), the Carbon Bond Mechanism (CB-05 in \citep{Yarwood:2005}), the National Center for Atmospheric Research (NCAR) master mechanism (\citep{Madronich:1989}) and the Statewide Air Pollution Research Center (SAPRC), although many mechanisms include reduced mechanisms that are applicable to different model dimensions. 
 
 \subsection{Self-Generating Mechanisms}
 The self-generating mechanism is the type of chemical mechanism that reflects the details of the atmospheric chemistry summarised in Section \ref{s:atmo_chem} the most and is also called an explicit mechanism. 
