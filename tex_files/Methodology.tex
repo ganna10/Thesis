@@ -85,36 +85,18 @@ Namelist files are also used to specify the initial conditions of chemical speci
 In all simulations, methane (\ce{CH4}) was fixed to 1.75 ppmv while carbon monoxide (CO) and \ce{O3} are initialised at 200 ppbv and 40 ppbv and then allowed to evolve freely.
 
 \section{Chemical Mechanisms}
-The atmospheric chemistry in AQ models is described by the chemical mechanism used by the AQ model; the chemical mechanism includes rate coefficients, reaction pathways with the corresponding branching ratios, photolysis rates and reaction products which are required to solve the concentrations of each chemical species within the system using Equation \eqref{e:conc}.
-The level of detail included in the chemical mechanism determines the amount of computing resources required for the model simulations, thus, the chemical mechanism in a 3-D model will typically be less detailed than the chemical mechanism used by a box model.
+The atmospheric chemistry in AQ models is described by the chemical mechanism used by the AQ model. 
+The chemical mechanism includes rate coefficients, reaction pathways with the corresponding branching ratios, photolysis rates and reaction products which are required to solve the concentrations of each chemical species within the system using Equation \eqref{e:conc}.
 
-As different modelling scopes and models determine the level of chemical detail of the chemical mechanism, many different chemical mechanisms have been developed by the AQ modelling community.
-Chemical mechanisms can range from self-generating mechanisms, such as \citet{Aumont:2005}, which attempt to fully describe the chemistry occuring within the boundary layer, to %%here
-write out the chemical reactions occuring at each time step using a 'generator' program to 
-Self-generating (or explicit) chemical mechanisms are extremely detailed and are an attempt to fully describe the thousands of reactions taking place within the boundary layer.
-%To achieve this, mechanisms used primarily in three-dimensional models will aggregate compounds, include more assumptions about how reactions proceed and how the degradation products are treated when compared to mechanisms used in box-modelling studies.  
-%The Master Chemical Mechanism (MCM) in \citep{Saunders:2003, Jenkin:2003} is a near-explicit mechanism that is used for box modelling studies. 
-%Regional and global mechanisms include the Regional Atmospheric Chemistry Mechanism (RACM), the Carbon Bond Mechanism (CB-05 in \citep{Yarwood:2005}), the National Center for Atmospheric Research (NCAR) master mechanism (\citep{Madronich:1989}) and the Statewide Air Pollution Research Center (SAPRC), although many mechanisms include reduced mechanisms that are applicable to different model dimensions. 
+Different modelling scopes and models determine the level of chemical detail of the chemical mechanism used by the AQ model, thus many different chemical mechanisms have been developed by the AQ modelling community.
+The level of detail included in the chemical mechanism determines the amount of computing resources required for the model simulations, hence the chemical mechanism in a 3-D model will typically be less detailed than the chemical mechanism used by a box model.
 
-\subsection{Self-Generating Mechanisms}
-The self-generating mechanism is the type of chemical mechanism that reflects the details of the atmospheric chemistry summarised in Section \ref{s:atmo_chem} the most and is also called an explicit mechanism. 
-This requires thousands of reactions as the degradation of minor products is often more complex than that of the parent VOC. 
-It also represents a compact method of obtaining a detailed mechanism that describes tropospheric chemistry.
-
-\citep{Aumont:2005} outlines a way of including all reaction pathways that does not imply manually writing all the reactions with their respective parameters, as is the case for other mechanisms. 
-This would also include the possibilty of heterogeneous chemistry and aerosol formation being accouted for in the mechanism, these are aspects of atmospheric chemistry that are not treated in great detail in chemical mechanisms used for gas-phase calculations.
-
-The approach in \citep{Aumont:2005} is to write a so-called `generator' program that analyses the chemical structure of the VOC being studied to determine the reactive sites which then give the reaction pathways. 
-The generator then accesses another file which includes the available reaction parameters and the reaction products. 
-Structure activity relationships (SARs) are used when no reaction parameters are available. 
-A file is then created that contains the final reaction, it includes the reactants, products and rate coefficients amongst other information. 
-This process is then repeated for the products until all the oxidation reactions have been completed.
-
-There are a number of advantages of this type of mechanism over mechanisms that are manually written up reaction by reaction. 
-Firstly, a self-generating mechanism is faster to write since there are less reactions that need to be written due to the use of a generator program. 
-This also implies increased accuracy (less manually written reactions means less typographical errors) and also maintenance is much easier as far less code needs to be updated. 
-Currently, this type of mechanism has not been used in relation to ozone production potential calculations. 
-
+Chemical mechanisms range from highly-detailed (explicit) chemical mechanisms to the less-detailed lumped-structure and lumped-molecule chemical mechanisms.
+The self-generating chemical mechanism of \citet{Aumont:2005} is an example of an explicit chemical mechanism and includes many thousands of reactions outlining the degradation chemistry of VOCs, outlining even the reactions generating degradation products of minor importance in the atmosphere.
+Near-explicit chemical mechanisms, such as the Master Chemical Mechanism (MCM) of \citet{Jenkin:1997}, \citet{Jenkin:2003}, \citet{Saunders:2003}, are less-detailed than self-generating mechanisms but still contain many thousands of reactions and as such are mainly used in box models.
+Many other chemical mechanisms have been developed to describe atmospheric chemistry using less-detailed descriptions as those used by explicit and near-explicit chemical mechanisms so that these chemical mechanisms are computationally efficient for use within 3-D models.
+These reduced chemical mechanisms have been developed using a number of different techniques which ultimiately lead to aggregating (lumping) VOC into mechanism species, these mechanism species are then degraded in such a way that the chemical production of ozone is similar to that from observational records.
+%%here
 \subsection{Master Chemical Mechanism}
 The Master Chemical Mechanism (MCM) v3.2 is a near-explicit mechanism describing the chemical degradation of 107 non-aromatic VOCs in \citep{Saunders:2003} and 18 aromatic VOCs in \citep{Jenkin:2003}. 
 In total the MCM v3.2 has 12,691 reactions including 4351 organic compounds and 46 associated inorganic compounds. 

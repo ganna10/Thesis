@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -293,11 +293,6 @@ D.~J. Luecken and M.~R. Mebust.
 \newblock \emph{Environmental Science and Technology}, 42\penalty0
   (5):\penalty0 1615--1622, 2008.
 
-\bibitem[Madronich and Calvert(1989)]{Madronich:1989}
-Sasha Madronich and Jack~G. Calvert.
-\newblock {The NCAR Master Mechanism of the Gas Phase Chemistry - Version 2.0}.
-\newblock Technical report, National Center of Atmospheric Research, 1989.
-
 \bibitem[Moxim et~al.(1996)Moxim, {Levy II}, and Kasibhatla]{Moxim:1996}
 W.~J. Moxim, W.~{Levy II}, and P.~S. Kasibhatla.
 \newblock {Simulated global tropospheric PAN: Its transport and impact on
@@ -424,10 +419,5 @@ Z.-Q. Xie, R.~Sander, U.~P\"oschl, and F.~Slemr.
   polar springtime using the mecca box model.
 \newblock \emph{Atmospheric Chemistry and Physics}, 8\penalty0 (23):\penalty0
   7165--7180, 2008.
-
-\bibitem[Yarwood et~al.(2005)Yarwood, Rao, Yocke, and Whitten]{Yarwood:2005}
-Greg Yarwood, Sunja Rao, Mark Yocke, and Gary~Z. Whitten.
-\newblock {Updates to the Carbon Bond Chemical Mechanism: CB05}.
-\newblock Technical report, U. S Environmental Protection Agency, 2005.
 
 \end{thebibliography}
