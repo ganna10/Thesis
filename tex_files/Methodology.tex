@@ -94,72 +94,90 @@ The level of detail included in the chemical mechanism determines the amount of 
 Chemical mechanisms range from highly-detailed (explicit) chemical mechanisms to the less-detailed lumped-structure and lumped-molecule chemical mechanisms.
 The self-generating chemical mechanism of \citet{Aumont:2005} is an example of an explicit chemical mechanism and includes many thousands of reactions outlining the degradation chemistry of VOCs, outlining even the reactions generating degradation products of minor importance in the atmosphere.
 Near-explicit chemical mechanisms, such as the Master Chemical Mechanism (MCM) of \citet{Jenkin:1997}, \citet{Jenkin:2003}, \citet{Saunders:2003}, are less-detailed than self-generating mechanisms but still contain many thousands of reactions and as such are mainly used in box models.
+The MCM representation of VOC degradation chemistry is discussed in more detail in Sect.~\ref{ss:near_explicit}.
+
 Many other chemical mechanisms have been developed to describe atmospheric chemistry using less-detailed descriptions as those used by explicit and near-explicit chemical mechanisms so that these chemical mechanisms are computationally efficient for use within 3-D models.
 These reduced chemical mechanisms have been developed using a number of different techniques which ultimiately lead to aggregating (lumping) VOC into mechanism species, these mechanism species are then degraded in such a way that the chemical production of ozone is similar to that from observational records.
-%%here
-\subsection{Master Chemical Mechanism}
-The Master Chemical Mechanism (MCM) v3.2 is a near-explicit mechanism describing the chemical degradation of 107 non-aromatic VOCs in \citep{Saunders:2003} and 18 aromatic VOCs in \citep{Jenkin:2003}. 
-In total the MCM v3.2 has 12,691 reactions including 4351 organic compounds and 46 associated inorganic compounds. 
-The MCM includes alkanes, alkenes, dienes, monoterpenes, aromatics, aldehydes and ketones amongst others, the complete list is found online (\url{http://mcm.leeds.ac.uk/MCM/}). 
-The VOCs were chosen in accordance with the UK National Atmospheric Emissions Inventory and include those that make up about 70\% of the mass emissions of unique species achieved.
+The first part of this study compares the maximal ozone produced from a number of reduced chemical mechanisms, listed in Table~\ref{t:mechanisms}, a description of the different reduction techniques used by the reduced mechanisms is found in Sect.~\ref{ss:lumped_intermediate}, Sect.~\ref{ss:lumped_molecule} and Sect.~\ref{ss:lumped_structure}.
+The main results from the chemical mechanism comparison study are presented in Sect.~\ref{s:chemical_mechanism_results}.
 
-Each primary VOC and each degradation product, is individually degraded until it is broken down to \ce{CO2}, CO or an organic product (or radical) already found in the MCM \citep{Jenkin:1997}. 
-The main assumptions made to reduce the number of reactions and compounds in the MCM are given below and are taken from \citep{Jenkin:1997}.
+\begin{table}
+    \begin{center}
+        \caption{Chemical mechanisms used in the study.}
+        \scalebox{.85}[.85]{\begin{tabular}{lll}
+                \hline \hline
+                \textbf{Chemical Mechanism} & \textbf{Lumping Type} & \textbf{Reference} \\
+                \hline \hline
+                \multirow{3}{*}{MCM v3.1 and v3.2} & \multirow{3}{*}{No lumping} & \citet{Jenkin:1997}, \citet{Jenkin:2003} \\
+                & & \citet{Saunders:2003}, \citet{Bloss:2005} \\
+                & & \citet{MCM_Site} \\
+                CRIv2 & Lumped intermediates & \citet{Jenkin:2008} \\
+                MOZART-4 & Lumped molecule & \citet{Emmons:2010} \\
+                RADM2 & Lumped molecule & \citet{Stockwell:1990} \\
+                RACM & Lumped molecule & \citet{Stockwell:1997} \\
+                RACM2 & Lumped molecule & \citet{Goliff:2013} \\
+                CBM-IV & Lumped structure & \citet{Gery:1989} \\
+                CB05 & Lumped structure & \citet{Yarwood:2005} \\
+                \hline \hline
+            \end{tabular}
+        }
+        \label{t:mechanisms}
+    \end{center}
+\end{table}
+
+\subsection{Near-Explicit Chemical Mechanisms} \label{ss:near_explicit}
+The Master Chemical Mechanism (MCM~v3) is a near-explicit mechanism describing the chemical degradation of 107 non-aromatic VOCs in \citep{Saunders:2003} and 18 aromatic VOCs in \citep{Jenkin:2003}. 
+The MCM~v3.2 was used as the reference mechanism for this study as it was the most recent version of the MCM at the time of the first experiments related to the chemical mechanism study; the MCM~v3.2 was obtained from the world wide web (\mbox{\url{http://mcm.leeds.ac.uk/MCMv3.2/}}).
+In total, the MCM~v3.2 has $12,691$ reactions including $4351$ organic compounds and $46$ inorganic compounds. 
+The primary VOCs represented by the MCM~v3.2 were determined by which VOC have the most emissions (by mass) as listed by the UK National Atmospheric Emissions Inventory and makes up about 70\% of the mass emissions of unique species achieved.
+
+Each primary VOC and each degradation product, is individually degraded until it is broken down to \ce{CO2}, \ce{H2O}, CO or an organic product (or radical) already represented by the MCM \citep{Jenkin:1997}. 
+\citet{Jenkin:1997} outlines the main assumptions used when developing the MCM in order to reduce the number of chemical species and reactions, these include:
 \begin{enumerate}
-    \item The number of product channels resulting from reaction with the OH radical is limited by disregarding those pathways of low probability.
-    \item Many permutation (i.e. self and cross) reactions of organic peroxy radicals are represented by a single parameterised reaction. This is particularly required as inclusion of all peroxy radical reactions would involve about 400,000 reactions.
-    \item The degradation chemistry is simplified, especially for those ``side" products deemed to be minor.
+    \item limiting the number of product channels resulting from reaction with the OH radical by disregarding pathways of low probability,
+    \item representing permutation (self and cross) reactions of organic peroxy radicals by a single parameterised reaction, and
+    \item simplifying the degradation chemistry, especially for those products deemed to be of minor importance.
 \end{enumerate}
-Figure \ref{f:MCM_scheme} shows the reaction pathways represented in the MCM of a primary VOC, these shall be summarised below.
-First the schemes used for the degradation reactions of non-aromatic VOCs in \citep{Saunders:2003} shall be discussed. 
-As mentioned above, the main reaction pathway for VOC degradation is by OH radical reaction and hence this is included for the vast majority of VOCs considered. 
-Reaction with \ce{O3} is deemed to only be important for alkenes, dienes, monoterpenes and some unsaturated oxygenated products. 
-Reaction with the \ce{NO3} radical is mainly important during the night-time and for alkenes, dienes, aldehydes and ethers.  
 
-For all reactions in the MCM, rate coefficients are taken from literature, where available, if not then they are estimated using methods also described in literature (for example, via SAR and group reactivity (GR) methods). 
-The branching ratios of all reactions are also taken or estimated from literature. 
-The reactions with \ce{O3} and the \ce{NO3} radical are also included if the parent VOC has a rate of removal that is more than 1\% of its removal rate with the OH radical and its lifetime with respect to reaction with \ce{O3} (or \ce{NO3}, accordingly) is less than $10^7$ seconds.
 \begin{figure}
     \begin{center}
-        \includegraphics[width=13cm]{MCM_scheme.png}
-        \caption{Flowchart of the major reactions, reactions of intermediates and products considered in the MCM. Taken from \citep{Saunders:2003}}
+        \caption[Flowchart of VOC degradation represented by the MCM]{Flowchart of the major reactions of primary VOCs, intermediates and products considered in the MCM. Taken from \citep{Saunders:2003}}
+        \includegraphics[width=\textwidth]{MCM_scheme.png}
         \label{f:MCM_scheme}
     \end{center}
-\end{figure}
+\end{figure} 
 
-Photolysis is included for those compounds that absorb at wavelengths less than 290 nm. 
-The photolysis parameters are given for those  compounds for which absorption cross-sections and quantum yield data is known and they are also determined as a function of the solar zenith angle. 
+Figure \ref{f:MCM_scheme} shows the reaction pathways represented in the MCM of the primary VOC.
+The main reaction pathway for VOC degradation is by reaction with the OH radical, while ozonolysis is only important for alkenes, dienes, monoterpenes, some aromatic VOCs and some unsaturated oxygenated products. 
+Reaction with the \ce{NO3} radical is mainly important during the night-time and only included for alkenes, dienes, aromatics, aldehydes and ethers.
+Rate constants and branching ratios of the reactions represented in the MCM~v3.2 are those recommended by IUPAC.
+If no data was available then they are estimated using structure activity representation (SAR) or group reactivity (GR) methods.
 
-The degradation products are also treated in detail, these first generation products are also degraded further as part of the MCM. 
-Those products that have significant tropospheric concentrations are already treated in the MCM. 
-To simplify this part of the mechanism, the products are limited to their reaction pathways with the OH radical. 
-Those products which are deemed as minor are also greatly simplified whilst retaining product lifetimes and maintaining the carbon and nitrogen balance. 
-However, many of these reactions are unbalanced in their \ce{O2} or \ce{H2O} output \citep{Jenkin:1997}. 
-The kinetic data, where available, is taken from literature however mainly SAR estimations are used due to the lack of data.
+The degradation products of the primary VOCs are also treated in detail, with the first generation products also degraded further as part of the MCM. 
+Those degradation products having significant tropospheric concentrations are treated in detail by the MCM otherwise the further degradation is limited to reaction with the OH radical. 
+Those products deemed of minor importance are also greatly simplified whilst retaining product lifetimes and maintaining the carbon and nitrogen balance. 
 
-In \citep{Jenkin:2003} the treatment of the aromatic VOCs included in the MCM v3.2 is described, this is summarised below. 
-Where possible the treatment follows that of non-aromatic VOCs as outlined above and in \citep{Saunders:2003}. 
-However this is not possible for many reactions due to the intricacies of aromatic VOC chemistry and the fact that there is a lack of knowledge of the detailed degradation schemes. 
-Also, similar simplifications are again present to reduce the complexity of the mechanism, this is particularly true for the \ce{C6 - C11} aromatic compounds.
+\subsection{Lumped Intermediate Chemical Mechanisms} \label{ss:lumped_intermediate}
+Chemical mechanisms which aggregate (lump) the degradation products rather than primary VOC are called lumped intermediate chemical mechanisms.
+The Common Representative Intermediates (CRI) chemical mechanism \citep{Jenkin:2008} is an example of a lumped intermediate mechanism.
 
-Reaction with the OH radical is the main reaction pathway of aromatic compounds, the relevant rate coefficients are taken from literature, where available, or estimated depending on the functional group \citep{Jenkin:2003}. 
-The reaction pathways are known to proceed by H-atom abstraction or by addition to the aromatic ring. 
-The branching ratios are taken from literature or applied from the analogous molecule for which there is information. 
-H-atom abstraction is typically deemed to be a minor pathway, at this point the simplification applied is that only one pathway during the initial OH radical attack is chosen. 
-Literature provides the data at which point in the aromatic ring the addition reaction occurs and also the following reaction with \ce{O2}. 
-Some specific cases are treated separately according to the relevant literature \citep{Jenkin:2003}.
+The CRI is a reduced version of the MCM that can be used in 3-D AQ models.
+Reducing the complexity of the MCM was achieved by representing many degradation products (intermediates) in the CRI by a single mechanism species, rather than lumping primary VOC into a mechanism species.
+These intermediates are designed to produce the same amount of ozone as when using the MCM.
+The CRIv2 was used in this study and the intermediates in this version of the CRI mirror the ozone production from the MCM~v3.1.
 
-The previous conditions outlined above for reaction with \ce{O3} and with the \ce{NO3} radical are also applied to aromatics VOCs. 
-Again, all rate coefficients and branching ratios are either taken or estimated from the available data and the reaction pathways also proceed as described in literature. 
-Photolysis is only considered for some aromatic VOCs based on the conditions described above. 
-For those cases in which data are not available, the photolysis rates are taken by extension of the data available \citep{Jenkin:2003}. 
-Hence, all reactions proceed as described in literature with estimations used for those cases lacking data.
+The CRIv2 is available online (\mbox{\url{http://mcm.leeds.ac.uk/CRI}}) in a full version and further reduced variants that include even further reductions to the chemistry represented in MCM~v3.1.
+\citet{Jenkin:2008} describes the main assumptions made in order to condense the organic chemistry of the MCM~v3.1 to the lumped intermediate chemistry of the CRIv2, while \citet{Watson:2008} describes the further reductions made to the CRIv2 to produce the five reduced variants.
+The most reduced version of the CRIv2 has also been implemented into the widely used 3-D model WRF-CHEM. \todo{get reference}
 
-The degradation products are also further degraded in the MCM, these are split into two general groups - those still containing an aromatic ring and those formed after ring-opening. 
-The latter are then treated as non-aromatic compounds as described above in \citep{Saunders:2003}. 
-The former group is then further divided into four categories depending on the resulting product and these are then degraded according to \citep{Jenkin:2003}.
+!!!Summarise \citet{Jenkin:2008} and \citet{Watson:2008}!!!
 
-\subsection{Regional Atmospheric Chemistry Mechanism}
+\subsection{Lumped Molecule Chemical Mechanisms} \label{ss:lumped_molecule}
+Lumped molecule chemical mechanisms reduce atmospheric chemistry by aggregating primary VOC into mechanism species; this is also the most common technique used when developing a reduced chemical mechanism.
+Different chemical mechanisms use different approaches when creating these mechanism species that are used represent a multitude of primary VOC.
+Typically NMVOC, such as isoprene, ethane and ethene, that make up a large fraction of NMVOC emissions are represented by dedicated (explicit) species and mechanism species are used to represent specific groups of NMVOC.
+These lumped mechanism species typically represent NMVOC based on functional group or OH-reactivity.
+
 Another chemical mechanism is the Regional Atmospheric Chemistry Mechanism (RACM), described in \citep{Stockwell:1997} and described below. 
 This is a complete revision of the Regional Acid Deposition (RADM2) mechanism and is applicable to regional modelling and capable of simulating the gas phase tropospheric chemistry over remote and heavily polluted urban regions, including at the Earth's surface and in the upper troposphere. 
 The RACM includes 17 inorganic, four inorganic intermediates and 32 organic species, four of which are of biogenic origin that altogether entail about 237 reactions. 
@@ -198,53 +216,6 @@ The organic-peroxy radical-organic peroxy radical reactions are represented by r
 The reaction rate coefficients of organic-peroxy radical self and cross reactions were estimated using the method described in \citep{Kirchner:1996}. 
 Experimental data is used for the rate coefficients of alkyl peroxy radicals reaction with NO. 
 
-\section{Comparison of Chemical Mechanisms}
-Given the different chemical mechanisms and their differing approaches towards simplifying the complexities of atmospheric chemistry, there have been many comparative studies to determine the differences between calculation results obtained when performing the same modelling study but altering the mechanism. 
-In \citep{Dunker:1984} four mechanisms that were used in atmospheric modelling studies were compared by means of atmospheric simulations of box, trajectory and grid modelling studies and also against chamber study results. 
-The comparison parameters were plotted \ce{O3}, \ce{NO2} and PAN isopleths as well as the time span required for the maximum one hour average \ce{O3}, \ce{NO2} and PAN concentrations to be reached. 
-The largest differences between the mechanisms were found during the box model study whereas the other simulations correlated well. 
-It is also highlighted that differences in chemistry can be masked by the effects of the meteorology and other parameters not included in a box model.
+\subsection{Lumped Structure Chemical Mechanisms} \label{ss:lumped_structure}
 
-A study of the chemical mechanisms used mainly for European regional studies are compared in \citep{Gross:2003}. 
-Here, a box model study with the three different mechanisms is used to generate the concentrations of \ce{O3}, NO, \ce{NO2}, \ce{OH} radical, \ce{HO2} radical and organic peroxy radicals \ce{RO2}. 
-\ce{O3} isopleth plots are also generated by performing the study over a range of \ce{NO_x} and VOC concentrations. 
-A common set of photolysis coefficients were used so that the results would mirror only differences in the chemistry, the study also accounted for both urban and rural conditions in separate model runs.
-
-The results show that the greatest differences between these mechanisms are in the \ce{O3}, \ce{NO2} and \ce{RO2} radical concentrations. 
-The differences in the \ce{O3} concentrations are linked to the discrepancies between the \ce{NO2} and \ce{RO2} concentrations as these are reactions that lead to \ce{O3} production or loss. 
-This emphasises the importance of the treatment of organic peroxy radicals, which is typically one of the major areas of difference between chemical mechanisms. 
-The rural study showed little difference in the comparison parameters whilst the urban study showed larger differences. 
-This can be attributed to the complexity of the organic chemistry prevalent in urban areas. 
-\citep{Gross:2003} recommends that many different urban scenarios be considered and that \ce{O3} isopleth plots giving the \ce{O3} concentration over a range of \ce{NO_x} and VOC values should be used for such mechanism comparison studies. 
-
-\citep{Emmerson:2009} compares the gas-phase chemical mechanisms used in global models. 
-Since the MCM contains more chemical details than the reduced schemes used in global models it is used as a reference to which these are compared. 
-The comparison is performed by box model runs simulating a large number of scenarios that are characteristic of global situations - industrial, clean, cold and dry, hot and wet, biogenic and non-biogenic conditions. 
-Moreover, a particular recorded event (where the data are taken from the summer 2003 TORCH campaign) is also simulated with all the models to determine how close the simulation results are to the actual recorded concentrations. 
-
-The simulations were ran without heterogenous chemistry and all set to begin at midnight in order to investigate the effect of night-time chemistry, which would be affected most by not including heterogenous chemistry. 
-The length of each simulation is five days as a compromise between very long and very short run times which can affect the chemistry in different ways. 
-Long model runs would imply significant ageing of the air masses that would drive the chemistry and very short model runs would not test the chemistry pertaining to the degradation products at all, hence a compromise needs to be found. 
-Separate model runs were also performed to determine differences in the inorganic chemistry, full chemistry and night-time chemistry.
-
-The resulting concentrations of specific compounds were plotted and compared to verify where mechanistic differences arise. 
-The little difference between inorganic chemistry regimes can be attributed to the differences between kinetic data supplied by IUPAC and JPL, whilst there are more differences between the full chemistry and night-time chemistry. 
-The greatest differences in the organic chemistry is when biogenic compounds, such as isoprene, are considered and are present in larger concentrations. 
-For the specific pollution event that was modelled, the greatest differences arise for the night-time chemistry and \ce{O3} concentrations.
-
-Reactivity scales have also been used as comparison tool for chemical mechanisms, this was proposed as in a single number, they provide a lot chemical kinetic data. 
-In \citep{Derwent:2010}, the MCM and SAPRC are compared by calculation of the POCP of 116 organic compounds from the major atmospheric classes within both mechanisms. 
-A series of photochemical trajectory model runs simulating a single day were performed, many parameters other than the mechanisms were adjusted as incremental reactivities are not solely geophysical measures but rely on many other parameters.
-
-The MCM and the SAPRC were chosen for this study as they are near-explicit mechanisms with the main difference being in how they treat the first generation products - the MCM continues in an explicit manner while the SAPRC uses aggregation techniques. 
-In general, the POCP values correlate very well between the two mechanisms, with a small number of exceptions. 
-These can be attributed to the lack of detailed understanding of the degradation reactions of these compounds. 
-The good correlation of reactivities of the aromatic compounds merely indicates that both mechanisms treat aromatic compounds similarly rather than having a detailed knowledge of these degradation schemes.
-
-A detailed look at the chemistry affecting different mechanisms used in air quality modelling is described in \citep{Stockwell:2012}, where a box modelling study is undertaken with near-explicit and aggregated chemical mechanisms. 
-The model system used is the same as that used in \citep{Seefeld:1999} with only gas-phase chemistry and constant meteorological conditions.  
-Different model runs were also undertaken with different temperatures in order to determine the temperature dependency of model results. 
-
-The study highlights that the temperature dependence of gas phase reactions is uncertain for both organic and inorganic compounds. 
-Also, night-time chemistry is a major source of uncertainty. 
-Other knowledge gaps include the rate coefficients of the reactions of organic peroxy radicals as well as the products resulting from these reactions, the detailed degradation of both aromatic and biogenic compounds.  
+\section{Using the Chemical Mechanisms in MECCA}

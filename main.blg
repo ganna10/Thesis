@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: /local/home/coates/Documents/PhD_References.bib
-You've used 56 entries,
+You've used 65 entries,
             2760 wiz_defined-function locations,
-            986 strings with 17169 characters,
-and the built_in function-call counts, 30805 in all, are:
-= -- 2753
-> -- 2054
+            1039 strings with 19404 characters,
+and the built_in function-call counts, 36757 in all, are:
+= -- 3250
+> -- 2594
 < -- 26
-+ -- 693
-- -- 636
-* -- 2821
-:= -- 4779
-add.period$ -- 170
-call.type$ -- 56
-change.case$ -- 379
-chr.to.int$ -- 55
-cite$ -- 112
-duplicate$ -- 1143
-empty$ -- 2299
-format.name$ -- 720
-if$ -- 6276
++ -- 873
+- -- 807
+* -- 3401
+:= -- 5735
+add.period$ -- 198
+call.type$ -- 65
+change.case$ -- 464
+chr.to.int$ -- 64
+cite$ -- 130
+duplicate$ -- 1322
+empty$ -- 2652
+format.name$ -- 900
+if$ -- 7462
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 55
-newline$ -- 290
-num.names$ -- 224
-pop$ -- 659
+missing$ -- 62
+newline$ -- 336
+num.names$ -- 260
+pop$ -- 813
 preamble$ -- 1
-purify$ -- 324
+purify$ -- 399
 quote$ -- 0
-skip$ -- 905
+skip$ -- 1067
 stack$ -- 0
-substring$ -- 1688
-swap$ -- 59
+substring$ -- 1923
+swap$ -- 67
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 611
+type$ -- 710
 warning$ -- 0
-while$ -- 274
+while$ -- 315
 width$ -- 0
-write$ -- 739
+write$ -- 857

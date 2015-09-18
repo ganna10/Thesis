@@ -1,4 +1,4 @@
-\begin{thebibliography}{56}
+\begin{thebibliography}{65}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -44,6 +44,14 @@ Angela~K. Baker, Andreas~J. Beyersdorf, Lambert~A. Doezema, Aaron Katzenstein,
   Simone Meinardi, Isobel~J. Simpson, Donald~R. Blake, and F.~Sherwood Rowland.
 \newblock {Measurements of nonmethane hydrocarbons in 28 United States cities}.
 \newblock \emph{Atmospheric Environment}, 42:\penalty0 170--182, 2008.
+
+\bibitem[Bloss et~al.(2005)Bloss, Wagner, Jenkin, Vollamer, Bloss, Lee, Heard,
+  Wirtz, Martin-Reviejo, Rea, Wenger, and Pilling]{Bloss:2005}
+C.~Bloss, V.~Wagner, M.~E. Jenkin, R.~Vollamer, W.~J. Bloss, J.~D. Lee, D.~E.
+  Heard, K.~Wirtz, M.~Martin-Reviejo, G.~Rea, J.~C. Wenger, and M.~J. Pilling.
+\newblock {Development of a detailed chemical mechanism (MCMv3.1) for the
+  atmospheric oxidation of aromatic hydrocarbons}.
+\newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 641--664, 2005.
 
 \bibitem[Borbon et~al.(2003)Borbon, Fontaine, Locoge, Veillerot, and
   Galloo]{Borbon:2003}
@@ -140,6 +148,16 @@ K.~M. Emmerson and M.~J. Evans.
 \newblock \emph{Atmospheric Chemistry and Physics}, 9:\penalty0 1831--1845,
   2009.
 
+\bibitem[Emmons et~al.(2010)Emmons, Walters, Hess, Lamarque, Pfister, Fillmore,
+  Granier, Guenther, Kinnison, Laepple, Orlando, Tie, Tyndall, Wiedinmyer,
+  Baughcum, and Kloster]{Emmons:2010}
+L.~K. Emmons, S.~Walters, P.~G. Hess, J.-F. Lamarque, G.~G. Pfister,
+  D.~Fillmore, C.~Granier, A.~Guenther, D.~Kinnison, T.~Laepple, J.~Orlando,
+  X.~Tie, G.~Tyndall, C.~Wiedinmyer, S.~L. Baughcum, and S.~Kloster.
+\newblock {Description and evaluation of the Model for Ozone and Related
+  chemical Tracers, version 4 (MOZART-4)}.
+\newblock \emph{Geoscientific Model Development}, 3:\penalty0 43--67, 2010.
+
 \bibitem[Fiore et~al.(1998)Fiore, Jacob, Logan, and Yin]{Fiore:1998}
 Arlene~M. Fiore, Daniel~J. Jacob, Jennifer~A. Logan, and Jeffrey~H. Yin.
 \newblock {Long-term trends in ground level ozone over the contiguous United
@@ -147,12 +165,24 @@ Arlene~M. Fiore, Daniel~J. Jacob, Jennifer~A. Logan, and Jeffrey~H. Yin.
 \newblock \emph{Journal of Geophysical Research}, 103\penalty0 (D1):\penalty0
   1471--1480, 1998.
 
+\bibitem[Gery et~al.(1989)Gery, Whitten, Killus, and Dodge]{Gery:1989}
+Michael~W. Gery, Gary~Z. Whitten, James~P. Killus, and Marcia~C. Dodge.
+\newblock {A photochemical kinetics mechanism for urban and regional scale
+  computer modeling}.
+\newblock \emph{Journal of Geophysical Research}, 94\penalty0 (D10):\penalty0
+  12,925--12,956, 1989.
+
 \bibitem[Goldstein and Galbally(2007)]{Goldstein:2007}
 A.~H. Goldstein and I.~E. Galbally.
 \newblock {Known and unexplored organic constituents in the Earth's
   atmosphere}.
 \newblock \emph{Environmental Science and Technology}, 41\penalty0
   (5):\penalty0 1514--1521, 2007.
+
+\bibitem[Goliff et~al.(2013)Goliff, Stockwell, and Lawson]{Goliff:2013}
+Wendy~S. Goliff, William~R. Stockwell, and Charlene~V. Lawson.
+\newblock {The regional atmospheric chemistry mechanism, version 2}.
+\newblock \emph{Atmospheric Environment}, 68:\penalty0 174--185, 2013.
 
 \bibitem[Gross and Stockwell(2003)]{Gross:2003}
 Allan Gross and William~R. Stockwell.
@@ -181,6 +211,13 @@ M.~E. Jenkin, S.~M. Saunders, V.~Wagner, and M.~J. Pilling.
   compounds}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 3\penalty0 (1):\penalty0
   181--193, 2003.
+
+\bibitem[Jenkin et~al.(2008)Jenkin, Watson, Utembe, and
+  Shallcross]{Jenkin:2008}
+M.~E. Jenkin, L.~A. Watson, S.~R. Utembe, and D.~E. Shallcross.
+\newblock {A Common Representative Intermediates (CRI) mechanism for VOC
+  degradation. Part 1: Gas phase mechanism development}.
+\newblock \emph{Atmospheric Environment}, 42:\penalty0 7185--7195, 2008.
 
 \bibitem[Jenkin and Clemitshaw(2000)]{Jenkin:2000}
 Michael~E. Jenkin and Kevin~C. Clemitshaw.
@@ -325,6 +362,14 @@ Bin Qi, Yugo Kanaya, Akinori Takami, Shiro Hatakeyama, Shungo Kato, Yasuhiro
   (D17):\penalty0 n/a--n/a, 2007.
 \newblock D17306.
 
+\bibitem[Rickard et~al.(2015)Rickard, Young, Pilling, Jenkin, Pascoe, and
+  Saunders]{MCM_Site}
+Andrew Rickard, Jenny Young, M.~J. Pilling, M.~E. Jenkin, Stephen Pascoe, and
+  S.~M. Saunders.
+\newblock {The Master Chemical Mechanism Version MCM v3.2}.
+\newblock \url{http://mcm.leeds.ac.uk/MCMv3.2/}, 2015.
+\newblock [Online; accessed 25-March-2015].
+
 \bibitem[Russell and Dennis(2000)]{Russell:2000}
 Armistead Russell and Robin Dennis.
 \newblock {NARSTO critical review of photochemical models and modeling}.
@@ -386,6 +431,14 @@ Sanford Sillman.
 \newblock \emph{Atmospheric Environment}, 33\penalty0 (12):\penalty0
   1821--1845, 1999.
 
+\bibitem[Stockwell et~al.(1990)Stockwell, Middleton, Chang, and
+  Tang]{Stockwell:1990}
+William~R. Stockwell, Paulete Middleton, Julius~S. Chang, and Xiaoyan Tang.
+\newblock {The Second Generation Regional Acid Deposition Model Chemical
+  Mechanism for Regional Air Quality Modeling}.
+\newblock \emph{Journal of Geophysical Research}, 95\penalty0 (D10):\penalty0
+  16,343--16,367, 1990.
+
 \bibitem[Stockwell et~al.(1997)Stockwell, Kirchner, Kuhn, and
   Seefeld]{Stockwell:1997}
 William~R. Stockwell, Frank Kirchner, Michael Kuhn, and Stephan Seefeld.
@@ -407,6 +460,13 @@ Kengo Sudo and Masaaki Takashi.
 \newblock \emph{Geophysical Research Letters}, 28\penalty0 (21):\penalty0
   4091--4094, 2001.
 
+\bibitem[Watson et~al.(2008)Watson, Shallcross, Utembe, and
+  Jenkin]{Watson:2008}
+L.~A. Watson, D.~E. Shallcross, S.~R. Utembe, and M.~E. Jenkin.
+\newblock {A Common Representative Intermediates (CRI) mechanism for VOC
+  degradation. Part 2: Gas phase mechanism reduction}.
+\newblock \emph{Atmospheric Environment}, 42:\penalty0 7196--7204, 2008.
+
 \bibitem[{World Meteorological Organisation}(2011)]{WMO:2010}
 {World Meteorological Organisation}.
 \newblock {Scientific Assessment of Ozone Depletion: 2010}.
@@ -419,5 +479,10 @@ Z.-Q. Xie, R.~Sander, U.~P\"oschl, and F.~Slemr.
   polar springtime using the mecca box model.
 \newblock \emph{Atmospheric Chemistry and Physics}, 8\penalty0 (23):\penalty0
   7165--7180, 2008.
+
+\bibitem[Yarwood et~al.(2005)Yarwood, Rao, Yocke, and Whitten]{Yarwood:2005}
+Greg Yarwood, Sunja Rao, Mark Yocke, and Gary~Z. Whitten.
+\newblock {Updates to the Carbon Bond Chemical Mechanism: CB05}.
+\newblock Technical report, U. S Environmental Protection Agency, 2005.
 
 \end{thebibliography}
