@@ -164,13 +164,24 @@ The Common Representative Intermediates (CRI) chemical mechanism \citep{Jenkin:2
 The CRI is a reduced version of the MCM that can be used in 3-D AQ models.
 Reducing the complexity of the MCM was achieved by representing many degradation products (intermediates) in the CRI by a single mechanism species, rather than lumping primary VOC into a mechanism species.
 These intermediates are designed to produce the same amount of ozone as when using the MCM.
-The CRIv2 was used in this study and the intermediates in this version of the CRI mirror the ozone production from the MCM~v3.1.
+The CRI~v2 was used in this study and the intermediates in this version of the CRI mirror the ozone production from the MCM~v3.1.
 
-The CRIv2 is available online (\mbox{\url{http://mcm.leeds.ac.uk/CRI}}) in a full version and further reduced variants that include even further reductions to the chemistry represented in MCM~v3.1.
-\citet{Jenkin:2008} describes the main assumptions made in order to condense the organic chemistry of the MCM~v3.1 to the lumped intermediate chemistry of the CRIv2, while \citet{Watson:2008} describes the further reductions made to the CRIv2 to produce the five reduced variants.
-The most reduced version of the CRIv2 has also been implemented into the widely used 3-D model WRF-CHEM. \todo{get reference}
+The CRI~v2 is available online (\mbox{\url{http://mcm.leeds.ac.uk/CRI}}) in a full version and further reduced variants that include even further reductions to the chemistry represented in MCM~v3.1 by also lumping VOCs into lumped mechanism species.
+\citet{Jenkin:2008} describes the main assumptions made in order to condense the organic chemistry of the MCM~v3.1 to the lumped intermediate chemistry of the CRI~v2, while \citet{Watson:2008} describes the further reductions made to the CRI~v2 to produce the five lumped emission variants.
+The most reduced version of the CRI~v2 has also been implemented into the widely used 3-D regional model WRF-CHEM as described in \citet{Archer-Nicholls:2014}.
 
-!!!Summarise \citet{Jenkin:2008} and \citet{Watson:2008}!!!
+The approach used to develop the CRI involves determining the potential number of NO-to-\ce{NO2} conversions by the peroxy radicals formed during the degradation of a VOC, this is called the CRI-index.
+The CRI-index is thus the potential number of ozone molecules produced during the degradation of a VOC as the number of potential NO-to-\ce{NO2} conversions by peroxy radicals is directly related to the potential number of \ce{O3} molecules (Sect. \todo{add section}).
+A single ``common representative'' is created to represent a part of the secondary degradation of a large number of species based on the CRI-index that was calculated based on the description of the degradation of the VOC in the MCM \citep{Jenkin:2008}.
+This approach greatly reducing the number of species and reactions in the CRI compared to the near-explicit representation of the MCM.
+
+The mechanism intermediate species are further optimised by performing multi-day model runs comparing the ozone produced from a single VOC in the CRI~v2 to that in MCM~v3.1.
+These model runs were performed for each of the primary VOC represented in the MCM~v3.1 and CRI~v2, starting with the smallest VOC of a particular functional group and only moving to the next largest VOC once the ozone production was optimised to that of the MCM~v3.1.
+The primary criterion in these tests was ozone formation, the ozone formation of the mechanism intermediate species was optimised to that in the MCM~v3.1 using a non-linear least squares fitting and the agreement was improved by varying the OH-reactivity and photolysis rate of the intermediate species.
+The individual testing of the intermediates for each VOC also showed that some intermediates did not directly follow the CRI-index rule and in-place adjustments were required to retain the ozone formation in the MCM~v3.1.
+This appraoch was used for OH, \ce{O3} and \ce{NO3} initiated degradation \citep{Jenkin:2008}.
+
+!!!Summarise \citet{Watson:2008}!!!
 
 \subsection{Lumped Molecule Chemical Mechanisms} \label{ss:lumped_molecule}
 Lumped molecule chemical mechanisms reduce atmospheric chemistry by aggregating primary VOC into mechanism species; this is also the most common technique used when developing a reduced chemical mechanism.

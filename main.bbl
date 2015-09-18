@@ -1,4 +1,4 @@
-\begin{thebibliography}{65}
+\begin{thebibliography}{66}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,16 @@ Christof Appenzeller, James~R. Holton, and Karen~H. Rosenlof.
 \newblock {Seasonal variation of mass transport across the tropopause}.
 \newblock \emph{Journal of Geophysical Research}, 101\penalty0 (D10):\penalty0
   15,071--15,078, 1996.
+
+\bibitem[Archer-Nicholls et~al.(2014)Archer-Nicholls, Lowe, Utembe, Allan,
+  Zaveri, Fast, Hodnebrog, {Denier van der Gon}, and
+  McFiggans]{Archer-Nicholls:2014}
+S.~Archer-Nicholls, D.~Lowe, S.~Utembe, J.~Allan, R.~A. Zaveri, J.~D. Fast,
+  {\O}.~Hodnebrog, H.~{Denier van der Gon}, and G.~McFiggans.
+\newblock {Gaseous chemistry and aerosol mechanism developments for version
+  3.5.1 of the online regional model, WRF-Chem}.
+\newblock \emph{Geoscientific Model Development}, 7\penalty0 (6):\penalty0
+  2557--2579, 2014.
 
 \bibitem[Arsene et~al.(2009)Arsene, Bougiatioti, and Mihalopoulos]{Arsene:2009}
 C.~Arsene, A.~Bougiatioti, and N.~Mihalopoulos.
@@ -214,10 +224,11 @@ M.~E. Jenkin, S.~M. Saunders, V.~Wagner, and M.~J. Pilling.
 
 \bibitem[Jenkin et~al.(2008)Jenkin, Watson, Utembe, and
   Shallcross]{Jenkin:2008}
-M.~E. Jenkin, L.~A. Watson, S.~R. Utembe, and D.~E. Shallcross.
+M.E. Jenkin, L.A. Watson, S.R. Utembe, and D.E. Shallcross.
 \newblock {A Common Representative Intermediates (CRI) mechanism for VOC
   degradation. Part 1: Gas phase mechanism development}.
-\newblock \emph{Atmospheric Environment}, 42:\penalty0 7185--7195, 2008.
+\newblock \emph{Atmospheric Environment}, 42\penalty0 (31):\penalty0 7185 --
+  7195, 2008.
 
 \bibitem[Jenkin and Clemitshaw(2000)]{Jenkin:2000}
 Michael~E. Jenkin and Kevin~C. Clemitshaw.
@@ -462,10 +473,11 @@ Kengo Sudo and Masaaki Takashi.
 
 \bibitem[Watson et~al.(2008)Watson, Shallcross, Utembe, and
   Jenkin]{Watson:2008}
-L.~A. Watson, D.~E. Shallcross, S.~R. Utembe, and M.~E. Jenkin.
+L.A. Watson, D.E. Shallcross, S.R. Utembe, and M.E. Jenkin.
 \newblock {A Common Representative Intermediates (CRI) mechanism for VOC
   degradation. Part 2: Gas phase mechanism reduction}.
-\newblock \emph{Atmospheric Environment}, 42:\penalty0 7196--7204, 2008.
+\newblock \emph{Atmospheric Environment}, 42\penalty0 (31):\penalty0 7196 --
+  7204, 2008.
 
 \bibitem[{World Meteorological Organisation}(2011)]{WMO:2010}
 {World Meteorological Organisation}.
