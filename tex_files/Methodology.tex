@@ -269,7 +269,7 @@ Aromatic VOC are represented by TOL, XYL or CSL depending on whether their OH-re
 Carbonyls (aldehydes and ketones) and organic acids are also represented by lumped mechanism species
 Typically the NMVOC having the least number of carbons (e.g. formaldehyde and formic acid) is represented by an explicit species and then all other species from that functional group are represented by a lumped species.
 
-The OH-reactivity of the lumped mechanism species was weighted by the fraction of the OH-reactivity of the emitted VOC to the fraction of the mechanism species emitted.
+The reaction rate coefficients of the lumped mechanism species were obtained by using a weighted mean of all the rate coefficients of the organic species aggregated into the model species, this was done to account for the difference in reactivities between the model and chemical species.
 The secondary degradation of the lumped species is described by chemistry that takes into account all the known VOC that are represented by the lumped species.
 
 RADM2 reduces the number of peroxy radicals that need to be represented by using an operator species (XO2) that converts NO to \ce{NO2} in an attempt to replicate the ozone produced by NMVOC when represented by the mechanism species.
@@ -277,43 +277,29 @@ Thus, XO2 is one such mechanism species that appears in the secondary degradatio
 Another way of reducing the number of peroxy radicals is that only reactions of \ce{RO2} with \ce{HO2}, \ce{CH3O2} and \ce{CH3CO3} are included as these are the most abundant \ce{RO2}.
 
 \subsubsection{RACM}
-Another chemical mechanism is the Regional Atmospheric Chemistry Mechanism (RACM), described in \citep{Stockwell:1997} and described below. 
-This is a complete revision of the Regional Acid Deposition (RADM2) mechanism and is applicable to regional modelling and capable of simulating the gas phase tropospheric chemistry over remote and heavily polluted urban regions, including at the Earth's surface and in the upper troposphere. 
-The RACM includes 17 inorganic, four inorganic intermediates and 32 organic species, four of which are of biogenic origin that altogether entail about 237 reactions. 
-The inorganic reactions are practically fully described with the relevant rate coefficients, quantum yields and photolysis coefficients taken from literature.
+\citet{Stockwell:1997} describes the Regional Atmospheric Chemistry Mechanism (RACM) which is an updated to the RADM2 chemical mechanism.
+RACM includes lumped mechanism species not included in RADM2 such as API and LIM to represent cyclic terpenes with one double bond and all other cyclic terpenes.
 
-In order to reduce computational resources for the mechanistic part of a regional model, the organic compounds are grouped into 16 anthropogenic and three biogenic model species. 
-This grouping is based upon emission rates, functional group similarity and OH radical reactivity. 
-Obtaining the final model species was done in two steps, first the hundreds of anthropogenic VOCs were grouped into 32 emission categories and then these were aggregated into the final 16 model species. 
-Another aspect of reducing computational requirements was achieved by reducing the number of reaction pathways by only taking one reaction pathway from those available and also not treating all the organic intermediates explicitly.
+Once again, the primary VOC are grouped into lumped mechanism species based upon functional group similarity and OH radical reactivity. 
+The final mechanism species was determined by first grouping hundreds of anthropogenic VOCs into $32$ emission categories and then finally aggregating into the final $16$ lumped mechanism species. 
 
-The reaction rate coefficients of the model species are obtained by a weighted mean of all the rate coefficients of the organic species aggregated into the model species, this is done to account for the difference in reactivities between the model and chemical species. 
-The individual rate coefficients are taken from literature or estimated by means of a SAR. 
-Some organic compounds (for example, methane and ethene) are explicitly treated, if not then the compounds are represented by a model species. 
-For example, excluding ethene, anthropogenic alkenes with their double bond at the end of the molecule are included as the model species as OLT whilst anthropogenic alkenes with their double bond not at the end of the molecule are represented by OLI \citep{Stockwell:1997}.
-
-The different functional groups in a model species give rise to different reaction products, hence other model species are introduced with the relevant product yield fractions, as illustrated in the below reactions.
-\begin{reactionlist}
-    \reactionitem{OLT + OH}{OLTP}{new}{r:OLT+OH}
-    \reactionitem{OLI + OH}{OLIP}{new}{r:OLI+OH}
-\end{reactionlist}
+The secondary chemistry of many of the lumped mechanism species included in both RADM2 and RACM was extensively updated which meant the inclusion of many new and additional mechanism species produced during the degradation of these lumped primary species.
 These product species are calculated as a weighted mean of the product yields of all the chemical species represented by the model species, where the individual yields are taken from literature. 
 
-The branching ratios of certain reactions are also parameterised, for example the slow-reacting aromatic species, represented by the model species TOL, are assumed to react with the OH radical by addition to the aromatic ring with a 0.1 fraction of the reactions proceeding by H-atom abstraction.
-\begin{reactionlist}
-    \reactionitem{TOL + OH}{0.90 ADDT + 0.10 \ce{XO2} + 0.10 \ce{HO2}}{new}{r:TOL+OH}
-\end{reactionlist}
-Furthermore, the branching ratios of the reactions of the aromatic-OH adduct (ADDT) are determined by simulating the environmental chamber data and this calculation is dependent on the secondary products formed from the reactions of unsaturated dicarbonyls. 
-This is a source of uncertainity in the mechanism and since these three pathways after the \ce{O3} production rate, obtaining the correct branching ratio is of importance \citep{Stockwell:1997}.
+The same approach to representing \ce{RO2}-\ce{RO2} reactions as used in RADM2 is used in RACM. 
+Further details for calculating the reaction rate coefficients are described in \citet{Kirchner:1996}.
 
-The model species \ce{XO2} is used to represent peroxy radicals where the appropriate \ce{XO2} radical is dependent on the rate coefficient of the generating reaction. 
-Also, the product yields are once again obtained via a weighted mean of the product yields of the individual species. 
-To paramaterise the vast amount of reactions, very fast reactions are ignored and reactions with \ce{O3} are estimated due to the lack of experimental data. 
+\subsubsection{RACM2}
+RACM was further extended and updated to RACM2, described in \citet{Goliff:2013}, once again the main updates included more lumped mechanism species to represent primary VOC emissions as well as updates to the secondary chemistry of lumped mechanism species.
+Alkane and alkene chemistry is largely unchanged from RACM except for some updates to reaction rate coefficients,
 
-\citep{Kirchner:1996} details the treatment of organic peroxy radicals. 
-The organic-peroxy radical-organic peroxy radical reactions are represented by reactions of the organic-peroxy radical with the two most important peroxy radicals (\ce{CH3O2} and \ce{CH3C(O)O2}) and all other reactions with organic-peroxy radicals are ignored. 
-The reaction rate coefficients of organic-peroxy radical self and cross reactions were estimated using the method described in \citep{Kirchner:1996}. 
-Experimental data is used for the rate coefficients of alkyl peroxy radicals reaction with NO. 
+Aromatic VOC and subsequent secondary chemistry was overhauled in RACM2 from RACM.
+RACM2 represents aromatic VOC by eight mechanism species instead of three species as in RACM, with explicit representation of benzene and each xylene isomer having its own mechanism species.
+The secondary chemistry of the aromatic VOC was updated to be similar to that of the MCM, with differences arising from the different treatments of gas-phase chemistry in the MCM and RACM2.
+The main difference is the different treatment of \ce{RO2}-\ce{RO2} reactions.
+
+Acetone and methyl ethyl ketone (MEK) are now treated as separate species rather than being represent as a single mechanism species, KET, in RADM2 and RACM.
+Alcohols are now also represented in RACM2, whereas in the previous versions, alcohols were represented by HC3, HC5 or HC8.
 
 \subsection{Lumped Structure Chemical Mechanisms} \label{ss:lumped_structure}
 
