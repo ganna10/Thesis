@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  20 SEP 2015 15:19
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  20 SEP 2015 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3311,11 +3311,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 22147 strings out of 495007
- 380928 string characters out of 3179690
- 527468 words of memory out of 3000000
+ 22149 strings out of 495007
+ 380952 string characters out of 3179690
+ 527473 words of memory out of 3000000
  24460 multiletter control sequences out of 15000+200000
- 92028 words of font info for 136 fonts, out of 3000000 for 9000
+ 92157 words of font info for 137 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,26n,94p,464b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3330,7 +3330,7 @@ exmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
 8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (82 pages, 997880 bytes).
+Output written on main.pdf (82 pages, 997929 bytes).
 PDF statistics:
  1951 PDF objects out of 2073 (max. 8388607)
  1553 compressed objects within 16 object streams
