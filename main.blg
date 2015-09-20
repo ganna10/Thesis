@@ -1,20 +1,20 @@
 This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-The style file: plainnat.bst
+The style file: abbrvnat.bst
 Database file #1: References.bib
 You've used 68 entries,
-            2760 wiz_defined-function locations,
-            1099 strings with 22045 characters,
-and the built_in function-call counts, 39710 in all, are:
-= -- 3443
+            2773 wiz_defined-function locations,
+            1103 strings with 21785 characters,
+and the built_in function-call counts, 40618 in all, are:
+= -- 3641
 > -- 2972
 < -- 26
 + -- 999
 - -- 930
-* -- 3725
-:= -- 6237
-add.period$ -- 209
+* -- 3841
+:= -- 6435
+add.period$ -- 275
 call.type$ -- 68
 change.case$ -- 514
 chr.to.int$ -- 67
@@ -22,13 +22,13 @@ cite$ -- 136
 duplicate$ -- 1382
 empty$ -- 2768
 format.name$ -- 1026
-if$ -- 8048
+if$ -- 8246
 int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 65
-newline$ -- 353
+newline$ -- 419
 num.names$ -- 272
-pop$ -- 905
+pop$ -- 839
 preamble$ -- 1
 purify$ -- 446
 quote$ -- 0
@@ -43,4 +43,4 @@ type$ -- 743
 warning$ -- 0
 while$ -- 315
 width$ -- 0
-write$ -- 900
+write$ -- 1032

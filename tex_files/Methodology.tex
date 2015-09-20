@@ -224,7 +224,7 @@ These lumped mechanism species typically represent NMVOC based on functional gro
 Table~\ref{t:mechanisms} lists the lumped-molecule chemical mechanisms used in this study and Table~\ref{t:lumped_molecule} provides further information about these chemical mechanisms.
 \begin{table}
     \centering
-    \caption{Data on each of the lumped-molecule chemical mechanisms listed in Table~\ref{t:mechanisms}}
+    \caption{Explicitness of each of the lumped-molecule chemical mechanisms listed in Table~\ref{t:mechanisms}}
     \label{t:lumped_molecule}
     \begin{tabular}{llll}
         \hline \hline
@@ -232,10 +232,14 @@ Table~\ref{t:mechanisms} lists the lumped-molecule chemical mechanisms used in t
         \textbf{Mechanism} & \textbf{Primary VOC} & \textbf{Species} & \textbf{Reactions} \\
         \hline \hline
         MOZART-4 & $20$ & $85$ & $157$ \\
+        RADM2 & $21$ & $63$ & $157$ \\
+        RACM & $25$ & $77$ & $237$ \\
+        RACM2 & $40$ & $120$ & $363$ \\
         \hline \hline
     \end{tabular}
 \end{table}
 
+\subsubsection{MOZART}
 The Model for OZone and Related chemical Tracers (MOZART) chemical mechanism is an example of a lumped molecule chemical mechanism used in global and regional 3-D models.
 MOZART was developed for global chemical transport models and describes chemical processes within the boundary layer, free troposphere and stratosphere.
 MOZART-4 \citep{Emmons:2010} is the version used in this study and includes updates to the tropospheric chemistry from the previous MOZART-2 version \citep{Horowitz:2003}; MOZART-3 \citep{Kinnison:2007} provided updated stratospheric chemistry.
@@ -249,6 +253,30 @@ MOZART-4 is also capable of representing aerosol chemistry and directly calculat
 For the purpose of this study, we were only interested in gas-phase chemical processes occuring with the boundary layer and so all processes relating to stratospheric, free troposphere and aerosol processes were not used.
 We also used the MCM approach to calculating photolysis and dry deposition rates.
 
+\subsubsection{RADM2}
+One of the older lumped molecule, but still widely used, chemical mechanisms is the second version of the Regional Acid Deposition Model (RADM2) originally described in \citet{Stockwell:1990}.
+RADM2 is typically used in regional modelling studies and the chemical mechanism has been used extensively since its inception.
+
+The organic VOC methane, ethane, ethene, isoprene and formaldehyde are represented explicitly in RAMD2.
+RADM2 uses lumped mechanism species to represent many VOC based upon the OH-reactivity and functional group of the VOC.
+In particular, there are three mechanism species (HC3, HC5, HC8) representing three types of hydrocarbons based on their OH-reactivity.
+These three species are then used to not only represent alkanes, but also many other species -- such as alcohols, ethers, chlorinated VOC -- based on their OH-reactivity.
+
+All alkenes having more than two carbons are represented by either OLT or OLI depending on the position of the double bond (OLT: terminal alkenes and OLI: internal alkenes).
+The exception to this is isoprene, whose degradation is treated by an explicit species, due to the importance of isoprene chemistry as it is globally the VOC with the most emissions.
+
+Aromatic VOC are represented by TOL, XYL or CSL depending on whether their OH-reactivity is slow, fast or they are hydroxy-substituted.
+Carbonyls (aldehydes and ketones) and organic acids are also represented by lumped mechanism species
+Typically the NMVOC having the least number of carbons (e.g. formaldehyde and formic acid) is represented by an explicit species and then all other species from that functional group are represented by a lumped species.
+
+The OH-reactivity of the lumped mechanism species was weighted by the fraction of the OH-reactivity of the emitted VOC to the fraction of the mechanism species emitted.
+The secondary degradation of the lumped species is described by chemistry that takes into account all the known VOC that are represented by the lumped species.
+
+RADM2 reduces the number of peroxy radicals that need to be represented by using an operator species (XO2) that converts NO to \ce{NO2} in an attempt to replicate the ozone produced by NMVOC when represented by the mechanism species.
+Thus, XO2 is one such mechanism species that appears in the secondary degradation of most of the lumped mechanism species.
+Another way of reducing the number of peroxy radicals is that only reactions of \ce{RO2} with \ce{HO2}, \ce{CH3O2} and \ce{CH3CO3} are included as these are the most abundant \ce{RO2}.
+
+\subsubsection{RACM}
 Another chemical mechanism is the Regional Atmospheric Chemistry Mechanism (RACM), described in \citep{Stockwell:1997} and described below. 
 This is a complete revision of the Regional Acid Deposition (RADM2) mechanism and is applicable to regional modelling and capable of simulating the gas phase tropospheric chemistry over remote and heavily polluted urban regions, including at the Earth's surface and in the upper troposphere. 
 The RACM includes 17 inorganic, four inorganic intermediates and 32 organic species, four of which are of biogenic origin that altogether entail about 237 reactions. 
