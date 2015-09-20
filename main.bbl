@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,9 +42,9 @@ Roger Atkinson.
 
 \bibitem[Aumont et~al.(2005)Aumont, Szopa, and Madronich]{Aumont:2005}
 B.~Aumont, S.~Szopa, and S.~Madronich.
-\newblock {Modelling the evolution of organic carbon during its gas-phase
-  tropospheric oxidation: Development of an explicit model based on a self
-  generating approach}.
+\newblock Modelling the evolution of organic carbon during its gas-phase
+  tropospheric oxidation: development of an explicit model based on a self
+  generating approach.
 \newblock \emph{Atmospheric Chemistry and Physics}, 5\penalty0 (9):\penalty0
   2497--2517, 2005.
 
@@ -80,11 +80,11 @@ A.~W. Brewer.
 
 \bibitem[Butler et~al.(2011)Butler, Lawrence, Taraborrelli, and
   Lelieveld]{Butler:2011}
-T.~M. Butler, M.~G. Lawrence, D.~Taraborrelli, and J.~Lelieveld.
-\newblock {Multi-day ozone production potential of volatile organic compounds
-  calculated with a tagging approach}.
-\newblock \emph{Atmospheric Environment}, 45\penalty0 (24):\penalty0
-  4082--4090, 2011.
+T.M. Butler, M.G. Lawrence, D.~Taraborrelli, and J.~Lelieveld.
+\newblock Multi-day ozone production potential of volatile organic compounds
+  calculated with a tagging approach.
+\newblock \emph{Atmospheric Environment}, 45\penalty0 (24):\penalty0 4082 --
+  4090, 2011.
 
 \bibitem[Capps et~al.(2010)Capps, Hu, and Russell]{Capps:2010}
 Shannon~L. Capps, Yongtao Hu, and Armistead~G. Russell.
@@ -109,11 +109,12 @@ J.~Coates and T.~M. Butler.
 
 \bibitem[Damian et~al.(2002)Damian, Sandu, Damian, Potra, and
   Carmichael]{Damian:2002}
-V.~Damian, A.~Sandu, M.~Damian, F.~Potra, and G.R. Carmichael.
-\newblock {The kinetic preprocessor KPP - A software environment for solving
+Valeriu Damian, Adrian Sandu, Mirela Damian, Florian Potra, and Gregory~R.
+  Carmichael.
+\newblock {The kinetic preprocessor KPP-a software environment for solving
   chemical kinetics}.
-\newblock \emph{Computers and Chemical Engineering}, 26\penalty0 (11):\penalty0
-  1567--1579, 2002.
+\newblock \emph{Computers \& Chemical Engineering}, 26\penalty0 (11):\penalty0
+  1567 -- 1579, 2002.
 
 \bibitem[Derwent et~al.(1996)Derwent, Jenkin, and Saunders]{Derwent:1996}
 R.~G. Derwent, M.~E. Jenkin, and S.~M. Saunders.
@@ -166,7 +167,8 @@ L.~K. Emmons, S.~Walters, P.~G. Hess, J.-F. Lamarque, G.~G. Pfister,
   X.~Tie, G.~Tyndall, C.~Wiedinmyer, S.~L. Baughcum, and S.~Kloster.
 \newblock {Description and evaluation of the Model for Ozone and Related
   chemical Tracers, version 4 (MOZART-4)}.
-\newblock \emph{Geoscientific Model Development}, 3:\penalty0 43--67, 2010.
+\newblock \emph{Geoscientific Model Development}, 3\penalty0 (1):\penalty0
+  43--67, 2010.
 
 \bibitem[Fiore et~al.(1998)Fiore, Jacob, Logan, and Yin]{Fiore:1998}
 Arlene~M. Fiore, Daniel~J. Jacob, Jennifer~A. Logan, and Jeffrey~H. Yin.
@@ -214,10 +216,22 @@ P.~Hess and N.~Mahowald.
 \newblock \emph{Atmospheric Chemistry and Physics}, 9:\penalty0 5261--5280,
   2009.
 
+\bibitem[Horowitz et~al.(2003)Horowitz, Walters, Mauzerall, Emmons, Rasch,
+  Granier, Tie, Lamarque, Schultz, Tyndall, Orlando, and
+  Brasseur]{Horowitz:2003}
+Larry~W. Horowitz, Stacy Walters, Denise~L. Mauzerall, Louisa~K. Emmons,
+  Philip~J. Rasch, Claire Granier, Xuexi Tie, Jean-François Lamarque,
+  Martin~G. Schultz, Geoffrey~S. Tyndall, John~J. Orlando, and Guy~P. Brasseur.
+\newblock {A global simulation of tropospheric ozone and related tracers:
+  Description and evaluation of MOZART, version 2}.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 108\penalty0
+  (D24), 2003.
+\newblock 4784.
+
 \bibitem[Jenkin et~al.(2003)Jenkin, Saunders, Wagner, and Pilling]{Jenkin:2003}
 M.~E. Jenkin, S.~M. Saunders, V.~Wagner, and M.~J. Pilling.
 \newblock {Protocol for the development of the Master Chemical Mechanism, MCM
-  v3 (Part B): Tropospheric degradation of aromatic volatile organic
+  v3 (Part B): tropospheric degradation of aromatic volatile organic
   compounds}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 3\penalty0 (1):\penalty0
   181--193, 2003.
@@ -239,10 +253,23 @@ Michael~E. Jenkin and Kevin~C. Clemitshaw.
 
 \bibitem[Jenkin et~al.(1997)Jenkin, Saunders, and Pilling]{Jenkin:1997}
 Michael~E. Jenkin, Sandra~M. Saunders, and Michael~J. Pilling.
-\newblock {The tropospheric degradation of volatile organic compounds: A
-  protocol for mechanism development}.
-\newblock \emph{Atmospheric Environment}, 31\penalty0 (1):\penalty0 81--104,
+\newblock The tropospheric degradation of volatile organic compounds: a
+  protocol for mechanism development.
+\newblock \emph{Atmospheric Environment}, 31\penalty0 (1):\penalty0 81 -- 104,
   1997.
+
+\bibitem[Kinnison et~al.(2007)Kinnison, Brasseur, Walters, Garcia, Marsh,
+  Sassi, Harvey, Randall, Emmons, Lamarque, Hess, Orlando, Tie, Randel, Pan,
+  Gettelman, Granier, Diehl, Niemeier, and Simmons]{Kinnison:2007}
+D.~E. Kinnison, G.~P. Brasseur, S.~Walters, R.~R. Garcia, D.~R. Marsh,
+  F.~Sassi, V.~L. Harvey, C.~E. Randall, L.~Emmons, J.~F. Lamarque, P.~Hess,
+  J.~J. Orlando, X.~X. Tie, W.~Randel, L.~L. Pan, A.~Gettelman, C.~Granier,
+  T.~Diehl, U.~Niemeier, and A.~J. Simmons.
+\newblock {Sensitivity of chemical tracers to meteorological parameters in the
+  MOZART-3 chemical transport model}.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 112\penalty0
+  (D20), 2007.
+\newblock D20302.
 
 \bibitem[Kirchner and Stockwell(1996)]{Kirchner:1996}
 Frank Kirchner and William~R. Stockwell.
@@ -301,8 +328,8 @@ D.~Kubistin, H.~Harder, M.~Martinez, M.~Rudolf, R.~Sander, H.~Bozem,
   G.~Eerdekens, H.~Fischer, C.~Gurk, T.~Kl\"upfel, R.~K\"onigstedt,
   U.~Parchatka, C.~L. Schiller, A.~Stickler, D.~Taraborrelli, J.~Williams, and
   J.~Lelieveld.
-\newblock Hydroxyl radicals in the tropical troposphere over the suriname
-  rainforest: comparison of measurements with the box model mecca.
+\newblock {Hydroxyl radicals in the tropical troposphere over the Suriname
+  rainforest: comparison of measurements with the box model MECCA}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 10\penalty0 (19):\penalty0
   9705--9728, 2010.
 
@@ -316,8 +343,8 @@ Jos Lelieveld and Frank~J. Dentener.
   Wahner]{Li:2014b}
 X.~Li, F.~Rohrer, T.~Brauers, A.~Hofzumahaus, K.~Lu, M.~Shao, Y.~H. Zhang, and
   A.~Wahner.
-\newblock Modeling of hcho and chocho at a semi-rural site in southern china
-  during the pride-prd2006 campaign.
+\newblock {Modeling of HCHO and CHOCHO at a semi-rural site in southern China
+  during the PRIDE-PRD2006 campaign}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 14\penalty0 (22):\penalty0
   12291--12305, 2014.
 
@@ -370,7 +397,7 @@ Bin Qi, Yugo Kanaya, Akinori Takami, Shiro Hatakeyama, Shungo Kato, Yasuhiro
 \newblock {Diurnal peroxy radical chemistry at a remote coastal site over the
   sea of Japan}.
 \newblock \emph{Journal of Geophysical Research: Atmospheres}, 112\penalty0
-  (D17):\penalty0 n/a--n/a, 2007.
+  (D17), 2007.
 \newblock D17306.
 
 \bibitem[Rickard et~al.(2015)Rickard, Young, Pilling, Jenkin, Pascoe, and
@@ -383,40 +410,40 @@ Andrew Rickard, Jenny Young, M.~J. Pilling, M.~E. Jenkin, Stephen Pascoe, and
 
 \bibitem[Russell and Dennis(2000)]{Russell:2000}
 Armistead Russell and Robin Dennis.
-\newblock {NARSTO critical review of photochemical models and modeling}.
-\newblock \emph{Atmospheric Environment}, 34\penalty0 (12-14):\penalty0
-  2283---2324, 2000.
+\newblock {NARSTO} critical review of photochemical models and modeling.
+\newblock \emph{Atmospheric Environment}, 34\penalty0 (12–14):\penalty0 2283
+  -- 2324, 2000.
 
-\bibitem[Sander et~al.(2005)Sander, Kerkweg, J{\"o}ckel, and
+\bibitem[Sander et~al.(2005)Sander, Kerkweg, J\"ockel, and
   Lelieveld]{Sander:2005}
-R.~Sander, A.~Kerkweg, P.~J{\"o}ckel, and J.~Lelieveld.
-\newblock {Technical Note: The new comprehensive atmospheric chemistry module
-  MECCA}.
-\newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 445--450, 2005.
+R.~Sander, A.~Kerkweg, P.~J\"ockel, and J.~Lelieveld.
+\newblock Technical note: The new comprehensive atmospheric chemistry module
+  mecca.
+\newblock \emph{Atmospheric Chemistry and Physics}, 5\penalty0 (2):\penalty0
+  445--450, 2005.
 
 \bibitem[Sandu et~al.(1997{\natexlab{a}})Sandu, Verwer, Blom, Spee, Carmichael,
   and Potra]{Sandu:1997a}
-A.~Sandu, J.~G. Verwer, J.~G. Blom, E.~J. Spee, G.~R. Carmichael, and F.~A.
-  Potra.
-\newblock {Benchmarking stiff ODE solvers for atmospheric chemistry problems
+A.~Sandu, J.G. Verwer, J.G. Blom, E.J. Spee, G.R. Carmichael, and F.A. Potra.
+\newblock {Benchmarking stiff ode solvers for atmospheric chemistry problems
   II: Rosenbrock solvers}.
-\newblock \emph{Atmospheric Environment}, 31\penalty0 (20):\penalty0
-  3459--3472, 1997{\natexlab{a}}.
+\newblock \emph{Atmospheric Environment}, 31\penalty0 (20):\penalty0 3459 --
+  3472, 1997{\natexlab{a}}.
 
-\bibitem[Sandu et~al.(1997{\natexlab{b}})Sandu, Verwer, {Van Loon}, Carmichael,
+\bibitem[Sandu et~al.(1997{\natexlab{b}})Sandu, Verwer, Loon, Carmichael,
   Potra, Dabdub, and Seinfeld]{Sandu:1997b}
-A.~Sandu, J.~G. Verwer, M~{Van Loon}, G.~R. Carmichael, F.~A. Potra, D.~Dabdub,
-  and J.~H. Seinfeld.
-\newblock {Benchmarking stiff ODE solvers for atmospheric chemistry problems I:
-  implicit vs explicit}.
-\newblock \emph{Atmospheric Environment}, 31\penalty0 (19):\penalty0
-  3151--3166, 1997{\natexlab{b}}.
+A.~Sandu, J.G. Verwer, M.~Van Loon, G.R. Carmichael, F.A. Potra, D.~Dabdub, and
+  J.H. Seinfeld.
+\newblock {Benchmarking stiff ode solvers for atmospheric chemistry problems-I.
+  implicit vs explicit }.
+\newblock \emph{Atmospheric Environment}, 31\penalty0 (19):\penalty0 3151 --
+  3166, 1997{\natexlab{b}}.
 
 \bibitem[Saunders et~al.(2003)Saunders, Jenkin, Derwent, and
   Pilling]{Saunders:2003}
 S.~M. Saunders, M.~E. Jenkin, R.~G. Derwent, and M.~J. Pilling.
 \newblock {Protocol for the development of the Master Chemical Mechanism, MCM
-  v3 (Part A): Tropospheric degradation of non-aromatic volatile organic
+  v3 (Part A): tropospheric degradation of non-aromatic volatile organic
   compounds}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 3\penalty0 (1):\penalty0
   161--180, 2003.
@@ -432,7 +459,7 @@ S.~Seefeld and W.R. Stockwell.
 John~H. Seinfeld and Spyros~N. Pandis.
 \newblock \emph{{Atmospheric Chemistry and Physics: From Air Pollution to
   Climate Change}}.
-\newblock John Wiley \& Sons Inc, 2 edition, 2006.
+\newblock John Wiley \& Sons Inc, New York, second edition, 2006.
 \newblock ISBN 978-0-471-72018-8.
 
 \bibitem[Sillman(1999)]{Sillman:1999}
@@ -487,8 +514,8 @@ L.A. Watson, D.E. Shallcross, S.R. Utembe, and M.E. Jenkin.
 
 \bibitem[Xie et~al.(2008)Xie, Sander, P\"oschl, and Slemr]{Xie:2008}
 Z.-Q. Xie, R.~Sander, U.~P\"oschl, and F.~Slemr.
-\newblock Simulation of atmospheric mercury depletion events (amdes) during
-  polar springtime using the mecca box model.
+\newblock {Simulation of atmospheric mercury depletion events (AMDEs) during
+  polar springtime using the MECCA box model}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 8\penalty0 (23):\penalty0
   7165--7180, 2008.
 
