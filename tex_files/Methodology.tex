@@ -141,7 +141,7 @@ Each primary VOC and each degradation product, is individually degraded until it
 
 \begin{figure}
     \begin{center}
-        \caption[Flowchart of VOC degradation represented by the MCM]{Flowchart of the major reactions of primary VOCs, intermediates and products considered in the MCM. Taken from \citet{Saunders:2003}}
+        \caption[Flowchart of VOC degradation represented by the MCM]{Flowchart of the major reactions of primary VOCs, intermediates and products considered in the MCM. Taken from Fig.~1 in \citet{Saunders:2003}}
         \includegraphics[width=\textwidth]{MCM_scheme.png}
         \label{f:MCM_scheme}
     \end{center}
@@ -195,6 +195,7 @@ This approach produced the two most reduced variants of the CRI~v2--CRI~v2-R4 an
 A summary of the five reduced variants of the CRI~v2 compared to the full CRI~v2 is presented in Table~\ref{t:CRI_summary}.
 
 \begin{table*}
+    \centering
     \caption[Summary of the CRI~v2 and its five reduced variants.]{Summary of the CRI~v2 and its five reduced variants. Data from Table~1 in \citet{Watson:2008}.}
     \label{t:CRI_summary}
     \begin{threeparttable}
@@ -220,11 +221,33 @@ Lumped molecule chemical mechanisms reduce atmospheric chemistry by aggregating 
 Different chemical mechanisms use different approaches when creating these mechanism species that are used represent a multitude of primary VOC.
 Typically NMVOC, such as isoprene, ethane and ethene, that make up a large fraction of NMVOC emissions are represented by dedicated (explicit) species and mechanism species are used to represent specific groups of NMVOC.
 These lumped mechanism species typically represent NMVOC based on functional group or OH-reactivity.
+Table~\ref{t:mechanisms} lists the lumped-molecule chemical mechanisms used in this study and Table~\ref{t:lumped_molecule} provides further information about these chemical mechanisms.
+\begin{table}
+    \centering
+    \caption{Data on each of the lumped-molecule chemical mechanisms listed in Table~\ref{t:mechanisms}}
+    \label{t:lumped_molecule}
+    \begin{tabular}{llll}
+        \hline \hline
+        \textbf{Chemical} & \textbf{Number of} & \textbf{Number of} & \textbf{Number of} \\
+        \textbf{Mechanism} & \textbf{Primary VOC} & \textbf{Species} & \textbf{Reactions} \\
+        \hline \hline
+        MOZART-4 & $20$ & $85$ & $157$ \\
+        \hline \hline
+    \end{tabular}
+\end{table}
 
 The Model for OZone and Related chemical Tracers (MOZART) chemical mechanism is an example of a lumped molecule chemical mechanism used in global and regional 3-D models.
 MOZART was developed for global chemical transport models and describes chemical processes within the boundary layer, free troposphere and stratosphere.
-MOZART-4 \citep{Emmons:2010} is the version used in this study and includes updates to the tropospheric chemistiry from the previous MOZART-2 version \citep{Horowitz:2003}; MOZART-3 \citep{Kinnison:2007} provided updated stratospheric chemistry.
-%here
+MOZART-4 \citep{Emmons:2010} is the version used in this study and includes updates to the tropospheric chemistry from the previous MOZART-2 version \citep{Horowitz:2003}; MOZART-3 \citep{Kinnison:2007} provided updated stratospheric chemistry.
+
+MOZART-4 represents organic VOCs of methane, ethane, propane, ethene, propene, isoprene and formaldehyde by explicit species.
+Lumped mechanism species, BIGALK, BIGENE and TOLUENE, are used to represent alkanes and alkenes with four or more carbon atoms and all aromatic VOC \citep{Emmons:2010}.
+Thus, the lumping species used by MOZART are based on the functionality of the VOC.
+There are no mechanism species representing emissions of esters, ethers or chlorinated NMVOC, when representing emissions of these less-reactive NMVOC are added to the BIGALK mechanism species as this has the slowest OH-reactivity.
+
+MOZART-4 is also capable of representing aerosol chemistry and directly calculating both photolysis and dry deposition rates.
+For the purpose of this study, we were only interested in gas-phase chemical processes occuring with the boundary layer and so all processes relating to stratospheric, free troposphere and aerosol processes were not used.
+We also used the MCM approach to calculating photolysis and dry deposition rates.
 
 Another chemical mechanism is the Regional Atmospheric Chemistry Mechanism (RACM), described in \citep{Stockwell:1997} and described below. 
 This is a complete revision of the Regional Acid Deposition (RADM2) mechanism and is applicable to regional modelling and capable of simulating the gas phase tropospheric chemistry over remote and heavily polluted urban regions, including at the Earth's surface and in the upper troposphere. 
