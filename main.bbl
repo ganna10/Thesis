@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -231,6 +231,14 @@ P.~Hess and N.~Mahowald.
   role of meteorology}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 9:\penalty0 5261--5280,
   2009.
+
+\bibitem[Hogo and Gery(1989)]{Hogo:1989}
+H.~Hogo and M.~Gery.
+\newblock {USER'S GUIDE FOR EXECUTING OZIPM-4 (OZONE ISOPLETH PLOTTING WITH
+  OPTIONAL MECHANISMS, VERSION 4) WITH CBM-IV (CARBON-BOND MECHANISMS-IV) OR
+  OPTIONAL MECHANISMS. VOLUME 1. DESCRIPTION OF THE OZONE ISOPLETH PLOTTING
+  PACKAGE. VERSION 4}.
+\newblock Technical report, U.S. Environmental Protection Agency, 1989.
 
 \bibitem[Horowitz et~al.(2003)Horowitz, Walters, Mauzerall, Emmons, Rasch,
   Granier, Tie, Lamarque, Schultz, Tyndall, Orlando, and

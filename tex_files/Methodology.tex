@@ -302,7 +302,43 @@ The main difference is the different treatment of \ce{RO2}-\ce{RO2} reactions.
 Acetone and methyl ethyl ketone (MEK) are now treated as separate species rather than being represent as a single mechanism species, KET, in RADM2 and RACM.
 Alcohols are now also represented in RACM2, whereas in the previous versions, alcohols were represented by HC3, HC5 or HC8.
 
-
 \subsection{Lumped Structure Chemical Mechanisms} \label{ss:lumped_structure}
+The technique used by lumped-structure chemical mechanisms to reducing atmospheric chemistry is to express VOC emissions as permutations of building blocks that represent the structure of the emitted VOC.
+Thus, each lumped-structure chemical mechanism includes a number of these building blocks which are then emitted according to the initial VOC emissions being studied.
+The Carbon Bond mechanism is the most widely used lumped-structure chemical mechanism and in the first part of this thesis we have looked at the fourth version (CBM-IV, \citep{Gery:1989}) and the fifth version (CB05, \citep{Yarwood:2005}).
+Both Carbon Bond versions include mechanism species representing the different carbon bonds present in typically emitted VOC, the representation of the carbon bonds included in CBM-IV and CB05 are outlined in Table~\ref{t:lumped_structure}.
+\begin{table} 
+    \centering
+    \caption{Carbon bonds and mechanism species represented in CBM-IV and CB05.}
+    \label{t:lumped_structure}
+    \begin{tabular}{ll}
+        \hline \hline
+        \textbf{Mechanism Species} & \textbf{Carbon Bond} \\
+        \hline \hline
+        PAR & \ce{C-C} \\
+        OLE & \ce{C=C} \\
+        ALD2 & \ce{C=O} \\
+        \hline \hline
+    \end{tabular}
+\end{table}
+
+\subsubsection{CBM-IV}
+The fourth version of the Carbon Bond mechanism was developed to represent the chemistry producing ozone in polluted urban conditions and is described in \citet{Gery:1989}.
+Explicitly represented emitted NMVOC are those with the most significant emissions: isoprene, ethene and formaldehyde.
+In addition to the mechanism species listed in Table~\ref{t:lumped_structure}, there are mechanism species representing both slower and faster reacting aromatic VOC (TOL and XYL).
+Acetaldehyde (ALD2) is also represented as it is an important degradation product of the secondary chemistry from a number of VOC.
+CBM-IV uses an operator species (XO2) to represent NO to \ce{NO2} conversion by organic peroxy radical, similar to many lumped-molecule chemical mechanisms.  
+CBM-IV represents $20$ organic species and requires $46$ reactions to fully represent the secondary chemistry.
+
+NMVOC emissions emitted by the mechanism species are described in \citet{Hogo:1989}.
+For example, if heptane, having seven carbons each with a single bond, has emissions of $1 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$ then using the CBM-IV, these emissions would be represented by $7$~PAR and thus PAR emissions would be $7 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$.
+Also, propene is represented as $1$~OLE and $1$~PAR and so emissions of $1 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$  would be emitted as $1 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$ of OLE and $1 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$ of PAR.
+
+\subsubsection{CB05}
+CBM-IV was updated to CB05, described in \citet{Yarwood:2005}, to include more species representing emitted VOC.
+Mechanism species for terpenes (TERP), ethane (ETHA), aldehydes with more than three carbons (ALDX), methanol (MEOH), ethanol (ETOH) and alkenes with both internal (IOLE) and external (OLE) double bonds were included.
+
+Other than additional species and reactions to increase the explicitness of CBM-IV, the CB05 does not include other major changes to the technique for representing atmospheric chemistry. 
+CB05 now includes $99$ organic reactions to represent the degradation of $37$ organic species.
 
 \section{Using the Chemical Mechanisms in MECCA}
