@@ -38,7 +38,7 @@ Initial and boundary conditions are required to numerically solve the system of 
 Boundary conditions are typically the most difficult input to set accurately as this requires knowledge of the investigated species concentrations and transport at the boundary edges (if applicable) of the model grid.  
 Setting the initial conditions involves fixing the starting concentrations of the species being studied, these conditions are dependent on the area being studied and whether it is an urban or rural area, amongst other considerations. 
 
-\subsection{Model Description and Setup}
+\subsection{Model Description and Setup} \label{ss:model_setup}
 In order to assess the detailed processes producing tropospheric ozone within general air quality modelling, we used a box model to focus on the gas-phase chemistry affecting tropospheric ozone.
 All simulations in this study were performed using the MECCA (Module Efficiently Calculating the Chemistry of the Atmosphere) box model developed by \citet{Sander:2005} that was adapted to include MCM~v3.1 chemistry as described in \citet{Butler:2011}.
 The MECCA box model has been used for numerous detailed process studies of atmospheric gas-phase chemistry including \citet{Kubistin:2010}, \citet{Xie:2008} and \citet{Lourens:2012}.
@@ -324,11 +324,11 @@ Both Carbon Bond versions include mechanism species representing the different c
 
 \subsubsection{CBM-IV}
 The fourth version of the Carbon Bond mechanism was developed to represent the chemistry producing ozone in polluted urban conditions and is described in \citet{Gery:1989}.
+CBM-IV represents $20$ organic species and requires $46$ reactions to fully represent the secondary chemistry.
 Explicitly represented emitted NMVOC are those with the most significant emissions: isoprene, ethene and formaldehyde.
 In addition to the mechanism species listed in Table~\ref{t:lumped_structure}, there are mechanism species representing both slower and faster reacting aromatic VOC (TOL and XYL).
 Acetaldehyde (ALD2) is also represented as it is an important degradation product of the secondary chemistry from a number of VOC.
 CBM-IV uses an operator species (XO2) to represent NO to \ce{NO2} conversion by organic peroxy radical, similar to many lumped-molecule chemical mechanisms.  
-CBM-IV represents $20$ organic species and requires $46$ reactions to fully represent the secondary chemistry.
 
 NMVOC emissions emitted by the mechanism species are described in \citet{Hogo:1989}.
 For example, if heptane, having seven carbons each with a single bond, has emissions of $1 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$ then using the CBM-IV, these emissions would be represented by $7$~PAR and thus PAR emissions would be $7 \times 10^9$~molecules~cm$^{-3}$~s$^{-1}$.
@@ -336,9 +336,17 @@ Also, propene is represented as $1$~OLE and $1$~PAR and so emissions of $1 \time
 
 \subsubsection{CB05}
 CBM-IV was updated to CB05, described in \citet{Yarwood:2005}, to include more species representing emitted VOC.
-Mechanism species for terpenes (TERP), ethane (ETHA), aldehydes with more than three carbons (ALDX), methanol (MEOH), ethanol (ETOH) and alkenes with both internal (IOLE) and external (OLE) double bonds were included.
-
-Other than additional species and reactions to increase the explicitness of CBM-IV, the CB05 does not include other major changes to the technique for representing atmospheric chemistry. 
 CB05 now includes $99$ organic reactions to represent the degradation of $37$ organic species.
+Mechanism species for terpenes (TERP), ethane (ETHA), aldehydes with more than three carbons (ALDX), methanol (MEOH), ethanol (ETOH) and alkenes with both internal (IOLE) and external (OLE) double bonds were included.  
+
+In addition to updating reaction rate constants and including more mechanism species to represent atmospheric chemistry more explicitly, the CB05 was also updated to include chemistry reflecting low-\ce{NO_x} conditions.
+Thus reactions involving peroxide formation, a characteristic of low-\ce{NO_x} conditions, were included in CB05.
 
 \section{Using the Chemical Mechanisms in MECCA}
+As outlined in Sect.~\ref{ss:model_setup}, the MECCA boxmodel is based upon the KPP pre-processor and so required that all chemical mechanisms listed in Table~\ref{t:mechanisms} be written in the KPP format.
+The KPP format of each chemical mechanism was either obtained from the WRF/Chem \citep{Grell:2005} \todo{update citation} model, which includes KPP files of RADM2, RACM and CBM-IV for use within the model.
+For all the other chemical mechanisms, the chemistry published in the original reference were adapted to the KPP format.
+
+Some changes were made to the original chemistry specified by each chemical mechanism.
+Firstly, the inorganic chemistry of the MCM~v3.2 was used in each chemical mechanism in order to focus on differences between chemical mechanisms of their representation of the secondary degradation chemistry of emitted NMVOC.
+Other changes included adopting the MCM~v3.2 approaches to photolysis and peroxy-peroxy reactions, a more detailed description of these changes are found in the supplementary material of the first paper of this thesis (Chap.~\ref{s:paper_1}). \todo{Include supplementary material}
