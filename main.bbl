@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -162,6 +162,16 @@ A.~M. Dunker, S.~Kumar, and P.~H. Berzins.
 \newblock \emph{Atmospheric Environment}, 18\penalty0 (2):\penalty0 311--321,
   1984.
 
+\bibitem[EEA(2013)]{AQEU:2013}
+EEA.
+\newblock {Air quality in Europe - 2013 report}.
+\newblock Technical Report 9/2013, European Environmental Agency, 2013.
+
+\bibitem[EEA(2015)]{AQEU:2015}
+EEA.
+\newblock {Air quality in Europe - 2015 report}.
+\newblock Technical Report 5/2015, European Environmental Agency, 2015.
+
 \bibitem[Emmerson and Evans(2009)]{Emmerson:2009}
 K.~M. Emmerson and M.~J. Evans.
 \newblock {Comparison of tropospheric gas-phase chemistry schemes for use
@@ -263,6 +273,25 @@ L.~W. Horowitz, S.~Walters, D.~L. Mauzerall, L.~K. Emmons, P.~J. Rasch,
 \newblock URL \url{http://dx.doi.org/10.1029/2002JD002853}.
 \newblock 4784.
 
+\bibitem[IARC(2013)]{IARC:2013}
+IARC.
+\newblock {Outdoor air pollution a leading environmental cause of cancer
+  deaths}.
+\newblock \url{https://www.iarc.fr/en/media-centre/iarcnews/pdf/pr221_E.pdf},
+  2013.
+\newblock [Online; accessed 31-December-2015].
+
+\bibitem[Jacob and Winner(2009)]{Jacob:2009}
+D.~J. Jacob and D.~A. Winner.
+\newblock Effect of climate change on air quality.
+\newblock \emph{Atmospheric Environment}, 43\penalty0 (1):\penalty0 51 -- 63,
+  2009.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2008.09.051}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231008008571}.
+\newblock Atmospheric Environment - Fifty Years of Endeavour.
+
 \bibitem[Jenkin et~al.(2008)Jenkin, Watson, Utembe, and
   Shallcross]{Jenkin:2008}
 M.~Jenkin, L.~Watson, S.~Utembe, and D.~Shallcross.
@@ -339,13 +368,6 @@ F.~Kirchner, F.~Jenneret, A.~Clappier, B.~Kr{\"u}ger, H.~van~den Bergh, and
 \newblock \emph{Journal of Geophysical Research}, 106\penalty0 (D3):\penalty0
   3095--3110, 2001.
 
-\bibitem[Kleinman(2005)]{Kleinman:2005}
-L.~Kleinman.
-\newblock {The dependence of tropospheric ozone production rate on ozone
-  precursors}.
-\newblock \emph{Atmospheric Environment}, 39\penalty0 (3):\penalty0 575--586,
-  2005.
-
 \bibitem[Kleinman(1991)]{Kleinman:1991}
 L.~I. Kleinman.
 \newblock {Seasonal Dependence of Boundary Layer Peroxide Concentration: The
@@ -358,6 +380,17 @@ L.~I. Kleinman.
 \newblock {Low and high NO$_{\text{x}}$ tropospheric photochemistry}.
 \newblock \emph{Journal of Geophysical Research}, 99\penalty0 (D8):\penalty0
   16,831--16,838, 1994.
+
+\bibitem[Kleinman(2005)]{Kleinman:2005}
+L.~I. Kleinman.
+\newblock The dependence of tropospheric ozone production rate on ozone
+  precursors.
+\newblock \emph{Atmospheric Environment}, 39\penalty0 (3):\penalty0 575 -- 586,
+  2005.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2004.08.047}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231004008234}.
 
 \bibitem[Koo et~al.(2012)Koo, Wang, Kurosu, Chance, Rozanov, Richter, Oltmans,
   Thompson, Hair, Fenn, Weinheimer, Ryerson, Solberg, Huey, Liao, Dibb, Neuman,
@@ -423,12 +456,15 @@ D.~J. Luecken and M.~R. Mebust.
 \newblock \emph{Environmental Science and Technology}, 42\penalty0
   (5):\penalty0 1615--1622, 2008.
 
-\bibitem[Moxim et~al.(1996)Moxim, {Levy II}, and Kasibhatla]{Moxim:1996}
-W.~J. Moxim, W.~{Levy II}, and P.~S. Kasibhatla.
+\bibitem[Moxim et~al.(1996)Moxim, Levy, and Kasibhatla]{Moxim:1996}
+W.~J. Moxim, H.~Levy, and P.~S. Kasibhatla.
 \newblock {Simulated global tropospheric PAN: Its transport and impact on
-  NO$_{\text{x}}$}.
-\newblock \emph{Journal of Geophysical Research}, 101\penalty0 (D7):\penalty0
-  12,621--12,638, 1996.
+  NO$_\text{x}$}.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 101\penalty0
+  (D7):\penalty0 12621--12638, 1996.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/96JD00338}.
+\newblock URL \url{http://dx.doi.org/10.1029/96JD00338}.
 
 \bibitem[N{\"o}lscher et~al.(2014)N{\"o}lscher, Butler, Auld, Veres, Mu{\~n}oz,
   Taraborrelli, Vereecken, Lelieveld, and Williams]{Noelscher:2014}
@@ -542,10 +578,14 @@ J.~H. Seinfeld and S.~N. Pandis.
 
 \bibitem[Sillman(1999)]{Sillman:1999}
 S.~Sillman.
-\newblock {The relation between ozone, NO$_{\text{x}}$ and hydrocarbons in
-  urban and polluted rural environments}.
-\newblock \emph{Atmospheric Environment}, 33\penalty0 (12):\penalty0
-  1821--1845, 1999.
+\newblock The relation between ozone, nox and hydrocarbons in urban and
+  polluted rural environments.
+\newblock \emph{Atmospheric Environment}, 33\penalty0 (12):\penalty0 1821 --
+  1845, 1999.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/S1352-2310(98)00345-8}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231098003458}.
 
 \bibitem[Stockwell et~al.(1990)Stockwell, Middleton, Chang, and
   Tang]{Stockwell:1990}
