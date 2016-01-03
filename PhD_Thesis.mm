@@ -1,7 +1,7 @@
 <map version="0.9.0">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1408973950696" ID="ID_180927055" MODIFIED="1439377646867" TEXT="PhD Thesis">
-<node CREATED="1408973993170" FOLDED="true" ID="ID_771388674" MODIFIED="1439389212845" POSITION="left" TEXT="Introduction">
+<node CREATED="1408973993170" ID="ID_771388674" MODIFIED="1451552088896" POSITION="left" TEXT="Introduction">
 <node CREATED="1421682509436" FOLDED="true" ID="ID_1575397203" MODIFIED="1439388694186" TEXT="General introduction">
 <node CREATED="1421682812233" FOLDED="true" ID="ID_1196382123" MODIFIED="1422354352089" TEXT="Impacts of increased O3 levels on health, economy, climate">
 <node CREATED="1421688856185" FOLDED="true" ID="ID_125104924" MODIFIED="1422354349087" TEXT="EEA report 2014">
@@ -176,7 +176,7 @@
 <node CREATED="1422354427452" ID="ID_1817912824" MODIFIED="1422354431515" TEXT="Future Outlook"/>
 </node>
 </node>
-<node CREATED="1421682659361" ID="ID_672276964" MODIFIED="1439378174926" POSITION="left" TEXT="Methodology">
+<node CREATED="1421682659361" FOLDED="true" ID="ID_672276964" MODIFIED="1451552087309" POSITION="left" TEXT="Methodology">
 <node CREATED="1421682667937" FOLDED="true" ID="ID_666738114" MODIFIED="1439898488004" TEXT="Box model">
 <icon BUILTIN="button_ok"/>
 <node CREATED="1439385511547" FOLDED="true" ID="ID_890177822" MODIFIED="1439810666553" TEXT="Why use a box model?">
@@ -343,22 +343,22 @@
 </node>
 <node CREATED="1408976324080" ID="ID_1790711696" MODIFIED="1421682937152" POSITION="left" TEXT="Discussion and Conclusions"/>
 <node CREATED="1422354395652" ID="ID_285753707" MODIFIED="1422354399381" POSITION="left" TEXT="Future Outlook"/>
-<node CREATED="1439291982264" FOLDED="true" ID="ID_1215882963" MODIFIED="1439388669681" POSITION="left" TEXT="Appendix">
+<node CREATED="1439291982264" ID="ID_1215882963" MODIFIED="1451467506256" POSITION="left" TEXT="Appendix">
 <node CREATED="1439291989167" ID="ID_449348776" MODIFIED="1439292003588" TEXT="Include my contributions to each paper"/>
 </node>
 <node CREATED="1408976374616" ID="ID_797229895" MODIFIED="1444647743832" POSITION="right" TEXT="Publication List">
-<node CREATED="1408976380224" FOLDED="true" ID="ID_1710278902" MODIFIED="1444647763277" TEXT="Scientific Articles">
+<node CREATED="1408976380224" FOLDED="true" ID="ID_1710278902" MODIFIED="1451465844721" TEXT="Scientific Articles">
 <node CREATED="1439292038967" ID="ID_834254812" MODIFIED="1439292080364" TEXT="Coates, J. and Butler, T. M.: A comparison of chemical mechanisms using tagged ozone production potential (TOPP) analysis, Atmos. Chem. Phys., 15, 8795-8808, doi:10.5194/acp-15-8795-2015, 2015."/>
 </node>
-<node CREATED="1408976396832" FOLDED="true" ID="ID_551819404" MODIFIED="1444647759430" TEXT="Presentations">
+<node CREATED="1408976396832" FOLDED="true" ID="ID_551819404" MODIFIED="1451465839849" TEXT="Presentations">
 <node CREATED="1408976538160" ID="ID_1637693448" MODIFIED="1408978809794" TEXT="2013 AGU Fall Meeting, &quot;Comparing Chemical Mechanisms using Tagged Ozone Production Potentials&quot; 10th December 2013 Jane Coates and Tim Butler"/>
 <node CREATED="1408978679478" ID="ID_1850250986" MODIFIED="1408978832042" TEXT="2014 PhD Conference on Earth System Science &quot;Comparing how Chemical Mechanisms treat VOC Degradation and Impact on Ozone Production&quot; 13th March 2014 Jane Coates and Tim Butler"/>
 <node CREATED="1421351746158" ID="ID_1534026213" MODIFIED="1421351874911" TEXT="2014 OH Reactivity Specialists Uniting Meeting (ORSUM) &quot;VOC Source Attribution of OH, O3, and NO3 Reactivity&quot; 15th October 2014 Jane Coates and Tim Butler"/>
 </node>
-<node CREATED="1408976400984" FOLDED="true" ID="ID_934630364" MODIFIED="1444647760518" TEXT="Posters">
+<node CREATED="1408976400984" FOLDED="true" ID="ID_934630364" MODIFIED="1451465840699" TEXT="Posters">
 <node CREATED="1408978679478" ID="ID_826143550" MODIFIED="1408978832042" TEXT="2014 PhD Conference on Earth System Science &quot;Comparing how Chemical Mechanisms treat VOC Degradation and Impact on Ozone Production&quot; 13th March 2014 Jane Coates and Tim Butler"/>
 <node CREATED="1408978860678" ID="ID_1876181356" MODIFIED="1408978971994" TEXT="2014 Our Climate Our Future &quot;Understanding Ozone Pollution: A Comparison of Chemical Mechanisms&quot; 7th October 2014 Jane Coates and Tim Butler"/>
-<node CREATED="1444647747123" ID="ID_17424722" MODIFIED="1444647754219" TEXT="2015 AGU Fall Meeting"/>
+<node CREATED="1444647747123" ID="ID_17424722" MODIFIED="1451465827538" TEXT="2015 AGU Fall Meeting &quot;The Influence of Atmospheric Conditions on the Production of Ozone during VOC Oxidation&quot; 15th December 2015 Jane Coates and Tim Butler"/>
 </node>
 </node>
 </node>
