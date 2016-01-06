@@ -1,11 +1,10 @@
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Chemical Families commonly used in Tropospheric Chemistry \citep {Seinfeld:2006}\relax }}{5}{table.caption.6}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces General settings used for MECCA box model in this study\relax }}{18}{table.caption.14}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Chemical mechanisms used in the study.\relax }}{19}{table.caption.15}
-\contentsline {table}{\numberline {2.3}{\ignorespaces Summary of the CRI\nobreakspace {}v2 and its five reduced variants.}}{23}{table.caption.18}
-\contentsline {table}{\numberline {2.4}{\ignorespaces Explicitness of each of the lumped-molecule chemical mechanisms listed in Table\nobreakspace {}\ref {t:mechanisms}\relax }}{24}{table.caption.20}
-\contentsline {table}{\numberline {2.5}{\ignorespaces Carbon bonds and mechanism species represented in CBM-IV and CB05.\relax }}{27}{table.caption.25}
+\contentsline {table}{\numberline {2.1}{\ignorespaces General settings used for MECCA box model in this study\relax }}{14}{table.caption.12}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Chemical mechanisms used in the study.\relax }}{15}{table.caption.13}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Summary of the CRI\nobreakspace {}v2 and its five reduced variants.}}{19}{table.caption.16}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Explicitness of each of the lumped-molecule chemical mechanisms listed in Table\nobreakspace {}\ref {t:mechanisms}\relax }}{20}{table.caption.18}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Carbon bonds and mechanism species represented in CBM-IV and CB05.\relax }}{23}{table.caption.23}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
