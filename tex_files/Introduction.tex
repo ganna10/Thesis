@@ -122,15 +122,6 @@ The detailed atmospheric chemistry of most VOCs is well-understood however for m
 These uncertainties may be related to kinetic data, photolysis rates, reaction branching ratios and in most cases the reaction products.
 Any uncertainties in reaction pathways and products of VOCs also leads to uncertainties in estimating the amount of ozone produced during the degradation of a particular VOC \citep{Atkinson:2000}.
 
-Representing this complex chemistry for each emitted VOC in a chemical transport model (CTM) is unrealistic.
-Even if all the secondary degradation pathways and products were known for every VOC, a CTM would not be able to efficiently numerically solve the resulting differential equations.
-Hence, CTMs use descriptions of atmospheric chemistry that lead to more computationally efficient models.
-
-Not all representations of atmospheric chemistry used in a \emph{chemical mechanism} are prepared in the same way.
-For a start, models that also numerically compute meteorology fields require very computationally efficient chemical mechanisms including around $150$ unique species while simpler box models can use chemical mechanisms having many thousands of species.
-The simplification techniques used to represent the multitude of VOC and their degradation may lead to discrepancies in the estimations of ozone production.
-We compare the ozone production from many reduced chemical mechanisms to a highly detailed chemical mechanism in Sect.~\ref{s:chemical_mechanism_results} and the research questions addressed in this study are framed in Sect.~\ref{s:research_questions}.
-
 \subsection[VOC and NOx Chemistry]{VOC and \ce{NO_x} Chemistry} \label{ss:VOC&NOx}
 \begin{figure}
 	\begin{center}
@@ -170,17 +161,145 @@ This non-linear nature of the troposphere to ozone production makes controlling 
 The difficulty is exacerbated by the fact that regions can alternate between these regimes depending on the season, time of day etc.
 Moreover, fresh emissions tend to occur in the \ce{NO_x}-saturated regime and through transport, the emissions are advected to VOC-and\ce{NO_x}-sensitive and even \ce{NO_x}-sensitive regions.
 
+\subsection{Representing Atmospheric Chemistry in Models} \label{ss:chemistry_models}
+Representing this complex chemistry for each emitted VOC in a chemical transport model (CTM) is unrealistic.
+Even if all the secondary degradation pathways and products were known for every VOC, a CTM would not be able to efficiently numerically solve the resulting differential equations.
+Hence, CTMs use descriptions of atmospheric chemistry that lead to more computationally efficient models.
+
+Not all representations of atmospheric chemistry used in a \emph{chemical mechanism} are prepared in the same way.
+For a start, models that also numerically compute meteorology fields require very computationally efficient chemical mechanisms including around $150$ unique species while simpler box models can use chemical mechanisms having many thousands of species.
+The simplification techniques used to represent the multitude of VOC and their degradation may lead to discrepancies in the estimations of ozone production.
+We compare the ozone production from many reduced chemical mechanisms to a highly detailed chemical mechanism in Sect.~\ref{s:chemical_mechanism_results} and the research questions addressed in this study are framed in Sect.~\ref{s:research_questions}.
+
 \section{Emissions of Ozone Precursors} \label{s:precursor_emissions}
 % NOx sources and quantities, weekend effect
+\subsection[NOx]{\ce{NO_x}}
+Emissions of \ce{NO_x} are mainly through anthropogenic activity.
+In the year 2000, almost $52$~Tg~N were emitted with 65~\% through the many forms of fossil fuel combustion \citep{Seinfeld:2006}. 
+Examples of fossil fuel combustion that releases \ce{NO_x} are transportation using diesel or petrol vehicles, industrial activities and domestic heating \citep{vonSchneidemesser:2015}.
 
+Up to $95$~\% of \ce{NO_x} emissions from combustion are emitted as NO, which then is oxidised to form \ce{NO2} through \eqref{r:NO_O3} and \eqref{r:RO2_NOb}.
+However, due to the increase in diesel vehicles and the implementation of diesel filters the fraction of emitted \ce{NO2} has increased.
+\citet{Grice:2009} showed that over Europe, emissions of \ce{NO2} from diesel vehicles has increased from $8.6$~\% in 2000 to $12.4$~\% in 2004.
+
+Despite the overwhelming majority of \ce{NO_x} emissions coming from human activities, there are many important natural sources of \ce{NO_x}.
+Lightning and soils are also important sources of \ce{NO_x}, each source contributed about $10$~\% to global \ce{NO_x} emissions in 2000 \citep{Seinfeld:2006}.
+
+\subsection{VOCs}
+\subsubsection{Carbon Monoxide}
+Carbon monoxide, CO, is emitted directly into the troposphere through combustion and industrial processes.
+Another equally-important source of CO, is its chemical formation during the degradation of VOCs.
+\citet{Hauglustaine:1998} estimated that globally $881$~Tg~yr$^{-1}$ of CO was produced from chemical oxidation of VOC while $1219$~Tg~yr$^{-1}$ of CO was directly emitted.
+
+Oxidation of CO, through reaction with OH, is its major atmospheric sink and can lead to ozone production.
+When the hydroperoxy radical (\ce{HO2}) reacts with NO, \ce{NO2} is formed which may produce ozone and OH is again recycled and available to further oxidise other chemical species.
+\begin{rxnarray}
+    \ce{CO + OH} & \xrightarrow[]{\ce{O2}} \ce{HO2 + CO2} \label{r:CO_OH} \\
+    \ce{HO2 + NO} & \rightarrow \ce{OH + NO2} \label{r:HO2_NO}
+\end{rxnarray}
+
+The maximum possible yield of ozone from the degradation of a single molecule of CO occurs when each peroxy radical converts NO to \ce{NO2}.
+In this case, a maxmimum of one molecule of ozone can be produced per molecule of CO oxidised.
+In reality, this is never achieved as other reactions with the peroxy radicals occur however this is a very informative measure of the \emph{ozone production potential} of a species.
+
+\subsubsection{Methane}
+Emissions of methane are between $500$ and $600$~Tg~\ce{CH4}~yr$^{-1}$ with about $60$~\% of the emissions from anthropogenic sources.
+The main anthropogenic sources of \ce{CH4} are agriculture, fossil fuels and biomass burning with agriculture contributing $60$~\% of the anthropogenically emitted methane.
+Emissions from wetlands are the main natural source of methane emissions \citep{Kirschke:2013}.
+
+Reaction with OH is the main sink of methane and this reaction is important for the concentration of OH in the troposphere.
+With increased methane emissions, the concentration of OH will decrease via \eqref{r:CH4_OH} which would lead to a build of methane and other VOCs in the troposphere \citep{Holmes:2013}.
+\begin{rxnarray}
+    \ce{CH4 + OH} \xrightarrow[]{\ce{O2}} \ce{CH3O2 + H2O} \label{r:CH4_OH}
+\end{rxnarray}
+
+The secondary degradation of methane produces the methylperoxy radical \ce{CH3O2} as well as \ce{HO2} as well as CO.
+Assuming that every peroxy radical converts NO to \ce{NO2} then methane degradation can produce a maximum five molecules of \ce{O3} per molecule of \ce{CH4} oxidised.
+Methane (\ce{CH4}) has a lifetime of about $9$~years, significantly longer than all other VOCs.
+Thus, methane influences ozone production on the global rather than the regional scale.  
+
+\subsubsection{Non-Methane VOCs}
 %VOCs, types of VOCs and source (A vs B)
+A wide variety of non-methane VOC (NMVOC) are emitted from anthropogenic activities directly into the troposphere.
+Solvent use, industry, fossil fuel burning and transportion are all major activities emitted NMVOCs of varying functional groups and carbon numbers.
+The maximum number of molecules of \ce{O3} produced per degradation of an emitted NMVOC depends on the number of NO to \ce{NO2} conversions by the peroxy radicals formed during the degradation of the NMVOC.
+This is highly dependent on the type of NMVOC and the number of carbons in the NMVOC.
 
+Many NMVOCs emitted from anthropogenic sources are also hazardous to human health in their own right.
+For example, benzene and formaldehyde are suspected carcinogens \citep{Laurent:2014}.
+It is also worthwhile to note that the NMVOC thought to be the most hazardous to human health do not correspond to NMVOC that have a high ozone production potential.
+
+Globally, \citet{Lamarque:2010} estimated that $130$~Tg~NMVOC were emitted from anthropogenic sources in the year 2000.
+This amount is dwarfed by the total emissions from biogenic sources -- $1000$~Tg~NMVOC~yr$^{-1}$, almost eight times the amount of NMVOC emitted from anthropogenic sources \citep{Guenther:2012}.
+
+Of the NMVOC emitted from vegetation, isoprene (\ce{C5H8}) dominates at the global scale however emissions of monoterpenes and sesquiterpenes are also significant.
+There is typically overlap in the NMVOC species emitted from biogenic and anthropogenic sources. 
+For example, isoprene has also been measured in the urban areas of London and Paris away from direct emission sources and since isoprene is a very reactive NMVOC it is unlikely to be transported from outside the area, there appears to be anthropogenic sources of isoprene \citep{vonSchneidemesser:2011}.
+Also many small NMVOC that are typically emitted from anthropogenic sources, such as methanol and acetaldehyde, are also emitted from vegetation \citep{Guenther:2012}.
+
+The NMVOC species emitted vary between types of vegetation -- some trees emit large amounts of isoprene while others do not.
+Also, the quantity of NMVOC emissions from vegetation depends on atmospheric (such as, temperature and radiation) and biological variables (such as, leaf age and leaf area index).
+Thus only regulation of NMVOC from anthropogenic sources is possible and drastic reductions in anthropogenic \ce{NO_x} are required to minimise the burden of the population to ozone pollution.
+Areas dominated by biogenic NMVOC emissions and away from large \ce{NO_x} sources (\ce{NO_x}-sensitive regime) could lead net loss of ozone through direct reactions of ozone with many biogenic NMVOC and the net loss of radicals (discussed in Sect.~\ref{ss:VOC&NOx}).
+
+\subsection{Representing VOC Emissions in Models}
 %representation of VOC emissions in models using emission inventories
-The sources of the alkanes listed below are natural gases, liquified petroleum gas (LPG), combustion and industry, for the case of octane, vehicle exhaust is also a source. 
-Alkene sources are mainly due to industrial activities and vehicular emissions. 
-Aromatic compounds are mainly due to vehicle emissions, while benzene and toluene are also emitted due to industrial activity and combustion is also a further source for benzene \citep{Arsene:2009}.
+Representing the multitude of emitted VOCs, from either anthropogenic or biogenic sources is one of the major challenges of the modelling community.
+Models use emission inventories that specify the type and quantity of VOCs emitted over a region or even the whole globe.
+However, as hinted at, this is no easy task and emission inventories are one of the major sources of uncertainty of the model input \citep{Russell:2000}.
 
-Moreover, the precursors of ozone are linked to anthropogenic activity, hence a so-called weekend effect (i.e. there is a reduction on \ce{O3} concentration over the weekend) is also evident (see for example, \citep{Koo:2012}). 
+Emission inventories typically specify emissions for \ce{NO_x}, CO, \ce{CH4}, NMVOC as well as non-gas-phase emissions such as particulate matter.
+Emissions are assigned to source sectors, called SNAP (Standardised Nomenclature for Air Pollutants) sectors, such as those listed in Table~\ref{t:SNAP}.
+The rest of this section shall discuss specifications of NMVOC emissions from emission inventories.
+
+\begin{table}
+    \centering
+    \caption[SNAP sectors in the TNO\_MACCIII]{SNAP sectors for anthropogenic emissions listed in the TNO\_MACCIII inventory \citep{Kuenen:2014}.}
+    \begin{tabular}{cl}
+        \hline \hline
+        \textbf{SNAP Sector} & \textbf{Description} \\
+        \hline \hline
+        1 & Public Power \\
+        2 & Residential Combustion \\
+        34 & Industry \\
+        5 & Fossil Fuel \\
+        6 & Solvent Use \\
+        71 & Road Transport: Gasoline \\
+        72 & Road Transport: Diesel \\
+        73 & Road Transport: Others \\
+        74 & Road Transport: Evaporation \\
+        75 & Road Transport: Wear \\
+        8 & Non-road Transport \\
+        9 & Waste \\
+        10 & Agriculture \\
+        \hline \hline
+    \end{tabular}
+    \label{t:SNAP}
+\end{table}
+
+%temporal profile of emissions
+Emissions of both \ce{NO_x} and VOCs are not constant over the year, month or time of day.
+In many regions, a noticible reduction in \ce{NO_x} emissions, due to reduced road transport, is noted during the weekend -- called the ``weekend-effect''.
+The weekend-effect has implications on the ozone production during the weekend.
+For example, ozone production is \ce{NO_x}-saturated during weekdays in San Joaquin Valley, California.
+The reduction of \ce{NO_x} emissions during the weekend moves ozone production to the VOC-and-\ce{NO_x} sensitive regime, hence higher ozone levels are measured during the weekend \citep{Pusede:2014}.
+
+Anthropogenic NMVOC emissions from the different SNAP sectors also have a temporal distribution.
+Many SNAP sectors, such as industry and solvent use, have a reduction in emissions on weekends.
+Transport emissions tend to peak during the morning and evening rush hours and emissions due to solvent have a strong diurnal cycle.
+Residential combustion tends to be highest during the winter months and lowest during the summer \citep{Gon:2011}.
+
+Emission factors are assigned to the emissions from SNAP categories to represent the temporal profiles within a model.
+Biogenic VOC emissions are typically estimated using an algorithm including variables on which BVOC emissions are dependent.
+MEGAN2.1 \citep{Guenther:2012} is commonly used by the modelling community to represent emissions from nature.
+The MEGAN2.1 model utilised variables such as temperature and radiation levels which are calculated during model simulations and then fed into the MEGAN2.1 model to estimate BVOC emissions.
+
+%emissions in models - lumping
+One issue for the modelling community with using emission inventories for specifying NMVOC emissions is translating the listed emissions into the chemical species used by the chemical mechanism.
+Emission inventories are not normally immediately available for use with a chemical mechanism which can lead to different modelling groups allocating the emission inventory input differently for the same chemical mechanism \citep{Carter:2015}.
+Chemical mechanisms used in global and regional models cannot represent each NMVOC individually for reasons of computational efficiency thus many NMVOCs must be represented by the particular lumped (or aggregated) species of the chemical mechanism.
+This translation into lumped species differs between chemical mechanisms (Sect.~\ref{ss:chemistry_models}).
+The effect that lumping emissions of NMVOC into different chemical mechanism has on simulated ozone production is explored in this work in Sect.~\ref{s:EI_results}.
 
 \section{Effects of Meteorology on Ozone Production} \label{s:meteo_ozone}
 
