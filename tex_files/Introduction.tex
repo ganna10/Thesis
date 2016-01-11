@@ -302,10 +302,43 @@ This translation into lumped species differs between chemical mechanisms (Sect.~
 The effect that lumping emissions of NMVOC into different chemical mechanism has on simulated ozone production is explored in this work in Sect.~\ref{s:EI_results}.
 
 \section{Effects of Meteorology on Ozone Production} \label{s:meteo_ozone}
+\begin{table}
+    \centering
+    \caption[Influence of meteorological variables on ozone production]{Influence of meteorological variables on ozone production, taken from \citet{Jacob:2009}.}
+    \begin{tabular}{ll}
+        \hline \hline
+        \textbf{Meteorological Variable} & \textbf{Influence on Ozone} \\
+        \hline \hline
+        Temperature & Consistently positive \\
+        Regional Stagnation & Consistently positive \\
+        Wind Speed & Generally negative \\
+        Mixing Depth & Weak or variable \\
+        Humidity & Weak or variable \\
+        Cloud Cover & Generally negative \\
+        Precipitation & Weak or variable \\
+        \hline \hline
+    \end{tabular}
+    \label{t:meteo_vars}
+\end{table}
+
 As the chemical processes of ozone production are photochemical nature, meteorology has a significant influence on the amount of ozone produced.
 The influence of meteorology on ozone production is particularly important for predicting air quality in a world under the effects of climate change and the effects changed weather systems would have.
+Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
 
--- chemistry-climate interactions
+Temperature is positively correlated with ozone in many areas.
+\citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
+Interesting only ozone pollution (higher values of ozone) and not background ozone, the ozone levels without the influence of anthropogenic emissions. is not correlated with temperature \citep{Sillman:1995a}.
+
+Temperature positively influences ozone levels in two direct ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions leading to ozone production.
+\citet{Pusede:2015} reviewed the chemical processes that exhibit temperature dependency and the relation of temperature on ozone production.
+The shorter lifetime of peroxy nitrates at higher temperatures, increased radical production during VOC degradation, changes in emissions of both VOC and \ce{NO_x} and formation of alkyl nitrates \eqref{r:RO2_NOb} all exhibit temperature dependent influences on ozone production.
+
+Despite many studies from an observational and regional modelling perspective correlating temperature with ozone production, there has been a lack of detailed process studies separating the direct effects of temperature on ozone.
+Moreover, there are no attempts to tease the relative importance of the chemical processes listed in \citet{Pusede:2015} on ozone production.
+The final part of this study addresses the whether higher emissions or faster chemistry is more important for ozone production and also which chemical processes are the most important for ozone production.
+The results of this study are presented in Sect.~\ref{s:T-O3_results}.
+
+%climate-chemistry interactions and feedbacks
 
 \section{Research Questions} \label{s:research_questions}
 
