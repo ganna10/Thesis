@@ -1,4 +1,4 @@
-\begin{thebibliography}{67}
+\begin{thebibliography}{68}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,6 +99,17 @@ V.~Damian, A.~Sandu, M.~Damian, F.~Potra, and G.~R. Carmichael.
 \newblock \doi{http://dx.doi.org/10.1016/S0098-1354(02)00128-X}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S009813540200128X}.
+
+\bibitem[Dawson et~al.(2007)Dawson, Adams, and Pandis]{Dawson:2007}
+J.~P. Dawson, P.~J. Adams, and S.~N. Pandis.
+\newblock {Sensitivity of ozone to summertime climate in the eastern USA: A
+  modeling case study }.
+\newblock \emph{Atmospheric Environment}, 41\penalty0 (7):\penalty0 1494 --
+  1511, 2007.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2006.10.033}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231006010223}.
 
 \bibitem[{Denier van der Gon} et~al.(2011){Denier van der Gon}, Hendriks,
   Kuenen, Segers, and Visschedijk]{Gon:2011}

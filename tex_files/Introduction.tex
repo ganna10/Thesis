@@ -325,6 +325,7 @@ As the chemical processes of ozone production are photochemical nature, meteorol
 The influence of meteorology on ozone production is particularly important for predicting air quality in a world under the effects of climate change and the effects changed weather systems would have.
 Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
 
+\subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
 \citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
 Interesting only ozone pollution (higher values of ozone) and not background ozone, the ozone levels without the influence of anthropogenic emissions. is not correlated with temperature \citep{Sillman:1995a}.
@@ -338,7 +339,34 @@ Moreover, there are no attempts to tease the relative importance of the chemical
 The final part of this study addresses the whether higher emissions or faster chemistry is more important for ozone production and also which chemical processes are the most important for ozone production.
 The results of this study are presented in Sect.~\ref{s:T-O3_results}.
 
+\subsubsection{Humidity}
+Humidity levels influences ozone production both positively and negatively.
+When \ce{O^1D}, coming from ozone photolysis \eqref{r:O3_hv}, reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
+However, the initiation of VOC degradation through reaction with OH can lead to ozone production as described in Sect.~\ref{s:ozone_chemistry}.
+These competing effects of water vapour on ozone production leads to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
+
+\subsubsection{Wind Speed and Stagnation}
+High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
+When low wind speeds are present over polluted urban areas stagnant conditions arise and these atmospheric conditions are highly correlated with increased ozone production over urban areas \citep{Jacob:2009}.
+Typically stagnant conditions are also related to periods of high temperatures which may further fuel ozone production.
+During periods of stagnant conditions, the ozone produced from the previous day (the ozone-lag) is not transported downwind, add the ozone production from emissions of ozone precursors and this leads to high ozone episodes \citep{Jacob:2009}.
+
+\subsubsection{Mixing Height}
+The effects of increased mixing heights of the planetary boundary layer (PBL) with the free troposphere are not so straightforward.
+\citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with mixing height whereas regions with high ozone levels are negatively affected.
+This spatial effect of mixing height on ozone production comes from whether the free troposphere ozone levels are higher or lower than the ozone levels within the PBL \citep{Jacob:2009}.
+Free troposphere ozone levels tend to be around $60$~pbv \todo[noline]{add reference} %\citep{Logan:1999}.
+
 %climate-chemistry interactions and feedbacks
 
 \section{Research Questions} \label{s:research_questions}
+The research questions addressed in this thesis concern the detailed representation of chemistry, NMVOC emissions and temperature on ozone production in AQ models.
+\begin{enumerate}
+	\item What are the effects on modelled ozone production when using different chemical mechanisms?
+	\item What is the influence on predicted ozone production when using different speciations of emitted NMVOCs? How does this influence change when using different chemical mechanisms?
+	\item Are temperature dependent emissions or temperature dependent chemical processes more important for ozone production with increasing temperature? How are these processes reperesented in different chemical mechanisms?
+\end{enumerate}
 
+Chapter~\ref{c:methodology} details the methodology used to address these questions in greater detail.
+The results from the separate studies and relevant publications are found in Chap.~\ref{c:papers}.
+A broader discussion of the answers to the above research questions and their applications to the AQ modelling community are discussed in Chap.~\ref{c:conclusions}.

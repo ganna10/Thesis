@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  9 JAN 2016 17:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  9 FEB 2016 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2537,17 +2537,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 [13]
-LaTeX Info: Redefining \bond on input line 334.
-LaTeX Info: Redefining \dbond on input line 334.
-LaTeX Info: Redefining \tbond on input line 334.
-) [14]
-Chapter 2.
-(./tex_files/Methodology.tex
+LaTeX Info: Redefining \bond on input line 335.
+LaTeX Info: Redefining \dbond on input line 335.
+LaTeX Info: Redefining \tbond on input line 335.
+LaTeX Info: Redefining \bond on input line 344.
+LaTeX Info: Redefining \dbond on input line 344.
+LaTeX Info: Redefining \tbond on input line 344.
+ [14]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 1.
- [15
+ine 358.
+) [15] [16
 
 
+]
+Chapter 2.
+(./tex_files/Methodology.tex [17
 
 ]
 Underfull \hbox (badness 2837) in paragraph at lines 24--25
@@ -2561,9 +2565,9 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [18]
 
-LaTeX Warning: Marginpar on page 17 moved.
+LaTeX Warning: Marginpar on page 19 moved.
 
 LaTeX Info: Redefining \bond on input line 85.
 LaTeX Info: Redefining \dbond on input line 85.
@@ -2574,13 +2578,13 @@ LaTeX Info: Redefining \tbond on input line 85.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
-[18]
+ [19]
+[20]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 130.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [19]
+) [21]
 LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
@@ -2588,7 +2592,7 @@ LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=696, 1166.357
+</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=729, 1166.357
 5pt x 682.55pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png Graphic file
  (type png)
@@ -2600,10 +2604,10 @@ me.png used on input line 145.
 LaTeX Info: Redefining \bond on input line 152.
 LaTeX Info: Redefining \dbond on input line 152.
 LaTeX Info: Redefining \tbond on input line 152.
- [20]
+ [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>]
+ [23 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>]
 LaTeX Info: Redefining \bond on input line 173.
 LaTeX Info: Redefining \dbond on input line 173.
 LaTeX Info: Redefining \tbond on input line 173.
@@ -2622,7 +2626,7 @@ LaTeX Info: Redefining \tbond on input line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [24]
 Overfull \hbox (0.8954pt too wide) in paragraph at lines 212--214
 [][]
  []
@@ -2632,7 +2636,7 @@ Overfull \hbox (59.21364pt too wide) in paragraph at lines 202--217
  [] 
  []
 
-[23] [24]
+[25] [26]
 LaTeX Info: Redefining \bond on input line 275.
 LaTeX Info: Redefining \dbond on input line 275.
 LaTeX Info: Redefining \tbond on input line 275.
@@ -2654,7 +2658,7 @@ LaTeX Info: Redefining \tbond on input line 277.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [27]
 LaTeX Info: Redefining \bond on input line 289.
 LaTeX Info: Redefining \dbond on input line 289.
 LaTeX Info: Redefining \tbond on input line 289.
@@ -2668,7 +2672,7 @@ LaTeX Info: Redefining \bond on input line 300.
 LaTeX Info: Redefining \dbond on input line 300.
 LaTeX Info: Redefining \tbond on input line 300.
 
-[26]
+[28]
 LaTeX Info: Redefining \bond on input line 318.
 LaTeX Info: Redefining \dbond on input line 318.
 LaTeX Info: Redefining \tbond on input line 318.
@@ -2681,14 +2685,14 @@ LaTeX Info: Redefining \tbond on input line 320.
 LaTeX Info: Redefining \bond on input line 331.
 LaTeX Info: Redefining \dbond on input line 331.
 LaTeX Info: Redefining \tbond on input line 331.
- [27]
+ [29]
 LaTeX Info: Redefining \bond on input line 342.
 LaTeX Info: Redefining \dbond on input line 342.
 LaTeX Info: Redefining \tbond on input line 342.
 LaTeX Info: Redefining \bond on input line 343.
 LaTeX Info: Redefining \dbond on input line 343.
 LaTeX Info: Redefining \tbond on input line 343.
-) [28] [29] [30
+) [30] [31] [32
 
 
 ]
@@ -2710,7 +2714,7 @@ LaTeX Info: Redefining \tbond on input line 12.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
-[31
+[33
 
 ]
 LaTeX Info: Redefining \bond on input line 15.
@@ -2752,22 +2756,22 @@ LaTeX Info: Redefining \tbond on input line 26.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33] [34
+ [34]
+[35] [36
 
 
 ]
 Chapter 4.
-[35
+[37
 
-] [36
+] [38
 
 
 ]
 Chapter 5.
-[37
+[39
 
-] [38
+] [40
 
 
 ] (./main.bbl
@@ -2800,7 +2804,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--73
  URL []$\T1/lmtt/m/n/12 http : / / www .
  []
 
-[39
+[41
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{cite.Coates:
 2015}) has been already used, duplicate ignored
@@ -2819,101 +2823,119 @@ Underfull \hbox (badness 1215) in paragraph at lines 93--102
 t for solv-ing chem-i-cal
  []
 
-[40]
-Underfull \hbox (badness 1590) in paragraph at lines 165--173
+
+Underfull \hbox (badness 8056) in paragraph at lines 104--113
+[]\T1/lmr/m/n/12 (+20) J. P. Daw-son, P. J. Adams, and S. N. Pan-dis.  Sen-si-t
+iv-ity of
+ []
+
+
+Underfull \hbox (badness 5652) in paragraph at lines 104--113
+\T1/lmr/m/n/12 (+20) ozone to sum-mer-time cli-mate in the east-ern USA: A mod-
+el-ing case
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 104--113
+\T1/lmr/m/n/12 (+20) study .  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-men
+t\T1/lmr/m/n/12 (+20) , 41(7):1494 -- 1511, 2007.  ISSN
+ []
+
+[42]
+Underfull \hbox (badness 1590) in paragraph at lines 176--184
 []\T1/lmr/m/n/12 (+20) S. Grice, J. Sted-man, A. Kent, M. Hob-son, J. Nor-ris, 
 J. Ab-bott, and
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 165--173
+Underfull \hbox (badness 2310) in paragraph at lines 176--184
 \T1/lmr/m/n/12 (+20) S. Cooke.  Re-cent trends and pro-jec-tions of pri-mary no
 2 emis-sions in
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 165--173
+Underfull \hbox (badness 3758) in paragraph at lines 176--184
 \T1/lmr/m/n/12 (+20) eu-rope.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-me
 nt\T1/lmr/m/n/12 (+20) , 43(13):2154 -- 2167, 2009.  ISSN
  []
 
-[41]
-Underfull \hbox (badness 4846) in paragraph at lines 251--260
+[43]
+Underfull \hbox (badness 4846) in paragraph at lines 262--271
 []\T1/lmr/m/n/12 (+20) D. J. Ja-cob and D. A. Win-ner.  Ef-fect of cli-mate cha
 nge on air
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 262--271
 \T1/lmr/m/n/12 (+20) qual-ity.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-m
 ent\T1/lmr/m/n/12 (+20) , 43(1):51 -- 63, 2009.  ISSN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 262--271
 \T1/lmr/m/n/12 (+20) 1352-2310.  doi:[]http://dx.doi.org/10.1016/j.atmosenv.200
 8.09.051[].  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--260
+Underfull \hbox (badness 10000) in paragraph at lines 262--271
 []$\T1/lmtt/m/n/12 http : / / www . sciencedirect . com / science / article / p
 ii / S1352231008008571$[]\T1/lmr/m/n/12 (+20) .
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 281--290
+Underfull \hbox (badness 2547) in paragraph at lines 292--301
 []\T1/lmr/m/n/12 (+20) M. E. Jenkin, S. M. Saun-ders, and M. J. Pilling.  The t
 ro-po-spheric
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 281--290
+Underfull \hbox (badness 4647) in paragraph at lines 292--301
 \T1/lmr/m/n/12 (+20) degra-da-tion of volatile or-ganic com-pounds: a pro-to-co
 l for mech-a-nism
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 281--290
+Underfull \hbox (badness 2837) in paragraph at lines 292--301
 \T1/lmr/m/n/12 (+20) de-vel-op-ment.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi
 -ron-ment\T1/lmr/m/n/12 (+20) , 31(1):81 -- 104, 1997.  ISSN
  []
 
-[42] [43]
-Underfull \hbox (badness 3209) in paragraph at lines 403--412
+[44] [45]
+Underfull \hbox (badness 3209) in paragraph at lines 414--423
 []\T1/lmr/m/n/12 (+20) A. Lau-rent and M. Z. Hauschild.  Im-pacts of NMVOC emis
 -sions on
  []
 
-[44]
-Underfull \hbox (badness 1721) in paragraph at lines 532--541
+[46] [47]
+Underfull \hbox (badness 1721) in paragraph at lines 543--552
 []\T1/lmr/m/n/12 (+20) A. Sandu, J. Ver-wer, J. Blom, E. Spee, G. Carmichael, a
 nd F. Po-tra.
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 532--541
+Underfull \hbox (badness 2951) in paragraph at lines 543--552
 \T1/lmr/m/n/12 (+20) solvers.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-me
 nt\T1/lmr/m/n/12 (+20) , 31(20):3459 -- 3472, 1997a.  ISSN
  []
 
-[45] [46]
-Underfull \hbox (badness 2181) in paragraph at lines 653--660
+[48]
+Underfull \hbox (badness 2181) in paragraph at lines 664--671
 \T1/lmr/m/n/12 (+20) box model.  \T1/lmr/m/it/12 (+20) At-mo-spheric Chem-istry
  and Physics\T1/lmr/m/n/12 (+20) , 8(23):7165--7180, 2008.
  []
 
-) [47] [48
+) [49] [50
 
 
 ]
 Chapter 6.
-[49
+[51
 
-] [50
+] [52
 
 
-] <img/paper1.pdf, id=1037, page=1, 597.50786pt x 788.14133pt>
+] <img/paper1.pdf, id=1073, page=1, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
@@ -2937,8 +2959,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 1>
 Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [51 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1067, page=2, 597.50786pt x 788.14133pt>
+ [53 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1104, page=2, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
@@ -2953,8 +2975,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 2>
 Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [52 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1072, page=3, 597.50786pt x 788.14133pt>
+ [54 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1109, page=3, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
@@ -2969,8 +2991,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 3>
 Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [53 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1078, page=4, 597.50786pt x 788.14133pt>
+ [55 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1114, page=4, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
@@ -2985,8 +3007,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 4>
 Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [54 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1087, page=5, 597.50786pt x 788.14133pt>
+ [56 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1123, page=5, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
@@ -3001,8 +3023,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 5>
 Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [55 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1092, page=6, 597.50786pt x 788.14133pt>
+ [57 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1128, page=6, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
@@ -3017,8 +3039,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 6>
 Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [56 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1620, page=7, 597.50786pt x 788.14133pt>
+ [58 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1656, page=7, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
@@ -3033,8 +3055,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 7>
 Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [57 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1644, page=8, 597.50786pt x 788.14133pt>
+ [59 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1681, page=8, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
@@ -3049,8 +3071,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 8>
 Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [58 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1746, page=9, 597.50786pt x 788.14133pt>
+ [60 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1783, page=9, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
@@ -3065,8 +3087,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 9>
 Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [59 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1768, page=10, 597.50786pt x 788.14133pt>
+ [61 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1804, page=10, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
@@ -3081,8 +3103,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 10>
 Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [60 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1792, page=11, 597.50786pt x 788.14133pt>
+ [62 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1828, page=11, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
@@ -3097,8 +3119,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 11>
 Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [61 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1816, page=12, 597.50786pt x 788.14133pt>
+ [63 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1852, page=12, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
@@ -3113,8 +3135,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 12>
 Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [62 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1858, page=13, 597.50786pt x 788.14133pt>
+ [64 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1894, page=13, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
@@ -3129,8 +3151,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 13>
 Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [63 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1863, page=14, 597.50786pt x 788.14133pt>
+ [65 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1900, page=14, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
@@ -3145,30 +3167,30 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 14>
 Package pdftex.def Info: img/paper1.pdf, page14 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [64 <./img/paper1.pdf>]
+ [66 <./img/paper1.pdf>]
 Chapter 7.
-[65
-
-] [66
-
-
-]
-Chapter 8.
 [67
 
 ] [68
 
 
 ]
-Chapter 9.
+Chapter 8.
 [69
 
 ] [70
 
 
-] [71
+]
+Chapter 9.
+[71
 
 ] [72
+
+
+] [73
+
+] [74
 
 
 ]
@@ -3182,11 +3204,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 22575 strings out of 495007
- 388530 string characters out of 3179690
- 537080 words of memory out of 3000000
- 24877 multiletter control sequences out of 15000+200000
- 90956 words of font info for 134 fonts, out of 3000000 for 9000
+ 22594 strings out of 495007
+ 388785 string characters out of 3179690
+ 537989 words of memory out of 3000000
+ 24883 multiletter control sequences out of 15000+200000
+ 91043 words of font info for 135 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,28n,94p,549b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3201,9 +3223,9 @@ c/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (86 pages, 1165539 bytes).
+Output written on main.pdf (88 pages, 1175237 bytes).
 PDF statistics:
- 2007 PDF objects out of 2073 (max. 8388607)
- 242 named destinations out of 1000 (max. 500000)
+ 2046 PDF objects out of 2073 (max. 8388607)
+ 253 named destinations out of 1000 (max. 500000)
  22385 words of extra memory for PDF output out of 24883 (max. 10000000)
 
