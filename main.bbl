@@ -438,12 +438,14 @@ X.~Li, F.~Rohrer, T.~Brauers, A.~Hofzumahaus, K.~Lu, M.~Shao, Y.~H. Zhang, and
 \newblock \doi{10.5194/acp-14-12291-2014}.
 \newblock URL \url{http://www.atmos-chem-phys.net/14/12291/2014/}.
 
-\bibitem[Lourens(2012)]{Lourens:2012}
-A.~Lourens.
-\newblock \emph{{Air quality in the Johannesburg-Pretoria megacity: its
-  regional influence and identification of parameters that could mitigate
-  pollution}}.
-\newblock PhD thesis, North-West University, Potchefstroom Campus, 2012.
+\bibitem[Lourens et~al.(2016)Lourens, Butler, Beukes, van Zyl, Fourie, and
+  Lawrence]{Lourens:2016}
+A.~S.~M. Lourens, T.~M. Butler, J.~P. Beukes, P.~G. van Zyl, G.~D. Fourie, and
+  M.~G. Lawrence.
+\newblock {Investigating atmospheric photochemistry in the
+  Johennesburg-Pretoria megacity using a box model}.
+\newblock \emph{South African Journal of Science}, 112\penalty0 (1/2), 2016.
+\newblock URL \url{http://dx.doi.org/10.17159/sajs.2016/2015-0169}.
 
 \bibitem[N{\"o}lscher et~al.(2014)N{\"o}lscher, Butler, Auld, Veres, Mu{\~n}oz,
   Taraborrelli, Vereecken, Lelieveld, and Williams]{Noelscher:2014}
@@ -458,12 +460,14 @@ A.~N{\"o}lscher, T.~Butler, J.~Auld, P.~Veres, A.~Mu{\~n}oz, D.~Taraborrelli,
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S1352231014001204}.
 
-\bibitem[Otero et~al.(2015)Otero, Sillmann, Schnell, Rust, and
+\bibitem[Otero et~al.(2016)Otero, Sillmann, Schnell, Rust, and
   Butler]{Otero:2016}
-N.~Otero, J.~Sillmann, J.~L. Schnell, H.~Rust, and T.~M. Butler.
-\newblock {Synoptic and meteorological drivers of extreme ozone concentrations
-  over Europe}.
-\newblock \emph{Submitted for Publication}, 2015.
+N.~Otero, J.~Sillmann, J.~L. Schnell, H.~W. Rust, and T.~Butler.
+\newblock Synoptic and meteorological drivers of extreme ozone concentrations
+  over europe.
+\newblock \emph{Environmental Research Letters}, 11\penalty0 (2):\penalty0
+  024005, 2016.
+\newblock URL \url{http://stacks.iop.org/1748-9326/11/i=2/a=024005}.
 
 \bibitem[Penkett and Brice(1986)]{Penkett:1986}
 S.~A. Penkett and K.~A. Brice.
