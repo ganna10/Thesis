@@ -321,9 +321,9 @@ The effect that lumping emissions of NMVOC into different chemical mechanism has
     \label{t:meteo_vars}
 \end{table}
 
-As the chemical processes of ozone production are photochemical nature, meteorology has a significant influence on the amount of ozone produced.
+As the chemical processes of ozone production are photochemical in nature, meteorology has a significant influence on the amount of ozone produced.
 The influence of meteorology on ozone production is particularly important for predicting air quality in a world under the effects of climate change and the effects changed weather systems would have.
-Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
+Climate change is predicted to influence many meteorological variables that impact ozone production, Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
 
 \subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
@@ -347,6 +347,8 @@ These competing effects of water vapour on ozone production leads to a weak corr
 
 \subsubsection{Wind Speed and Stagnation}
 High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
+\citet{Doherty:2013} projected using a multi-model study that while climate change is expected to change large-scale atmospheric transport, model projections show that these have little influence on the spatial patterns of mean concentrations of ozone.
+
 When low wind speeds are present over polluted urban areas stagnant conditions arise and these atmospheric conditions are highly correlated with increased ozone production over urban areas \citep{Jacob:2009}.
 Typically stagnant conditions are also related to periods of high temperatures which may further fuel ozone production.
 During periods of stagnant conditions, the ozone produced from the previous day (the ozone-lag) is not transported downwind, add the ozone production from emissions of ozone precursors and this leads to high ozone episodes \citep{Jacob:2009}.
@@ -355,17 +357,35 @@ During periods of stagnant conditions, the ozone produced from the previous day 
 The effects of increased mixing heights of the planetary boundary layer (PBL) with the free troposphere are not so straightforward.
 \citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with mixing height whereas regions with high ozone levels are negatively affected.
 This spatial effect of mixing height on ozone production comes from whether the free troposphere ozone levels are higher or lower than the ozone levels within the PBL \citep{Jacob:2009}.
-Free troposphere ozone levels tend to be around $60$~pbv \todo[noline]{add reference} %\citep{Logan:1999}.
-
-%climate-chemistry interactions and feedbacks
+The study of \citet{Dawson:2009} showed that the predicted lower PBL heights coupled with stagnant conditions led to increased levels of ozone.
+%Free troposphere ozone levels tend to be around $60$~pbv in the northern mid-latitudes \citep{Logan:1999}.
 
 \section{Research Questions} \label{s:research_questions}
-The research questions addressed in this thesis concern the detailed representation of chemistry, NMVOC emissions and temperature on ozone production in AQ models.
-\begin{enumerate}
-	\item What are the effects on modelled ozone production when using different chemical mechanisms?
+The overarching research question of this thesis is to determine detailed chemical processes affecting tropospheric ozone production.
+This broad question is further focused on detailed modelling studies that bring out which chemical processes have the largest impact on tropospheric ozone production.
+The focus of the study is further narrowed to look at the important chemical processes affecting ozone production under three different conditions that influence .
+
+Firstly, AQ models have a choice in the representation of the chemistry, these chemical mechanisms are produced using different approaches which may impact on ozone production.
+Furthermore, the scope of a modelling study (point, regional or global) may limit the choice of chemical mechanism to an extremely simplified version of the complex atmospheric chemistry detailed in Sect.~\ref{s:ozone_chemistry}.
+Thus leading to the first research questions:
+\begin{itemize}
+	\item How do the simplification techniques used in different chemical mechanisms affect ozone production? Does the choice of chemical mechanism impact predicted ozone production?
+\end{itemize}
+
+Secondly, the model inputs are critical for modelling studies and the specified inputs of NMVOC emissions are known to be a large source of uncertainty.
+Emission inventories specify the NMVOCs emitted from different anthropogenic activities.
+Different emission inventories are available to the modelling community and these may vary the speciations of different NMVOCs for the different sectors of anthropogenic activity.
+We narrowed the focus to the solvent use sector, the sector with the largest percentage emissions, and used these different speciations to address the following questions:
+\begin{itemize}
 	\item What is the influence on predicted ozone production when using different speciations of emitted NMVOCs? How does this influence change when using different chemical mechanisms?
-	\item Are temperature dependent emissions or temperature dependent chemical processes more important for ozone production with increasing temperature? How are these processes reperesented in different chemical mechanisms?
-\end{enumerate}
+\end{itemize}
+
+Finally, meteorology influences the amount of ozone production with temperature being listed as the meteorological variable with the strongest positive correlation with ozone.
+Temperature influences the amount of emissions from biogenic sources and also influences the reaction rates of chemical reactions.
+These effects have been noted in many modelling and observational studies but not under varying \ce{NO_x} conditions that would lead to the different \ce{NO_x} regimes of the atmosphere.
+\begin{itemize}
+    \item Are temperature dependent emissions or temperature dependent chemical processes more important for ozone production with increasing temperature? How is temperature dependent ozone production treated in different \ce{NO_x} regimes within a box model?
+\end{itemize}
 
 Chapter~\ref{c:methodology} details the methodology used to address these questions in greater detail.
 The results from the separate studies and relevant publications are found in Chap.~\ref{c:papers}.

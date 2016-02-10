@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{70}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -111,6 +111,18 @@ J.~P. Dawson, P.~J. Adams, and S.~N. Pandis.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S1352231006010223}.
 
+\bibitem[Dawson et~al.(2009)Dawson, Racherla, Lynn, Adams, and
+  Pandis]{Dawson:2009}
+J.~P. Dawson, P.~N. Racherla, B.~H. Lynn, P.~J. Adams, and S.~N. Pandis.
+\newblock Impacts of climate change on regional and urban air quality in the
+  eastern united states: Role of meteorology.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 114\penalty0
+  (D5), 2009.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/2008JD009849}.
+\newblock URL \url{http://dx.doi.org/10.1029/2008JD009849}.
+\newblock D05308.
+
 \bibitem[{Denier van der Gon} et~al.(2011){Denier van der Gon}, Hendriks,
   Kuenen, Segers, and Visschedijk]{Gon:2011}
 H.~{Denier van der Gon}, C.~Hendriks, J.~Kuenen, A.~Segers, and A.~Visschedijk.
@@ -123,6 +135,20 @@ G.~B.~M. Dobson.
 \newblock {Origin and distribution of polyatomic molecules in the atmosphere}.
 \newblock \emph{Proceedings of the Royal Society London A}, 236\penalty0
   (1205):\penalty0 187--193, 1956.
+
+\bibitem[Doherty et~al.(2013)Doherty, Wild, Shindell, Zeng, MacKenzie, Collins,
+  Fiore, Stevenson, Dentener, Schultz, Hess, Derwent, and
+  Keating]{Doherty:2013}
+R.~M. Doherty, O.~Wild, D.~T. Shindell, G.~Zeng, I.~A. MacKenzie, W.~J.
+  Collins, A.~M. Fiore, D.~S. Stevenson, F.~J. Dentener, M.~G. Schultz,
+  P.~Hess, R.~G. Derwent, and T.~J. Keating.
+\newblock Impacts of climate change on surface ozone and intercontinental ozone
+  pollution: A multi-model study.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 118\penalty0
+  (9):\penalty0 3744--3763, 2013.
+\newblock ISSN 2169-8996.
+\newblock \doi{10.1002/jgrd.50266}.
+\newblock URL \url{http://dx.doi.org/10.1002/jgrd.50266}.
 
 \bibitem[EEA(2013)]{AQEU:2013}
 EEA.
