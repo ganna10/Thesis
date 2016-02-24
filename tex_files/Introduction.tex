@@ -1,21 +1,27 @@
-In many areas around the world, air pollution is the leading environmental health risk affecting both the human population and ecology.
-The effects of air pollution range from chronic to less severe health impacts to the general population, air pollution has been labelled carcinogenic by the International Agency for Research on Cancer \citep{IARC:2013}, significant economic impacts due to reduced growth rates of vegetation run into billions of euros per year.
-Due to these impacts, many governed areas introduced limit values for the most common and severe air pollutants \citep{AQEU:2015}.
+Air pollution is the leading environmental health risk in many areas around the world affecting both the human population and ecology.
+The effects of air pollution to the general population range from chronic to less severe health impacts, and reduced growth rates of vegetation due to air pollution results in economic losses running into billions of euros per year \citep{AQEU:2015}.
+Moreover, air pollution has been labelled as carcinogenic by the International Agency for Research on Cancer \citep{IARC:2013}.
+Due to these impacts, many governed areas introduced legislation designed to reduce concentrations of many air pollutants.
 
-Air pollutants can be emitted directly into the atmosphere (\emph{primary pollutants}) or formed from the chemical reactions of other pollutants (\emph{secondary pollutants}).
-Over Europe, particulate matter (PM) and tropospheric ozone (\ce{O3}) are the most problematic with up to $93$ and $98$~\% of Europe's urban population exposed to concentrations above the WHO guidelines \citep{AQEU:2015}.
+%Air pollutants can be emitted directly into the atmosphere (\emph{primary pollutants}) or formed from the chemical reactions of other pollutants (\emph{secondary pollutants}).
+Tropospheric ozone (\ce{O3}) and particulate matter (PM) are the most problematic air pollutants over Europe with up to $98$ and $93$~\% of Europe's urban population exposed to concentrations of ozone and PM above the WHO guidelines \citep{AQEU:2015}.
+Furthermore, in 2011 the EU ozone target value for human health (the EU does not currently have a  limit value for ozone) was exceeded in $65$~\% of the EU member states and Europe's ozone target value for vegetation was exceeded in $27$~\% of the EU-28 agricultural areas \citep{AQEU:2013}.
 
-Tackling the high levels of tropospheric ozone is a complex problem as it is secondary pollutant formed from the reactions of emitted nitrogen oxides (\ce{NO_x}~$\equiv$~NO + \ce{NO2}) and volatile organic compounds (VOCs) in the presence of sunlight.
-The photochemical nature of ozone production also lends itself to large impacts from meteorological variables such as temperature and wind speed \citep{Jacob:2009}.
-Despite reductions to ozone precursors, the EU target value for human health (the EU does not currently have a  limit value for ozone) was exceeded in $65$~\% of the EU member states and Europe's target value for vegetation was exceeded in $27$~\% of the EU-28 agricultural areas \citep{AQEU:2013}.
+Reducing atmospheric concentrations of tropospheric ozone is a complex problem as ozone is not directly emitted into the troposphere.
+Tropospheric ozone is produced from the reactions of nitrogen oxides \mbox{(\ce{NO_x}~$\equiv$~NO + \ce{NO2})} and volatile organic compounds (VOCs) in the presence of sunlight \citep{Atkinson:2000}.
+Moreover, the photochemical nature of ozone production leads to a strong influence of meteorological variables, such as temperature and wind speed, on ozone production \citep{Jacob:2009}.
 
-Air quality (AQ) modelling is an important tool for predicting future air quality under different emission and meteorological scenarios.
-Adequately representing the complexity of ozone production is an ongoing challenge for the modelling community.
-Representing the numerous inputs in a correct way that is computationally efficient to reproduce observed trends in tropospheric ozone is a challenge for AQ models.
+Air quality (AQ) models are an important tool for understanding ozone pollution and for predicting future air quality.
+There are many AQ models available for investigating ozone pollution with different scales and dimensions depending on the scope of the modelling experiment.
+Accurately representing the complexity of ozone production, such as emissions, atmospheric chemistry, meteorology and atmospheric transport, in a computationally efficient model is an ongoing challenge for the modelling community \citep{Russell:2000}.
 
-In this work, we shall determine the effects of different representations of specific model inputs on simulated ozone production.
-The research questions addressed in this work, relate specifically to the representation of chemistry, inputs of VOC emissions and temperature on ozone production and are detailed further in Sect.~\ref{s:research_questions}.
-After determining the effects on ozone production, Chap.~\ref{c:conclusions} frames these effects in the wider view of improving current state of the art AQ modelling of tropospheric ozone.
+Model intercomparison projects (MIPs) compare the outputs from different models, typically showing differences in tropospheric ozone due to differing representations of key processes.
+For example, the ACCMIP (Atmospheric Chemistry and Climate Model Intercomparison Project) showed different magnitudes of future ozone burden in the same region \citep{Young:2013}.
+The CCMI (Chemistry Climate Model Initiative) aims to investigate differences in the representation of chemistry, emissions and transport processes between models to understand the differences between predictions from global models \citep{Eyring:2013}.
+
+Detailed process studies are key to understanding differences between model representations which could lead to differences in simulated ozone levels.
+This thesis determines the effects of different representations of VOC degradation chemistry, VOC emissions and the effects of temperature on ozone production.
+This assessment should be beneficial to the wider modelling community in understanding potential differences between model outputs and improving the current suite of models.
 
 \section{Ozone} \label{s:ozone}
 %atmospheric O3 with budget, lifetime, stratospheric & tropospheric ozone
@@ -327,11 +333,12 @@ Climate change is predicted to influence many meteorological variables that impa
 
 \subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
-\citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
-Interesting only ozone pollution (higher values of ozone) and not background ozone, the ozone levels without the influence of anthropogenic emissions. is not correlated with temperature \citep{Sillman:1995a}.
+\citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over many areas of central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
+Interestingly only ozone pollution (higher values of ozone) and not background ozone, the ozone levels without the influence of anthropogenic emissions. is correlated with temperature \citep{Sillman:1995a}.
 
-Temperature positively influences ozone levels in two direct ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions leading to ozone production.
+Temperature positively influences ozone levels directly in two ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions.
 \citet{Pusede:2015} reviewed the chemical processes that exhibit temperature dependency and the relation of temperature on ozone production.
+The production of radicals (OH, \ce{HO2}, \ce{RO2}) and temperature-dependence of organic reactivity strongly influence the production of ozone.
 The shorter lifetime of peroxy nitrates at higher temperatures, increased radical production during VOC degradation, changes in emissions of both VOC and \ce{NO_x} and formation of alkyl nitrates \eqref{r:RO2_NOb} all exhibit temperature dependent influences on ozone production.
 
 Despite many studies from an observational and regional modelling perspective correlating temperature with ozone production, there has been a lack of detailed process studies separating the direct effects of temperature on ozone.
@@ -369,7 +376,8 @@ Firstly, AQ models have a choice in the representation of the chemistry, these c
 Furthermore, the scope of a modelling study (point, regional or global) may limit the choice of chemical mechanism to an extremely simplified version of the complex atmospheric chemistry detailed in Sect.~\ref{s:ozone_chemistry}.
 Thus leading to the first research questions:
 \begin{itemize}
-	\item How do the simplification techniques used in different chemical mechanisms affect ozone production? Does the choice of chemical mechanism impact predicted ozone production?
+	\item How do the simplification techniques used in different chemical mechanisms affect ozone production? 
+    \item Does the choice of chemical mechanism impact predicted ozone production?
 \end{itemize}
 
 Secondly, the model inputs are critical for modelling studies and the specified inputs of NMVOC emissions are known to be a large source of uncertainty.
@@ -377,14 +385,16 @@ Emission inventories specify the NMVOCs emitted from different anthropogenic act
 Different emission inventories are available to the modelling community and these may vary the speciations of different NMVOCs for the different sectors of anthropogenic activity.
 We narrowed the focus to the solvent use sector, the sector with the largest percentage emissions, and used these different speciations to address the following questions:
 \begin{itemize}
-	\item What is the influence on predicted ozone production when using different speciations of emitted NMVOCs? How does this influence change when using different chemical mechanisms?
+	\item What is the influence on predicted ozone production when using different speciations of emitted NMVOCs? 
+    \item How does this influence change when using different chemical mechanisms?
 \end{itemize}
 
 Finally, meteorology influences the amount of ozone production with temperature being listed as the meteorological variable with the strongest positive correlation with ozone.
 Temperature influences the amount of emissions from biogenic sources and also influences the reaction rates of chemical reactions.
 These effects have been noted in many modelling and observational studies but not under varying \ce{NO_x} conditions that would lead to the different \ce{NO_x} regimes of the atmosphere.
 \begin{itemize}
-    \item Are temperature dependent emissions or temperature dependent chemical processes more important for ozone production with increasing temperature? How is temperature dependent ozone production treated in different \ce{NO_x} regimes within a box model?
+    \item Are temperature dependent emissions or temperature dependent chemical processes more important for ozone production with increasing temperature? 
+    \item How is temperature dependent ozone production treated in different \ce{NO_x} regimes within a box model?
 \end{itemize}
 
 Chapter~\ref{c:methodology} details the methodology used to address these questions in greater detail.

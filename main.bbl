@@ -1,4 +1,4 @@
-\begin{thebibliography}{70}
+\begin{thebibliography}{72}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -172,6 +172,24 @@ L.~K. Emmons, S.~Walters, P.~G. Hess, J.-F. Lamarque, G.~G. Pfister,
   43--67, 2010.
 \newblock \doi{10.5194/gmd-3-43-2010}.
 \newblock URL \url{http://www.geosci-model-dev.net/3/43/2010/}.
+
+\bibitem[Eyring et~al.(2013)Eyring, Lamarque, Hess, Arfeuille, Bowman,
+  Chipperfield, Duncan, Fiore, Gettelman, Giorgetta, Granier, Hegglin,
+  Kinnison, Kunze, Langematz, Luo, Martin, Matthes, Newman, Peter, Robock,
+  Ryerson, Saiz-Lopez, Salawitch, Schultz, Shepherd, Shindell, Staehelin,
+  Tegtmeier, Thomason, Tilmes, Vernier, Waugh, , and Young]{Eyring:2013}
+V.~Eyring, J.-F. Lamarque, P.~Hess, F.~Arfeuille, K.~Bowman, M.~P.
+  Chipperfield, B.~Duncan, A.~Fiore, A.~Gettelman, M.~A. Giorgetta, C.~Granier,
+  M.~Hegglin, D.~Kinnison, M.~Kunze, U.~Langematz, B.~Luo, R.~Martin,
+  K.~Matthes, P.~A. Newman, T.~Peter, A.~Robock, T.~Ryerson, A.~Saiz-Lopez,
+  R.~Salawitch, M.~Schultz, T.~G. Shepherd, D.~Shindell, J.~Staehelin,
+  S.~Tegtmeier, L.~Thomason, S.~Tilmes, J.-P. Vernier, D.~W. Waugh, , and P.~J.
+  Young.
+\newblock {Overview of IGAC/SPARC Chemistry-Climate Model Initiative (CCMI)
+  Community Simulations in Support of Upcoming Ozone and Climate Assessments}.
+\newblock \emph{SPARC Newsletter}, 40:\penalty0 48–66, 2013.
+\newblock ISSN 1245-4680.
+\newblock URL \url{http://www.met.reading.ac.uk/ccmi/}.
 
 \bibitem[Gery et~al.(1989)Gery, Whitten, Killus, and Dodge]{Gery:1989}
 M.~W. Gery, G.~Z. Whitten, J.~P. Killus, and M.~C. Dodge.
@@ -703,5 +721,24 @@ Z.-Q. Xie, R.~Sander, U.~P\"oschl, and F.~Slemr.
 G.~Yarwood, S.~Rao, M.~Yocke, and G.~Z. Whitten.
 \newblock {Updates to the Carbon Bond Chemical Mechanism: CB05}.
 \newblock Technical report, U. S Environmental Protection Agency, 2005.
+
+\bibitem[Young et~al.(2013)Young, Archibald, Bowman, Lamarque, Naik, Stevenson,
+  Tilmes, Voulgarakis, Wild, Bergmann, Cameron-Smith, Cionni, Collins,
+  Dals{\o}ren, Doherty, Eyring, Faluvegi, Horowitz, Josse, Lee, MacKenzie,
+  Nagashima, Plummer, Righi, Rumbold, Skeie, Shindell, Strode, Sudo, Szopa, and
+  Zeng]{Young:2013}
+P.~J. Young, A.~T. Archibald, K.~W. Bowman, J.-F. Lamarque, V.~Naik, D.~S.
+  Stevenson, S.~Tilmes, A.~Voulgarakis, O.~Wild, D.~Bergmann, P.~Cameron-Smith,
+  I.~Cionni, W.~J. Collins, S.~B. Dals{\o}ren, R.~M. Doherty, V.~Eyring,
+  G.~Faluvegi, L.~W. Horowitz, B.~Josse, Y.~H. Lee, I.~A. MacKenzie,
+  T.~Nagashima, D.~A. Plummer, M.~Righi, S.~T. Rumbold, R.~B. Skeie, D.~T.
+  Shindell, S.~A. Strode, K.~Sudo, S.~Szopa, and G.~Zeng.
+\newblock Pre-industrial to end 21st century projections of tropospheric ozone
+  from the atmospheric chemistry and climate model intercomparison project
+  (accmip).
+\newblock \emph{Atmospheric Chemistry and Physics}, 13\penalty0 (4):\penalty0
+  2063--2090, 2013.
+\newblock \doi{10.5194/acp-13-2063-2013}.
+\newblock URL \url{http://www.atmos-chem-phys.net/13/2063/2013/}.
 
 \end{thebibliography}
