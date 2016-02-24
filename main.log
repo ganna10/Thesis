@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  24 FEB 2016 11:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  24 FEB 2016 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,779 +1440,701 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 ]
-LaTeX Info: Redefining \bond on input line 35.
-LaTeX Info: Redefining \dbond on input line 35.
-LaTeX Info: Redefining \tbond on input line 35.
+LaTeX Info: Redefining \bond on input line 37.
+LaTeX Info: Redefining \dbond on input line 37.
+LaTeX Info: Redefining \tbond on input line 37.
 
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
  [2]
-LaTeX Info: Redefining \bond on input line 41.
-LaTeX Info: Redefining \dbond on input line 41.
-LaTeX Info: Redefining \tbond on input line 41.
-LaTeX Info: Redefining \bond on input line 42.
-LaTeX Info: Redefining \dbond on input line 42.
-LaTeX Info: Redefining \tbond on input line 42.
-LaTeX Info: Redefining \bond on input line 42.
-LaTeX Info: Redefining \dbond on input line 42.
-LaTeX Info: Redefining \tbond on input line 42.
-LaTeX Info: Redefining \bond on input line 47.
-LaTeX Info: Redefining \dbond on input line 47.
-LaTeX Info: Redefining \tbond on input line 47.
-LaTeX Info: Redefining \bond on input line 48.
-LaTeX Info: Redefining \dbond on input line 48.
-LaTeX Info: Redefining \tbond on input line 48.
-LaTeX Info: Redefining \bond on input line 48.
-LaTeX Info: Redefining \dbond on input line 48.
-LaTeX Info: Redefining \tbond on input line 48.
-LaTeX Info: Redefining \bond on input line 52.
-LaTeX Info: Redefining \dbond on input line 52.
-LaTeX Info: Redefining \tbond on input line 52.
-LaTeX Info: Redefining \bond on input line 55.
-LaTeX Info: Redefining \dbond on input line 55.
-LaTeX Info: Redefining \tbond on input line 55.
-LaTeX Info: Redefining \bond on input line 55.
-LaTeX Info: Redefining \dbond on input line 55.
-LaTeX Info: Redefining \tbond on input line 55.
-LaTeX Info: Redefining \bond on input line 55.
-LaTeX Info: Redefining \dbond on input line 55.
-LaTeX Info: Redefining \tbond on input line 55.
+LaTeX Info: Redefining \bond on input line 44.
+LaTeX Info: Redefining \dbond on input line 44.
+LaTeX Info: Redefining \tbond on input line 44.
+LaTeX Info: Redefining \bond on input line 68.
+LaTeX Info: Redefining \dbond on input line 68.
+LaTeX Info: Redefining \tbond on input line 68.
+LaTeX Info: Redefining \bond on input line 70.
+LaTeX Info: Redefining \dbond on input line 70.
+LaTeX Info: Redefining \tbond on input line 70.
+LaTeX Info: Redefining \bond on input line 70.
+LaTeX Info: Redefining \dbond on input line 70.
+LaTeX Info: Redefining \tbond on input line 70.
+LaTeX Info: Redefining \bond on input line 71.
+LaTeX Info: Redefining \dbond on input line 71.
+LaTeX Info: Redefining \tbond on input line 71.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-LaTeX Info: Redefining \bond on input line 62.
-LaTeX Info: Redefining \dbond on input line 62.
-LaTeX Info: Redefining \tbond on input line 62.
-LaTeX Info: Redefining \bond on input line 64.
-LaTeX Info: Redefining \dbond on input line 64.
-LaTeX Info: Redefining \tbond on input line 64.
-LaTeX Info: Redefining \bond on input line 64.
-LaTeX Info: Redefining \dbond on input line 64.
-LaTeX Info: Redefining \tbond on input line 64.
-LaTeX Info: Redefining \bond on input line 65.
-LaTeX Info: Redefining \dbond on input line 65.
-LaTeX Info: Redefining \tbond on input line 65.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
-LaTeX Info: Redefining \bond on input line 70.
-LaTeX Info: Redefining \dbond on input line 70.
-LaTeX Info: Redefining \tbond on input line 70.
+[3]
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
 
 
 pdfTeX warning: pdflatex (file /local/home/coates/Documents/LaTeX/Thesis/img/VO
 C_degradation.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-</local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf, id=345, 118
+</local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf, id=338, 118
 0.30965pt x 454.04953pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf Graphic
  file (type pdf)
 
 <use /local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf>
 Package pdftex.def Info: /local/home/coates/Documents/LaTeX/Thesis/img/VOC_degr
-adation.pdf used on input line 79.
+adation.pdf used on input line 85.
 (pdftex.def)             Requested size: 426.79134pt x 164.17824pt.
 
-Underfull \hbox (badness 1552) in paragraph at lines 73--83
+Underfull \hbox (badness 1552) in paragraph at lines 79--89
 []\T1/lmr/m/n/12 (+20) Many thou-sands of VOCs are emit-ted into the at-mo-sphe
 re from
  []
 
-LaTeX Info: Redefining \bond on input line 86.
-LaTeX Info: Redefining \dbond on input line 86.
-LaTeX Info: Redefining \tbond on input line 86.
-[4 </local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf>]
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
-LaTeX Info: Redefining \bond on input line 90.
-LaTeX Info: Redefining \dbond on input line 90.
-LaTeX Info: Redefining \tbond on input line 90.
 LaTeX Info: Redefining \bond on input line 92.
 LaTeX Info: Redefining \dbond on input line 92.
 LaTeX Info: Redefining \tbond on input line 92.
-LaTeX Info: Redefining \bond on input line 92.
-LaTeX Info: Redefining \dbond on input line 92.
-LaTeX Info: Redefining \tbond on input line 92.
-LaTeX Info: Redefining \bond on input line 94.
-LaTeX Info: Redefining \dbond on input line 94.
-LaTeX Info: Redefining \tbond on input line 94.
-LaTeX Info: Redefining \bond on input line 95.
-LaTeX Info: Redefining \dbond on input line 95.
-LaTeX Info: Redefining \tbond on input line 95.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
-LaTeX Info: Redefining \bond on input line 99.
-LaTeX Info: Redefining \dbond on input line 99.
-LaTeX Info: Redefining \tbond on input line 99.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 96.
+LaTeX Info: Redefining \dbond on input line 96.
+LaTeX Info: Redefining \tbond on input line 96.
+LaTeX Info: Redefining \bond on input line 98.
+LaTeX Info: Redefining \dbond on input line 98.
+LaTeX Info: Redefining \tbond on input line 98.
+LaTeX Info: Redefining \bond on input line 98.
+LaTeX Info: Redefining \dbond on input line 98.
+LaTeX Info: Redefining \tbond on input line 98.
+LaTeX Info: Redefining \bond on input line 100.
+LaTeX Info: Redefining \dbond on input line 100.
+LaTeX Info: Redefining \tbond on input line 100.
 LaTeX Info: Redefining \bond on input line 101.
 LaTeX Info: Redefining \dbond on input line 101.
 LaTeX Info: Redefining \tbond on input line 101.
-LaTeX Info: Redefining \bond on input line 101.
-LaTeX Info: Redefining \dbond on input line 101.
-LaTeX Info: Redefining \tbond on input line 101.
-LaTeX Info: Redefining \bond on input line 101.
-LaTeX Info: Redefining \dbond on input line 101.
-LaTeX Info: Redefining \tbond on input line 101.
-LaTeX Info: Redefining \bond on input line 101.
-LaTeX Info: Redefining \dbond on input line 101.
-LaTeX Info: Redefining \tbond on input line 101.
-LaTeX Info: Redefining \bond on input line 102.
-LaTeX Info: Redefining \dbond on input line 102.
-LaTeX Info: Redefining \tbond on input line 102.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 111.
-LaTeX Info: Redefining \dbond on input line 111.
-LaTeX Info: Redefining \tbond on input line 111.
-LaTeX Info: Redefining \bond on input line 112.
-LaTeX Info: Redefining \dbond on input line 112.
-LaTeX Info: Redefining \tbond on input line 112.
-LaTeX Info: Redefining \bond on input line 112.
-LaTeX Info: Redefining \dbond on input line 112.
-LaTeX Info: Redefining \tbond on input line 112.
-LaTeX Info: Redefining \bond on input line 112.
-LaTeX Info: Redefining \dbond on input line 112.
-LaTeX Info: Redefining \tbond on input line 112.
-LaTeX Info: Redefining \bond on input line 113.
-LaTeX Info: Redefining \dbond on input line 113.
-LaTeX Info: Redefining \tbond on input line 113.
-LaTeX Info: Redefining \bond on input line 114.
-LaTeX Info: Redefining \dbond on input line 114.
-LaTeX Info: Redefining \tbond on input line 114.
-LaTeX Info: Redefining \bond on input line 114.
-LaTeX Info: Redefining \dbond on input line 114.
-LaTeX Info: Redefining \tbond on input line 114.
+
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+ [4 </local/home/coates/Documents/LaTeX/Thesis/img/VOC_degradation.pdf>]
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 105.
+LaTeX Info: Redefining \dbond on input line 105.
+LaTeX Info: Redefining \tbond on input line 105.
+LaTeX Info: Redefining \bond on input line 107.
+LaTeX Info: Redefining \dbond on input line 107.
+LaTeX Info: Redefining \tbond on input line 107.
+LaTeX Info: Redefining \bond on input line 107.
+LaTeX Info: Redefining \dbond on input line 107.
+LaTeX Info: Redefining \tbond on input line 107.
+LaTeX Info: Redefining \bond on input line 107.
+LaTeX Info: Redefining \dbond on input line 107.
+LaTeX Info: Redefining \tbond on input line 107.
+LaTeX Info: Redefining \bond on input line 107.
+LaTeX Info: Redefining \dbond on input line 107.
+LaTeX Info: Redefining \tbond on input line 107.
+LaTeX Info: Redefining \bond on input line 108.
+LaTeX Info: Redefining \dbond on input line 108.
+LaTeX Info: Redefining \tbond on input line 108.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 117.
+LaTeX Info: Redefining \dbond on input line 117.
+LaTeX Info: Redefining \tbond on input line 117.
+LaTeX Info: Redefining \bond on input line 118.
+LaTeX Info: Redefining \dbond on input line 118.
+LaTeX Info: Redefining \tbond on input line 118.
+LaTeX Info: Redefining \bond on input line 118.
+LaTeX Info: Redefining \dbond on input line 118.
+LaTeX Info: Redefining \tbond on input line 118.
+LaTeX Info: Redefining \bond on input line 118.
+LaTeX Info: Redefining \dbond on input line 118.
+LaTeX Info: Redefining \tbond on input line 118.
+LaTeX Info: Redefining \bond on input line 119.
+LaTeX Info: Redefining \dbond on input line 119.
+LaTeX Info: Redefining \tbond on input line 119.
+LaTeX Info: Redefining \bond on input line 120.
+LaTeX Info: Redefining \dbond on input line 120.
+LaTeX Info: Redefining \tbond on input line 120.
+LaTeX Info: Redefining \bond on input line 120.
+LaTeX Info: Redefining \dbond on input line 120.
+LaTeX Info: Redefining \tbond on input line 120.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 123.
+LaTeX Info: Redefining \dbond on input line 123.
+LaTeX Info: Redefining \tbond on input line 123.
+LaTeX Info: Redefining \bond on input line 124.
+LaTeX Info: Redefining \dbond on input line 124.
+LaTeX Info: Redefining \tbond on input line 124.
+LaTeX Info: Redefining \bond on input line 124.
+LaTeX Info: Redefining \dbond on input line 124.
+LaTeX Info: Redefining \tbond on input line 124.
+LaTeX Info: Redefining \bond on input line 124.
+LaTeX Info: Redefining \dbond on input line 124.
+LaTeX Info: Redefining \tbond on input line 124.
+LaTeX Info: Redefining \bond on input line 125.
+LaTeX Info: Redefining \dbond on input line 125.
+LaTeX Info: Redefining \tbond on input line 125.
+LaTeX Info: Redefining \bond on input line 125.
+LaTeX Info: Redefining \dbond on input line 125.
+LaTeX Info: Redefining \tbond on input line 125.
+LaTeX Info: Redefining \bond on input line 125.
+LaTeX Info: Redefining \dbond on input line 125.
+LaTeX Info: Redefining \tbond on input line 125.
+LaTeX Info: Redefining \bond on input line 125.
+LaTeX Info: Redefining \dbond on input line 125.
+LaTeX Info: Redefining \tbond on input line 125.
+LaTeX Info: Redefining \bond on input line 128.
+LaTeX Info: Redefining \dbond on input line 128.
+LaTeX Info: Redefining \tbond on input line 128.
+LaTeX Info: Redefining \bond on input line 128.
+LaTeX Info: Redefining \dbond on input line 128.
+LaTeX Info: Redefining \tbond on input line 128.
+LaTeX Info: Redefining \bond on input line 129.
+LaTeX Info: Redefining \dbond on input line 129.
+LaTeX Info: Redefining \tbond on input line 129.
+LaTeX Info: Redefining \bond on input line 129.
+LaTeX Info: Redefining \dbond on input line 129.
+LaTeX Info: Redefining \tbond on input line 129.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 117.
-LaTeX Info: Redefining \dbond on input line 117.
-LaTeX Info: Redefining \tbond on input line 117.
-LaTeX Info: Redefining \bond on input line 118.
-LaTeX Info: Redefining \dbond on input line 118.
-LaTeX Info: Redefining \tbond on input line 118.
-LaTeX Info: Redefining \bond on input line 118.
-LaTeX Info: Redefining \dbond on input line 118.
-LaTeX Info: Redefining \tbond on input line 118.
-LaTeX Info: Redefining \bond on input line 118.
-LaTeX Info: Redefining \dbond on input line 118.
-LaTeX Info: Redefining \tbond on input line 118.
-LaTeX Info: Redefining \bond on input line 119.
-LaTeX Info: Redefining \dbond on input line 119.
-LaTeX Info: Redefining \tbond on input line 119.
-LaTeX Info: Redefining \bond on input line 119.
-LaTeX Info: Redefining \dbond on input line 119.
-LaTeX Info: Redefining \tbond on input line 119.
-LaTeX Info: Redefining \bond on input line 119.
-LaTeX Info: Redefining \dbond on input line 119.
-LaTeX Info: Redefining \tbond on input line 119.
-LaTeX Info: Redefining \bond on input line 119.
-LaTeX Info: Redefining \dbond on input line 119.
-LaTeX Info: Redefining \tbond on input line 119.
-LaTeX Info: Redefining \bond on input line 122.
-LaTeX Info: Redefining \dbond on input line 122.
-LaTeX Info: Redefining \tbond on input line 122.
-LaTeX Info: Redefining \bond on input line 122.
-LaTeX Info: Redefining \dbond on input line 122.
-LaTeX Info: Redefining \tbond on input line 122.
-LaTeX Info: Redefining \bond on input line 123.
-LaTeX Info: Redefining \dbond on input line 123.
-LaTeX Info: Redefining \tbond on input line 123.
-LaTeX Info: Redefining \bond on input line 123.
-LaTeX Info: Redefining \dbond on input line 123.
-LaTeX Info: Redefining \tbond on input line 123.
-LaTeX Info: Redefining \bond on input line 125.
-LaTeX Info: Redefining \dbond on input line 125.
-LaTeX Info: Redefining \tbond on input line 125.
-LaTeX Info: Redefining \bond on input line 126.
-LaTeX Info: Redefining \dbond on input line 126.
-LaTeX Info: Redefining \tbond on input line 126.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 131.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 131.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 131.
 LaTeX Info: Redefining \bond on input line 131.
 LaTeX Info: Redefining \dbond on input line 131.
 LaTeX Info: Redefining \tbond on input line 131.
-LaTeX Info: Redefining \bond on input line 134.
-LaTeX Info: Redefining \dbond on input line 134.
-LaTeX Info: Redefining \tbond on input line 134.
-LaTeX Info: Redefining \bond on input line 134.
-LaTeX Info: Redefining \dbond on input line 134.
-LaTeX Info: Redefining \tbond on input line 134.
+LaTeX Info: Redefining \bond on input line 132.
+LaTeX Info: Redefining \dbond on input line 132.
+LaTeX Info: Redefining \tbond on input line 132.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 137.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 137.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 137.
+LaTeX Info: Redefining \bond on input line 137.
+LaTeX Info: Redefining \dbond on input line 137.
+LaTeX Info: Redefining \tbond on input line 137.
+LaTeX Info: Redefining \bond on input line 140.
+LaTeX Info: Redefining \dbond on input line 140.
+LaTeX Info: Redefining \tbond on input line 140.
+LaTeX Info: Redefining \bond on input line 140.
+LaTeX Info: Redefining \dbond on input line 140.
+LaTeX Info: Redefining \tbond on input line 140.
 
 
 pdfTeX warning: pdflatex (file /local/home/coates/Documents/LaTeX/Thesis/img/O3
 _isopleth.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-</local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf, id=403, 872.370
+</local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf, id=393, 872.370
 68pt x 588.75807pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf Graphic fil
 e (type pdf)
 
 <use /local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf>
 Package pdftex.def Info: /local/home/coates/Documents/LaTeX/Thesis/img/O3_isopl
-eth.pdf used on input line 135.
+eth.pdf used on input line 141.
 (pdftex.def)             Requested size: 426.79134pt x 288.0448pt.
-LaTeX Info: Redefining \bond on input line 140.
-LaTeX Info: Redefining \dbond on input line 140.
-LaTeX Info: Redefining \tbond on input line 140.
-LaTeX Info: Redefining \bond on input line 141.
-LaTeX Info: Redefining \dbond on input line 141.
-LaTeX Info: Redefining \tbond on input line 141.
-LaTeX Info: Redefining \bond on input line 141.
-LaTeX Info: Redefining \dbond on input line 141.
-LaTeX Info: Redefining \tbond on input line 141.
-LaTeX Info: Redefining \bond on input line 142.
-LaTeX Info: Redefining \dbond on input line 142.
-LaTeX Info: Redefining \tbond on input line 142.
-LaTeX Info: Redefining \bond on input line 142.
-LaTeX Info: Redefining \dbond on input line 142.
-LaTeX Info: Redefining \tbond on input line 142.
-LaTeX Info: Redefining \bond on input line 142.
-LaTeX Info: Redefining \dbond on input line 142.
-LaTeX Info: Redefining \tbond on input line 142.
-LaTeX Info: Redefining \bond on input line 142.
-LaTeX Info: Redefining \dbond on input line 142.
-LaTeX Info: Redefining \tbond on input line 142.
-LaTeX Info: Redefining \bond on input line 144.
-LaTeX Info: Redefining \dbond on input line 144.
-LaTeX Info: Redefining \tbond on input line 144.
-LaTeX Info: Redefining \bond on input line 145.
-LaTeX Info: Redefining \dbond on input line 145.
-LaTeX Info: Redefining \tbond on input line 145.
-LaTeX Info: Redefining \bond on input line 145.
-LaTeX Info: Redefining \dbond on input line 145.
-LaTeX Info: Redefining \tbond on input line 145.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
-LaTeX Info: Redefining \bond on input line 149.
-LaTeX Info: Redefining \dbond on input line 149.
-LaTeX Info: Redefining \tbond on input line 149.
+LaTeX Info: Redefining \bond on input line 146.
+LaTeX Info: Redefining \dbond on input line 146.
+LaTeX Info: Redefining \tbond on input line 146.
+LaTeX Info: Redefining \bond on input line 147.
+LaTeX Info: Redefining \dbond on input line 147.
+LaTeX Info: Redefining \tbond on input line 147.
+LaTeX Info: Redefining \bond on input line 147.
+LaTeX Info: Redefining \dbond on input line 147.
+LaTeX Info: Redefining \tbond on input line 147.
+LaTeX Info: Redefining \bond on input line 148.
+LaTeX Info: Redefining \dbond on input line 148.
+LaTeX Info: Redefining \tbond on input line 148.
+LaTeX Info: Redefining \bond on input line 148.
+LaTeX Info: Redefining \dbond on input line 148.
+LaTeX Info: Redefining \tbond on input line 148.
+LaTeX Info: Redefining \bond on input line 148.
+LaTeX Info: Redefining \dbond on input line 148.
+LaTeX Info: Redefining \tbond on input line 148.
+LaTeX Info: Redefining \bond on input line 148.
+LaTeX Info: Redefining \dbond on input line 148.
+LaTeX Info: Redefining \tbond on input line 148.
+LaTeX Info: Redefining \bond on input line 150.
+LaTeX Info: Redefining \dbond on input line 150.
+LaTeX Info: Redefining \tbond on input line 150.
 LaTeX Info: Redefining \bond on input line 151.
 LaTeX Info: Redefining \dbond on input line 151.
 LaTeX Info: Redefining \tbond on input line 151.
-LaTeX Info: Redefining \bond on input line 152.
-LaTeX Info: Redefining \dbond on input line 152.
-LaTeX Info: Redefining \tbond on input line 152.
-LaTeX Info: Redefining \bond on input line 152.
-LaTeX Info: Redefining \dbond on input line 152.
-LaTeX Info: Redefining \tbond on input line 152.
-LaTeX Info: Redefining \bond on input line 153.
-LaTeX Info: Redefining \dbond on input line 153.
-LaTeX Info: Redefining \tbond on input line 153.
+LaTeX Info: Redefining \bond on input line 151.
+LaTeX Info: Redefining \dbond on input line 151.
+LaTeX Info: Redefining \tbond on input line 151.
 LaTeX Info: Redefining \bond on input line 155.
 LaTeX Info: Redefining \dbond on input line 155.
 LaTeX Info: Redefining \tbond on input line 155.
@@ -2222,89 +2144,122 @@ LaTeX Info: Redefining \tbond on input line 155.
 LaTeX Info: Redefining \bond on input line 155.
 LaTeX Info: Redefining \dbond on input line 155.
 LaTeX Info: Redefining \tbond on input line 155.
-LaTeX Info: Redefining \bond on input line 156.
-LaTeX Info: Redefining \dbond on input line 156.
-LaTeX Info: Redefining \tbond on input line 156.
-LaTeX Info: Redefining \bond on input line 156.
-LaTeX Info: Redefining \dbond on input line 156.
-LaTeX Info: Redefining \tbond on input line 156.
-LaTeX Info: Redefining \bond on input line 156.
-LaTeX Info: Redefining \dbond on input line 156.
-LaTeX Info: Redefining \tbond on input line 156.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
+LaTeX Info: Redefining \bond on input line 155.
+LaTeX Info: Redefining \dbond on input line 155.
+LaTeX Info: Redefining \tbond on input line 155.
 LaTeX Info: Redefining \bond on input line 157.
 LaTeX Info: Redefining \dbond on input line 157.
 LaTeX Info: Redefining \tbond on input line 157.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
-LaTeX Info: Redefining \bond on input line 160.
-LaTeX Info: Redefining \dbond on input line 160.
-LaTeX Info: Redefining \tbond on input line 160.
+LaTeX Info: Redefining \bond on input line 158.
+LaTeX Info: Redefining \dbond on input line 158.
+LaTeX Info: Redefining \tbond on input line 158.
+LaTeX Info: Redefining \bond on input line 158.
+LaTeX Info: Redefining \dbond on input line 158.
+LaTeX Info: Redefining \tbond on input line 158.
+LaTeX Info: Redefining \bond on input line 159.
+LaTeX Info: Redefining \dbond on input line 159.
+LaTeX Info: Redefining \tbond on input line 159.
+
+Underfull \vbox (badness 1571) has occurred while \output is active []
+
+ [6]
+LaTeX Info: Redefining \bond on input line 161.
+LaTeX Info: Redefining \dbond on input line 161.
+LaTeX Info: Redefining \tbond on input line 161.
+LaTeX Info: Redefining \bond on input line 161.
+LaTeX Info: Redefining \dbond on input line 161.
+LaTeX Info: Redefining \tbond on input line 161.
+LaTeX Info: Redefining \bond on input line 161.
+LaTeX Info: Redefining \dbond on input line 161.
+LaTeX Info: Redefining \tbond on input line 161.
+LaTeX Info: Redefining \bond on input line 162.
+LaTeX Info: Redefining \dbond on input line 162.
+LaTeX Info: Redefining \tbond on input line 162.
+LaTeX Info: Redefining \bond on input line 162.
+LaTeX Info: Redefining \dbond on input line 162.
+LaTeX Info: Redefining \tbond on input line 162.
+LaTeX Info: Redefining \bond on input line 162.
+LaTeX Info: Redefining \dbond on input line 162.
+LaTeX Info: Redefining \tbond on input line 162.
+LaTeX Info: Redefining \bond on input line 163.
+LaTeX Info: Redefining \dbond on input line 163.
+LaTeX Info: Redefining \tbond on input line 163.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 166.
+LaTeX Info: Redefining \dbond on input line 166.
+LaTeX Info: Redefining \tbond on input line 166.
+LaTeX Info: Redefining \bond on input line 168.
+LaTeX Info: Redefining \dbond on input line 168.
+LaTeX Info: Redefining \tbond on input line 168.
+LaTeX Info: Redefining \bond on input line 168.
+LaTeX Info: Redefining \dbond on input line 168.
+LaTeX Info: Redefining \tbond on input line 168.
+LaTeX Info: Redefining \bond on input line 168.
+LaTeX Info: Redefining \dbond on input line 168.
+LaTeX Info: Redefining \tbond on input line 168.
+LaTeX Info: Redefining \bond on input line 170.
+LaTeX Info: Redefining \dbond on input line 170.
+LaTeX Info: Redefining \tbond on input line 170.
+LaTeX Info: Redefining \bond on input line 170.
+LaTeX Info: Redefining \dbond on input line 170.
+LaTeX Info: Redefining \tbond on input line 170.
+LaTeX Info: Redefining \bond on input line 174.
+LaTeX Info: Redefining \dbond on input line 174.
+LaTeX Info: Redefining \tbond on input line 174.
+LaTeX Info: Redefining \bond on input line 174.
+LaTeX Info: Redefining \dbond on input line 174.
+LaTeX Info: Redefining \tbond on input line 174.
+LaTeX Info: Redefining \bond on input line 174.
+LaTeX Info: Redefining \dbond on input line 174.
+LaTeX Info: Redefining \tbond on input line 174.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 </local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf>]
-LaTeX Info: Redefining \bond on input line 162.
-LaTeX Info: Redefining \dbond on input line 162.
-LaTeX Info: Redefining \tbond on input line 162.
-LaTeX Info: Redefining \bond on input line 162.
-LaTeX Info: Redefining \dbond on input line 162.
-LaTeX Info: Redefining \tbond on input line 162.
-LaTeX Info: Redefining \bond on input line 162.
-LaTeX Info: Redefining \dbond on input line 162.
-LaTeX Info: Redefining \tbond on input line 162.
-LaTeX Info: Redefining \bond on input line 164.
-LaTeX Info: Redefining \dbond on input line 164.
-LaTeX Info: Redefining \tbond on input line 164.
-LaTeX Info: Redefining \bond on input line 164.
-LaTeX Info: Redefining \dbond on input line 164.
-LaTeX Info: Redefining \tbond on input line 164.
-LaTeX Info: Redefining \bond on input line 168.
-LaTeX Info: Redefining \dbond on input line 168.
-LaTeX Info: Redefining \tbond on input line 168.
-LaTeX Info: Redefining \bond on input line 168.
-LaTeX Info: Redefining \dbond on input line 168.
-LaTeX Info: Redefining \tbond on input line 168.
-LaTeX Info: Redefining \bond on input line 168.
-LaTeX Info: Redefining \dbond on input line 168.
-LaTeX Info: Redefining \tbond on input line 168.
-LaTeX Info: Redefining \bond on input line 182.
-LaTeX Info: Redefining \dbond on input line 182.
-LaTeX Info: Redefining \tbond on input line 182.
-LaTeX Info: Redefining \bond on input line 183.
-LaTeX Info: Redefining \dbond on input line 183.
-LaTeX Info: Redefining \tbond on input line 183.
-LaTeX Info: Redefining \bond on input line 185.
-LaTeX Info: Redefining \dbond on input line 185.
-LaTeX Info: Redefining \tbond on input line 185.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-LaTeX Info: Redefining \bond on input line 187.
-LaTeX Info: Redefining \dbond on input line 187.
-LaTeX Info: Redefining \tbond on input line 187.
-LaTeX Info: Redefining \bond on input line 187.
-LaTeX Info: Redefining \dbond on input line 187.
-LaTeX Info: Redefining \tbond on input line 187.
 LaTeX Info: Redefining \bond on input line 188.
 LaTeX Info: Redefining \dbond on input line 188.
 LaTeX Info: Redefining \tbond on input line 188.
@@ -2314,272 +2269,277 @@ LaTeX Info: Redefining \tbond on input line 189.
 LaTeX Info: Redefining \bond on input line 191.
 LaTeX Info: Redefining \dbond on input line 191.
 LaTeX Info: Redefining \tbond on input line 191.
-LaTeX Info: Redefining \bond on input line 191.
-LaTeX Info: Redefining \dbond on input line 191.
-LaTeX Info: Redefining \tbond on input line 191.
-LaTeX Info: Redefining \bond on input line 192.
-LaTeX Info: Redefining \dbond on input line 192.
-LaTeX Info: Redefining \tbond on input line 192.
-LaTeX Info: Redefining \bond on input line 192.
-LaTeX Info: Redefining \dbond on input line 192.
-LaTeX Info: Redefining \tbond on input line 192.
-LaTeX Info: Redefining \bond on input line 201.
-LaTeX Info: Redefining \dbond on input line 201.
-LaTeX Info: Redefining \tbond on input line 201.
-LaTeX Info: Redefining \bond on input line 201.
-LaTeX Info: Redefining \dbond on input line 201.
-LaTeX Info: Redefining \tbond on input line 201.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
-LaTeX Info: Redefining \bond on input line 205.
-LaTeX Info: Redefining \dbond on input line 205.
-LaTeX Info: Redefining \tbond on input line 205.
+LaTeX Info: Redefining \bond on input line 193.
+LaTeX Info: Redefining \dbond on input line 193.
+LaTeX Info: Redefining \tbond on input line 193.
+LaTeX Info: Redefining \bond on input line 193.
+LaTeX Info: Redefining \dbond on input line 193.
+LaTeX Info: Redefining \tbond on input line 193.
+LaTeX Info: Redefining \bond on input line 194.
+LaTeX Info: Redefining \dbond on input line 194.
+LaTeX Info: Redefining \tbond on input line 194.
+LaTeX Info: Redefining \bond on input line 195.
+LaTeX Info: Redefining \dbond on input line 195.
+LaTeX Info: Redefining \tbond on input line 195.
+ [8]
+LaTeX Info: Redefining \bond on input line 197.
+LaTeX Info: Redefining \dbond on input line 197.
+LaTeX Info: Redefining \tbond on input line 197.
+LaTeX Info: Redefining \bond on input line 197.
+LaTeX Info: Redefining \dbond on input line 197.
+LaTeX Info: Redefining \tbond on input line 197.
+LaTeX Info: Redefining \bond on input line 198.
+LaTeX Info: Redefining \dbond on input line 198.
+LaTeX Info: Redefining \tbond on input line 198.
+LaTeX Info: Redefining \bond on input line 198.
+LaTeX Info: Redefining \dbond on input line 198.
+LaTeX Info: Redefining \tbond on input line 198.
 LaTeX Info: Redefining \bond on input line 207.
 LaTeX Info: Redefining \dbond on input line 207.
 LaTeX Info: Redefining \tbond on input line 207.
-
-[9]
-LaTeX Info: Redefining \bond on input line 212.
-LaTeX Info: Redefining \dbond on input line 212.
-LaTeX Info: Redefining \tbond on input line 212.
+LaTeX Info: Redefining \bond on input line 207.
+LaTeX Info: Redefining \dbond on input line 207.
+LaTeX Info: Redefining \tbond on input line 207.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
+LaTeX Info: Redefining \bond on input line 211.
+LaTeX Info: Redefining \dbond on input line 211.
+LaTeX Info: Redefining \tbond on input line 211.
 LaTeX Info: Redefining \bond on input line 213.
 LaTeX Info: Redefining \dbond on input line 213.
 LaTeX Info: Redefining \tbond on input line 213.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 220.
-LaTeX Info: Redefining \dbond on input line 220.
-LaTeX Info: Redefining \tbond on input line 220.
-LaTeX Info: Redefining \bond on input line 222.
-LaTeX Info: Redefining \dbond on input line 222.
-LaTeX Info: Redefining \tbond on input line 222.
-LaTeX Info: Redefining \bond on input line 222.
-LaTeX Info: Redefining \dbond on input line 222.
-LaTeX Info: Redefining \tbond on input line 222.
-LaTeX Info: Redefining \bond on input line 223.
-LaTeX Info: Redefining \dbond on input line 223.
-LaTeX Info: Redefining \tbond on input line 223.
-LaTeX Info: Redefining \bond on input line 223.
-LaTeX Info: Redefining \dbond on input line 223.
-LaTeX Info: Redefining \tbond on input line 223.
-LaTeX Info: Redefining \bond on input line 223.
-LaTeX Info: Redefining \dbond on input line 223.
-LaTeX Info: Redefining \tbond on input line 223.
-LaTeX Info: Redefining \bond on input line 224.
-LaTeX Info: Redefining \dbond on input line 224.
-LaTeX Info: Redefining \tbond on input line 224.
-LaTeX Info: Redefining \bond on input line 231.
-LaTeX Info: Redefining \dbond on input line 231.
-LaTeX Info: Redefining \tbond on input line 231.
-LaTeX Info: Redefining \bond on input line 231.
-LaTeX Info: Redefining \dbond on input line 231.
-LaTeX Info: Redefining \tbond on input line 231.
+LaTeX Info: Redefining \bond on input line 218.
+LaTeX Info: Redefining \dbond on input line 218.
+LaTeX Info: Redefining \tbond on input line 218.
+LaTeX Info: Redefining \bond on input line 219.
+LaTeX Info: Redefining \dbond on input line 219.
+LaTeX Info: Redefining \tbond on input line 219.
+ [9]
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 226.
+LaTeX Info: Redefining \dbond on input line 226.
+LaTeX Info: Redefining \tbond on input line 226.
+LaTeX Info: Redefining \bond on input line 228.
+LaTeX Info: Redefining \dbond on input line 228.
+LaTeX Info: Redefining \tbond on input line 228.
+LaTeX Info: Redefining \bond on input line 228.
+LaTeX Info: Redefining \dbond on input line 228.
+LaTeX Info: Redefining \tbond on input line 228.
+LaTeX Info: Redefining \bond on input line 229.
+LaTeX Info: Redefining \dbond on input line 229.
+LaTeX Info: Redefining \tbond on input line 229.
+LaTeX Info: Redefining \bond on input line 229.
+LaTeX Info: Redefining \dbond on input line 229.
+LaTeX Info: Redefining \tbond on input line 229.
+LaTeX Info: Redefining \bond on input line 229.
+LaTeX Info: Redefining \dbond on input line 229.
+LaTeX Info: Redefining \tbond on input line 229.
+LaTeX Info: Redefining \bond on input line 230.
+LaTeX Info: Redefining \dbond on input line 230.
+LaTeX Info: Redefining \tbond on input line 230.
+LaTeX Info: Redefining \bond on input line 237.
+LaTeX Info: Redefining \dbond on input line 237.
+LaTeX Info: Redefining \tbond on input line 237.
+LaTeX Info: Redefining \bond on input line 237.
+LaTeX Info: Redefining \dbond on input line 237.
+LaTeX Info: Redefining \tbond on input line 237.
+LaTeX Info: Redefining \bond on input line 247.
+LaTeX Info: Redefining \dbond on input line 247.
+LaTeX Info: Redefining \tbond on input line 247.
  [10]
-LaTeX Info: Redefining \bond on input line 241.
-LaTeX Info: Redefining \dbond on input line 241.
-LaTeX Info: Redefining \tbond on input line 241.
-LaTeX Info: Redefining \bond on input line 248.
-LaTeX Info: Redefining \dbond on input line 248.
-LaTeX Info: Redefining \tbond on input line 248.
-LaTeX Info: Redefining \bond on input line 249.
-LaTeX Info: Redefining \dbond on input line 249.
-LaTeX Info: Redefining \tbond on input line 249.
-LaTeX Info: Redefining \bond on input line 249.
-LaTeX Info: Redefining \dbond on input line 249.
-LaTeX Info: Redefining \tbond on input line 249.
-
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
+LaTeX Info: Redefining \bond on input line 254.
+LaTeX Info: Redefining \dbond on input line 254.
+LaTeX Info: Redefining \tbond on input line 254.
+LaTeX Info: Redefining \bond on input line 255.
+LaTeX Info: Redefining \dbond on input line 255.
+LaTeX Info: Redefining \tbond on input line 255.
+LaTeX Info: Redefining \bond on input line 255.
+LaTeX Info: Redefining \dbond on input line 255.
+LaTeX Info: Redefining \tbond on input line 255.
+LaTeX Info: Redefining \bond on input line 263.
+LaTeX Info: Redefining \dbond on input line 263.
+LaTeX Info: Redefining \tbond on input line 263.
+LaTeX Info: Redefining \bond on input line 263.
+LaTeX Info: Redefining \dbond on input line 263.
+LaTeX Info: Redefining \tbond on input line 263.
+LaTeX Info: Redefining \bond on input line 293.
+LaTeX Info: Redefining \dbond on input line 293.
+LaTeX Info: Redefining \tbond on input line 293.
+LaTeX Info: Redefining \bond on input line 294.
+LaTeX Info: Redefining \dbond on input line 294.
+LaTeX Info: Redefining \tbond on input line 294.
+LaTeX Info: Redefining \bond on input line 296.
+LaTeX Info: Redefining \dbond on input line 296.
+LaTeX Info: Redefining \tbond on input line 296.
+LaTeX Info: Redefining \bond on input line 297.
+LaTeX Info: Redefining \dbond on input line 297.
+LaTeX Info: Redefining \tbond on input line 297.
+LaTeX Info: Redefining \bond on input line 297.
+LaTeX Info: Redefining \dbond on input line 297.
+LaTeX Info: Redefining \tbond on input line 297.
  [11]
-LaTeX Info: Redefining \bond on input line 257.
-LaTeX Info: Redefining \dbond on input line 257.
-LaTeX Info: Redefining \tbond on input line 257.
-LaTeX Info: Redefining \bond on input line 257.
-LaTeX Info: Redefining \dbond on input line 257.
-LaTeX Info: Redefining \tbond on input line 257.
-LaTeX Info: Redefining \bond on input line 287.
-LaTeX Info: Redefining \dbond on input line 287.
-LaTeX Info: Redefining \tbond on input line 287.
-LaTeX Info: Redefining \bond on input line 288.
-LaTeX Info: Redefining \dbond on input line 288.
-LaTeX Info: Redefining \tbond on input line 288.
-LaTeX Info: Redefining \bond on input line 290.
-LaTeX Info: Redefining \dbond on input line 290.
-LaTeX Info: Redefining \tbond on input line 290.
-LaTeX Info: Redefining \bond on input line 291.
-LaTeX Info: Redefining \dbond on input line 291.
-LaTeX Info: Redefining \tbond on input line 291.
-LaTeX Info: Redefining \bond on input line 291.
-LaTeX Info: Redefining \dbond on input line 291.
-LaTeX Info: Redefining \tbond on input line 291.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
 [13]
-LaTeX Info: Redefining \bond on input line 341.
-LaTeX Info: Redefining \dbond on input line 341.
-LaTeX Info: Redefining \tbond on input line 341.
-LaTeX Info: Redefining \bond on input line 341.
-LaTeX Info: Redefining \dbond on input line 341.
-LaTeX Info: Redefining \tbond on input line 341.
-LaTeX Info: Redefining \bond on input line 342.
-LaTeX Info: Redefining \dbond on input line 342.
-LaTeX Info: Redefining \tbond on input line 342.
-LaTeX Info: Redefining \bond on input line 351.
-LaTeX Info: Redefining \dbond on input line 351.
-LaTeX Info: Redefining \tbond on input line 351.
+LaTeX Info: Redefining \bond on input line 347.
+LaTeX Info: Redefining \dbond on input line 347.
+LaTeX Info: Redefining \tbond on input line 347.
+LaTeX Info: Redefining \bond on input line 347.
+LaTeX Info: Redefining \dbond on input line 347.
+LaTeX Info: Redefining \tbond on input line 347.
+LaTeX Info: Redefining \bond on input line 348.
+LaTeX Info: Redefining \dbond on input line 348.
+LaTeX Info: Redefining \tbond on input line 348.
+LaTeX Info: Redefining \bond on input line 357.
+LaTeX Info: Redefining \dbond on input line 357.
+LaTeX Info: Redefining \tbond on input line 357.
  [14]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 385.
 
- [15]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 379.
-
-
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Info: Redefining \bond on input line 394.
-LaTeX Info: Redefining \dbond on input line 394.
-LaTeX Info: Redefining \tbond on input line 394.
-LaTeX Info: Redefining \bond on input line 394.
-LaTeX Info: Redefining \dbond on input line 394.
-LaTeX Info: Redefining \tbond on input line 394.
- [16]
-LaTeX Info: Redefining \bond on input line 397.
-LaTeX Info: Redefining \dbond on input line 397.
-LaTeX Info: Redefining \tbond on input line 397.
-) [17] [18
-
-
-]
+) [15]
+LaTeX Info: Redefining \bond on input line 400.
+LaTeX Info: Redefining \dbond on input line 400.
+LaTeX Info: Redefining \tbond on input line 400.
+LaTeX Info: Redefining \bond on input line 400.
+LaTeX Info: Redefining \dbond on input line 400.
+LaTeX Info: Redefining \tbond on input line 400.
+LaTeX Info: Redefining \bond on input line 403.
+LaTeX Info: Redefining \dbond on input line 403.
+LaTeX Info: Redefining \tbond on input line 403.
+) [16]
 Chapter 2.
 (./tex_files/Methodology.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 1.
- [19
+ [17
+
+
 
 ]
 Underfull \hbox (badness 2837) in paragraph at lines 24--25
@@ -2590,9 +2550,9 @@ hem-i-cal species
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [18]
 
-LaTeX Warning: Marginpar on page 21 moved.
+LaTeX Warning: Marginpar on page 19 moved.
 
 LaTeX Info: Redefining \bond on input line 85.
 LaTeX Info: Redefining \dbond on input line 85.
@@ -2603,13 +2563,13 @@ LaTeX Info: Redefining \tbond on input line 85.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
-[22]
+ [19]
+[20]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 130.
 
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [23]
+) [21]
 LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
@@ -2617,7 +2577,7 @@ LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
 
-</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=751, 1166.357
+</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=732, 1166.357
 5pt x 682.55pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png Graphic file
  (type png)
@@ -2629,10 +2589,10 @@ me.png used on input line 145.
 LaTeX Info: Redefining \bond on input line 152.
 LaTeX Info: Redefining \dbond on input line 152.
 LaTeX Info: Redefining \tbond on input line 152.
- [24]
+ [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>]
+ [23 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png>]
 LaTeX Info: Redefining \bond on input line 173.
 LaTeX Info: Redefining \dbond on input line 173.
 LaTeX Info: Redefining \tbond on input line 173.
@@ -2651,7 +2611,7 @@ LaTeX Info: Redefining \tbond on input line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
+ [24]
 Overfull \hbox (0.8954pt too wide) in paragraph at lines 212--214
 [][]
  []
@@ -2661,7 +2621,7 @@ Overfull \hbox (59.21364pt too wide) in paragraph at lines 202--217
  [] 
  []
 
-[27] [28]
+[25] [26]
 LaTeX Info: Redefining \bond on input line 275.
 LaTeX Info: Redefining \dbond on input line 275.
 LaTeX Info: Redefining \tbond on input line 275.
@@ -2683,7 +2643,7 @@ LaTeX Info: Redefining \tbond on input line 277.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [27]
 LaTeX Info: Redefining \bond on input line 289.
 LaTeX Info: Redefining \dbond on input line 289.
 LaTeX Info: Redefining \tbond on input line 289.
@@ -2697,7 +2657,7 @@ LaTeX Info: Redefining \bond on input line 300.
 LaTeX Info: Redefining \dbond on input line 300.
 LaTeX Info: Redefining \tbond on input line 300.
 
-[30]
+[28]
 LaTeX Info: Redefining \bond on input line 318.
 LaTeX Info: Redefining \dbond on input line 318.
 LaTeX Info: Redefining \tbond on input line 318.
@@ -2710,14 +2670,14 @@ LaTeX Info: Redefining \tbond on input line 320.
 LaTeX Info: Redefining \bond on input line 331.
 LaTeX Info: Redefining \dbond on input line 331.
 LaTeX Info: Redefining \tbond on input line 331.
- [31]
+ [29]
 LaTeX Info: Redefining \bond on input line 342.
 LaTeX Info: Redefining \dbond on input line 342.
 LaTeX Info: Redefining \tbond on input line 342.
 LaTeX Info: Redefining \bond on input line 343.
 LaTeX Info: Redefining \dbond on input line 343.
 LaTeX Info: Redefining \tbond on input line 343.
-) [32] [33] [34
+) [30] [31] [32
 
 
 ]
@@ -2739,7 +2699,7 @@ LaTeX Info: Redefining \tbond on input line 12.
 LaTeX Info: Redefining \bond on input line 12.
 LaTeX Info: Redefining \dbond on input line 12.
 LaTeX Info: Redefining \tbond on input line 12.
-[35
+[33
 
 ]
 LaTeX Info: Redefining \bond on input line 15.
@@ -2781,191 +2741,203 @@ LaTeX Info: Redefining \tbond on input line 26.
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37] [38
+ [34]
+[35] [36
 
 
 ]
 Chapter 4.
+[37
+
+] [38
+
+
+]
+Chapter 5.
 [39
 
 ] [40
 
 
-]
-Chapter 5.
-[41
-
-] [42
-
-
 ] (./main.bbl
-Underfull \hbox (badness 2150) in paragraph at lines 53--62
+Underfull \hbox (badness 2205) in paragraph at lines 10--18
+\T1/lmr/m/n/12 (+20) stool bal-anced.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-v
+i-ron-ment\T1/lmr/m/n/12 (+20) , 84:390 -- 391, 2014.  ISSN
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 57--66
 \T1/lmr/m/n/12 (+20) ap-proach.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-
 ment\T1/lmr/m/n/12 (+20) , 45(24):4082 -- 4090, 2011.  ISSN
  []
 
 
-Underfull \hbox (badness 4132) in paragraph at lines 64--73
+Underfull \hbox (badness 4132) in paragraph at lines 68--77
 []\T1/lmr/m/n/12 (+20) L. Ca-malier, W. Cox, and P. Dol-wick.  The ef-fects of 
 me-te-o-rol-ogy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--73
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 \T1/lmr/m/n/12 (+20) on ozone in ur-ban ar-eas and their use in as-sess-ing ozo
 ne trends.
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 64--73
+Underfull \hbox (badness 3838) in paragraph at lines 68--77
 \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-ment\T1/lmr/m/n/12 (+20) , 41(33)
 :7127 -- 7137, 2007.  ISSN 1352-2310.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--73
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 \T1/lmr/m/n/12 (+20) doi:[]http://dx.doi.org/10.1016/j.atmosenv.2007.04.061[]. 
  URL []$\T1/lmtt/m/n/12 http : / / www .
  []
 
-[43
+[41
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{cite.Coates:
 2015}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 ...item[Coates and Butler(2015)]{Coates:2015}
+l.86 ...item[Coates and Butler(2015)]{Coates:2015}
                                                   
-Underfull \hbox (badness 2884) in paragraph at lines 93--102
+Underfull \hbox (badness 2884) in paragraph at lines 97--106
 []\T1/lmr/m/n/12 (+20) V. Damian, A. Sandu, M. Damian, F. Po-tra, and G. R. Car
 michael.
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 93--102
+Underfull \hbox (badness 1215) in paragraph at lines 97--106
 \T1/lmr/m/n/12 (+20) The ki-netic pre-pro-ces-sor KPP-a soft-ware en-vi-ron-men
 t for solv-ing chem-i-cal
  []
 
 
-Underfull \hbox (badness 8056) in paragraph at lines 104--113
+Underfull \hbox (badness 8056) in paragraph at lines 108--117
 []\T1/lmr/m/n/12 (+20) J. P. Daw-son, P. J. Adams, and S. N. Pan-dis.  Sen-si-t
 iv-ity of
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 104--113
+Underfull \hbox (badness 5652) in paragraph at lines 108--117
 \T1/lmr/m/n/12 (+20) ozone to sum-mer-time cli-mate in the east-ern USA: A mod-
 el-ing case
  []
 
 
-Underfull \hbox (badness 3965) in paragraph at lines 104--113
+Underfull \hbox (badness 3965) in paragraph at lines 108--117
 \T1/lmr/m/n/12 (+20) study .  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-men
 t\T1/lmr/m/n/12 (+20) , 41(7):1494 -- 1511, 2007.  ISSN
  []
 
-[44]
-Underfull \hbox (badness 1590) in paragraph at lines 220--228
+[42]
+Underfull \hbox (badness 1590) in paragraph at lines 218--226
 []\T1/lmr/m/n/12 (+20) S. Grice, J. Sted-man, A. Kent, M. Hob-son, J. Nor-ris, 
 J. Ab-bott, and
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 220--228
+Underfull \hbox (badness 2310) in paragraph at lines 218--226
 \T1/lmr/m/n/12 (+20) S. Cooke.  Re-cent trends and pro-jec-tions of pri-mary no
 2 emis-sions in
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 220--228
+Underfull \hbox (badness 3758) in paragraph at lines 218--226
 \T1/lmr/m/n/12 (+20) eu-rope.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-me
 nt\T1/lmr/m/n/12 (+20) , 43(13):2154 -- 2167, 2009.  ISSN
  []
 
-[45] [46]
-Underfull \hbox (badness 4846) in paragraph at lines 306--315
+[43]
+Underfull \hbox (badness 4846) in paragraph at lines 289--298
 []\T1/lmr/m/n/12 (+20) D. J. Ja-cob and D. A. Win-ner.  Ef-fect of cli-mate cha
 nge on air
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--315
+Underfull \hbox (badness 10000) in paragraph at lines 289--298
 \T1/lmr/m/n/12 (+20) qual-ity.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-m
 ent\T1/lmr/m/n/12 (+20) , 43(1):51 -- 63, 2009.  ISSN
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--315
+Underfull \hbox (badness 10000) in paragraph at lines 289--298
 \T1/lmr/m/n/12 (+20) 1352-2310.  doi:[]http://dx.doi.org/10.1016/j.atmosenv.200
 8.09.051[].  URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--315
+Underfull \hbox (badness 10000) in paragraph at lines 289--298
 []$\T1/lmtt/m/n/12 http : / / www . sciencedirect . com / science / article / p
 ii / S1352231008008571$[]\T1/lmr/m/n/12 (+20) .
  []
 
-
-Underfull \hbox (badness 2547) in paragraph at lines 336--345
+[44]
+Underfull \hbox (badness 2547) in paragraph at lines 319--328
 []\T1/lmr/m/n/12 (+20) M. E. Jenkin, S. M. Saun-ders, and M. J. Pilling.  The t
 ro-po-spheric
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 336--345
+Underfull \hbox (badness 4647) in paragraph at lines 319--328
 \T1/lmr/m/n/12 (+20) degra-da-tion of volatile or-ganic com-pounds: a pro-to-co
 l for mech-a-nism
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 336--345
+Underfull \hbox (badness 2837) in paragraph at lines 319--328
 \T1/lmr/m/n/12 (+20) de-vel-op-ment.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi
 -ron-ment\T1/lmr/m/n/12 (+20) , 31(1):81 -- 104, 1997.  ISSN
  []
 
-[47] [48]
-Underfull \hbox (badness 3209) in paragraph at lines 458--467
+[45]
+Underfull \hbox (badness 3209) in paragraph at lines 441--450
 []\T1/lmr/m/n/12 (+20) A. Lau-rent and M. Z. Hauschild.  Im-pacts of NMVOC emis
 -sions on
  []
 
-[49]
-Underfull \hbox (badness 1721) in paragraph at lines 591--600
+[46]
+Underfull \hbox (badness 1728) in paragraph at lines 481--489
+\T1/lmr/m/n/12 (+20) max-i-mum.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-
+ment\T1/lmr/m/n/12 (+20) , 34(21):3545 -- 3561, 2000.  ISSN
+ []
+
+[47]
+Underfull \hbox (badness 1721) in paragraph at lines 587--596
 []\T1/lmr/m/n/12 (+20) A. Sandu, J. Ver-wer, J. Blom, E. Spee, G. Carmichael, a
 nd F. Po-tra.
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 591--600
+Underfull \hbox (badness 2951) in paragraph at lines 587--596
 \T1/lmr/m/n/12 (+20) solvers.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-vi-ron-me
 nt\T1/lmr/m/n/12 (+20) , 31(20):3459 -- 3472, 1997a.  ISSN
  []
 
-[50] [51]
-Underfull \hbox (badness 2181) in paragraph at lines 712--719
+[48]
+Underfull \hbox (badness 2181) in paragraph at lines 701--708
 \T1/lmr/m/n/12 (+20) box model.  \T1/lmr/m/it/12 (+20) At-mo-spheric Chem-istry
  and Physics\T1/lmr/m/n/12 (+20) , 8(23):7165--7180, 2008.
  []
 
-
-Underfull \hbox (badness 1502) in paragraph at lines 730--743
+[49]
+Underfull \hbox (badness 1502) in paragraph at lines 719--732
 \T1/lmr/m/n/12 (+20) ozone from the at-mo-spheric chem-istry and cli-mate model
  in-ter-com-par-i-son
  []
 
-) [52]
+) [50]
 Chapter 6.
-[53
+[51
 
 
 
-] [54
+] [52
 
 
-] <img/paper1.pdf, id=1108, page=1, 597.50786pt x 788.14133pt>
+] <img/paper1.pdf, id=1097, page=1, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
@@ -2989,8 +2961,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 1>
 Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [55 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1138, page=2, 597.50786pt x 788.14133pt>
+ [53 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1128, page=2, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
@@ -3005,8 +2977,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 2>
 Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [56 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1143, page=3, 597.50786pt x 788.14133pt>
+ [54 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1133, page=3, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
@@ -3021,8 +2993,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 3>
 Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [57 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1148, page=4, 597.50786pt x 788.14133pt>
+ [55 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1138, page=4, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
@@ -3037,8 +3009,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 4>
 Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [58 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1157, page=5, 597.50786pt x 788.14133pt>
+ [56 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1147, page=5, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
@@ -3053,8 +3025,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 5>
 Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [59 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1163, page=6, 597.50786pt x 788.14133pt>
+ [57 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1152, page=6, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
@@ -3069,8 +3041,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 6>
 Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [60 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1691, page=7, 597.50786pt x 788.14133pt>
+ [58 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1680, page=7, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
@@ -3085,8 +3057,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 7>
 Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [61 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1715, page=8, 597.50786pt x 788.14133pt>
+ [59 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1705, page=8, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
@@ -3101,8 +3073,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 8>
 Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [62 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1817, page=9, 597.50786pt x 788.14133pt>
+ [60 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1807, page=9, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
@@ -3117,8 +3089,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 9>
 Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [63 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1838, page=10, 597.50786pt x 788.14133pt>
+ [61 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1828, page=10, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
@@ -3133,8 +3105,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 10>
 Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [64 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1862, page=11, 597.50786pt x 788.14133pt>
+ [62 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1852, page=11, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
@@ -3149,8 +3121,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 11>
 Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [65 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1887, page=12, 597.50786pt x 788.14133pt>
+ [63 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1876, page=12, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
@@ -3165,8 +3137,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 12>
 Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [66 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1929, page=13, 597.50786pt x 788.14133pt>
+ [64 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1918, page=13, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
@@ -3181,8 +3153,8 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 13>
 Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [67 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1934, page=14, 597.50786pt x 788.14133pt>
+ [65 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1924, page=14, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
@@ -3197,30 +3169,30 @@ File: img/paper1.pdf Graphic file (type pdf)
 <use img/paper1.pdf, page 14>
 Package pdftex.def Info: img/paper1.pdf, page14 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [68 <./img/paper1.pdf>]
+ [66 <./img/paper1.pdf>]
 Chapter 7.
+[67
+
+] [68
+
+
+]
+Chapter 8.
 [69
 
 ] [70
 
 
 ]
-Chapter 8.
+Chapter 9.
 [71
 
 ] [72
 
 
-]
-Chapter 9.
-[73
+] [73
 
 ] [74
-
-
-] [75
-
-] [76
 
 
 ]
@@ -3234,11 +3206,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
  ) 
 Here is how much of TeX's memory you used:
- 22615 strings out of 495007
- 389126 string characters out of 3179690
- 539020 words of memory out of 3000000
- 24898 multiletter control sequences out of 15000+200000
- 91259 words of font info for 137 fonts, out of 3000000 for 9000
+ 22596 strings out of 495007
+ 388838 string characters out of 3179690
+ 541657 words of memory out of 3000000
+ 24886 multiletter control sequences out of 15000+200000
+ 91172 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,28n,94p,549b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3253,9 +3225,9 @@ c/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on main.pdf (90 pages, 1187256 bytes).
+Output written on main.pdf (88 pages, 1184154 bytes).
 PDF statistics:
- 2080 PDF objects out of 2487 (max. 8388607)
- 255 named destinations out of 1000 (max. 500000)
+ 2068 PDF objects out of 2073 (max. 8388607)
+ 250 named destinations out of 1000 (max. 500000)
  22385 words of extra memory for PDF output out of 24883 (max. 10000000)
 

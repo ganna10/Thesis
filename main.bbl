@@ -1,9 +1,20 @@
-\begin{thebibliography}{72}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbatt et~al.(2014)Abbatt, George, Melamed, Monks, Pandis, and
+  Rudich]{Abbatt:2014}
+J.~Abbatt, C.~George, M.~Melamed, P.~Monks, S.~Pandis, and Y.~Rudich.
+\newblock New directions: Fundamentals of atmospheric chemistry: Keeping a
+  three-legged stool balanced.
+\newblock \emph{Atmospheric Environment}, 84:\penalty0 390 -- 391, 2014.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2013.10.025}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231013007784}.
 
 \bibitem[Archer-Nicholls et~al.(2014)Archer-Nicholls, Lowe, Utembe, Allan,
   Zaveri, Fast, Hodnebrog, {Denier van der Gon}, and
@@ -40,13 +51,6 @@ C.~Bloss, V.~Wagner, M.~E. Jenkin, R.~Vollamer, W.~J. Bloss, J.~D. Lee, D.~E.
 \newblock {Development of a detailed chemical mechanism (MCMv3.1) for the
   atmospheric oxidation of aromatic hydrocarbons}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 641--664, 2005.
-
-\bibitem[Brewer(1949)]{Brewer:1949}
-A.~W. Brewer.
-\newblock {Evidence of a world circulation provided by the measurements of
-  helium and water vapour distribution in the stratosphere}.
-\newblock \emph{Quarterly Journal of the Royal Meteorological Society},
-  75\penalty0 (326):\penalty0 351--363, 1949.
 
 \bibitem[Butler et~al.(2011)Butler, Lawrence, Taraborrelli, and
   Lelieveld]{Butler:2011}
@@ -129,12 +133,6 @@ H.~{Denier van der Gon}, C.~Hendriks, J.~Kuenen, A.~Segers, and A.~Visschedijk.
 \newblock {Description of current temporal emission patterns and sensitivity of
   predicted AQ for temporal emission patterns}.
 \newblock Technical Report EU FP7 MACC report: D\_D-EMIS\_1.3, TNO, 2011.
-
-\bibitem[Dobson(1956)]{Dobson:1956}
-G.~B.~M. Dobson.
-\newblock {Origin and distribution of polyatomic molecules in the atmosphere}.
-\newblock \emph{Proceedings of the Royal Society London A}, 236\penalty0
-  (1205):\penalty0 187--193, 1956.
 
 \bibitem[Doherty et~al.(2013)Doherty, Wild, Shindell, Zeng, MacKenzie, Collins,
   Fiore, Stevenson, Dentener, Schultz, Hess, Derwent, and
@@ -246,21 +244,6 @@ D.~A. Hauglustaine, G.~P. Brasseur, S.~Walters, P.~J. Rasch, J.-F. M{\"u}ller,
   chemical tracers 2. Model results and evaluation}.
 \newblock \emph{Journal of Geophysical Research}, 103\penalty0 (D21):\penalty0
   28,291--28,335, 1998.
-
-\bibitem[Haynes et~al.(1991)Haynes, Marks, McIntyre, Shephard, and
-  Shine]{Haynes:1991}
-P.~H. Haynes, C.~J. Marks, M.~E. McIntyre, T.~G. Shephard, and K.~P. Shine.
-\newblock {On the "Downward Control" of Extratropical Diabatic Circulations by
-  Eddy-Induced Mean Zonal Forces}.
-\newblock \emph{Journal of the Atmospheric Sciences}, 48\penalty0 (4):\penalty0
-  651--687, 1991.
-
-\bibitem[Hess and Mahowald(2009)]{Hess:2009}
-P.~Hess and N.~Mahowald.
-\newblock {Interannual variability in hindcasts of atmospheric chemistry: the
-  role of meteorology}.
-\newblock \emph{Atmospheric Chemistry and Physics}, 9:\penalty0 5261--5280,
-  2009.
 
 \bibitem[Hogo and Gery(1989)]{Hogo:1989}
 H.~Hogo and M.~Gery.
@@ -467,9 +450,12 @@ A.~Laurent and M.~Z. Hauschild.
 
 \bibitem[Lelieveld and Dentener(2000)]{Lelieveld:2000}
 J.~Lelieveld and F.~J. Dentener.
-\newblock {What controls tropospheric ozone?}
-\newblock \emph{Journal of Geophysical Research}, 105\penalty0 (D3):\penalty0
-  3531--3551, 2000.
+\newblock What controls tropospheric ozone?
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 105\penalty0
+  (D3):\penalty0 3531--3551, 2000.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/1999JD901011}.
+\newblock URL \url{http://dx.doi.org/10.1029/1999JD901011}.
 
 \bibitem[Li et~al.(2014)Li, Rohrer, Brauers, Hofzumahaus, Lu, Shao, Zhang, and
   Wahner]{Li:2014b}
@@ -490,6 +476,16 @@ A.~S.~M. Lourens, T.~M. Butler, J.~P. Beukes, P.~G. van Zyl, G.~D. Fourie, and
   Johennesburg-Pretoria megacity using a box model}.
 \newblock \emph{South African Journal of Science}, 112\penalty0 (1/2), 2016.
 \newblock URL \url{http://dx.doi.org/10.17159/sajs.2016/2015-0169}.
+
+\bibitem[Monks(2000)]{Monks:2000}
+P.~S. Monks.
+\newblock A review of the observations and origins of the spring ozone maximum.
+\newblock \emph{Atmospheric Environment}, 34\penalty0 (21):\penalty0 3545 --
+  3561, 2000.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/S1352-2310(00)00129-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231000001291}.
 
 \bibitem[N{\"o}lscher et~al.(2014)N{\"o}lscher, Butler, Auld, Veres, Mu{\~n}oz,
   Taraborrelli, Vereecken, Lelieveld, and Williams]{Noelscher:2014}
@@ -659,13 +655,6 @@ W.~R. Stockwell, F.~Kirchner, M.~Kuhn, and S.~Seefeld.
 \newblock ISSN 2156-2202.
 \newblock \doi{10.1029/97JD00849}.
 \newblock URL \url{http://dx.doi.org/10.1029/97JD00849}.
-
-\bibitem[Sudo and Takashi(2001)]{Sudo:2001}
-K.~Sudo and M.~Takashi.
-\newblock {Simulation of tropospheric ozone changes during 1997-1998 El
-  Ni{\~n}o: Meteorological impact on tropospheric photochemistry}.
-\newblock \emph{Geophysical Research Letters}, 28\penalty0 (21):\penalty0
-  4091--4094, 2001.
 
 \bibitem[von Schneidemesser et~al.(2011)von Schneidemesser, Monks, Gros,
   Gauduin, and Sanchez]{vonSchneidemesser:2011}

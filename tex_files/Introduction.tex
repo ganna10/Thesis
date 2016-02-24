@@ -25,37 +25,43 @@ This assessment should be beneficial to the wider modelling community in underst
 
 \section{Ozone} \label{s:ozone}
 %atmospheric O3 with budget, lifetime, stratospheric & tropospheric ozone
-Ozone is a constituent gas of the atmosphere found in the stratosphere and troposphere, however its atmospheric effects are very different in these distinct regions.
+Ozone is a atmospheric gas found in the stratosphere and troposphere, however its atmospheric effects are very different in these regions.
 About 90~\% of the atmospheric ozone is present in the stratosphere with a peak mixing ratio of about $12$~ppm \citep{Seinfeld:2006}.
-Stratospheric ozone absorbs the sun's ultraviolet radiation with wavelengths between $280$ and $315$~nm, this is extremely important as excess UV radiation may cause skin cancer, cataracts and a suppressed immune system in humans and can also damage land and aquatic ecosystems \citep{WMO:2010}. 
+Stratospheric ozone absorbs the sun's ultraviolet radiation with wavelengths between $280$ and $315$~nm.
+Since excess UV radiation may cause as skin cancer, cataracts and a suppressed immune system in humans, and can also damage land and aquatic ecosystems \citep{WMO:2010}, the absorption of UV radiation by stratospheric ozone is extremely important. 
 
-In contrast, tropospheric ozone, found close to the surface, is both a pollutant and a greenhouse gas. 
-Increased levels of tropospheric ozone are harmful to humans, plants and other living systems, as high ozone exposure can lead to pulmonary problems in humans and can decrease both crop yields and forest growth \citep{WMO:2010}. 
+In contrast, tropospheric (or surface) ozone is both a pollutant and a greenhouse gas. 
+Increased levels of tropospheric ozone are harmful to humans, plants and other living systems. 
+High ozone exposure may lead to pulmonary problems in humans and can decrease both crop yields and forest growth \citep{WMO:2010}. 
 
-Globally, tropospheric ozone is formed mainly via photochemical production from the reactions of emitted VOCs and \ce{NO_x}.
-However, the Statospere-Troposphere Exchange (STE), which transports ozone from the stratosphere into the troposphere, may also play a role. 
-The STE is driven by the Brewer-Dobson circulation \citep{Brewer:1949, Dobson:1956}, a relatively slow circulation (weeks to months) due to planetary wave disturbances in the troposphere \citep{Haynes:1991}.
-The circulation causes air to move downward from the stratosphere into the troposphere at the mid and high latitudes and is balanced by upward exchange at the tropics. 
+Globally, tropospheric ozone is mainly formed via photochemical production from the reactions of VOCs and \ce{NO_x}, described in Sect.~\ref{s:ozone_chemistry}.
+Although surface ozone concentrations are also influenced by meteorology and atmospheric transport.
+For example, a spring-time peak in tropospheric ozone concentrations is common in the mid-latitudes of the Northern Hemisphere originally attributed to transport of ozone from the stratosphere into the troposphere via the Stratosphere-Troposphere Exchange (STE) \citep{Monks:2000}.
+However, ozone transported via STE rarely influences surface ozone levels \citep{Lelieveld:2000} and the spring maximum is due to the photochemical reactions occuring in the Northern Hemisphere spring after the buildup of reservoir species over winter \citep{Penkett:1986}.
+These reservoir species are oxidised at a faster rate due to the increase in temperature, moisture and sunlight in spring.
+
+Understanding the intracacies of surface ozone pollution requires a combined effort from the modelling, observational and chemical kinetic communities -- called the ``three-legged stool'' approach by \citet{Abbatt:2014}.
+Modelling of ozone production helped in understanding the complexity of atmospheric chemistry, such as the non-linear relationship of ozone production with precursor (VOC and \ce{NO_x}) emissions.
+Modelling studies attempt to reproduce observational trends of surface ozone and model predictions may inspire the set-up of new observational studies.
+Chemical kinetic studies performed by laboratories give insights to missing or incorrect representations of atmospheric chemistry which may be included in updated models.
+
+This thesis focuses on the representation of VOC degradation chemistry, VOC emissions and the ozone-temperature relationship within models and the influence on ozone production.
+The state of the art knowledge of ozone production chemistry is outlined in Sect.~\ref{s:ozone_chemistry}, while sources of emissions of ozone precursors are described in Sect.~\ref{s:precursor_emissions}.
+Finally, the effects of meteorology, in particular temperature, on ozone production is presented in Sect.~\ref{s:meteo_ozone}.
+For the rest of this thesis, ozone shall refer to tropospheric ozone.
+
+%The STE is driven by the Brewer-Dobson circulation \citep{Brewer:1949, Dobson:1956}, a relatively slow circulation (weeks to months) due to planetary wave disturbances in the troposphere \citep{Haynes:1991}.
+%The circulation causes air to move downward from the stratosphere into the troposphere at the mid and high latitudes balanced by upward exchange at the tropics. 
 %The STE also has a seasonal variability where the maximum transport occurs during spring \citep{Appenzeller:1996}, due to the increase in altitude of the tropopause - the boundary level between the troposphere and the stratosphere - which moves stratospheric air into the troposphere. 
 
-A spring-time peak in \ce{O3} concentrations is common in the mid-latitudes of the Northern Hemisphere and the STE was thought to be responsible. 
-However, it is only very rarely that \ce{O3} originating via STE can influence tropospheric \ce{O3} levels \citep{Lelieveld:2000}. 
-It was later realised that this spring maximum is due to the photochemical reactions occuring in the Northern Hemisphere spring after the buildup of reservoir species over winter \citep{Penkett:1986}.
-These reservoir species are oxidised photochemically at a faster rate due to the increase in temperature, moisture and sunlight.
-
-%metereology impacts 
-Tropospheric \ce{O3} is not only impacted by emission levels, it is also affected by meteorological variables such as temperature, number of hours of sunshine and wind as these impact transport, dry and wet deposition rates and also chemical reaction rates \citep{Hess:2009}.
-Meteorology influences both regional and global \ce{O3} \citep{Hess:2009}, climate patterns such as El Ni\~{n}o are also known to impact \ce{O3} levels in certain areas \citep{Sudo:2001}. 
-The effects of meteorology on ozone production shall be presented in more detail in Sect.~\ref{s:meteo_ozone}.
-
-In general, there has been great effort to reduce emissions of ozone precursors from anthropogenic sources.
-For example, the emissions of non-methane VOCs (NMVOCs) over Europe have decreased by $20$~\% and emissions of \ce{NO_x} have decreased by almost $30$~\% from 2004 levels.
-Despite these reductions in ozone precursors, up to $98$~\% of Europe's urban population are exposed to levels of ozone exceeding the WHO guidelines \citep{AQEU:2015}.
-
-Modelling of \ce{O3} production has played a part in understanding the complexity of atmospheric chemistry, such as the non-linear relationship of \ce{O3} production on the concentrations of VOCs and \ce{NO_x}.
-The results of these modelling experiments can be used to produce more effective strategies for reducing ozone levels.
-The need for more effective air quality standards in turn also drives the model development and deeper understanding of the atmospheric processes controlling ozone production.
-In this work, we shall address the representation of three important parts of an AQ model (chemistry, NMVOC emissions and meteorology) and their impacts on simulated ozone production.
+%%metereology impacts 
+%Tropospheric \ce{O3} is not only impacted by emission levels, it is also affected by meteorological variables such as temperature, number of hours of sunshine and wind as these impact transport, dry and wet deposition rates and also chemical reaction rates \citep{Hess:2009}.
+%Meteorology influences both regional and global \ce{O3} \citep{Hess:2009}, climate patterns such as El Ni\~{n}o are also known to impact \ce{O3} levels in certain areas \citep{Sudo:2001}. 
+%The effects of meteorology on ozone production shall be presented in more detail in Sect.~\ref{s:meteo_ozone}.
+%
+%In general, there has been great effort to reduce emissions of ozone precursors from anthropogenic sources.
+%For example, the emissions of non-methane VOCs (NMVOCs) over Europe have decreased by $20$~\% and emissions of \ce{NO_x} have decreased by almost $30$~\% from 2004 levels.
+%Despite these reductions in ozone precursors, up to $98$~\% of Europe's urban population are exposed to levels of ozone exceeding the WHO guidelines \citep{AQEU:2015}.
 
 \section{Ozone Production Chemistry} \label{s:ozone_chemistry}
 %O3 chemical sources & sinks, linking VOCs.
