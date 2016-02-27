@@ -1,4 +1,4 @@
-\begin{thebibliography}{69}
+\begin{thebibliography}{71}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -235,6 +235,16 @@ A.~B. Guenther, X.~Jiang, C.~L. Heald, T.~Sakulyanontvittaya, T.~Duhl, L.~K.
   1471--1492, 2012.
 \newblock \doi{10.5194/gmd-5-1471-2012}.
 \newblock URL \url{http://www.geosci-model-dev.net/5/1471/2012/}.
+
+\bibitem[Gunz and Hoffmann(1990)]{Gunz:1990}
+D.~W. Gunz and M.~R. Hoffmann.
+\newblock Atmospheric chemistry of peroxides: a review.
+\newblock \emph{Atmospheric Environment. Part A. General Topics}, 24\penalty0
+  (7):\penalty0 1601 -- 1633, 1990.
+\newblock ISSN 0960-1686.
+\newblock \doi{http://dx.doi.org/10.1016/0960-1686(90)90496-A}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/096016869090496A}.
 
 \bibitem[Hauglustaine et~al.(1998)Hauglustaine, Brasseur, Walters, Rasch,
   M{\"u}ller, Emmons, and Carroll]{Hauglustaine:1998}
@@ -486,6 +496,13 @@ P.~S. Monks.
 \newblock \doi{http://dx.doi.org/10.1016/S1352-2310(00)00129-1}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S1352231000001291}.
+
+\bibitem[Monks(2005)]{Monks:2005}
+P.~S. Monks.
+\newblock Gas-phase radical chemistry in the troposphere.
+\newblock \emph{Chem. Soc. Rev.}, 34:\penalty0 376--395, 2005.
+\newblock \doi{10.1039/B307982C}.
+\newblock URL \url{http://dx.doi.org/10.1039/B307982C}.
 
 \bibitem[N{\"o}lscher et~al.(2014)N{\"o}lscher, Butler, Auld, Veres, Mu{\~n}oz,
   Taraborrelli, Vereecken, Lelieveld, and Williams]{Noelscher:2014}

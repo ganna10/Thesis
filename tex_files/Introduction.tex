@@ -63,15 +63,91 @@ For the rest of this thesis, ozone shall refer to tropospheric ozone.
 %For example, the emissions of non-methane VOCs (NMVOCs) over Europe have decreased by $20$~\% and emissions of \ce{NO_x} have decreased by almost $30$~\% from 2004 levels.
 %Despite these reductions in ozone precursors, up to $98$~\% of Europe's urban population are exposed to levels of ozone exceeding the WHO guidelines \citep{AQEU:2015}.
 
-\section{Ozone Production Chemistry} \label{s:ozone_chemistry}
-%O3 chemical sources & sinks, linking VOCs.
-Ozone is chemically produced and destroyed through the null photochemical cycle involving nitrogen dioxide (\ce{NO2}) and nitrogen oxide (NO) in Reactions~\eqref{r:NO2_hv}, \eqref{r:O_O2} and \eqref{r:NO_O3}.
-This null cycle produces net ozone with the presence of VOCs of both biogenic and anthropogenic origin in the atmosphere. 
-Secondary degradation products of the emitted VOCs, in the presence of \ce{NO_x}, react with NO to produce \ce{NO2}.
-In the presence of sunlight, the newly-formed \ce{NO2} photolyses via \eqref{r:NO2_hv} producing ozone through \eqref{r:O_O2}.
+\section{Ozone Chemistry} \label{s:ozone_chemistry}
+Ozone absorbs UV radiation producing either ground-state atomic oxygen (\ce{O(^3P)}) or excited singlet (\ce{O(^1D)}) oxygen atoms.
 \begin{rxnarray}
-    \ce{NO2 + h\nu} & \rightarrow \ce{NO + O(^3P)} \label{r:NO2_hv} \\
-    \ce{O(^3P) + O2} & \xrightarrow[]{\text{\tiny{M}}} \ce{O3} \label{r:O_O2} \\
+    \ce{O3 + h\nu} & \rightarrow \ce{O2 + O(^3P)} \label{r:O3_hva} \\
+    \ce{O3 + h\nu} & \rightarrow \ce{O2 + O(^1D)} \label{r:O3_hvb} 
+\end{rxnarray}
+Ground-state oxygen quickly reacts with oxygen to reform ozone.
+\begin{rxnarray}
+    \ce{O(^3P) + O2} & \xrightarrow[]{\text{\tiny{M}}} \ce{O3} \label{r:O_O2}
+\end{rxnarray}
+Thus there is no net loss or production of ozone through \eqref{r:O3_hva} and \eqref{r:O_O2}.
+\ce{O(^1D)} may collide with \ce{N2} or \ce{O2} (represented as M in chemical reactions) stabilising to the ground-state.
+\begin{rxnarray}
+    \ce{O(^1D)} & \xrightarrow[]{\text{\tiny{M}}} \ce{O(^3P)} \label{r:O1D_M} 
+\end{rxnarray}
+This process again leads to a null cycle with ozone destruction balanced by production.
+However, \ce{O(^1D)} can also react with water vapour producing two hydroxyl (OH) radicals.
+\begin{rxnarray}
+    \ce{O(^1D) + H2O} & \rightarrow \ce{2 OH} \label{r:O1D_H2O}
+\end{rxnarray}
+
+The OH radical is a highly reactive chemical species reacting with almost all trace chemical species in the troposphere but not relatively inert species such as \ce{N2} or \ce{O2}.
+OH is primarily produced via \eqref{r:O1D_H2O} and is also catalytically produced during the degradation of VOCs.
+These sources of OH together lead to a relatively high daytime concentration of OH of the order of  $10^6$~molecules~cm$^{-3}$.
+\citep{Seinfeld:2006, Monks:2005}
+
+The initial oxidation of VOCs by OH sets off a reaction chain which may lead to net production or loss of ozone depending on the atmospheric conditions.
+For example, when carbon monoxide (CO) reacts with OH in the presence of oxygen, carbon dioxide and the hydroperoxy (\ce{HO2}) radical are formed.
+In polluted areas with high-\ce{NO_x} concentrations, \ce{HO2} readily reacts with nitrogen oxide (NO) which regenerates OH and produces nitrogen dioxide (\ce{NO2}).
+\begin{rxnarray}
+    \ce{CO + OH} & \xrightarrow[]{\ce{O2}} \ce{HO2 + CO2} \label{r:CO_OH} \\
+    \ce{HO2 + NO} & \rightarrow \ce{OH + NO2} \label{r:HO2_NO}
+\end{rxnarray}
+Photolysis of \ce{NO2} produces ground-state atomic oxygen producing ozone via \eqref{r:O_O2}.  
+\begin{rxnarray}
+    \ce{NO2 + h\nu} & \rightarrow \ce{NO + O(^3P)} \label{r:NO2_hv} 
+\end{rxnarray}
+OH may also react with NO to produce nitrous oxide (HONO), which rapidly photolyses to return OH and NO.
+\begin{rxnarray}
+    \ce{OH + NO} & \rightarrow \ce{HONO} \label{r:OH_NO} \\
+    \ce{HONO + h\nu} & \rightarrow \ce{OH + NO} \label{r:HONO_hv}
+\end{rxnarray}
+However, termination of OH and \ce{NO2} regeneration occurs when OH reacts with \ce{NO2} as nitric acid (\ce{HNO3}) is formed and \ce{HNO3} may be removed through deposition processes.
+\begin{rxnarray}
+    \ce{NO2 + OH} \rightarrow \ce{HNO3} \label{r:NO2_OH}
+\end{rxnarray}
+
+In the low-\ce{NO_x} conditions away from polluted areas, OH and \ce{HO2} are interconverted through reactions with ozone.
+\begin{rxnarray}
+    \ce{OH + O3} & \rightarrow \ce{HO2 + O2} \label{r:OH_O3} \\
+    \ce{HO2 + O3} & \rightarrow \ce{OH + 2 O2} \label{r:HO2_O3}
+\end{rxnarray}
+OH and \ce{HO2} may also react in a termination reaction producing water vapour and oxygen.
+\begin{rxnarray}
+    \ce{HO2 + OH} \rightarrow \ce{H2O + O2} \label{r:HO2_OH}
+\end{rxnarray}
+Other termination reactions involve combination reactions of \ce{HO2} radicals producing hydrogen peroxide (\ce{H2O2}).
+\begin{rxnarray}
+    \ce{HO2 + HO2} & \rightarrow \ce{H2O2} \label{r:HO2_HO2}
+\end{rxnarray}
+Hydrogen peroxide may be removed through deposition \citep{Gunz:1990} but may also be a temporary sink for the odd-oxygen species OH and \ce{HO2}, represented as \ce{HO_x}.
+\begin{rxnarray}
+    \ce{H2O2 + h\nu} & \rightarrow \ce{2 OH} \label{r:H2O2_hv} \\
+    \ce{H2O2 + OH} & \rightarrow \ce{HO2 + H2O} \label{r:H2O2_OH}
+\end{rxnarray}
+In summary, the secondary degradation of CO produces ozone in high-\ce{NO_x} conditions while in low-\ce{NO_x} conditions ozone is destroyed.
+\citep{Seinfeld:2006, Monks:2005}
+
+The secondary degradation of higher VOCs has similar features to that of CO.
+Methane (\ce{CH4}) with a mixing ratio of about $1.7$~ppmv is the most abundant VOC in the troposphere.
+The reaction of methane with OH, in the presence of \ce{O2}, produces the methyl peroxy radical (\ce{CH3O2}) -- the simplest organic peroxy radical (\ce{RO2}).
+\begin{rxnarray}
+    \ce{CH4 + OH} \xrightarrow[]{\ce{O2}} \ce{CH3O2 + H2O} \label{r:CH4_OH}
+\end{rxnarray}
+Similar to CO oxidation, the level of \ce{NO_x} conditions play a crucial role in the fate of \ce{CH3O2} and whether ozone is produced or destroyed, this is depicted graphically in Fig.~\ref{f:CH4_oxidation}.
+\begin{figure}[t]
+    \begin{center}
+        \caption[Methane degradation pathways]{Methane degradation pathways in low-\ce{NO_x} and high-\ce{NO_x} conditions. Taken from \citet{Monks:2005}.}
+        %\includegraphics[width = \textwidth]{CH4_degradation}
+        \label{f:CH4_oxidation}
+    \end{center}
+\end{figure}
+%here
+
+\begin{rxnarray}
     \ce{NO + O3} & \rightarrow \ce{NO2 + O2} \label{r:NO_O3}
 \end{rxnarray}
 
@@ -88,16 +164,10 @@ Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme 
 \end{figure}
 
 The primary oxidation of a VOC is typically through reaction with the hydroxyl (OH) radical.
-Ozone also plays an important role in the production of OH radicals.
-The photolysis of ozone \eqref{r:O3_hv} at wavelengths less than $335$~nm produces excited oxygen atoms (\ce{O^1D}) which when reacting with water vapour produce OH \eqref{r:O1D_H2O}.
-\begin{rxnarray}
-    \ce{O3 + h\nu} & \rightarrow \ce{O2 + O^1D} \label{r:O3_hv} \\
-    \ce{O^1D + H2O} & \rightarrow \ce{2 OH} \label{r:O1D_H2O}
-\end{rxnarray}
 
 The reaction of a VOC with OH forms an alkyl or substituted alkyl radical (R) which in the presence of \ce{O2} produces alkyl peroxy radicals (\ce{RO2}).
 Unsaturated VOCs, such as alkenes, may also react with ozone while photolysis is a primary degradation pathways for carbonyl species.
-During the night-time, reaction with the \ce{NO3} radical is of importance.
+During the night-time, reaction with the nitrate (\ce{NO3}) radical is of importance.
 These initial reaction pathways all lead to the formation of \ce{RO2} radicals.
 \begin{rxnarray}
     \ce{VOC + OH / NO3 / O3 / h\nu} & \rightarrow \ce{R} \label{r:VOC_init} \\
@@ -105,7 +175,7 @@ These initial reaction pathways all lead to the formation of \ce{RO2} radicals.
 \end{rxnarray} 
 
 \ce{RO2} radicals can subsequently react with NO, \ce{NO2}, hydroperoxy (\ce{HO2}) radicals, \ce{NO3} radicals - mainly during night-time - and with other alkyl peroxy radicals \citep{Atkinson:2000}. 
-The competition between these reactions, especially those pathways involving \ce{NO_x} (\eqref{r:RO2_NOa}, \eqref{r:RO2_NOa} and \eqref{r:RO2_NO2}), determines the amount of net production or loss of ozone. 
+The competition between these reactions, especially those pathways involving \ce{NO_x} (\eqref{r:RO2_NOa}, \eqref{r:RO2_NOb} and \eqref{r:RO2_NO2}), determines whether net production or loss of ozone occurs. 
 \begin{rxnarray}
     \ce{RO2 + NO} & \xrightarrow[]{\text{M}} \ce{RONO2} \label{r:RO2_NOa} \\
     \ce{RO2 + NO} & \rightarrow \ce{RO + NO2} \label{r:RO2_NOb} \\
@@ -122,8 +192,8 @@ Thus the secondary degradation products of a VOC may also lead to further produc
 
 Reaction of \ce{RO2} with \ce{NO2} leads to the formation of peroxynitrates (\ce{RO2NO2}) which are a temporary reservoir for \ce{RO2} and \ce{NO_x}.
 When temperatures are low, the thermal decomposition of \ce{RO2NO2} to recycle \ce{RO2} and \ce{NO_x} happens at a slower rate than at higher temperatures.
-Hence, at lower temperatures these \ce{RO2NO2} may build up and be transported away from their region of formation and re-release \ce{RO2} and \ce{NO2} downwind fuelling ozone production away from large sources of \ce{NO_x}.
-This is one example of the dependence of ozone production on meteorogological variables, a broader overview is given in Sect.~\ref{s:meteo_ozone}.
+Hence, at lower temperatures \ce{RO2NO2} may build up and be transported away from their region of formation and re-release \ce{RO2} and \ce{NO2} downwind fuelling ozone production away from large sources of \ce{NO_x}.
+This is one example of the dependence of ozone production on meteorological variables, a broader overview is given in Sect.~\ref{s:meteo_ozone}.
 
 The secondary degradation of the RO radical formed from many of the \ce{RO2} reactions proceeds through either decomposition, isomerisation or reaction with \ce{O2}. 
 The products that result from the reaction pathways depend on the parent VOC and this also determines the number of NO-to-\ce{NO2} conversions, eventually leading to \ce{O3} formation.
@@ -150,9 +220,6 @@ This relationship can be divided into distinct regimes of ozone production: \emp
 The cause of the non-linear relationship is the pathways available to \ce{RO2}.
 In the \ce{NO_x}-sensitive regime, the concentration of \ce{NO_x} is low compared to that of radicals hence radicals are more likely to react with other radicals. 
 The most common reactions are bimolecular destruction \eqref{r:HO2_OH}, which removes radicals, or combination of radicals \eqref{r:RO2_HO2} into reservoir species that can re-release radicals.
-\begin{rxnarray}
-    \ce{HO2 + OH} \rightarrow \ce{H2O + O2} \label{r:HO2_OH}
-\end{rxnarray}
 
 Reactions between radicals do not directly lead to ozone production as little NO is converted to \ce{NO2}.
 Thus increasing \ce{NO_x} would increase the number of NO to \ce{NO2} reactions by peroxy radicals leading to ozone production.
@@ -161,9 +228,6 @@ However, increasing VOC levels would not increase \ce{O3} production as increase
 The \ce{NO_x}-saturated regime corresponds to high \ce{NO_x} concentrations where radicals will tend to react with \ce{NO_x}. 
 Increased \ce{NO_x} levels will not increase \ce{O3} production due to an increase in nitric acid (\ce{HNO3}) formation \eqref{r:NO2_OH}.
 Nitric acid is a sink for both OH and \ce{NO_x} removing OH which would otherwise react with emitted VOC to fuel further radical production.
-\begin{rxnarray}
-    \ce{NO2 + OH} \rightarrow \ce{HNO3} \label{r:NO2_OH}
-\end{rxnarray}
 
 The VOC-and-\ce{NO_x}-sensitive regime is characterised by \ce{O3} production being sensitive to both VOC and \ce{NO_x} levels. 
 Morever, it is in this atmospheric regime that the maximum amount of ozone is produced and corresponds to the contour ridges in Fig.~\ref{f:O3_isopleth}.
@@ -182,6 +246,7 @@ Not all representations of atmospheric chemistry used in a \emph{chemical mechan
 For a start, models that also numerically compute meteorology fields require very computationally efficient chemical mechanisms including around $150$ unique species while simpler box models can use chemical mechanisms having many thousands of species.
 The simplification techniques used to represent the multitude of VOC and their degradation may lead to discrepancies in the estimations of ozone production.
 We compare the ozone production from many reduced chemical mechanisms to a highly detailed chemical mechanism in Sect.~\ref{s:chemical_mechanism_results} and the research questions addressed in this study are framed in Sect.~\ref{s:research_questions}.
+\todo{use Stockwell:2012 review}
 
 \section{Emissions of Ozone Precursors} \label{s:precursor_emissions}
 % NOx sources and quantities, weekend effect
@@ -205,10 +270,6 @@ Another equally-important source of CO, is its chemical formation during the deg
 
 Oxidation of CO, through reaction with OH, is its major atmospheric sink and can lead to ozone production.
 When the hydroperoxy radical (\ce{HO2}) reacts with NO, \ce{NO2} is formed which may produce ozone and OH is again recycled and available to further oxidise other chemical species.
-\begin{rxnarray}
-    \ce{CO + OH} & \xrightarrow[]{\ce{O2}} \ce{HO2 + CO2} \label{r:CO_OH} \\
-    \ce{HO2 + NO} & \rightarrow \ce{OH + NO2} \label{r:HO2_NO}
-\end{rxnarray}
 
 The maximum possible yield of ozone from the degradation of a single molecule of CO occurs when each peroxy radical converts NO to \ce{NO2}.
 In this case, a maxmimum of one molecule of ozone can be produced per molecule of CO oxidised.
@@ -221,9 +282,6 @@ Emissions from wetlands are the main natural source of methane emissions \citep{
 
 Reaction with OH is the main sink of methane and this reaction is important for the concentration of OH in the troposphere.
 With increased methane emissions, the concentration of OH will decrease via \eqref{r:CH4_OH} which would lead to a build of methane and other VOCs in the troposphere \citep{Holmes:2013}.
-\begin{rxnarray}
-    \ce{CH4 + OH} \xrightarrow[]{\ce{O2}} \ce{CH3O2 + H2O} \label{r:CH4_OH}
-\end{rxnarray}
 
 The secondary degradation of methane produces the methylperoxy radical \ce{CH3O2} as well as \ce{HO2} as well as CO.
 Assuming that every peroxy radical converts NO to \ce{NO2} then methane degradation can produce a maximum five molecules of \ce{O3} per molecule of \ce{CH4} oxidised.
@@ -354,7 +412,7 @@ The results of this study are presented in Sect.~\ref{s:T-O3_results}.
 
 \subsubsection{Humidity}
 Humidity levels influences ozone production both positively and negatively.
-When \ce{O^1D}, coming from ozone photolysis \eqref{r:O3_hv}, reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
+When \ce{O^1D}, coming from ozone photolysis \eqref{r:O3_hvb}, reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
 However, the initiation of VOC degradation through reaction with OH can lead to ozone production as described in Sect.~\ref{s:ozone_chemistry}.
 These competing effects of water vapour on ozone production leads to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
 
