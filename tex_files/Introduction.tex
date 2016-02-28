@@ -141,20 +141,19 @@ Similar to CO oxidation, the level of \ce{NO_x} conditions play a crucial role i
 \begin{figure}[t]
     \begin{center}
         \caption[Methane degradation pathways]{Methane degradation pathways in low-\ce{NO_x} and high-\ce{NO_x} conditions. Taken from \citet{Monks:2005}.}
-        %\includegraphics[width = \textwidth]{CH4_degradation}
+        \includegraphics[width = 0.1\textwidth]{CH4_degradation}
         \label{f:CH4_oxidation}
     \end{center}
 \end{figure}
-%here
+
+The general types of secondary degradation products formed during the degradation of methane can be extended to more complex non-methane VOCs (NMVOCs).
+The initial oxidation of an NMVOC may not only occur by reaction with OH.
+Unsaturated VOCs, such as alkenes, may also react with ozone while photolysis is a primary degradation pathways for carbonyl species.
+While during the night-time, reaction with the nitrate (\ce{NO3}) radical is typically more important than OH-oxidation due to the relatively higher concentrations of \ce{NO3} during the night-time.
 
 \begin{rxnarray}
-    \ce{NO + O3} & \rightarrow \ce{NO2 + O2} \label{r:NO_O3}
-\end{rxnarray}
-
-%atmospheric chemistry of NMVOCs 
-Many thousands of VOCs are emitted into the atmosphere from anthropogenic and biogenic sources, discussed further in Sect.~\ref{s:precursor_emissions}. 
-Despite the vast array of VOCs, there are many common features between the degradation pathways.
-Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme for VOCs in the troposphere. 
+    \ce{VOC + OH / NO3 / O3 / h\nu} & \xrightarrow[]{\ce{O2}} \ce{RO2} \label{r:VOC_init} 
+\end{rxnarray} 
 \begin{figure}[t]
     \begin{center}
         \caption[Schematic of general secondary degradation of VOCs]{Schematic diagram outlining general pathways of the secondary degradation of an emitted VOC.}
@@ -163,46 +162,40 @@ Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme 
     \end{center}
 \end{figure}
 
-The primary oxidation of a VOC is typically through reaction with the hydroxyl (OH) radical.
-
-The reaction of a VOC with OH forms an alkyl or substituted alkyl radical (R) which in the presence of \ce{O2} produces alkyl peroxy radicals (\ce{RO2}).
-Unsaturated VOCs, such as alkenes, may also react with ozone while photolysis is a primary degradation pathways for carbonyl species.
-During the night-time, reaction with the nitrate (\ce{NO3}) radical is of importance.
-These initial reaction pathways all lead to the formation of \ce{RO2} radicals.
-\begin{rxnarray}
-    \ce{VOC + OH / NO3 / O3 / h\nu} & \rightarrow \ce{R} \label{r:VOC_init} \\
-    \ce{R + O2} & \rightarrow \ce{RO2} \label{r:R_O2}
-\end{rxnarray} 
-
-\ce{RO2} radicals can subsequently react with NO, \ce{NO2}, hydroperoxy (\ce{HO2}) radicals, \ce{NO3} radicals - mainly during night-time - and with other alkyl peroxy radicals \citep{Atkinson:2000}. 
-The competition between these reactions, especially those pathways involving \ce{NO_x} (\eqref{r:RO2_NOa}, \eqref{r:RO2_NOb} and \eqref{r:RO2_NO2}), determines whether net production or loss of ozone occurs. 
+Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme for VOCs in the troposphere. 
+%The reaction of a VOC with OH forms an alkyl or substituted alkyl radical (R) which in the presence of \ce{O2} produces alkyl peroxy radicals (\ce{RO2}).
+The initial oxidation of an NMVOC leads to the formation of \ce{RO2} radicals.  
+Similar to CO and \ce{CH4} degradation, the fate of the peroxy radicals determines whether net loss or production of ozone occurs.
 \begin{rxnarray}
     \ce{RO2 + NO} & \xrightarrow[]{\text{M}} \ce{RONO2} \label{r:RO2_NOa} \\
     \ce{RO2 + NO} & \rightarrow \ce{RO + NO2} \label{r:RO2_NOb} \\
     \ce{RO2 + NO2} & \xrightleftharpoons[]{\text{M}} \ce{RO2NO2} \label{r:RO2_NO2} \\
-    \ce{RO2 + HO2} & \rightarrow \ce{ROOH + O2} \label{r:RO2_HO2} \\
     \ce{RO2 + NO3} & \rightarrow \ce{RO + NO2 + O2} \label{r:RO2_NO3} \\
+    \ce{RO2 + HO2} & \rightarrow \ce{ROOH + O2} \label{r:RO2_HO2} \\
     \ce{RO2 + RO2} & \rightarrow \ce{2RO + O2} \label{r:RO2_RO2a} \\
     \ce{RO2 + RO2} & \rightarrow \ce{RCH(OH)R + RC(O)R + O2} \label{r:RO2_RO2b}
 \end{rxnarray}
-All reactions pathways of \ce{RO2} that produce \ce{NO2} can result in \ce{O3} formation due to \eqref{r:NO2_hv} and \eqref{r:O_O2}. 
-Reaction with the \ce{HO2} radical forms a hydroperoxide (ROOH) which then photolyses producing an alkoxy (RO) radical and recycling an OH radical.
+All reactions pathways of \ce{RO2} that produce \ce{NO2} while simultaneously recycling radicals can result in \ce{O3} formation due to \eqref{r:NO2_hv} and \eqref{r:O_O2}. 
+Reaction with the \ce{HO2} radical forms a hydroperoxide (ROOH) which may either be removed from the system or photolyse to produce an alkoxy (RO) radical and OH.
 The carbonyl and alcohol products resulting from reaction with other \ce{RO2} radicals will follow a similar sequence of reactions and hence can also produce further \ce{O3}. 
-Thus the secondary degradation products of a VOC may also lead to further production of ozone.
+Thus the subsequent reactions of secondary degradation products, also called the secondary chemistry, of a VOC may lead to further production of ozone.
 
-Reaction of \ce{RO2} with \ce{NO2} leads to the formation of peroxynitrates (\ce{RO2NO2}) which are a temporary reservoir for \ce{RO2} and \ce{NO_x}.
-When temperatures are low, the thermal decomposition of \ce{RO2NO2} to recycle \ce{RO2} and \ce{NO_x} happens at a slower rate than at higher temperatures.
-Hence, at lower temperatures \ce{RO2NO2} may build up and be transported away from their region of formation and re-release \ce{RO2} and \ce{NO2} downwind fuelling ozone production away from large sources of \ce{NO_x}.
+Reaction of \ce{RO2} with \ce{NO2} forms peroxynitrates (\ce{RO2NO2}) which are a temporary reservoir for \ce{RO2} and \ce{NO_x}.
+The thermal decomposition rate of \ce{RO2NO2} is highly temperature dependent.
+Hence, at lower temperatures \ce{RO2NO2} may build up and be transported away from the region of formation and re-release \ce{RO2} and \ce{NO2} downwind fuelling ozone production away from large sources of \ce{NO_x}.
 This is one example of the dependence of ozone production on meteorological variables, a broader overview is given in Sect.~\ref{s:meteo_ozone}.
 
-The secondary degradation of the RO radical formed from many of the \ce{RO2} reactions proceeds through either decomposition, isomerisation or reaction with \ce{O2}. 
-The products that result from the reaction pathways depend on the parent VOC and this also determines the number of NO-to-\ce{NO2} conversions, eventually leading to \ce{O3} formation.
+%The secondary degradation of the RO radical formed from many of the \ce{RO2} reactions proceeds through either decomposition, isomerisation or reaction with \ce{O2}. 
+%The products that result from the reaction pathways depend on the parent VOC and this also determines the number of NO-to-\ce{NO2} conversions, eventually leading to \ce{O3} formation.
 
-The final degradation products of VOCs are carbon dioxide (\ce{CO2}) and water vapour. 
-The path that each VOC takes to reach its final products is dependent on the type of VOC, the radical concentration, the \ce{NO_x} concentration and other factors such as time of day and year. 
-The detailed atmospheric chemistry of most VOCs is well-understood however for more complex VOCs the complete set of reaction pathways of all the secondary degradation products there are a great number of uncertainties. 
-These uncertainties may be related to kinetic data, photolysis rates, reaction branching ratios and in most cases the reaction products.
-Any uncertainties in reaction pathways and products of VOCs also leads to uncertainties in estimating the amount of ozone produced during the degradation of a particular VOC \citep{Atkinson:2000}.
+Another important reaction involving ozone in polluted regions is that of NO with \ce{O3}.
+\begin{rxnarray}
+    \ce{NO + O3} & \rightarrow \ce{NO2 + O2} \label{r:NO_O3}
+\end{rxnarray}
+Together with \eqref{r:NO2_hv} and \eqref{r:O_O2}, this is a very important null cycle of ozone production and destruction.
+In polluted areas with high NO emissions or in the night-time when no photochemistry occurs, the concentration of ozone is limited by the rates of \eqref{r:NO_O3} and \eqref{r:NO2_hv}.
+
+%The path that a NMVOC takes to reach the final degradation products of \ce{CO2} and \ce{H2O} depends on the type of NMVOC, radical concentrations, \ce{NO_x} concentration and other factors such as time of day and year. 
 
 \subsection[VOC and NOx Chemistry]{VOC and \ce{NO_x} Chemistry} \label{ss:VOC&NOx}
 \begin{figure}
@@ -238,6 +231,10 @@ The difficulty is exacerbated by the fact that regions can alternate between the
 Moreover, fresh emissions tend to occur in the \ce{NO_x}-saturated regime and through transport, the emissions are advected to VOC-and\ce{NO_x}-sensitive and even \ce{NO_x}-sensitive regions.
 
 \subsection{Representing Atmospheric Chemistry in Models} \label{ss:chemistry_models}
+The degradation of most VOCs is well-understood however for more complex VOCs the complete set of reaction pathways of all the secondary degradation products there are a great number of uncertainties. 
+These uncertainties may be related to kinetic data, photolysis rates and in most cases the reaction products.
+
+Any uncertainties in reaction pathways and degradation products also leads to uncertainties in estimating the amount of ozone produced during the degradation of a particular VOC \citep{Atkinson:2000}.
 Representing this complex chemistry for each emitted VOC in a chemical transport model (CTM) is unrealistic.
 Even if all the secondary degradation pathways and products were known for every VOC, a CTM would not be able to efficiently numerically solve the resulting differential equations.
 Hence, CTMs use descriptions of atmospheric chemistry that lead to more computationally efficient models.
