@@ -1,4 +1,4 @@
-\begin{thebibliography}{71}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -157,6 +157,15 @@ EEA.
 EEA.
 \newblock {Air quality in Europe - 2015 report}.
 \newblock Technical Report 5/2015, European Environmental Agency, 2015.
+
+\bibitem[Emmerson and Evans(2009)]{Emmerson:2009}
+K.~M. Emmerson and M.~J. Evans.
+\newblock Comparison of tropospheric gas-phase chemistry schemes for use within
+  global models.
+\newblock \emph{Atmospheric Chemistry and Physics}, 9\penalty0 (5):\penalty0
+  1831--1845, 2009.
+\newblock \doi{10.5194/acp-9-1831-2009}.
+\newblock URL \url{http://www.atmos-chem-phys.net/9/1831/2009/}.
 
 \bibitem[Emmons et~al.(2010)Emmons, Walters, Hess, Lamarque, Pfister, Fillmore,
   Granier, Guenther, Kinnison, Laepple, Orlando, Tie, Tyndall, Wiedinmyer,
@@ -432,6 +441,21 @@ J.~J.~P. Kuenen, A.~J.~H. Visschedijk, M.~Jozwicka, and H.~A.~C. Denier van~der
 \newblock \doi{10.5194/acp-14-10963-2014}.
 \newblock URL \url{http://www.atmos-chem-phys.net/14/10963/2014/}.
 
+\bibitem[Kuhn et~al.(1998)Kuhn, Builtjes, Poppe, Simpson, Stockwell,
+  Andersson-Sko¨ld, Baart, Das, Fiedler, Hov, Kirchner, Makar, Milford,
+  Roemer, Ruhnke, Strand, Vogel, and Vogel]{Kuhn:1998}
+M.~Kuhn, P.~Builtjes, D.~Poppe, D.~Simpson, W.~Stockwell, Y.~Andersson-Sko¨ld,
+  A.~Baart, M.~Das, F.~Fiedler, {\O}.~Hov, F.~Kirchner, P.~Makar, J.~Milford,
+  M.~Roemer, R.~Ruhnke, A.~Strand, B.~Vogel, and H.~Vogel.
+\newblock Intercomparison of the gas-phase chemistry in several chemistry and
+  transport models.
+\newblock \emph{Atmospheric Environment}, 32\penalty0 (4):\penalty0 693 -- 709,
+  1998.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/S1352-2310(97)00329-4}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231097003294}.
+
 \bibitem[Lamarque et~al.(2010)Lamarque, Bond, Eyring, Granier, Heil, Klimont,
   Lee, Liousse, Mieville, Owen, Schultz, Shindell, Smith, Stehfest,
   Van~Aardenne, Cooper, Kainuma, Mahowald, McConnell, Naik, Riahi, and van
@@ -672,6 +696,16 @@ W.~R. Stockwell, F.~Kirchner, M.~Kuhn, and S.~Seefeld.
 \newblock ISSN 2156-2202.
 \newblock \doi{10.1029/97JD00849}.
 \newblock URL \url{http://dx.doi.org/10.1029/97JD00849}.
+
+\bibitem[Stockwell et~al.(2012)Stockwell, Lawson, Saunders, and
+  Goliff]{Stockwell:2012}
+W.~R. Stockwell, C.~V. Lawson, E.~Saunders, and W.~S. Goliff.
+\newblock A review of tropospheric atmospheric chemistry and gas-phase chemical
+  mechanisms for air quality modeling.
+\newblock \emph{Atmosphere}, 3\penalty0 (1):\penalty0 1, 2012.
+\newblock ISSN 2073-4433.
+\newblock \doi{10.3390/atmos3010001}.
+\newblock URL \url{http://www.mdpi.com/2073-4433/3/1/1}.
 
 \bibitem[von Schneidemesser et~al.(2011)von Schneidemesser, Monks, Gros,
   Gauduin, and Sanchez]{vonSchneidemesser:2011}

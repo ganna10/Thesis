@@ -227,26 +227,32 @@ Increasing levels of VOC increase the liklihood of \ce{RO2} converting NO to \ce
 
 The VOC-and-\ce{NO_x}-sensitive regime is characterised by \ce{O3} production being sensitive to both VOC and \ce{NO_x} levels. 
 Morever, it is in this atmospheric regime that the maximum amount of ozone is produced and corresponds to the contour ridges in Fig.~\ref{f:O3_isopleth}.
-\citet{Kleinman:1991} and \citet{Kleinman:1994} showed that this non-linear relationship can be thought of as a titration process between the amount of radicals and the \ce{NO_x} present in the atmosphere with the VOC-and-\ce{NO_x}-sensitive regime being the turning point.
+\citet{Kleinman:1994} showed that this non-linear relationship can be thought of as a titration process between radicals and \ce{NO_x} with the VOC-and-\ce{NO_x}-sensitive regime being the turning point.
 
-The non-linear nature of ozone production is one of the challendes in controlling ozone levels.
+The non-linear nature of ozone production is one of the challenges in controlling ozone levels.
 The difficulty is exacerbated by the fact that regions can alternate between these regimes depending on the meteorological conditions.
 Moreover, fresh emissions tend to occur in \ce{NO_x}-saturated areas before being transported to VOC-and-\ce{NO_x}-sensitive and \ce{NO_x}-sensitive regions.
 
 \subsection{Representing Atmospheric Chemistry in Models} \label{ss:chemistry_models}
-The degradation of most VOCs is well-understood however for more complex VOCs the complete set of reaction pathways of all the secondary degradation products there are a great number of uncertainties. 
-These uncertainties may be related to kinetic data, photolysis rates and in most cases the reaction products.
-
-Any uncertainties in reaction pathways and degradation products also leads to uncertainties in estimating the amount of ozone produced during the degradation of a particular VOC \citep{Atkinson:2000}.
-Representing this complex chemistry for each emitted VOC in a chemical transport model (CTM) is unrealistic.
+Representing the complex chemistry for each emitted VOC in a chemical transport model (CTM) is unrealistic.
 Even if all the secondary degradation pathways and products were known for every VOC, a CTM would not be able to efficiently numerically solve the resulting differential equations.
-Hence, CTMs use descriptions of atmospheric chemistry that lead to more computationally efficient models.
+Hence, CTMs use descriptions of atmospheric chemistry that lead to more computationally efficient models \citep{Stockwell:2012}.
 
-Not all representations of atmospheric chemistry used in a \emph{chemical mechanism} are prepared in the same way.
-For a start, models that also numerically compute meteorology fields require very computationally efficient chemical mechanisms including around $150$ unique species while simpler box models can use chemical mechanisms having many thousands of species.
-The simplification techniques used to represent the multitude of VOC and their degradation may lead to discrepancies in the estimations of ozone production.
-We compare the ozone production from many reduced chemical mechanisms to a highly detailed chemical mechanism in Sect.~\ref{s:chemical_mechanism_results} and the research questions addressed in this study are framed in Sect.~\ref{s:research_questions}.
-\todo{use Stockwell:2012 review}
+The representation of atmospheric chemistry in a CTM is called a chemical mechanism of which there are many choices.
+The choice of chemical mechanism depends on the scope of the modelling study and typically only one chemical mechanism is used.
+
+Chemical mechanisms are developed by simplifying and aggregating degradation products, VOCs and reactions.
+Less aggressive simplification approaches may result in a chemical mechanism having thousands of species while more aggressive simplification may result in only a hundred species. 
+Chemical mechanisms are verified by comparing the concentrations of field studies or controlled chamber study experiments to model simulations \citep{Stockwell:2012}.
+Section~\ref{s:chemical_mechanisms} includes further details of the simplification techniques used to develop chemical mechanisms.
+
+Chemical mechanism comparison studies, such as \citet{Kuhn:1998} and \citet{Emmerson:2009}, compare the outputs of different chemical mechanisms using the same model setup and initial conditions.
+These studies show that the differences in representing atmospheric chemistry can lead to large differences in simulated ozone concentrations.
+These comparisons of the concentrations of key atmospheric species, such as ozone, OH, peroxynitrates and \ce{NO_x}, indicate that the chemistry leads to differences but does not help in pointing out the root cause.
+
+Determining where the source of differences between chemical mechanisms is a difficult task due to the interlinked chemistry of many key species.
+As part of this study, the ozone production from different chemical mechanisms is compared and differences in the treatment of VOC degradation chemistry is determined aiding the future development of chemical mechanisms.
+The research questions driving this comparison are presented in Sect.~\ref{s:research_questions} and the results are described in Sect.~\ref{s:chemical_mechanism_results}.
 
 \section{Emissions of Ozone Precursors} \label{s:precursor_emissions}
 % NOx sources and quantities, weekend effect

@@ -1,51 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-White space in argument---line 80 of file main.aux
- : \citation{Kleinman:1991;
- :                          Kleinman:1994}
-I'm skipping whatever remains of this command
 The style file: abbrvnat.bst
 Database file #1: References.bib
-You've used 71 entries,
+You've used 74 entries,
             2773 wiz_defined-function locations,
-            1181 strings with 27798 characters,
-and the built_in function-call counts, 50680 in all, are:
-= -- 4373
-> -- 4567
-< -- 26
-+ -- 1530
-- -- 1458
-* -- 5039
-:= -- 8298
-add.period$ -- 356
-call.type$ -- 71
-change.case$ -- 701
-chr.to.int$ -- 70
-cite$ -- 142
-duplicate$ -- 1425
-empty$ -- 2812
-format.name$ -- 1553
-if$ -- 10120
+            1204 strings with 28806 characters,
+and the built_in function-call counts, 53017 in all, are:
+= -- 4572
+> -- 4792
+< -- 27
++ -- 1605
+- -- 1530
+* -- 5278
+:= -- 8684
+add.period$ -- 373
+call.type$ -- 74
+change.case$ -- 734
+chr.to.int$ -- 73
+cite$ -- 148
+duplicate$ -- 1487
+empty$ -- 2932
+format.name$ -- 1630
+if$ -- 10586
 int.to.chr$ -- 2
 int.to.str$ -- 1
-missing$ -- 64
-newline$ -- 506
-num.names$ -- 284
-pop$ -- 1135
+missing$ -- 67
+newline$ -- 529
+num.names$ -- 296
+pop$ -- 1187
 preamble$ -- 1
-purify$ -- 628
+purify$ -- 658
 quote$ -- 0
-skip$ -- 1351
+skip$ -- 1413
 stack$ -- 0
-substring$ -- 1800
-swap$ -- 72
+substring$ -- 1867
+swap$ -- 75
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 776
+type$ -- 809
 warning$ -- 0
-while$ -- 302
+while$ -- 315
 width$ -- 0
-write$ -- 1213
-(There was 1 error message)
+write$ -- 1268
