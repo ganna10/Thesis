@@ -201,34 +201,37 @@ In polluted areas with high NO emissions or in the night-time when no photochemi
 \begin{figure}
 	\begin{center}
         \caption[Ozone mixing ratios as a function of \ce{NO_x} and VOC]{Ozone isopleth plots for various initial mixing ratios of \ce{NO_x} and a VOCs. taken from \citet{Jenkin:2000}.}
-        \includegraphics[width = \textwidth]{O3_isopleth}
+        \includegraphics[width = 0.9\textwidth]{O3_isopleth}
 		\label{f:O3_isopleth}
 	\end{center}
 \end{figure}
 %balance of NOx & NMVOC for O3 production
-One of the most important features of ozone production, briefly hinted at prevously, is the dependence of ozone levels on both VOC and \ce{NO_x}.
+The fate of peroxy radicals produced during VOC degradation depends on the ratio of the concentrations of radicals and \ce{NO_x} \citep{Kleinman:1991, Kleinman:1994}.
+In regions with low-\ce{NO_x} concentrations, \ce{RO2} are more likely to react with other radicals rather than convert NO to \ce{NO2}, leading to ozone production.
+The most common reactions are bimolecular destruction \eqref{r:HO2_OH}, which removes radicals, or combination of radicals \eqref{r:RO2_HO2} into reservoir species that may re-release radicals.
+This is \emph{\ce{NO_x}-sensitive} chemistry.
+
+On the other hand, when \ce{RO2} reacts with \ce{NO2} in regions with high levels of \ce{NO_x}, the production of \ce{HNO3} increases \eqref{r:NO2_OH}.
+Nitric acid is a sink for both OH and \ce{NO_x} removing OH which would otherwise react with emitted VOC to fuel further radical production.
+This is \emph{VOC-sensitive} or \emph{\ce{NO_x}-saturated} chemistry.
+
+The different chemistry in low-\ce{NO_x} and high-\ce{NO_x} areas indicates that ozone production is a non-linear process.
 Figure~\ref{f:O3_isopleth}, from \citet{Jenkin:2000}, depicts the non-linear relationship between \ce{O3} mixing ratios as a function of VOC and \ce{NO_x} mixing ratios.  
 This relationship can be divided into distinct regimes of ozone production: \emph{\ce{NO_x}-sensitive} (or \emph{\ce{NO_x}-limited}), \emph{\ce{NO_x}-saturated} (or \emph{VOC-sensitive}) and \emph{VOC-and-\ce{NO_x}-sensitive} regimes. 
 
-The cause of the non-linear relationship is the pathways available to \ce{RO2}.
-In the \ce{NO_x}-sensitive regime, the concentration of \ce{NO_x} is low compared to that of radicals hence radicals are more likely to react with other radicals. 
-The most common reactions are bimolecular destruction \eqref{r:HO2_OH}, which removes radicals, or combination of radicals \eqref{r:RO2_HO2} into reservoir species that can re-release radicals.
-
-Reactions between radicals do not directly lead to ozone production as little NO is converted to \ce{NO2}.
-Thus increasing \ce{NO_x} would increase the number of NO to \ce{NO2} reactions by peroxy radicals leading to ozone production.
-However, increasing VOC levels would not increase \ce{O3} production as increases the likelihood of radical descruction or combination reactions.
+In the \ce{NO_x}-sensitive regime, increasing \ce{NO_x} increases the number of NO to \ce{NO2} reactions by peroxy radicals leading to ozone production.
+However, increasing VOC levels has little effect on \ce{O3} production due to increased radical-radical reactions.
 
 The \ce{NO_x}-saturated regime corresponds to high \ce{NO_x} concentrations where radicals will tend to react with \ce{NO_x}. 
-Increased \ce{NO_x} levels will not increase \ce{O3} production due to an increase in nitric acid (\ce{HNO3}) formation \eqref{r:NO2_OH}.
-Nitric acid is a sink for both OH and \ce{NO_x} removing OH which would otherwise react with emitted VOC to fuel further radical production.
+Increasing levels of VOC increase the liklihood of \ce{RO2} converting NO to \ce{NO2} while increasing \ce{NO_x} levels will not increase \ce{O3} production.
 
 The VOC-and-\ce{NO_x}-sensitive regime is characterised by \ce{O3} production being sensitive to both VOC and \ce{NO_x} levels. 
 Morever, it is in this atmospheric regime that the maximum amount of ozone is produced and corresponds to the contour ridges in Fig.~\ref{f:O3_isopleth}.
-The non-linear relationship can be thought of as a titration process between the amount of radicals and the \ce{NO_x} present in the atmosphere with the VOC-and-\ce{NO_x}-sensitive regime being the turning point \citep{Kleinman:1991, Kleinman:1994}.
+\citet{Kleinman:1991} and \citet{Kleinman:1994} showed that this non-linear relationship can be thought of as a titration process between the amount of radicals and the \ce{NO_x} present in the atmosphere with the VOC-and-\ce{NO_x}-sensitive regime being the turning point.
 
-This non-linear nature of the troposphere to ozone production makes controlling ozone levels particularly difficult.
-The difficulty is exacerbated by the fact that regions can alternate between these regimes depending on the season, time of day etc.
-Moreover, fresh emissions tend to occur in the \ce{NO_x}-saturated regime and through transport, the emissions are advected to VOC-and\ce{NO_x}-sensitive and even \ce{NO_x}-sensitive regions.
+The non-linear nature of ozone production is one of the challendes in controlling ozone levels.
+The difficulty is exacerbated by the fact that regions can alternate between these regimes depending on the meteorological conditions.
+Moreover, fresh emissions tend to occur in \ce{NO_x}-saturated areas before being transported to VOC-and-\ce{NO_x}-sensitive and \ce{NO_x}-sensitive regions.
 
 \subsection{Representing Atmospheric Chemistry in Models} \label{ss:chemistry_models}
 The degradation of most VOCs is well-understood however for more complex VOCs the complete set of reaction pathways of all the secondary degradation products there are a great number of uncertainties. 
