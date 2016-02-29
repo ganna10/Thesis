@@ -1,4 +1,4 @@
-\begin{thebibliography}{77}
+\begin{thebibliography}{79}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -100,6 +100,15 @@ J.~Coates and T.~M. Butler.
 \newblock \doi{10.5194/acp-15-8795-2015}.
 \newblock URL \url{http://www.atmos-chem-phys.net/15/8795/2015/}.
 
+\bibitem[Comrie(1997)]{Comrie:1997}
+A.~C. Comrie.
+\newblock Comparing neural networks and regression models for ozone
+  forecasting.
+\newblock \emph{Journal of the Air \& Waste Management Association},
+  47\penalty0 (6):\penalty0 653--663, 1997.
+\newblock \doi{10.1080/10473289.1997.10463925}.
+\newblock URL \url{http://dx.doi.org/10.1080/10473289.1997.10463925}.
+
 \bibitem[Curci et~al.(2009)Curci, Beekmann, Vautard, Smiatek, Steinbrecher,
   Theloke, and Friedrich]{Curci:2009}
 G.~Curci, M.~Beekmann, R.~Vautard, G.~Smiatek, R.~Steinbrecher, J.~Theloke, and
@@ -136,18 +145,6 @@ J.~P. Dawson, P.~J. Adams, and S.~N. Pandis.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S1352231006010223}.
 
-\bibitem[Dawson et~al.(2009)Dawson, Racherla, Lynn, Adams, and
-  Pandis]{Dawson:2009}
-J.~P. Dawson, P.~N. Racherla, B.~H. Lynn, P.~J. Adams, and S.~N. Pandis.
-\newblock Impacts of climate change on regional and urban air quality in the
-  eastern united states: Role of meteorology.
-\newblock \emph{Journal of Geophysical Research: Atmospheres}, 114\penalty0
-  (D5), 2009.
-\newblock ISSN 2156-2202.
-\newblock \doi{10.1029/2008JD009849}.
-\newblock URL \url{http://dx.doi.org/10.1029/2008JD009849}.
-\newblock D05308.
-
 \bibitem[{Denier van der Gon} et~al.(2011){Denier van der Gon}, Hendriks,
   Kuenen, Segers, and Visschedijk]{Gon:2011}
 H.~{Denier van der Gon}, C.~Hendriks, J.~Kuenen, A.~Segers, and A.~Visschedijk.
@@ -168,6 +165,18 @@ R.~M. Doherty, O.~Wild, D.~T. Shindell, G.~Zeng, I.~A. MacKenzie, W.~J.
 \newblock ISSN 2169-8996.
 \newblock \doi{10.1002/jgrd.50266}.
 \newblock URL \url{http://dx.doi.org/10.1002/jgrd.50266}.
+
+\bibitem[Dueñas et~al.(2002)Dueñas, Fernández, Cañete, Carretero, and
+  Liger]{Duenas:2002}
+C.~Dueñas, M.~Fernández, S.~Cañete, J.~Carretero, and E.~Liger.
+\newblock Assessment of ozone variations and meteorological effects in an urban
+  area in the mediterranean coast.
+\newblock \emph{Science of The Total Environment}, 299\penalty0
+  (1–3):\penalty0 97 -- 113, 2002.
+\newblock ISSN 0048-9697.
+\newblock \doi{http://dx.doi.org/10.1016/S0048-9697(02)00251-6}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0048969702002516}.
 
 \bibitem[EEA(2013)]{AQEU:2013}
 EEA.
@@ -532,6 +541,17 @@ X.~Li, F.~Rohrer, T.~Brauers, A.~Hofzumahaus, K.~Lu, M.~Shao, Y.~H. Zhang, and
   12291--12305, 2014.
 \newblock \doi{10.5194/acp-14-12291-2014}.
 \newblock URL \url{http://www.atmos-chem-phys.net/14/12291/2014/}.
+
+\bibitem[Logan(1999)]{Logan:1999}
+J.~A. Logan.
+\newblock An analysis of ozonesonde data for the troposphere: Recommendations
+  for testing 3-d models and development of a gridded climatology for
+  tropospheric ozone.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 104\penalty0
+  (D13):\penalty0 16115--16149, 1999.
+\newblock ISSN 2156-2202.
+\newblock \doi{10.1029/1998JD100096}.
+\newblock URL \url{http://dx.doi.org/10.1029/1998JD100096}.
 
 \bibitem[Lourens et~al.(2016)Lourens, Butler, Beukes, van Zyl, Fourie, and
   Lawrence]{Lourens:2016}

@@ -3,7 +3,6 @@ The effects of air pollution to the general population range from chronic to les
 Moreover, air pollution has been labelled as carcinogenic by the International Agency for Research on Cancer \citep{IARC:2013}.
 Due to these impacts, many governed areas introduced legislation designed to reduce concentrations of many air pollutants.
 
-%Air pollutants can be emitted directly into the atmosphere (\emph{primary pollutants}) or formed from the chemical reactions of other pollutants (\emph{secondary pollutants}).
 Tropospheric ozone (\ce{O3}) and particulate matter (PM) are the most problematic air pollutants over Europe with up to $98$ and $93$~\% of Europe's urban population exposed to concentrations of ozone and PM above the WHO guidelines \citep{AQEU:2015}.
 Furthermore, in 2011 the EU ozone target value for human health (the EU does not currently have a  limit value for ozone) was exceeded in $65$~\% of the EU member states and Europe's ozone target value for vegetation was exceeded in $27$~\% of the EU-28 agricultural areas \citep{AQEU:2013}.
 
@@ -49,19 +48,6 @@ This thesis focuses on the representation of VOC degradation chemistry, VOC emis
 The state of the art knowledge of ozone production chemistry is outlined in Sect.~\ref{s:ozone_chemistry}, while sources of emissions of ozone precursors are described in Sect.~\ref{s:precursor_emissions}.
 Finally, the effects of meteorology, in particular temperature, on ozone production is presented in Sect.~\ref{s:meteo_ozone}.
 For the rest of this thesis, ozone shall refer to tropospheric ozone.
-
-%The STE is driven by the Brewer-Dobson circulation \citep{Brewer:1949, Dobson:1956}, a relatively slow circulation (weeks to months) due to planetary wave disturbances in the troposphere \citep{Haynes:1991}.
-%The circulation causes air to move downward from the stratosphere into the troposphere at the mid and high latitudes balanced by upward exchange at the tropics. 
-%The STE also has a seasonal variability where the maximum transport occurs during spring \citep{Appenzeller:1996}, due to the increase in altitude of the tropopause - the boundary level between the troposphere and the stratosphere - which moves stratospheric air into the troposphere. 
-
-%%metereology impacts 
-%Tropospheric \ce{O3} is not only impacted by emission levels, it is also affected by meteorological variables such as temperature, number of hours of sunshine and wind as these impact transport, dry and wet deposition rates and also chemical reaction rates \citep{Hess:2009}.
-%Meteorology influences both regional and global \ce{O3} \citep{Hess:2009}, climate patterns such as El Ni\~{n}o are also known to impact \ce{O3} levels in certain areas \citep{Sudo:2001}. 
-%The effects of meteorology on ozone production shall be presented in more detail in Sect.~\ref{s:meteo_ozone}.
-%
-%In general, there has been great effort to reduce emissions of ozone precursors from anthropogenic sources.
-%For example, the emissions of non-methane VOCs (NMVOCs) over Europe have decreased by $20$~\% and emissions of \ce{NO_x} have decreased by almost $30$~\% from 2004 levels.
-%Despite these reductions in ozone precursors, up to $98$~\% of Europe's urban population are exposed to levels of ozone exceeding the WHO guidelines \citep{AQEU:2015}.
 
 \section{Ozone Chemistry} \label{s:ozone_chemistry}
 Ozone absorbs UV radiation producing either ground-state atomic oxygen (\ce{O(^3P)}) or excited singlet (\ce{O(^1D)}) oxygen atoms.
@@ -163,7 +149,6 @@ While during the night-time, reaction with the nitrate (\ce{NO3}) radical is typ
 \end{figure}
 
 Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme for VOCs in the troposphere. 
-%The reaction of a VOC with OH forms an alkyl or substituted alkyl radical (R) which in the presence of \ce{O2} produces alkyl peroxy radicals (\ce{RO2}).
 The initial oxidation of an NMVOC leads to the formation of \ce{RO2} radicals.  
 Similar to CO and \ce{CH4} degradation, the fate of the peroxy radicals determines whether net loss or production of ozone occurs.
 \begin{rxnarray}
@@ -185,16 +170,12 @@ The thermal decomposition rate of \ce{RO2NO2} is highly temperature dependent.
 Hence, at lower temperatures \ce{RO2NO2} may build up and be transported away from the region of formation and re-release \ce{RO2} and \ce{NO2} downwind fuelling ozone production away from large sources of \ce{NO_x}.
 This is one example of the dependence of ozone production on meteorological variables, a broader overview is given in Sect.~\ref{s:meteo_ozone}.
 
-%The secondary degradation of the RO radical formed from many of the \ce{RO2} reactions proceeds through either decomposition, isomerisation or reaction with \ce{O2}. 
-%The products that result from the reaction pathways depend on the parent VOC and this also determines the number of NO-to-\ce{NO2} conversions, eventually leading to \ce{O3} formation.
-
 Another important reaction involving ozone in polluted regions is that of NO with \ce{O3}.
 \begin{rxnarray}
     \ce{NO + O3} & \rightarrow \ce{NO2 + O2} \label{r:NO_O3}
 \end{rxnarray}
 Together with \eqref{r:NO2_hv} and \eqref{r:O_O2}, this is a very important null cycle of ozone production and destruction.
 In polluted areas with high NO emissions or in the night-time when no photochemistry occurs, the concentration of ozone is limited by the rates of \eqref{r:NO_O3} and \eqref{r:NO2_hv}.
-%The path that a NMVOC takes to reach the final degradation products of \ce{CO2} and \ce{H2O} depends on the type of NMVOC, radical concentrations, \ce{NO_x} concentration and other factors such as time of day and year. 
 
 \subsection[VOC and NOx Chemistry]{VOC and \ce{NO_x} Chemistry} \label{ss:VOC_NOx}
 \begin{figure}
@@ -335,10 +316,6 @@ Isoprene (\ce{C5H8}) emitted from vegetation dominates at the global scale howev
 Although isoprene is considered a biogenic VOC (BVOC), it has been measured in the urban areas of London and Paris away from natural emission sources.
 Transport of isoprene is unlikely as isoprene is a highly reactive NMVOC indicating anthropogenic sources of isoprene \citep{vonSchneidemesser:2011}.
 Isoprene is not the only NMVOC having both biogenic and anthropogenic sources as many small NMVOC that emitted from anthropogenic sources, such as methanol and acetaldehyde, are also emitted from vegetation \citep{Guenther:2012}.
-%
-%The NMVOC species emitted vary between types of vegetation -- some trees emit large amounts of isoprene while others do not emit isoprene at all.
-%Thus only regulation of NMVOC from anthropogenic sources is possible and drastic reductions in anthropogenic \ce{NO_x} are required to minimise the burden of the population to ozone pollution.
-%As a consequence of the non-linear relationship of ozone production with VOC and \ce{NO_x}, areas dominated by biogenic NMVOC emissions and away from large \ce{NO_x} sources (\ce{NO_x}-sensitive regime) could lead to net loss of ozone through direct reactions of ozone with many biogenic NMVOC and the net loss of radicals (Sect.~\ref{ss:VOC_NOx}).
 
 The maximum number of molecules of \ce{O3} produced per degradation of an emitted NMVOC depends on the number of NO to \ce{NO2} conversions by the peroxy radicals formed during the degradation of the NMVOC.
 This is highly dependent on the type of NMVOC and the number of carbons in the NMVOC leading to a wide-range of OPPs for different NMVOC.
@@ -393,7 +370,6 @@ For example, \citet{Curci:2009} noted large differences in summertime ozone conc
 %emissions in models - lumping
 Uncertainties when using emission inventories arise as the speciation of emissions to individual chemical species or groups differs between emission inventories.
 Emissions of NMVOCs specified by an emission inventory are mapped to the appropriate chemical mechanism species used in the modelling study.
-%Thus a model specifies emissions from different chemical species depending on the chemical mechanism used by the model.
 Furthermore, the mapping is not standardised throughout the modelling community with possibly the same NMVOC emissions being allocated to different chemical species even if using the same chemical mechanism \citep{Carter:2015}.
 
 The influence of the speciation of emission inventories on modelled ozone production is determined as part of this work.
@@ -419,46 +395,47 @@ Section~\ref{s:research_questions} outlines the research questions and the resul
     \end{tabular}
     \label{t:meteo_vars}
 \end{table}
+%metereology impacts 
+Meteorological conditions strongly influence the production of ozone with clear and calm summer days typically having high ozone levels \citep{Duenas:2002}.
+\citet{Comrie:1997} noted a complex relationship between meteorology and ozone due in part to competing positive and negative effects on ozone production.
+Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
 
-As the chemical processes of ozone production are photochemical in nature, meteorology has a significant influence on the amount of ozone produced.
-The influence of meteorology on ozone production is particularly important for predicting air quality in a world under the effects of climate change and the effects changed weather systems would have.
-Climate change is predicted to influence many meteorological variables that impact ozone production, Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects specific meteorological variables have on ozone production.
+Climate change is predicted to influence many meteorological variables and increase the number of heatwaves.
+Thus understanding the influence of meteorology on ozone production is particularly important for future predictions of air quality and how to tackle ozone pollution in a changing climate.
+
+\subsubsection{Humidity}
+Humidity influences ozone production both positively and negatively.
+When \ce{O^1D}, coming from ozone photolysis \eqref{r:O3_hvb} reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
+However, the initiation of VOC degradation through reaction with OH can lead to ozone production, described in Sect.~\ref{s:ozone_chemistry}.
+These competing effects of water vapour on ozone production lead to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
+
+\subsubsection{Wind Speed and Stagnation}
+High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
+Model projections of \citet{Doherty:2013} showed that while climate change is expected to change large-scale atmospheric transport there is little influence on the spatial patterns of mean concentrations of ozone.
+
+During periods of low wind speeds, emissions of ozone precursors remain close to their sources.
+These stagnant conditions over polluted urban areas are highly correlated with increased ozone production over urban areas \citep{Jacob:2009}.
+Heatwaves result from stagnant conditions along with high temperatures enhancing the ozone pollution over a region.
+
+\subsubsection{Mixing Height}
+The effects of mixing height of the planetary boundary layer (PBL) with the free troposphere depend on the region in question.
+For example, \citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with mixing height whereas regions with high ozone levels are negatively affected.
+This spatial effect of mixing height on ozone production comes depends on the difference between ozone levels at the surface and in the free troposphere \citep{Jacob:2009}.
+
+Regions with lower levels of surface ozone than the free troposphere have an additional source of ozone with mixing between the PBL and free troposphere.
+Conversely, ozone may be transported away from a polluted region having more ozone than the free troposphere.
 
 \subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
 \citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over many areas of central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
-Interestingly only ozone pollution (higher values of ozone) and not background ozone, the ozone levels without the influence of anthropogenic emissions. is correlated with temperature \citep{Sillman:1995a}.
+\citet{Sillman:1995a} illustrated that only ozone pollution produced from the chemistry described in Sect.~\ref{s:ozone_chemistry} is correlated with temperature rather than background ozone, the ozone levels without the influence of anthropogenic emissions.
 
-Temperature positively influences ozone levels directly in two ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions.
-\citet{Pusede:2015} reviewed the chemical processes that exhibit temperature dependency and the relation of temperature on ozone production.
-The production of radicals (OH, \ce{HO2}, \ce{RO2}) and temperature-dependence of organic reactivity strongly influence the production of ozone.
-The shorter lifetime of peroxy nitrates at higher temperatures, increased radical production during VOC degradation, changes in emissions of both VOC and \ce{NO_x} and formation of alkyl nitrates \eqref{r:RO2_NOb} all exhibit temperature dependent influences on ozone production.
+Temperature directly influences ozone levels in two ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions.
+The review of \citet{Pusede:2015} showed that the temperature dependence of radical production, organic reactivity, the shorter lifetime of \ce{RO2NO2} and the formation of alkyl nitrates \eqref{r:RO2_NOb} directly affects ozone production.
 
-Despite many studies from an observational and regional modelling perspective correlating temperature with ozone production, there has been a lack of detailed process studies separating the direct effects of temperature on ozone.
-Moreover, there are no attempts to tease the relative importance of the chemical processes listed in \citet{Pusede:2015} on ozone production.
-The final part of this study addresses the whether higher emissions or faster chemistry is more important for ozone production and also which chemical processes are the most important for ozone production.
-The results of this study are presented in Sect.~\ref{s:T-O3_results}.
-
-\subsubsection{Humidity}
-Humidity levels influences ozone production both positively and negatively.
-When \ce{O^1D}, coming from ozone photolysis \eqref{r:O3_hvb}, reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
-However, the initiation of VOC degradation through reaction with OH can lead to ozone production as described in Sect.~\ref{s:ozone_chemistry}.
-These competing effects of water vapour on ozone production leads to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
-
-\subsubsection{Wind Speed and Stagnation}
-High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
-\citet{Doherty:2013} projected using a multi-model study that while climate change is expected to change large-scale atmospheric transport, model projections show that these have little influence on the spatial patterns of mean concentrations of ozone.
-
-When low wind speeds are present over polluted urban areas stagnant conditions arise and these atmospheric conditions are highly correlated with increased ozone production over urban areas \citep{Jacob:2009}.
-Typically stagnant conditions are also related to periods of high temperatures which may further fuel ozone production.
-During periods of stagnant conditions, the ozone produced from the previous day (the ozone-lag) is not transported downwind, add the ozone production from emissions of ozone precursors and this leads to high ozone episodes \citep{Jacob:2009}.
-
-\subsubsection{Mixing Height}
-The effects of increased mixing heights of the planetary boundary layer (PBL) with the free troposphere are not so straightforward.
-\citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with mixing height whereas regions with high ozone levels are negatively affected.
-This spatial effect of mixing height on ozone production comes from whether the free troposphere ozone levels are higher or lower than the ozone levels within the PBL \citep{Jacob:2009}.
-The study of \citet{Dawson:2009} showed that the predicted lower PBL heights coupled with stagnant conditions led to increased levels of ozone.
-%Free troposphere ozone levels tend to be around $60$~pbv in the northern mid-latitudes \citep{Logan:1999}.
+There is a lack of detailed process studies separating the direct effects of temperature on ozone despite observational and regional modelling studies correlating temperature with ozone production. 
+The final part of this study addresses whether the increase in BVOC emissions or faster reaction rates with temperature is more important for ozone production.
+The research questions for this study are detailed in Sect.~\ref{s:research_questions} and the results are presented in Sect.~\ref{s:T-O3_results}.
 
 \section{Research Questions} \label{s:research_questions}
 The overarching research question of this thesis is to determine detailed chemical processes affecting tropospheric ozone production.
