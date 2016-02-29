@@ -1,4 +1,4 @@
-\begin{thebibliography}{75}
+\begin{thebibliography}{77}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,6 +99,19 @@ J.~Coates and T.~M. Butler.
   8795--8808, 2015.
 \newblock \doi{10.5194/acp-15-8795-2015}.
 \newblock URL \url{http://www.atmos-chem-phys.net/15/8795/2015/}.
+
+\bibitem[Curci et~al.(2009)Curci, Beekmann, Vautard, Smiatek, Steinbrecher,
+  Theloke, and Friedrich]{Curci:2009}
+G.~Curci, M.~Beekmann, R.~Vautard, G.~Smiatek, R.~Steinbrecher, J.~Theloke, and
+  R.~Friedrich.
+\newblock Modelling study of the impact of isoprene and terpene biogenic
+  emissions on european ozone levels.
+\newblock \emph{Atmospheric Environment}, 43\penalty0 (7):\penalty0 1444 --
+  1455, 2009.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2008.02.070}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231008002124}.
 
 \bibitem[Damian et~al.(2002)Damian, Sandu, Damian, Potra, and
   Carmichael]{Damian:2002}
@@ -240,6 +253,16 @@ S.~Grice, J.~Stedman, A.~Kent, M.~Hobson, J.~Norris, J.~Abbott, and S.~Cooke.
 \newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2009.01.019}.
 \newblock URL
   \url{http://www.sciencedirect.com/science/article/pii/S1352231009000508}.
+
+\bibitem[Guenther et~al.(2006)Guenther, Karl, Harley, Wiedinmyer, Palmer, and
+  Geron]{Guenther:2006}
+A.~Guenther, T.~Karl, P.~Harley, C.~Wiedinmyer, P.~I. Palmer, and C.~Geron.
+\newblock {Estimates of global terrestrial isoprene emissions using MEGAN
+  (Model of Emissions of Gases and Aerosols from Nature)}.
+\newblock \emph{Atmospheric Chemistry and Physics}, 6\penalty0 (11):\penalty0
+  3181--3210, 2006.
+\newblock \doi{10.5194/acp-6-3181-2006}.
+\newblock URL \url{http://www.atmos-chem-phys.net/6/3181/2006/}.
 
 \bibitem[Guenther et~al.(2012)Guenther, Jiang, Heald, Sakulyanontvittaya, Duhl,
   Emmons, and Wang]{Guenther:2012}

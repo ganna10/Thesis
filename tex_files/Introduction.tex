@@ -254,12 +254,21 @@ As part of this study, the ozone production from different chemical mechanisms i
 The research questions driving this comparison are presented in Sect.~\ref{s:research_questions} and the results are described in Sect.~\ref{s:chemical_mechanism_results}.
 
 \section{Source and Sinks of Ozone Precursors} \label{s:precursor_emissions}
-The chemistry of ozone production depends on the concentrations of VOCs and \ce{NO_x} in the troposphere (Sect.~\ref{ss:VOC_NOx}).
-In this section, the sources and sinks of the precursors to ozone production are discussed.
+%temporal profile of emissions
+Ozone precursors (\ce{NO_x} and VOCs) are emitted from many anthropogenic and biogenic sources.
+Moreover, emissions may vary throughout the year, month or time of day.
+In many regions, reduced road transport during the weekend leads to a noticible reduction in \ce{NO_x} emissions influencing ozone levels.
+This is called the ``weekend-effect''.
+For example, ozone production is \ce{NO_x}-saturated during weekdays in San Joaquin Valley, California but during the weekend higher ozone levels are recorded as the reduction in \ce{NO_x} levels leads to VOC-and-\ce{NO_x}-sensitive chemistry \citep{Pusede:2014}.
+
+Anthropogenic and biogenic emissions of NMVOC also have a temporal distribution.
+Similar to \ce{NO_x}, many sources of NMVOC, such as industry and solvent use, have a reduction in activity during the weekend.
+Transport emissions (source of both \ce{NO_x} and NMVOC) peak during the morning and evening rush hours and emissions from solvent use has a strong diurnal cycle.
+Residential combustion is highest during the winter months and lowest during the summer \citep{Gon:2011}.
 
 % NOx sources and quantities, weekend effect
 \subsection[NOx]{\ce{NO_x}}
-Anthropogenic activities are the main sourece of \ce{NO_x} emissions into the atmosphere.
+Anthropogenic activities are the main source of \ce{NO_x} emissions into the atmosphere.
 In the year 2000, almost $52$~Tg~N were emitted with 65~\% through the many forms of fossil fuel combustion \citep{Seinfeld:2006}. 
 Examples of fossil fuel combustion emitting \ce{NO_x} are transportation using diesel or petrol vehicles, industrial activities and domestic heating \citep{vonSchneidemesser:2015}.
 
@@ -341,17 +350,17 @@ OPPs for complex NMVOCs are calculated using models by incrementally varying the
 Different scales calculating the OPP of NMVOC have been developed using different \ce{NO_x} conditions relevant to the area of interest.
 The Maximum Incremental Reactivity (MIR) and Maximum Ozone Incremental Reactivity scales of \citet{Carter:1994} are two examples of determining the OPP of NMVOCs.
 
-\subsection{Representing VOC Emissions in Models}
+\subsection{Representing NMVOC Emissions in Models}
 %representation of VOC emissions in models using emission inventories
-Representing the multitude of emitted VOCs, from either anthropogenic or biogenic sources is one of the major challenges of the modelling community.
-Models use emission inventories that specify the type and quantity of VOCs emitted over a region or even the whole globe.
-However, as hinted at, this is no easy task and emission inventories are one of the major sources of uncertainty of the model input \citep{Russell:2000}.
+Emissions of chemical species of both anthropogenic and biogenic origin are a critical input in models.
+Emission inventories specify the type and quantity of emissions over a particular region or the whole globe.
+However, this is no easy task and emission inventories are one of the major sources of uncertainty of the model input \citep{Russell:2000}.
 
-Emission inventories typically specify emissions for \ce{NO_x}, CO, \ce{CH4}, NMVOC as well as non-gas-phase emissions such as particulate matter.
-Emissions are assigned to source sectors, called SNAP (Standardised Nomenclature for Air Pollutants) sectors, such as those listed in Table~\ref{t:SNAP}.
-The rest of this section shall discuss specifications of NMVOC emissions from emission inventories.
+Emission inventories assign emissions of separate groups (\ce{NO_x}, CO, \ce{CH4}, NMVOC, particulate matter) to source sectors. 
+For example, Table~\ref{t:SNAP} lists the source sectors used by the TNO\_MACCIII emission inventory and the corresponding SNAP (Standardised Nomenclature for Air Pollutants) number.
+The use of SNAP sector labels is a short-hand way of referring to the different source sectors of emissions by the modelling community. \todo{check with Erika}
 
-\begin{table}
+\begin{table}[t]
     \centering
     \caption[SNAP sectors in the TNO\_MACCIII]{SNAP sectors for anthropogenic emissions listed in the TNO\_MACCIII inventory \citep{Kuenen:2014}.}
     \begin{tabular}{cl}
@@ -376,29 +385,20 @@ The rest of this section shall discuss specifications of NMVOC emissions from em
     \label{t:SNAP}
 \end{table}
 
-%temporal profile of emissions
-Emissions of both \ce{NO_x} and VOCs are not constant over the year, month or time of day.
-In many regions, a noticible reduction in \ce{NO_x} emissions, due to reduced road transport, is noted during the weekend -- called the ``weekend-effect''.
-The weekend-effect has implications on the ozone production during the weekend.
-For example, ozone production is \ce{NO_x}-saturated during weekdays in San Joaquin Valley, California.
-The reduction of \ce{NO_x} emissions during the weekend moves ozone production to the VOC-and-\ce{NO_x} sensitive regime, hence higher ozone levels are measured during the weekend \citep{Pusede:2014}.
-
-Anthropogenic NMVOC emissions from the different SNAP sectors also have a temporal distribution.
-Many SNAP sectors, such as industry and solvent use, have a reduction in emissions on weekends.
-Transport emissions tend to peak during the morning and evening rush hours and emissions due to solvent have a strong diurnal cycle.
-Residential combustion tends to be highest during the winter months and lowest during the summer \citep{Gon:2011}.
-
-Emission factors are assigned to the emissions from SNAP categories to represent the temporal profiles within a model.
-Biogenic VOC emissions are typically estimated using an algorithm including variables on which BVOC emissions are dependent.
-MEGAN2.1 \citep{Guenther:2012} is commonly used by the modelling community to represent emissions from nature.
-The MEGAN2.1 model utilised variables such as temperature and radiation levels which are calculated during model simulations and then fed into the MEGAN2.1 model to estimate BVOC emissions.
+BVOC emissions are dependant on meteorolgical and biological variables, thus algorithms estimating BVOC emissions calculated as part of the model simulation may be used instead of an emission inventory.
+The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions at each model time-step using the temperature and radiation values determined as part of the model.
+The choice of an on-line algorithm or emission inventory to specify BVOC emissions influences modelled ozone concentrations. 
+For example, \citet{Curci:2009} noted large differences in summertime ozone concentrations over Europe when using a gridded emission inventory or an on-line algorithm.
 
 %emissions in models - lumping
-One issue for the modelling community with using emission inventories for specifying NMVOC emissions is translating the listed emissions into the chemical species used by the chemical mechanism.
-Emission inventories are not normally immediately available for use with a chemical mechanism which can lead to different modelling groups allocating the emission inventory input differently for the same chemical mechanism \citep{Carter:2015}.
-Chemical mechanisms used in global and regional models cannot represent each NMVOC individually for reasons of computational efficiency thus many NMVOCs must be represented by the particular lumped (or aggregated) species of the chemical mechanism.
-This translation into lumped species differs between chemical mechanisms (Sect.~\ref{ss:chemistry_models}).
-The effect that lumping emissions of NMVOC into different chemical mechanism has on simulated ozone production is explored in this work in Sect.~\ref{s:EI_results}.
+Uncertainties when using emission inventories arise as the speciation of emissions to individual chemical species or groups differs between emission inventories.
+Emissions of NMVOCs specified by an emission inventory are mapped to the appropriate chemical mechanism species used in the modelling study.
+%Thus a model specifies emissions from different chemical species depending on the chemical mechanism used by the model.
+Furthermore, the mapping is not standardised throughout the modelling community with possibly the same NMVOC emissions being allocated to different chemical species even if using the same chemical mechanism \citep{Carter:2015}.
+
+The influence of the speciation of emission inventories on modelled ozone production is determined as part of this work.
+Moreover, the effect of using the same speciations of NMVOC emissions with different chemical mechanisms is also explored.
+Section~\ref{s:research_questions} outlines the research questions and the results are presented in Sect.~\ref{s:EI_results}.
 
 \section{Effects of Meteorology on Ozone Production} \label{s:meteo_ozone}
 \begin{table}
