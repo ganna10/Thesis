@@ -542,17 +542,6 @@ X.~Li, F.~Rohrer, T.~Brauers, A.~Hofzumahaus, K.~Lu, M.~Shao, Y.~H. Zhang, and
 \newblock \doi{10.5194/acp-14-12291-2014}.
 \newblock URL \url{http://www.atmos-chem-phys.net/14/12291/2014/}.
 
-\bibitem[Logan(1999)]{Logan:1999}
-J.~A. Logan.
-\newblock An analysis of ozonesonde data for the troposphere: Recommendations
-  for testing 3-d models and development of a gridded climatology for
-  tropospheric ozone.
-\newblock \emph{Journal of Geophysical Research: Atmospheres}, 104\penalty0
-  (D13):\penalty0 16115--16149, 1999.
-\newblock ISSN 2156-2202.
-\newblock \doi{10.1029/1998JD100096}.
-\newblock URL \url{http://dx.doi.org/10.1029/1998JD100096}.
-
 \bibitem[Lourens et~al.(2016)Lourens, Butler, Beukes, van Zyl, Fourie, and
   Lawrence]{Lourens:2016}
 A.~S.~M. Lourens, T.~M. Butler, J.~P. Beukes, P.~G. van Zyl, G.~D. Fourie, and
@@ -757,6 +746,17 @@ W.~R. Stockwell, C.~V. Lawson, E.~Saunders, and W.~S. Goliff.
 \newblock ISSN 2073-4433.
 \newblock \doi{10.3390/atmos3010001}.
 \newblock URL \url{http://www.mdpi.com/2073-4433/3/1/1}.
+
+\bibitem[Syri et~al.(2001)Syri, Amann, Schöpp, and Heyes]{Syri:2001}
+S.~Syri, M.~Amann, W.~Schöpp, and C.~Heyes.
+\newblock Estimating long-term population exposure to ozone in urban areas of
+  europe.
+\newblock \emph{Environmental Pollution}, 113\penalty0 (1):\penalty0 59 -- 69,
+  2001.
+\newblock ISSN 0269-7491.
+\newblock \doi{http://dx.doi.org/10.1016/S0269-7491(00)00157-3}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0269749100001573}.
 
 \bibitem[von Schneidemesser et~al.(2011)von Schneidemesser, Monks, Gros,
   Gauduin, and Sanchez]{vonSchneidemesser:2011}

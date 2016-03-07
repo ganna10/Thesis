@@ -46,12 +46,14 @@
            pdfproducer={Latex with hyperref},
            pdfcreator={pdflatex}]{hyperref}
 \usepackage{doi}
+\usepackage{enumitem}
 
 \renewcommand{\contentsname}{Table of Contents}
 \renewcommand{\bibname}{References}
 \graphicspath{ {/local/home/coates/Documents/LaTeX/Thesis/img/} }
 \setlength{\parindent}{4em}
 \setlength{\parskip}{1em}
+\setlist{nosep,before=\vspace{-2mm},after=\vspace{-2mm}}
 
 \DeclareRobustCommand*\degree{\ensuremath{^{\circ}}}
 \@definecounter{reaction}
@@ -75,9 +77,9 @@
   \mathdisplay@pop
   \ignorespacesafterend}
 \newenvironment{rxnarray}
- {\let\c@equation\c@reaction
+{\vspace{-2mm}\let\c@equation\c@reaction
   \let\theequation\thereaction
-  \align}
+  \align\vspace{-2mm}}
  {\endalign
   \let\c@equation\c@reaction
   \let\theequation\thereaction}
