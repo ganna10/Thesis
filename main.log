@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  8 MAR 2016 15:39
+=======
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  8 MAR 2016 14:02
+>>>>>>> introduction
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1699,6 +1703,12 @@ LaTeX Info: Redefining \tbond on input line 79.
 LaTeX Info: Redefining \bond on input line 79.
 LaTeX Info: Redefining \dbond on input line 79.
 LaTeX Info: Redefining \tbond on input line 79.
+<<<<<<< HEAD
+LaTeX Info: Redefining \bond on input line 79.
+LaTeX Info: Redefining \dbond on input line 79.
+LaTeX Info: Redefining \tbond on input line 79.
+=======
+>>>>>>> introduction
 LaTeX Info: Redefining \bond on input line 79.
 LaTeX Info: Redefining \dbond on input line 79.
 LaTeX Info: Redefining \tbond on input line 79.
@@ -1708,9 +1718,12 @@ LaTeX Info: Redefining \tbond on input line 79.
 LaTeX Info: Redefining \bond on input line 79.
 LaTeX Info: Redefining \dbond on input line 79.
 LaTeX Info: Redefining \tbond on input line 79.
+<<<<<<< HEAD
+=======
 LaTeX Info: Redefining \bond on input line 79.
 LaTeX Info: Redefining \dbond on input line 79.
 LaTeX Info: Redefining \tbond on input line 79.
+>>>>>>> introduction
 LaTeX Info: Redefining \bond on input line 80.
 LaTeX Info: Redefining \dbond on input line 80.
 LaTeX Info: Redefining \tbond on input line 80.
@@ -2132,12 +2145,21 @@ adation.pdf used on input line 134.
 LaTeX Info: Redefining \bond on input line 138.
 LaTeX Info: Redefining \dbond on input line 138.
 LaTeX Info: Redefining \tbond on input line 138.
+<<<<<<< HEAD
 LaTeX Info: Redefining \bond on input line 140.
 LaTeX Info: Redefining \dbond on input line 140.
 LaTeX Info: Redefining \tbond on input line 140.
 LaTeX Info: Redefining \bond on input line 140.
 LaTeX Info: Redefining \dbond on input line 140.
 LaTeX Info: Redefining \tbond on input line 140.
+=======
+LaTeX Info: Redefining \bond on input line 140.
+LaTeX Info: Redefining \dbond on input line 140.
+LaTeX Info: Redefining \tbond on input line 140.
+LaTeX Info: Redefining \bond on input line 140.
+LaTeX Info: Redefining \dbond on input line 140.
+LaTeX Info: Redefining \tbond on input line 140.
+>>>>>>> introduction
 LaTeX Info: Redefining \bond on input line 143.
 LaTeX Info: Redefining \dbond on input line 143.
 LaTeX Info: Redefining \tbond on input line 143.
@@ -2687,10 +2709,13 @@ LaTeX Info: Redefining \tbond on input line 211.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 </local/home/coates/Documents/LaTeX/Thesis/img/O3_isopleth.pdf>]
+<<<<<<< HEAD
 
 LaTeX Warning: Reference `s:chemical_mechanisms' on page 9 undefined on input l
 ine 221.
 
+=======
+>>>>>>> introduction
 LaTeX Info: Redefining \bond on input line 225.
 LaTeX Info: Redefining \dbond on input line 225.
 LaTeX Info: Redefining \tbond on input line 225.
@@ -2719,12 +2744,21 @@ LaTeX Info: Redefining \tbond on input line 242.
 LaTeX Info: Redefining \bond on input line 244.
 LaTeX Info: Redefining \dbond on input line 244.
 LaTeX Info: Redefining \tbond on input line 244.
+<<<<<<< HEAD
 LaTeX Info: Redefining \bond on input line 246.
 LaTeX Info: Redefining \dbond on input line 246.
 LaTeX Info: Redefining \tbond on input line 246.
 LaTeX Info: Redefining \bond on input line 246.
 LaTeX Info: Redefining \dbond on input line 246.
 LaTeX Info: Redefining \tbond on input line 246.
+=======
+LaTeX Info: Redefining \bond on input line 246.
+LaTeX Info: Redefining \dbond on input line 246.
+LaTeX Info: Redefining \tbond on input line 246.
+LaTeX Info: Redefining \bond on input line 246.
+LaTeX Info: Redefining \dbond on input line 246.
+LaTeX Info: Redefining \tbond on input line 246.
+>>>>>>> introduction
 LaTeX Info: Redefining \bond on input line 247.
 LaTeX Info: Redefining \dbond on input line 247.
 LaTeX Info: Redefining \tbond on input line 247.
@@ -2762,7 +2796,11 @@ LaTeX Info: Redefining \bond on input line 259.
 LaTeX Info: Redefining \dbond on input line 259.
 LaTeX Info: Redefining \tbond on input line 259.
 
+<<<<<<< HEAD
 </local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf, id=507, 9
+=======
+</local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf, id=508, 9
+>>>>>>> introduction
 68.05052pt x 486.24327pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf Graph
 ic file (type pdf)
@@ -2881,7 +2919,11 @@ LaTeX Info: Redefining \bond on input line 134.
 LaTeX Info: Redefining \dbond on input line 134.
 LaTeX Info: Redefining \tbond on input line 134.
 
+<<<<<<< HEAD
 </local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=817, 1166.357
+=======
+</local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png, id=818, 1166.357
+>>>>>>> introduction
 5pt x 682.55pt>
 File: /local/home/coates/Documents/LaTeX/Thesis/img/MCM_scheme.png Graphic file
  (type png)
@@ -3076,8 +3118,13 @@ Underfull \hbox (badness 2205) in paragraph at lines 10--18
 \T1/lmr/m/n/12 (+20) stool bal-anced.  \T1/lmr/m/it/12 (+20) At-mo-spheric En-v
 i-ron-ment\T1/lmr/m/n/12 (+20) , 84:390 -- 391, 2014.  ISSN
  []
+<<<<<<< HEAD
 
 
+=======
+
+
+>>>>>>> introduction
 Underfull \hbox (badness 1067) in paragraph at lines 57--68
 \T1/lmr/m/n/12 (+20) non-methane hy-dro-car-bons in ur-ban at-mo-spheres: Im-pl
 i-ca-tion on emis-sion
@@ -3303,7 +3350,11 @@ Chapter 6.
 ] [56
 
 
+<<<<<<< HEAD
 ] <img/paper1.pdf, id=1215, page=1, 597.50786pt x 788.14133pt>
+=======
+] <img/paper1.pdf, id=1217, page=1, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
@@ -3328,7 +3379,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [57 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1245, page=2, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1247, page=2, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
@@ -3344,7 +3399,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [58 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1250, page=3, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1252, page=3, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
@@ -3360,7 +3419,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [59 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1256, page=4, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1258, page=4, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
@@ -3376,7 +3439,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [60 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1265, page=5, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1267, page=5, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
@@ -3392,7 +3459,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [61 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1270, page=6, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1272, page=6, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
@@ -3408,7 +3479,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [62 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1798, page=7, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1800, page=7, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
@@ -3424,7 +3499,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [63 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1822, page=8, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1824, page=8, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
@@ -3440,7 +3519,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [64 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1924, page=9, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1926, page=9, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
@@ -3456,7 +3539,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [65 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1946, page=10, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1948, page=10, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
@@ -3472,7 +3559,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [66 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1970, page=11, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1972, page=11, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
@@ -3488,7 +3579,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [67 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=1994, page=12, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=1996, page=12, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
@@ -3504,7 +3599,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [68 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=2036, page=13, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=2038, page=13, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
@@ -3520,7 +3619,11 @@ File: img/paper1.pdf Graphic file (type pdf)
 Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
  [69 <./img/paper1.pdf>]
+<<<<<<< HEAD
 <img/paper1.pdf, id=2041, page=14, 597.50786pt x 788.14133pt>
+=======
+<img/paper1.pdf, id=2043, page=14, 597.50786pt x 788.14133pt>
+>>>>>>> introduction
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
@@ -3569,6 +3672,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BEC79578C24BD81C401D23A477985FF4;2298.
+<<<<<<< HEAD
 
 
 LaTeX Warning: There were undefined references.
@@ -3580,6 +3684,15 @@ Here is how much of TeX's memory you used:
  395289 string characters out of 3179690
  548811 words of memory out of 3000000
  25222 multiletter control sequences out of 15000+200000
+=======
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 97.
+ ) 
+Here is how much of TeX's memory you used:
+ 22950 strings out of 495007
+ 395278 string characters out of 3179690
+ 548816 words of memory out of 3000000
+ 25221 multiletter control sequences out of 15000+200000
+>>>>>>> introduction
  90695 words of font info for 131 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,28n,94p,549b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3596,9 +3709,15 @@ exmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/helvetic/uhvbo8a.pfb>
+<<<<<<< HEAD
 Output written on main.pdf (92 pages, 1352860 bytes).
 PDF statistics:
  2192 PDF objects out of 2487 (max. 8388607)
+=======
+Output written on main.pdf (92 pages, 1352840 bytes).
+PDF statistics:
+ 2194 PDF objects out of 2487 (max. 8388607)
+>>>>>>> introduction
  273 named destinations out of 1000 (max. 500000)
  22395 words of extra memory for PDF output out of 24883 (max. 10000000)
 
