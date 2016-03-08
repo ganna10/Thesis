@@ -1,4 +1,4 @@
-\begin{thebibliography}{79}
+\begin{thebibliography}{80}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -52,6 +52,20 @@ C.~Bloss, V.~Wagner, M.~E. Jenkin, R.~Vollamer, W.~J. Bloss, J.~D. Lee, D.~E.
   atmospheric oxidation of aromatic hydrocarbons}.
 \newblock \emph{Atmospheric Chemistry and Physics}, 5:\penalty0 641--664, 2005.
 
+\bibitem[Boynard et~al.(2014)Boynard, Borbon, Leonardis, Barletta, Meinardi,
+  Blake, and Locoge]{Boynard:2014}
+A.~Boynard, A.~Borbon, T.~Leonardis, B.~Barletta, S.~Meinardi, D.~R. Blake, and
+  N.~Locoge.
+\newblock {Spatial and seasonal variability of measured anthropogenic
+  non-methane hydrocarbons in urban atmospheres: Implication on emission
+  ratios}.
+\newblock \emph{Atmospheric Environment}, 82\penalty0 (0):\penalty0 258--267,
+  2014.
+\newblock ISSN 1352-2310.
+\newblock \doi{10.1016/j.atmosenv.2013.09.039}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231013007279}.
+
 \bibitem[Butler et~al.(2011)Butler, Lawrence, Taraborrelli, and
   Lelieveld]{Butler:2011}
 T.~Butler, M.~Lawrence, D.~Taraborrelli, and J.~Lelieveld.
@@ -99,6 +113,18 @@ J.~Coates and T.~M. Butler.
   8795--8808, 2015.
 \newblock \doi{10.5194/acp-15-8795-2015}.
 \newblock URL \url{http://www.atmos-chem-phys.net/15/8795/2015/}.
+
+\bibitem[Coll et~al.(2010)Coll, Rousseau, Barletta, Meinardi, and
+  Blake]{Coll:2010}
+I.~Coll, C.~Rousseau, B.~Barletta, S.~Meinardi, and D.~R. Blake.
+\newblock Evaluation of an urban nmhc emission inventory by measurements and
+  impact on ctm results.
+\newblock \emph{Atmospheric Environment}, 44\penalty0 (31):\penalty0 3843 --
+  3855, 2010.
+\newblock ISSN 1352-2310.
+\newblock \doi{http://dx.doi.org/10.1016/j.atmosenv.2010.05.042}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S1352231010004255}.
 
 \bibitem[Comrie(1997)]{Comrie:1997}
 A.~C. Comrie.
@@ -312,15 +338,6 @@ H.~Hogo and M.~Gery.
   PACKAGE. VERSION 4}.
 \newblock Technical report, U.S. Environmental Protection Agency, 1989.
 
-\bibitem[Holmes et~al.(2013)Holmes, Prather, S{\o}vde, and Myhre]{Holmes:2013}
-C.~D. Holmes, M.~J. Prather, O.~A. S{\o}vde, and G.~Myhre.
-\newblock Future methane, hydroxyl, and their uncertainties: key climate and
-  emission parameters for future predictions.
-\newblock \emph{Atmospheric Chemistry and Physics}, 13\penalty0 (1):\penalty0
-  285--302, 2013.
-\newblock \doi{10.5194/acp-13-285-2013}.
-\newblock URL \url{http://www.atmos-chem-phys.net/13/285/2013/}.
-
 \bibitem[Horowitz et~al.(2003)Horowitz, Walters, Mauzerall, Emmons, Rasch,
   Granier, Tie, Lamarque, Schultz, Tyndall, Orlando, and
   Brasseur]{Horowitz:2003}
@@ -394,6 +411,39 @@ M.~E. Jenkin, S.~M. Saunders, V.~Wagner, and M.~J. Pilling.
   181--193, 2003.
 \newblock \doi{10.5194/acp-3-181-2003}.
 \newblock URL \url{http://www.atmos-chem-phys.net/3/181/2003/}.
+
+\bibitem[JGJ et~al.(1996)JGJ, AF, van der, JJM, C, JPJ, AJH, PYJ, and
+  JL]{EDGAR:1996}
+O.~JGJ, B.~AF, M.~C. van der, B.~JJM, V.~C, B.~JPJ, V.~AJH, Z.~PYJ, and H.~JL.
+\newblock Description of edgar version 2.0: A set of global emission
+  inventories of greenhouse gases and ozone-depleting substances for all
+  anthropogenic and most natural sources on a per country basis and on 1 degree
+  x 1 degree grid, 1996.
+\newblock URL \url{http://hdl.handle.net/10029/10497}.
+\newblock A global emission source database called EDGAR (Emission Database for
+  Global Atmospheric Research) has been developed jointly by TNO and RIVM to
+  meet the needs of policy-makers and of atmospheric chemistry and climate
+  modellers. The purpose of the EDGAR database was to estimate for 1990 the
+  annual emissions per sector of direct and indirect greenhouse gases (CO2,
+  CH4, N2O, CO, NOx, non-methane VOC) and SO2, including ozone-depleting
+  compounds (halocarbons), on a region/country and grid basis. To meet the aim
+  of establishing the global emissions from both anthropogenic and biogenic
+  sources, a complete set of data would be required. This is to allow
+  estimation of the total source strength of the various gases with a 1 degree
+  x 1 degree resolution (altitude resolution of 1 km), as agreed upon in the
+  Global Emissions Inventory Activity (GEIA) of the International Atmospheric
+  Chemistry Programme (IGAC). As insights in this field are still changing, due
+  attention was paid in the setup of the system to flexibility on the
+  disaggregation of sources, spatial and temporal resolution, and species. This
+  report presents a description of the construction and contents of the
+  database, as well as the type and sources of data. Subsequently, the
+  following topics are discussed: methodology used in establishing the set of
+  inventories, structure and main functions of the database system ; setup of
+  the emission source categories ; description of sources and related data
+  (activity levels, emission factors, maps used to allocate emissions on grid)
+  ; resulting emission inventories (by region and on grid) including a first
+  validation ; uncertainties and limitations ; policy applications ; and
+  conclusions summarising the achievements of this project.
 
 \bibitem[Kinnison et~al.(2007)Kinnison, Brasseur, Walters, Garcia, Marsh,
   Sassi, Harvey, Randall, Emmons, Lamarque, Hess, Orlando, Tie, Randel, Pan,
@@ -510,17 +560,6 @@ J.-F. Lamarque, T.~C. Bond, V.~Eyring, C.~Granier, A.~Heil, Z.~Klimont, D.~Lee,
   7017--7039, 2010.
 \newblock \doi{10.5194/acp-10-7017-2010}.
 \newblock URL \url{http://www.atmos-chem-phys.net/10/7017/2010/}.
-
-\bibitem[Laurent and Hauschild(2014)]{Laurent:2014}
-A.~Laurent and M.~Z. Hauschild.
-\newblock {Impacts of {NMVOC} emissions on human health in European countries
-  for 2000--2010: Use of sector-specific substance profiles}.
-\newblock \emph{Atmospheric Environment}, 85\penalty0 (0):\penalty0 247--255,
-  2014.
-\newblock ISSN 1352-2310.
-\newblock \doi{10.1016/j.atmosenv.2013.11.060}.
-\newblock URL
-  \url{http://www.sciencedirect.com/science/article/pii/S1352231013009102}.
 
 \bibitem[Lelieveld and Dentener(2000)]{Lelieveld:2000}
 J.~Lelieveld and F.~J. Dentener.

@@ -314,9 +314,7 @@ The Maximum Incremental Reactivity (MIR) and Maximum Ozone Incremental Reactivit
 Emissions of NMVOC species are a critical input in models and emission inventories are used to specify the type and quantity of emissions from source categories.
 Table~\ref{t:SNAP} lists the source sectors of emissions used by the TNO\_MACCIII emission inventory \citep{Kuenen:2014}.
 Emission inventories are available for the global or regional emissions.
-For example, \ldots specifies global emissions while TNO\_MACCIII \citep{Kuenen:2014} specifies european emissions.
-Compiling emission inventories is a huge task and \todo{refs} showed differences between ozone concentrations when using different emission inventories in the same model.
-%sensitivity
+For example, EDGAR \citep{EDGAR:1996} specifies global emissions while TNO\_MACCIII \citep{Kuenen:2014} specifies european emissions.
 \begin{table}[t]%
     \centering%
     \caption[Emission source sectors in the TNO\_MACCIII]{Emission source sectors for anthropogenic emissions listed in the TNO\_MACCIII inventory \citep{Kuenen:2014}.}%
@@ -335,6 +333,10 @@ Compiling emission inventories is a huge task and \todo{refs} showed differences
     \end{tabular}%
     \label{t:SNAP}%
 \end{table}% 
+
+Many uncertainties are associated with emission inventories.
+For example, \citet{Coll:2010} showed that large discrepancies arise between ambient measurements and emission inventories.
+Also, the temporal variation of emissions are not captured by emission inventories \citep{Boynard:2014}. 
 
 BVOC emissions depend on meteorolgical and biological variables and lgorithms estimating BVOC emissions may be calculated as part of the model simulation instead of an emission inventory.
 The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions at each model time-step using the temperature and radiation values determined from the model.
