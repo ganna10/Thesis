@@ -74,7 +74,6 @@ The chemical mechanism file includes pseudo-unimolecular reactions specifying th
 The chemical species that are emitted into the model and the emission rates are read into the model using a namelist file.
 
 Namelist files are also used to specify the initial conditions of chemical species and the mixing ratios of those chemical species that are fixed throughout the model.
-In all simulations, methane (\ce{CH4}) was fixed to 1.75 ppmv while carbon monoxide (CO) and \ce{O3} are initialised at 200 ppbv and 40 ppbv and then allowed to evolve freely.
 
 \section{Chemical Mechanisms} \label{s:chemical_mechanisms}
 Chemical mechanisms describe the atmospheric chemistry used by a model.
@@ -213,12 +212,97 @@ Mechanism species for terpenes (TERP), ethane (ETHA), aldehydes with more than t
 CB05 was also updated to include low-\ce{NO_x} chemistry including peroxide formation.
 
 \section{Using the Chemical Mechanisms in MECCA}
-As outlined in Sect.~\ref{ss:model_setup}, the MECCA boxmodel is based upon the KPP pre-processor and so required that all chemical mechanisms listed in Table~\ref{t:mechanisms} be written in the KPP format.
-The KPP format of each chemical mechanism was either obtained from the WRF/Chem \citep{Grell:2005} \todo{update citation} model, which includes KPP files of RADM2, RACM and CBM-IV for use within the model.
-For all the other chemical mechanisms, the chemistry published in the original reference were adapted to the KPP format.
+Each chemical mechanism listed in Table~\ref{t:mechanisms} was adapted to the KPP format for use in the MECCA box model.
+The WRF-Chem model \citep{Grell:2005} includes KPP versions of RADM2, RACM and CBM-IV and was the starting point for using these chemical mechanisms in MECCA.
+The chemistry specified by the original reference was adapted to the KPP format for all other chemical mechanisms.
 
-Some changes were made to the original chemistry specified by each chemical mechanism.
-Firstly, the inorganic chemistry of the MCM~v3.2 was used in each chemical mechanism in order to focus on differences between chemical mechanisms of their representation of the secondary degradation chemistry of emitted NMVOC.
-Other changes included adopting the MCM~v3.2 approaches to photolysis and peroxy-peroxy reactions, a more detailed description of these changes are found in the supplementary material of the first paper of this thesis (Chap.~\ref{c:paper_1}). \todo{Include supplementary material}
+The inorganic chemistry of the MCM~v3.2 was used in each chemical mechanism to focus on differences between the representation of secondary degradation chemistry in the chemical mechanisms.
+The photolysis parameterisation used by the MCM~v3.2 was also used in each chemical mechanism.
+Finally, the MCM~v3.2 approach to peroxy-peroxy reactions was also used in each chemical mechanism.
+Further details of these changes are found in the supplementary material of the first paper of this thesis (Chap.~\ref{c:paper_1}). 
+\todo[inline]{Include supplementary material}
 
 \section{Initial and Boundary Conditions}
+In all simulations, methane (\ce{CH4}) was fixed to $1.75$~ppmv while carbon monoxide (CO) and \ce{O3} are initialised at $200$~ppbv and $40$~ppbv and then allowed to evolve freely.
+The initial conditions for all NMVOCs was held constant until noon of the first day of simulations to simulate a fresh plume of emissions.
+
+The initial conditions for NMVOC species differed in each experiment.
+In the first study, comparing the effects of different VOC secondary degradation on ozone production, the initial conditions used in \citet{Butler:2011} were used.
+The study of \citet{Butler:2011} introduced the Tagged Ozone Production Potential (TOPP), described further in Sect.~\ref{s:tagging}, by considering the degradation of VOCs typical of Los Angeles and Beijing using MECCA setup with MCM~v3.1 chemistry.
+The same initial conditions of the Los Angeles experiments in \citet{Butler:2011} were used in the MECCA set-up with MCM~v3.2 chemistry.
+This model setup was used to determine the emissions needed for constant mixing ratios of the NMVOCs.
+These emissions were mapped to the appropriate chemical species of each chemical mechanism in Table~\ref{t:mechanisms} keeping amount of emitted NMVOC constant between model setups.
+Results of this comparison are presented in Sect.~\ref{s:chemical_mechanism_results}.
+
+The second study looked at the sensitivity of different speciations of NMVOC emissions from emission inventories of the solvent sector on ozone production.
+Table~\ref{t:solvent_speciations} lists the solvent sector speciations used in this study.
+This study considered a theoretical urban area of $1000$~km$^2$ with total NMVOC emissions of $1000$~tons/day.
+The solvent sector contributes $\sim43$~\% by mass of total emissions \citep{AQEU:2011}, thus total NMVOC emissions of $430$~tons/day were used.
+\begin{table}[t]%
+    \begin{center}%
+        \caption{The solvent sector emission inventories compared in this study.}%
+        \begin{tabular}{lllP{5.2cm}}%
+            \hline \hline
+            \textbf{Speciation} & \textbf{Comment} & \textbf{Reference} \\ 
+            \hline \hline
+            TNO & European average &  \citet{Builtjes:2002} \\ \hline
+            IPCC & Model Specific & \citet{Ehhalt:2001} \\ \hline
+            EMEP & Model Specific & \citet{Simpson:2012} \\ \hline
+            DE94 & Country Specific & \citet{Friedrich:2002} \\ \hline
+            GR95 & Country Specific & \citet{Sidiropoulos:2007} \\ \hline
+            GR05 & Country Specific & \citet{Sidiropoulos:2007} \\ \hline
+            UK98 & Country Specific & \citet{Goodwin:2000} \\ \hline
+            UK08 & Country Specific & \citet{Murrells:2010} \\ 
+            \hline \hline
+        \end{tabular}%
+        \label{t:solvent_speciations}%
+    \end{center}%
+\end{table}%
+
+The total NMVOC emissions of the solvent sector were mapped to MCM~v3.2 species based on the speciations of each emission inventory in Table.~\ref{t:solvent_speciations}.
+Model simulations were repeated using MOZART-4 and RADM2 to investigate whether changing the chemical mechanism affects the differences in ozone concentrations between the solvent sector emission inventories.
+Further simulations using total emissions of $1000$~tons/day while varying the speciation of just the solvent sector emissions were also performed.
+In these simulations, the TNO speciation for all other (non-solvent use) source sectors was used.
+Further simulations adding emissions of biogenic VOCs, in this case we considered only isoprene and monoterpenes, were included using the European average contribtion of BVOC emissions specified by EMEP \citep{Simpson:2012}.
+Details are also detailed in Sect.~\ref{s:EI_results}.
+
+The final study looked at the ozone-temperature relationship over central Europe and the emissions of NMVOC over Benelux (Belgium, Netherlands and Luxembourg) were used.
+The TNO\_MACCIII emissions for the year 2011 were used as anthropogenic NMVOC emissions and mapped to MCM~v3.2 species.
+Temperature indepedent emissions of the biogenic species isoprene and monoterpenes were again taken from EMEP speciation for Benelux \citep{Simpson:2012}.
+In simulations using temperature-dependent emissions of isoprene, the Model for Emissions of Gases and Aerosols from Nature (MEGAN2.1) \citep{Guenther:2012} algorithm was used.
+All simulations were repeated using CRI~v2, MOZART-4, RADM2 and CB05 chemistry.
+Sect.~\ref{s:T-O3_results} includes further details.
+
+The first two studies, comparing different chemical mechanisms and solven speciations, used \ce{NO_x} conditions generating VOC-and-\ce{NO_x} sensitive chemistry.
+This was achieved by emitting the amount of NO required to balance the source of radicals at each time step.
+This calculation was performed online during the model simulations by including new code in the model.
+
+The final study assessed the relationship between ozone and temperature using different \ce{NO_x} conditions.
+For these simulations, a constant source of NO emissions was systematically varied between $5.0~\times~10^9$ and $1.5~\times~10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$.
+
+The setup of the boxmodel in the first two studies was a contained box with no exchange out of the box, thus no chemical boundary conditions were required.
+MECCA was updated for the final study to include a diurnal profile of the PBL and included mixing into the free troposphere.
+The diurnal profile included in the model was that measured during the BAERLIN2014 campaign \citep{Bonn:2016}.
+Free troposphere mixing ratios for \ce{O3}, \ce{CH4} and CO were set to $50$~ppbv, $1.8$~ppmv and $116$~ppbv respectively. 
+These mixing ratios were taken from the $700$~hPa height using the MATCH-MPIC chemical weather forecast data from March~21st.
+
+\section{Tagging the Chemical Mechanisms} \label{s:tagging}
+One of the strengths of atmospheric modelling is the ability to allocate ozone production to sources.
+Many techniques have been used to perform this, for example comparing ozone levels with and without emissions from a type of VOC or froma particular sector such as in \citet{Butler:2012}. 
+\todo[inline]{example Tim megacity? improve bibtex}
+Tagging is another approach, in this approach the chemical mechanism is modified to include chemical species including a label (the tag) indicating the source category or other information.
+For example, MOZART-4 includes tagged chemistry that allows attribution of ozone production to categories of \ce{NO_x} emissions \citep{Emmons:2012}. \todo{update bibtex}
+
+\citet{Butler:2011} introduced tagging of NMVOC chemistry that allows ozone production to be allocated to emitted NMVOC.
+This approach was used in conjunction with VOC-\ce{NO_x}-chemistry to determine the maximum ozone production potential of different NMVOC, called the Tagged Ozone Production Potential (TOPP).
+The TOPP allocated production of \ce{O_x}, the chemical family including \ce{O3}, \ce{NO2} and other chemical species involved in fast cycles of production and loss with \ce{O3} or \ce{NO_x}, to emitted NMVOC by counting the number of NO to \ce{NO2} converions by each peroxy radical produced during the degradation of an NMVOC through \eqref{r:RO2_NOb}.
+
+The calculation uses \ce{O_x} production as a proxy for \ce{O3} production and \citet{Butler:2011} showed that this allocation is only valid for \ce{NO_x}-limited and VOC-and-\ce{NO_x} sensitive chemistry not in conditions with high \ce{NO_x} conditions.
+The tagging described in \citet{Butler:2011} for MCM~v3.1 chemistry was processed for use with all the chemical mechanisms in Table~\ref{t:mechanisms}.
+As the first two studies use VOC-and-\ce{NOx}-sensitive conditions, model simulations using the tagged versions of the chemical mechanisms were performed to aid in analysing the results.
+In the first study, the tagging approach was used to compare the secondary degradation of emitted NMVOC and in the second study, tagging was used to analyse and attribute \ce{O_x} production to the emitted NMVOCs specified by the solvent speciations in Table~\ref{t:solvent_speciations}.
+
+The variable \ce{NO_x} conditions used in the third study meant that using the tagging approach was not possible.
+Thus all model simulations assessing the ozone-temperature relationship with different \ce{NO_x} conditions were performed with non-tagged versions of the chemistry.
+The possibility of tagging VOC chemistry that is appropriate for use in all NOx conditions would be an asset for many modelling studies.
+\todo[inline]{possible citation for this??}
