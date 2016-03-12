@@ -1,46 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-The style file: plainnat.bst
-Database file #1: /local/home/coates/Documents/PhD_References.bib
-You've used 50 entries,
-            2760 wiz_defined-function locations,
-            932 strings with 14806 characters,
-and the built_in function-call counts, 25964 in all, are:
-= -- 2360
-> -- 1588
-< -- 26
-+ -- 537
-- -- 486
-* -- 2315
-:= -- 4007
-add.period$ -- 151
-call.type$ -- 50
-change.case$ -- 314
-chr.to.int$ -- 49
-cite$ -- 100
-duplicate$ -- 1011
-empty$ -- 2027
-format.name$ -- 566
-if$ -- 5321
-int.to.chr$ -- 2
+The style file: abbrvnat.bst
+Database file #1: References.bib
+You've used 78 entries,
+            2757 wiz_defined-function locations,
+            1221 strings with 30195 characters,
+and the built_in function-call counts, 56422 in all, are:
+= -- 4508
+> -- 5599
+< -- 31
++ -- 1875
+- -- 1797
+* -- 5603
+:= -- 9221
+add.period$ -- 239
+call.type$ -- 78
+change.case$ -- 838
+chr.to.int$ -- 78
+cite$ -- 156
+duplicate$ -- 1550
+empty$ -- 3025
+format.name$ -- 1899
+if$ -- 11149
+int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 48
-newline$ -- 259
-num.names$ -- 200
-pop$ -- 534
+missing$ -- 66
+newline$ -- 403
+num.names$ -- 312
+pop$ -- 1525
 preamble$ -- 1
-purify$ -- 262
+purify$ -- 755
 quote$ -- 0
-skip$ -- 782
+skip$ -- 1537
 stack$ -- 0
-substring$ -- 1469
-swap$ -- 51
-text.length$ -- 1
+substring$ -- 1884
+swap$ -- 74
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 545
+type$ -- 853
 warning$ -- 0
-while$ -- 242
+while$ -- 330
 width$ -- 0
-write$ -- 659
+write$ -- 1028
