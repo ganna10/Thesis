@@ -1,4 +1,4 @@
-This chapter outlines the main findings in each scientific papers published as part of this thesis.
+This chapter outlines the main findings in each scientific paper published as part of this thesis.
 These publications addressed the research questions framed in Sect.~\ref{s:research_questions} and are found in Chaps.~\ref{c:paper_1}--\ref{c:paper_3}.
 
 \singlespacing
@@ -10,25 +10,25 @@ Published: \bibentry{Coates:2015}.
 
 The first paper presents a box modelling study where the effects on ozone production from VOC degradation chemistry in reduced chemical mechanisms (Table~\ref{t:mechanisms}) was compared to the detailed MCM chemical mechanisms.
 Other chemical mechanism comparison studies noted differences in ozone levels between chemical mechanisms, however these studies did not deduce the root causes for these differences.
-The aims of this study were to determine the differences in ozone produced from different VOC by the different chemical mechanisms and the most important processes for simulating ozone production.
-In order to achieve these aims, this chemical mechanism comparison was facilitated by using the tagging approach described in Sect.~\ref{s:tagging}.
-The tagging approach gave insights into how the simplified representation of VOC degradation by the chemical mechanisms influenced ozone production.
+%The aims of this study were to determine the differences in ozone produced from different VOC by the different chemical mechanisms and the most important processes for simulating ozone production.
+This chemical mechanism comparison used the tagging approach described in Sect.~\ref{s:tagging} to give insights into how the simplified representation of VOC degradation by chemical mechanisms influenced ozone production.
 
 The ozone production from the degradation of VOCs typical of urban environments were compared between the different chemical mechanisms.
 The box model simulated maximum ozone production (VOC-and-\ce{NO_x}-sensitive) regime by emitting the amount of NO required to balance the source of radicals at each time step.
 As described in Sect.~\ref{s:tagging}, the tagging approach used the production of \ce{O_x} as a proxy for ozone production.
 
-The simulated ozone mixing ratios using reduced chemical mechanisms were generally lower than the ozone mixing ratios using the reference MCM chemical mechanisms on the first two days of the simulations.
-CRI~v2 and RADM2 were the only chemical mechanisms producing higher ozone mixing ratios than the MCM chemical mechanisms.
-Comparisons of the ozone mixing ratios between CRI~v2 and the MCM during the development of the CRI~v2 also showed higher ozone mixing ratios with the CRI~v2.
-In RADM2, a lower yield of ketones from the degradation of HC3, a RADM2 species representing less-reactive VOC such as alkanes and alcohols, compared to the MCM led to higher ozone mixing ratios with RADM2.
+The simulated ozone mixing ratios using reduced chemical mechanisms were generally lower than the ozone mixing ratios using the reference MCM chemical mechanisms on the first two days of simulations.
+Only the CRI~v2 and RADM2 produced higher ozone mixing ratios than the MCM chemical mechanisms.
+Higher ozone mixing ratios using CRI~v2 than the MCM were obtained during the development of the CRI~v2.
+In RADM2, a lower yield of ketones from the degradation of HC3 (representing less-reactive VOC such as alkanes and alcohols) compared to the MCM led to higher ozone mixing ratios with RADM2.
 
 The VOC degradation described in CRI~v2, a lumped-intermediate chemical mechanism, produced the most similar amounts of \ce{O_x} to the MCM~v3.2 for each VOC.
 On the other hand, the degradation of VOC in all other reduced chemical mechanisms led to differences in \ce{O_x} production with the largest differences occuring after the first day of simulations.
 The degradation of aromatic VOC in the reduced chemical mechanisms led to the largest differences in \ce{O_x} production from the MCM~v3.2.
 
-Many VOC are broken down into smaller-sized degradation products faster on the first day in reduced chemical mechanisms than the MCM~v3.2 leading to lower amounts of larger-sized degradation products that can further degrade and produce \ce{O_x}.
-Thus, many VOC in reduced chemical mechanisms produce a lower maximum of \ce{O_x} than the MCM~v3.2 leading to lower \ce{O3} mixing ratios from the reduced chemical mechanisms compared to the MCM~v3.2.
+Many VOC are broken down into smaller-sized degradation products faster on the first day in reduced chemical mechanisms than the MCM~v3.2.
+The faster breakdown of VOC leads to lower amounts of larger-sized degradation products that can further degrade and produce \ce{O_x} in the reduced chemical mechanisms.
+Thus, many VOC in reduced chemical mechanisms produce a lower maximum of \ce{O_x} than the MCM~v3.2 resulting in lower \ce{O3} mixing ratios from the reduced chemical mechanisms compared to the MCM~v3.2.
 
 Reactive VOC, such as alkenes and aromatic VOC, produce maximum \ce{O_x} on the first day of the simulations.
 Alkenes produce similar amounts of \ce{O_x} on the first day between chemical mechanisms; differences in \ce{O_x} production arise when mechanism species are used to represent individual VOC.
@@ -76,10 +76,10 @@ Published: \bibentry{Coates:2016}.
 \vspace{5mm}
 
 The final study of this thesis looked at the ozone-temperature relationship with different \ce{NO_x} conditions simulated by a box model.
-A non-linear relationship between ozone production on temperature and \ce{NO_x} conditions has been noted using an analytical model constrained to observational measurements but not yet reproduced in a modelling study.
+A non-linear relationship between ozone production with temperature and \ce{NO_x} conditions has been noted using an analytical model constrained to observational measurements but not yet reproduced in a modelling study.
 Temperature increases ozone production through increasing NMVOC emissions from biogenic sources and by increasing the rates of chemical reactions.
 Modelling studies have as yet not quantified which of these effects is more important for ozone production.
-The study aimed to determine whether temperature-dependent increases in reaction rates or isoprene emissions were more important for ozone production on the urban scale.
+The study aimed to determine whether temperature-dependent increases in reaction rates or isoprene emissions were more important for ozone production on the urban scale and whether the non-linear relationship of ozone with temperature and \ce{NO_x} was reproduced using different chemical mechanisms.
 
 Box model simulations were performed using NMVOC emissions representative of central Europe, first using a temperature-independent source of isoprene emissions followed by simulations using the temperature-dependent source of isoprene emissions described using the MEGAN2.1 algorithm.
 The choice of chemical mechanism may also influence the relationship of ozone on temperature, thus all simulations were repeated using the MCM~v3.2, CRI~v2, MOZART-4, RADM2 and CB05 chemical mechanisms.
