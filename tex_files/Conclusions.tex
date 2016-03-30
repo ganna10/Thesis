@@ -43,27 +43,29 @@ When considering instantaneous ozone production, alkenes contributed most to ozo
 As a first scoping study as to whether EIs need to be updated do reduce modelling uncertainity, the box modelling study indicates that the differences in solvent sector speciation do influence ozone production.
 However, these differences may differ when using more complex 3D models and further work is warranted to determine whether different EI speciations influence ozone production under different conditions.
 
-The final study looked at the relationship of ozone with temperature using different \ce{NO_x}-conditions roughly over central European conditions.
-In order to verify whether temperature dependent increases in reaction rates or increases in isoprene emissions from nature are more important for ozone with temperature, separate simulations using a temperature-independent and then temperature-dependent source of isoprene emissions were performed.
+The final study looked at the relationship between ozone, temperature and \ce{NO_x} broadly using central European conditions.
+In order to verify whether temperature-dependent increases in reaction rates or isoprene emissions from nature are more important for the increase in ozone with temperature, separate simulations using a temperature-independent and temperature-dependent source of isoprene emissions were performed.
 Simulations were performed using the MCM~v3.2, CRI~v2, RADM2, MOZART-4 and CB05 chemical mechanisms to determine whether this relationship differed between representations of atmospheric chemistry.
 
-Each chemical mechanism reproduced the non-linear relationship of ozone with temperature and \ce{NO_x}.
-Increases in ozone with temperature due to faster reaction rates was more important in urban areas than the increase in isoprene emissions with temperature regardless of \ce{NO_x} conditions.
-The largest increases were when using moderate \ce{NO_x} emissions and the slowest increase was with low-\ce{NO_x} conditions.
+Each chemical mechanism produced the non-linear relationship between ozone, temperature and \ce{NO_x} similar to the relationship obtained from previous observational studies.
+The absolute increase in ozone with temperature due to faster reaction rates was more greater than the increase in ozone with temperature due to increased isoprene emissions with temperature regardless of \ce{NO_x} conditions.
+The largest increases in ozone with temperature were obtained using moderate \ce{NO_x} emissions and the lowest increase using low-\ce{NO_x} conditions.
 
-Differences in the RADM2 representation of isoprene degradation to the MCM and other chemical mechanisms led to a lower increase in ozone with temperature than the other chemical mechanisms.
-This lower increase in ozone from isoprene degradation in RADM2 was due to the RADM2 not representing the well-known degradation products of isoprene degradation, methacrolein and methyl vinyl ketone.
-The lower ozone production from isoprene with RADM2 could lead to underestimations in the ozone production in modelling studies with significant amounts of isoprene emissions, which is in fact the case for many areas as isoprene is the VOC with the most emissions on the global scale and many remote regions are estimated to have high isoprene emissions.
-
-The faster oxidation of VOC with temperature caused the faster increase in ozone with temperature.
+The increase in ozone with temperature in all \ce{NO_x} conditions was due to the faster loss rates of the emitted VOC with temperature.
 The faster reaction rates was mainly due to the increase in OH with temperature which is coupled to the increase in ozone with temperature.
+Peroxy nitrate (\ce{RO2NO2}) chemistry also played a role in the increase of \ce{O_x} production with temperature with increased decomposition to \ce{RO2} and \ce{NO2} leading to ozone production.
+Thus the loss of VOC and \ce{RO2NO2} chemistry are critical to modelling the relationship between ozone, temperature and \ce{NO_x}.
 
-Comparing the box model simulations to observational and 3-D model output showed that the rate of change in ozone with temperature in tbe box model was about half the rate of change of ozone with temperature using both observational and 3-D model data.
-Also the spread in the ozone-temperature curves from simulations using the different chemical mechanisms was insignificant compared to the spread in observational and 3-D model output.
-The best boxmodel simulations were when using a temperature-dependent source of isoprene emissions and high-\ce{NO_x} conditions.
-Thus modelling studies should include a temperature-independent source of isoprene emissions.
+Comparing the box model simulations to observational and 3-D model output showed that the rate of increase in ozone with temperature with the box model was about half the rate of increase of ozone with temperature using both observational and 3-D model data.
+The spread in the ozone-temperature curves in all \ce{NO_x} conditions from simulations using the different chemical mechanisms was insignificant compared to the spread in observational and 3-D model output.
+The box model was setup to consider instantaneous ozone production and included vertical mixing with the free troposphere whereas observations and 3-D models also include data representing stagnant conditions.
 
-The box model experiments were setup to consider instanteous ozone production whereas observations and 3-D models also include data representing stagnant conditions.
-These atmospheric conditions results from low-wind speeds and high temperature leading to the previous day's ozone not being transported away from the region and the current day's ozone production is added on top of that.
+Stagnant atmospheric conditions characterised by low-wind speeds lead to the accumulation of reactants and elevated ozone levels as VOC degradation can be fully realised before being transported away from the region.
+Box model simulations were performed without vertical mixing to approximate stagnant conditions and in each case the rate of increase of ozone with temperature approached the rate of increase of ozone with temperature from the observed and 3-D model data.
+Thus with the box model, the relationship between ozone, temperature and \ce{NO_x} is more sensitive to mixing than the choice of chemical mechanism.
 
-The ozone-temperature relationship across different \ce{NO_x} regimes has not been extensively studied in regional or global modelling studies.
+Overall, the representation of detailed atmospheric chemistry does influence ozone production as in each of the studies significant differences between ozone levels are produced just from using different chemical mechanisms.
+The representation of the emitted NMVOC by the chemical mechanisms is critical and lead to differences in ozone production in each study.
+In particular, the relationship of ozone with temperature was controlled by the representation of the primary degradation of NMVOC.
+The secondary degradation processes of \ce{RO2NO2} chemistry and the rate of break down of emitted NMVOC using reduced chemical mechanisms are also important processes.
+Chapter~\ref{c:outlook} discusses the implications of these findings in more detail.
