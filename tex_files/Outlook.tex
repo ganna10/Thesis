@@ -1,31 +1,21 @@
-This work attempted to determine the important processes influencing ozone production through a series of detailed modelling studies.
-These studies looked at how VOC degradation specified by different chemical mechanisms, varying the input of NMVOC speciation and quantified the effects of temperature on ozone production.
-Box modelling experiments were designed and repeated using different chemical mechanisms that are used by the modelling community for global and regional modelling.
-Reduced chemical mechanisms typically used by modelling groups for regional and global studies were chosen for this study and compared to the highly detailed MCM chemical mechanism.
+Ozone pollution is a major problem in Europe and there is currently no legally binding EU wide limit value for countries to meet.
+Currently, the EU has a guideline value and countries neet to report their levels of ozone pollution on a yearly basis. \todo{add more background etc. after reading IASS Policy brief}
 
-The first study looking at the effects of different simplification techniques used by chemical mechanisms on ozone production using a tagging technique that allowed attribution of ozone production to emitted VOC.
-The chemical mechanisms and model runs were harmonised in such a way that any differences in ozone production between the chemical mechanisms was due to their representations of VOC degradation.
-Despite these harmonisations, the difference in the ozone maximum on the first day was $21$~ppbv when including the outlier RACM chemical mechanism and $8$~ppbv when not including RACM.
-Most of the reduced chemical mechanisms produced lower ozone mixing ratios than the MCM, thus when using reduced chemical mechanisms in regional or global models may lead to underestimations in ozone production.
+The idea of a legally binding limit value for ozone pollution by the EU is one that should be taken into consideration for the well-being of all people and vegetation.
+Having such a limit value that countries can realistically meet is a difficult task and one that tasks current modelling groups and their models.
+AQ modelling groups would be required to predict the response of ozone levels to changes in emissions under the influence of climate change with confidence.
+As discussed in the introduction, the non-linear relationship of ozone with ¸\ce{NO_x} and VOC levels makes this task even more difficult.
+Thus work such as the studies performed as part of this thesis are needed to improve the confidence of such future predictions of ozone levels.
 
-\ce{O_x} production budgets allocated to emitted VOC showed larger differences between chemical mechanisms with VOC represented by lumped mechanism species than explicitly represented VOC.
-In particular, the representation of aromatic VOC consistently produced lower \ce{O_x} in the reduced chemical mechanisms and was the source of the low ozone mixing ratios in the RACM chemical mechanism.
-Hence, when modelling urban areas with significant emissions of aromatic VOC, RACM chemistry may underpredict ozone production.
+The detailed process studies performed in this study are a part of the process of seeking improvements to current AQ modelling were all performed using a box model.
+While a box model is ideal for the scope of the studies and allow an insight into which chemical processes need to be focused on using more realistic 3-D models, the results here cannot be just scaled up to the real-world.
+Further work using 3-D models are required to verify how processes, such as regional transport, included in 3-D models but not the box model, also influence ozone production.
 
-The lumped intermediate chemical mechanism, CRI~v2, produced the most similar amounts of \ce{O_x} from each VOC to the MCM.
-The lumped intermediate species used by the CRI~v2 were developed to produce similar amounts of ozone as the MCM.
-Thus the technique of lumping intermediate species rather than lumping VOCs appears very promising for representing ozone production.
-
-The largest differences in ozone production from the VOC was after the first day of simulations where ozone production was fuelled by the degradation of less-reactive alkanes.
-The peak in ozone production from alkane species in lumped-molecule (MOZART-4, RADM2, RACM, RACM2) and lumped-structure (CBM-IV, CB05) chemical mechanisms was lower than the MCM chemical mechanisms.
-As alkanes are less-reactive VOC, they are more likely to be transported downwind of emission sources affecting ozone production in urban background areas.
-Thus an underestimation in the ozone production from alkanes in reduced chemical mechanisms may impact on simulated background ozone levels.
-
-Mechanisms which represent VOC emissions with different functional groups by a single lumped species did not reproduce the ozone production from the emitted VOC.
-In the case of RADM2, the degradation of a single species designed to represent many VOC based on OH-reactivity led to overestimations of the ozone production from alkanes compared to the MCM.
-Updated versions of RADM2, RACM and RACM2, include mechanism species representing more functional groups. 
-It is recommended for AQ modelling groups to use more recent versions of chemical mechanisms to reflect updates in reaction rate constants and the efforts of chemical mechanism developers to better represent the complexity of atmospheric chemistry.
-While this is undoubtably more work for a modelling group: testing the new model with the new chemical mechanism and translating emissions into the new chemical species, for example, the results in this work indicate that new chemical mechanisms better reflect the detailed chemical mechanisms of the MCM.
+A number of recommendations to the AQ modelling community can be listed from this work.
+Firstly, to keep up to date with the recommendations from the chemical kineticy community, AQ modelling groups should use more recent versions of chemical mechanism.
+Older chemical mechanisms such as RADM2 are still used by many modelling groups despite many updates in the chemistry. 
+Also, the first study showed that updates to the RADM2 chemistry using the same underlying simplification techniques in the RACM and RACM2 chemcial mechanisms improve the representation of the secondary VOC degradation chemistry leading to more similar ozone production from VOCs to the more detailed MCM chemical mechanism.
+This is undoubtably more work for a modelling group: testing new model with the new chemical mechanism and translating emissions into the new chemical species, for example.
 Having said that, the MCM should not be assumed to be an exact representation of the tropospheric chemistry as many assumptions and simplifications were used when developing the MCM.
 For example, the degradation of aromatic VOC has been shown to not reflect that of chamber experiments.
 More work is needed on a laboratory scale to verify the assumptions used by the MCM and other chemical mechanisms.
@@ -34,68 +24,20 @@ The main source of the generally lower ozone production from VOC in reduced chem
 This feature of reduced chemical mechanisms should be addressed when developing future chemical mechanisms, this might be at the expense of computational efficiency as more species and reactions would most likely need to be included.
 Although gains in computational speed with modern computing centres might offset this.
 
-The approach used by lumped-structure techniques also does not reflect the complexity of VOC emissions and their degradation.
-For example, emissions of a straight-chain and branched alkane are dealt with in the same way: emitting the PAR (\ce{C-C}) species multiplied by the number of carbons in the VOC.
-However, in reality the reactivity of straight-chain and branched alkanes differ with the branched alkanes generally more reactive.
-Again the more recent version of the Carbon Bond mechanism, CB05, produced more similar amounts of ozone to the MCM.
+Secondly, the results of the investigation into the effects of different speciations of the solvent sector showed that the effects on ozone production were noticable.
+This initial scoping study looked only at maximum ozone production within the box model but given these results further work using more realistic models and conditions are required.
+Also the speciations of NMVOCs by the emission inventories vary and this is also an area needing further work since different VOCs have different ozone production potentials, this was also shown in the second study where higher speciations of alkanes led to higher ozone production than emission inventories with higher speciations of oxygenated compounds.
+Future emission reduction scenarios may look at substituting the emissions of more reactive NMVOC with less reactive NMVOC changing the ozone production potential of the emission inventory.
+Depending on the type of emissions, this may reduce ozone production close to emission sources but increase ozone production downwind where the degradation of alkanes and oxygentated compounds influcenes.
+These are all important questions to be addressed before developing new emission inventories that represent the speciations of NMVOC emissions from urban areas is a huge task requiring a combined effort of the emissions, ambient measurent and the modelling community to better represent VOC emissions from urban areas within models.
 
-The second study looked at the influence of varying the speciation of NMVOC emissions from the solvent sector over an idealised urban area.
-The simulations were performed using the MCM as a reference chemical mechanism and MOZART-4 and RADM2 were reduced chemical mechanisms.
-Differences of up to $9$~ppbv were obtained between solvent sector EUs using a single chemical mechanism.
-When comparing ozone mixing ratios from the same solvent sector speciation using different chemical mechanisms, differences of up to $5$~ppbv were obtained.
-When using VOC emissions from all sectors and varying only the NMVOC emissions from the solvent sector, the differences in ozone mixing ratios were lower.
-Further including emissions from biogenic sources while varying the NMVOC emissions from the solvent sector resulted in lower still differences in ozone mixing ratios.
+The future climate is predicted to be warmer as a result of climate change and this may affect the predicted ozone production chemistry from future emission scenarios.
+The final study of this work considered only the effect of temperature, known to the major meteorological driver of ozone productio in many regions.
+The influence of other meterological parameters also plays a role, as mentioned in the introduction.
+Modelling studies looking at not only the effects of the individual meteorological parameters but also coupling of these parameters is also important due to competing effects on ozone production.
 
-The results of this first scoping studies showed that the choice of solvent sector speciation and chemical mechanism influences the amount of ozone produced from the box model.
-Modelling using more realistic 3-D models is required to determine whether these differences are reproduced, such a study has been initiated and preliminary results indicate that the differences seen in the box model are not as significant with the WRF-Chem model.
-\todo[inline]{should I mention this at all?}
-
-The high contributions of reactive VOC to the first day ozone production is expected, this was noted in the chemical mechanism study in Paper~I and also by many other studies looking at the effects of NMVOCs on ozone production.
-Although it remains to be confirmed how representative the speciations that specify large emissions of alkenes, for example, are of urban emissions from the solvent sector.
-Developing emission inventories accurately representing the speciations of NMVOC emissions from urban areas is a huge task requiring a combined effort of the emissions, ambient measurent and the modelling community to better represent VOC emissions from urban areas within models.
-
-Correlations of the amount of emissions specified by the solvent sector EIs and cumulative ozone production indicated that emissions of alkanes have a positive correlations with ozone production and oxygenated VOC have a negative correlation with ozone production.
-The EIs specifying larger emissions from alkanes produced the highest ozone while EIs specifying larger emissions of oxygenated VOC produced the lowest EIs.
-The EIs of the same country at different time points (Greece 1995 and 2005, United Kingdom 1998 and 2008) indicated that the more recent EI specified more emissions of oxygenated VOC than alkanes.
-Thus when preparing updated or new EIs the amount of alkane and oxygenated species are particularly important with respect to ozone production.
-
-The final study looked at the relationship of ozone with temperature using different \ce{NO_x}-conditions roughly over central European conditions.
-In order to verify whether temperature dependent increases in reaction rates or increases in isoprene emissions from nature are more important for ozone with temperature, separate simulations using a temperature-independent and then temperature-dependent source of isoprene emissions were performed.
-Simulations were performed using the MCM~v3.2, CRI~v2, RADM2, MOZART-4 and CB05 chemical mechanisms to determine whether this relationship differed with different representations of atmospheric chemistry.
-
-Each chemical mechanism reproduced the non-linear relationship of ozone with temperature and \ce{NO_x}.
-Increases in ozone with temperature due to faster reaction rates was more important in urban areas than the increase in isoprene emissions with temperature regardless of \ce{NO_x} conditions.
-The largest increases were when using moderate \ce{NO_x} emissions and the slowest increase was with low-\ce{NO_x} conditions.
-Thus with the future climate predicted to have higher temperatures, leading to higher VOC emissions from vegetation the best way to combat ozone pollution is to drastically reduce \ce{NO_x} emissions.
-
-Differences in the RADM2 representation of isoprene degradation to the MCM and other chemical mechanisms led to a lower increase in ozone with temperature than the other chemical mechanisms.
-This lower increase in ozone from isoprene degradation in RADM2 was due to the RADM2 not adequately representing the well-known degradation products of isoprene degradation, methacrolein and methyl vinyl ketone.
-The lower ozone production from isoprene with RADM2 could lead to underestimations in the ozone production in modelling studies with significant amounts of isoprene emissions, which is in fact the case for many areas as isoprene is the VOC with the most emissions on the global scale and many remote regions are estimated to have high isoprene emissions.
-This again illustrates the effect that using outdated chemistry may have on modelling studies, as the updated RADM2 versions (RACM and RACM2) do sequentially include these degradation products of isoprene.
-
-The faster oxidation of VOC with temperature caused the faster increase in ozone with temperature.
-The faster reaction rates was mainly due to the increase in OH with temperature which is coupled to the increase in ozone with temperature.
-Properly representing the coupled chemistry of ozone and OH, especially in low-\ce{NO_x} conditions is an area of active research.
-Most models have focussed representing the chemistry over polluted urban areas with significant \ce{NO_x} emissions but studies have shown that many chemical mechanisms do not represent isoprene degradation chemistry in remote areas (without large \ce{NO_x} sources).
-The MCM has recently published an update (MCM~v3.3) addressing these issues but the MCM is not used in regional or global modelling studies as it is too computationally expensive.
-
-Comparing the box model simulations to observational and 3-D model output showed that the rate of change in ozone with temperature in tbe box model was about half the rate of change of ozone with temperature using both observational and 3-D model data.
-Also the spread in the ozone-temperature curves from simulations using the different chemical mechanisms was insignificant compared to the spread in observational and 3-D model output.
-The best boxmodel simulations were when using a temperature-dependent source of isoprene emissions and high-\ce{NO_x} conditions.
-Thus modelling studies should include a temperature-independent source of isoprene emissions.
-
-The box model experiments were setup to consider instanteous ozone production whereas observations and 3-D models also include data representing stagnant conditions.
-These atmospheric conditions results from low-wind speeds and high temperature leading to the previous day's ozone not being transported away from the region and the current day's ozone production is added on top of that.
-
-The ozone-temperature relationship across different \ce{NO_x} regimes has not been extensively studied in regional or global modelling studies.
-Some studies over the US have looked at the increase in ozone due to temperature and other meteorological variables expected to change in the future but there are no studies looking at this relationship in other areas.
-The importance of considering varying \ce{NO_x} conditions should indicate the effects of ozone under future emission scenarios where reductions of \ce{NO_x} emissions have taken place.
-
-In each study, using the different chemical mechanisms influenced the ozone production indicating that using a particular chemical mechanism may influence simulated levels of ozone by models.
-The different simplification techniques influence the representation of NMVOC emissions and in our first scoping study the chemical mechanism choice did influence ozone production.
-Further studies looking at these effects in more complex models is recommended.
-The ozone-temperature relationship was well-represented by all chemical mechanisms used in this study however considering this relationship in more complex models and with other meteorological variables would also be important work in the future.
-
-Representing the multitude of NMVOC emissions is an area that should be looked at, the initial oxidation of NMVOC was responsible for the increase in ozone with temperature and ozone production was also sensitive to different speciations of NMVOC emissions.
-The use of different mechanism species representing separate functional groups, rather than using OH-reactivity, is recommended.
+The final study concluded that the oxidation of emitted NMVOC strongly influenced ozone production with temperature which neatly shows the potential impacts of having representation of the initial NMVOCs from an emission inventory and representing the degradation chemistry by the chemical mechanism.
+Since the ozone production with temperature was sensitive to mixing, this also shows the importance of representing the secondary degradation chemistry adequately by the chemical mechanism as if the chemistry is not properly represented then model predictions would underestimate ozone production with temperature.
 The degradation of NMVOC should be slowed down in chemical mechanisms to better simulate ozone production from emissions downwind and that could influence levels of background ozone.
+
+Having a limit value for ozone pollution in the EU would provide an incentive to address many of these issues and allow the modelling community to further improve the modelling of this tricky pollutant.
