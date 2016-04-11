@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  14 MAR 2016 19:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  11 APR 2016 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1394,9 +1394,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [3
 
 ]
-LaTeX Info: Redefining \bond on input line 39.
-LaTeX Info: Redefining \dbond on input line 39.
-LaTeX Info: Redefining \tbond on input line 39.
+LaTeX Info: Redefining \bond on input line 40.
+LaTeX Info: Redefining \dbond on input line 40.
+LaTeX Info: Redefining \tbond on input line 40.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -2666,31 +2666,34 @@ LaTeX Info: Redefining \tbond on input line 232.
 LaTeX Info: Redefining \bond on input line 232.
 LaTeX Info: Redefining \dbond on input line 232.
 LaTeX Info: Redefining \tbond on input line 232.
+LaTeX Info: Redefining \bond on input line 236.
+LaTeX Info: Redefining \dbond on input line 236.
+LaTeX Info: Redefining \tbond on input line 236.
 LaTeX Info: Redefining \bond on input line 237.
 LaTeX Info: Redefining \dbond on input line 237.
 LaTeX Info: Redefining \tbond on input line 237.
-LaTeX Info: Redefining \bond on input line 238.
-LaTeX Info: Redefining \dbond on input line 238.
-LaTeX Info: Redefining \tbond on input line 238.
-LaTeX Info: Redefining \bond on input line 240.
-LaTeX Info: Redefining \dbond on input line 240.
-LaTeX Info: Redefining \tbond on input line 240.
 
 Underfull \vbox (badness 2035) has occurred while \output is active []
 
  [9]
-LaTeX Info: Redefining \bond on input line 242.
-LaTeX Info: Redefining \dbond on input line 242.
-LaTeX Info: Redefining \tbond on input line 242.
+LaTeX Info: Redefining \bond on input line 241.
+LaTeX Info: Redefining \dbond on input line 241.
+LaTeX Info: Redefining \tbond on input line 241.
+LaTeX Info: Redefining \bond on input line 241.
+LaTeX Info: Redefining \dbond on input line 241.
+LaTeX Info: Redefining \tbond on input line 241.
 LaTeX Info: Redefining \bond on input line 242.
 LaTeX Info: Redefining \dbond on input line 242.
 LaTeX Info: Redefining \tbond on input line 242.
 LaTeX Info: Redefining \bond on input line 243.
 LaTeX Info: Redefining \dbond on input line 243.
 LaTeX Info: Redefining \tbond on input line 243.
-LaTeX Info: Redefining \bond on input line 244.
-LaTeX Info: Redefining \dbond on input line 244.
-LaTeX Info: Redefining \tbond on input line 244.
+LaTeX Info: Redefining \bond on input line 245.
+LaTeX Info: Redefining \dbond on input line 245.
+LaTeX Info: Redefining \tbond on input line 245.
+LaTeX Info: Redefining \bond on input line 245.
+LaTeX Info: Redefining \dbond on input line 245.
+LaTeX Info: Redefining \tbond on input line 245.
 LaTeX Info: Redefining \bond on input line 246.
 LaTeX Info: Redefining \dbond on input line 246.
 LaTeX Info: Redefining \tbond on input line 246.
@@ -2700,27 +2703,21 @@ LaTeX Info: Redefining \tbond on input line 246.
 LaTeX Info: Redefining \bond on input line 247.
 LaTeX Info: Redefining \dbond on input line 247.
 LaTeX Info: Redefining \tbond on input line 247.
-LaTeX Info: Redefining \bond on input line 247.
-LaTeX Info: Redefining \dbond on input line 247.
-LaTeX Info: Redefining \tbond on input line 247.
-LaTeX Info: Redefining \bond on input line 248.
-LaTeX Info: Redefining \dbond on input line 248.
-LaTeX Info: Redefining \tbond on input line 248.
+LaTeX Info: Redefining \bond on input line 249.
+LaTeX Info: Redefining \dbond on input line 249.
+LaTeX Info: Redefining \tbond on input line 249.
 LaTeX Info: Redefining \bond on input line 250.
 LaTeX Info: Redefining \dbond on input line 250.
 LaTeX Info: Redefining \tbond on input line 250.
 LaTeX Info: Redefining \bond on input line 251.
 LaTeX Info: Redefining \dbond on input line 251.
 LaTeX Info: Redefining \tbond on input line 251.
-LaTeX Info: Redefining \bond on input line 252.
-LaTeX Info: Redefining \dbond on input line 252.
-LaTeX Info: Redefining \tbond on input line 252.
-LaTeX Info: Redefining \bond on input line 255.
-LaTeX Info: Redefining \dbond on input line 255.
-LaTeX Info: Redefining \tbond on input line 255.
-LaTeX Info: Redefining \bond on input line 255.
-LaTeX Info: Redefining \dbond on input line 255.
-LaTeX Info: Redefining \tbond on input line 255.
+LaTeX Info: Redefining \bond on input line 254.
+LaTeX Info: Redefining \dbond on input line 254.
+LaTeX Info: Redefining \tbond on input line 254.
+LaTeX Info: Redefining \bond on input line 254.
+LaTeX Info: Redefining \dbond on input line 254.
+LaTeX Info: Redefining \tbond on input line 254.
 
 </local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf, id=133, 9
 68.05052pt x 486.24327pt>
@@ -2729,8 +2726,11 @@ ic file (type pdf)
 
 <use /local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf>
 Package pdftex.def Info: /local/home/coates/Documents/LaTeX/Thesis/img/NOx_sour
-ces_sinks.pdf used on input line 256.
+ces_sinks.pdf used on input line 255.
 (pdftex.def)             Requested size: 426.79134pt x 214.3706pt.
+LaTeX Info: Redefining \bond on input line 263.
+LaTeX Info: Redefining \dbond on input line 263.
+LaTeX Info: Redefining \tbond on input line 263.
 LaTeX Info: Redefining \bond on input line 263.
 LaTeX Info: Redefining \dbond on input line 263.
 LaTeX Info: Redefining \tbond on input line 263.
@@ -2738,70 +2738,68 @@ LaTeX Info: Redefining \tbond on input line 263.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 </local/home/coates/Documents/LaTeX/Thesis/img/NOx_sources_sinks.pdf>]
-LaTeX Info: Redefining \bond on input line 272.
-LaTeX Info: Redefining \dbond on input line 272.
-LaTeX Info: Redefining \tbond on input line 272.
+LaTeX Info: Redefining \bond on input line 266.
+LaTeX Info: Redefining \dbond on input line 266.
+LaTeX Info: Redefining \tbond on input line 266.
 LaTeX Info: Redefining \bond on input line 275.
 LaTeX Info: Redefining \dbond on input line 275.
 LaTeX Info: Redefining \tbond on input line 275.
-LaTeX Info: Redefining \bond on input line 276.
-LaTeX Info: Redefining \dbond on input line 276.
-LaTeX Info: Redefining \tbond on input line 276.
-LaTeX Info: Redefining \bond on input line 276.
-LaTeX Info: Redefining \dbond on input line 276.
-LaTeX Info: Redefining \tbond on input line 276.
-LaTeX Info: Redefining \bond on input line 282.
-LaTeX Info: Redefining \dbond on input line 282.
-LaTeX Info: Redefining \tbond on input line 282.
-LaTeX Info: Redefining \bond on input line 282.
-LaTeX Info: Redefining \dbond on input line 282.
-LaTeX Info: Redefining \tbond on input line 282.
-LaTeX Info: Redefining \bond on input line 282.
-LaTeX Info: Redefining \dbond on input line 282.
-LaTeX Info: Redefining \tbond on input line 282.
-LaTeX Info: Redefining \bond on input line 283.
-LaTeX Info: Redefining \dbond on input line 283.
-LaTeX Info: Redefining \tbond on input line 283.
-LaTeX Info: Redefining \bond on input line 283.
-LaTeX Info: Redefining \dbond on input line 283.
-LaTeX Info: Redefining \tbond on input line 283.
-
-Underfull \vbox (badness 1939) has occurred while \output is active []
-
+LaTeX Info: Redefining \bond on input line 278.
+LaTeX Info: Redefining \dbond on input line 278.
+LaTeX Info: Redefining \tbond on input line 278.
+LaTeX Info: Redefining \bond on input line 279.
+LaTeX Info: Redefining \dbond on input line 279.
+LaTeX Info: Redefining \tbond on input line 279.
+LaTeX Info: Redefining \bond on input line 279.
+LaTeX Info: Redefining \dbond on input line 279.
+LaTeX Info: Redefining \tbond on input line 279.
+LaTeX Info: Redefining \bond on input line 285.
+LaTeX Info: Redefining \dbond on input line 285.
+LaTeX Info: Redefining \tbond on input line 285.
+LaTeX Info: Redefining \bond on input line 285.
+LaTeX Info: Redefining \dbond on input line 285.
+LaTeX Info: Redefining \tbond on input line 285.
+LaTeX Info: Redefining \bond on input line 285.
+LaTeX Info: Redefining \dbond on input line 285.
+LaTeX Info: Redefining \tbond on input line 285.
+LaTeX Info: Redefining \bond on input line 286.
+LaTeX Info: Redefining \dbond on input line 286.
+LaTeX Info: Redefining \tbond on input line 286.
+LaTeX Info: Redefining \bond on input line 286.
+LaTeX Info: Redefining \dbond on input line 286.
+LaTeX Info: Redefining \tbond on input line 286.
  [11]
-LaTeX Info: Redefining \bond on input line 293.
-LaTeX Info: Redefining \dbond on input line 293.
-LaTeX Info: Redefining \tbond on input line 293.
-LaTeX Info: Redefining \bond on input line 299.
-LaTeX Info: Redefining \dbond on input line 299.
-LaTeX Info: Redefining \tbond on input line 299.
-LaTeX Info: Redefining \bond on input line 305.
-LaTeX Info: Redefining \dbond on input line 305.
-LaTeX Info: Redefining \tbond on input line 305.
+LaTeX Info: Redefining \bond on input line 296.
+LaTeX Info: Redefining \dbond on input line 296.
+LaTeX Info: Redefining \tbond on input line 296.
+LaTeX Info: Redefining \bond on input line 302.
+LaTeX Info: Redefining \dbond on input line 302.
+LaTeX Info: Redefining \tbond on input line 302.
+LaTeX Info: Redefining \bond on input line 308.
+LaTeX Info: Redefining \dbond on input line 308.
+LaTeX Info: Redefining \tbond on input line 308.
+ [12]
+[13]
+LaTeX Info: Redefining \bond on input line 383.
+LaTeX Info: Redefining \dbond on input line 383.
+LaTeX Info: Redefining \tbond on input line 383.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-Underfull \vbox (badness 7468) has occurred while \output is active []
-
- [13]
-LaTeX Info: Redefining \bond on input line 380.
-LaTeX Info: Redefining \dbond on input line 380.
-LaTeX Info: Redefining \tbond on input line 380.
-
-[14] [15]
-LaTeX Info: Redefining \bond on input line 407.
-LaTeX Info: Redefining \dbond on input line 407.
-LaTeX Info: Redefining \tbond on input line 407.
-LaTeX Info: Redefining \bond on input line 409.
-LaTeX Info: Redefining \dbond on input line 409.
-LaTeX Info: Redefining \tbond on input line 409.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 417.
+ [14]
+[15]
+LaTeX Info: Redefining \bond on input line 410.
+LaTeX Info: Redefining \dbond on input line 410.
+LaTeX Info: Redefining \tbond on input line 410.
+LaTeX Info: Redefining \bond on input line 412.
+LaTeX Info: Redefining \dbond on input line 412.
+LaTeX Info: Redefining \tbond on input line 412.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 420.
 
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \vbox (badness 1975) has occurred while \output is active []
+Underfull \vbox (badness 1221) has occurred while \output is active []
 
  [16])
 [17] [18
@@ -2914,12 +2912,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--5
 []\T1/lmr/bx/n/17.28 Paper I: A com-par-i-son of chem-i-cal
  []
 
-LaTeX Info: Redefining \bond on input line 17.
-LaTeX Info: Redefining \dbond on input line 17.
-LaTeX Info: Redefining \tbond on input line 17.
-LaTeX Info: Redefining \bond on input line 18.
-LaTeX Info: Redefining \dbond on input line 18.
-LaTeX Info: Redefining \tbond on input line 18.
+LaTeX Info: Redefining \bond on input line 20.
+LaTeX Info: Redefining \dbond on input line 20.
+LaTeX Info: Redefining \tbond on input line 20.
+LaTeX Info: Redefining \bond on input line 21.
+LaTeX Info: Redefining \dbond on input line 21.
+LaTeX Info: Redefining \tbond on input line 21.
+LaTeX Info: Redefining \bond on input line 22.
+LaTeX Info: Redefining \dbond on input line 22.
+LaTeX Info: Redefining \tbond on input line 22.
 [27
 
 ]
@@ -2929,9 +2930,15 @@ LaTeX Info: Redefining \tbond on input line 25.
 LaTeX Info: Redefining \bond on input line 26.
 LaTeX Info: Redefining \dbond on input line 26.
 LaTeX Info: Redefining \tbond on input line 26.
-LaTeX Info: Redefining \bond on input line 27.
-LaTeX Info: Redefining \dbond on input line 27.
-LaTeX Info: Redefining \tbond on input line 27.
+LaTeX Info: Redefining \bond on input line 28.
+LaTeX Info: Redefining \dbond on input line 28.
+LaTeX Info: Redefining \tbond on input line 28.
+LaTeX Info: Redefining \bond on input line 29.
+LaTeX Info: Redefining \dbond on input line 29.
+LaTeX Info: Redefining \tbond on input line 29.
+LaTeX Info: Redefining \bond on input line 29.
+LaTeX Info: Redefining \dbond on input line 29.
+LaTeX Info: Redefining \tbond on input line 29.
 LaTeX Info: Redefining \bond on input line 30.
 LaTeX Info: Redefining \dbond on input line 30.
 LaTeX Info: Redefining \tbond on input line 30.
@@ -2941,647 +2948,692 @@ LaTeX Info: Redefining \tbond on input line 31.
 LaTeX Info: Redefining \bond on input line 31.
 LaTeX Info: Redefining \dbond on input line 31.
 LaTeX Info: Redefining \tbond on input line 31.
-LaTeX Info: Redefining \bond on input line 33.
-LaTeX Info: Redefining \dbond on input line 33.
-LaTeX Info: Redefining \tbond on input line 33.
-LaTeX Info: Redefining \bond on input line 34.
-LaTeX Info: Redefining \dbond on input line 34.
-LaTeX Info: Redefining \tbond on input line 34.
-LaTeX Info: Redefining \bond on input line 34.
-LaTeX Info: Redefining \dbond on input line 34.
-LaTeX Info: Redefining \tbond on input line 34.
-LaTeX Info: Redefining \bond on input line 35.
-LaTeX Info: Redefining \dbond on input line 35.
-LaTeX Info: Redefining \tbond on input line 35.
-LaTeX Info: Redefining \bond on input line 36.
-LaTeX Info: Redefining \dbond on input line 36.
-LaTeX Info: Redefining \tbond on input line 36.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 []\T1/lmr/bx/n/17.28 Paper II: Vari-a-tion of the NMVOC
  []
 
+LaTeX Info: Redefining \bond on input line 44.
+LaTeX Info: Redefining \dbond on input line 44.
+LaTeX Info: Redefining \tbond on input line 44.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1210) has occurred while \output is active []
 
  [28]
 LaTeX Info: Redefining \bond on input line 53.
 LaTeX Info: Redefining \dbond on input line 53.
 LaTeX Info: Redefining \tbond on input line 53.
-LaTeX Info: Redefining \bond on input line 53.
-LaTeX Info: Redefining \dbond on input line 53.
-LaTeX Info: Redefining \tbond on input line 53.
-LaTeX Info: Redefining \bond on input line 55.
-LaTeX Info: Redefining \dbond on input line 55.
-LaTeX Info: Redefining \tbond on input line 55.
-
-Underfull \vbox (badness 6284) has occurred while \output is active []
-
- [29]
-LaTeX Info: Redefining \bond on input line 64.
-LaTeX Info: Redefining \dbond on input line 64.
-LaTeX Info: Redefining \tbond on input line 64.
-LaTeX Info: Redefining \bond on input line 65.
-LaTeX Info: Redefining \dbond on input line 65.
-LaTeX Info: Redefining \tbond on input line 65.
-LaTeX Info: Redefining \bond on input line 67.
-LaTeX Info: Redefining \dbond on input line 67.
-LaTeX Info: Redefining \tbond on input line 67.
-LaTeX Info: Redefining \bond on input line 68.
-LaTeX Info: Redefining \dbond on input line 68.
-LaTeX Info: Redefining \tbond on input line 68.
-LaTeX Info: Redefining \bond on input line 68.
-LaTeX Info: Redefining \dbond on input line 68.
-LaTeX Info: Redefining \tbond on input line 68.
-LaTeX Info: Redefining \bond on input line 69.
-LaTeX Info: Redefining \dbond on input line 69.
-LaTeX Info: Redefining \tbond on input line 69.
-LaTeX Info: Redefining \bond on input line 69.
-LaTeX Info: Redefining \dbond on input line 69.
-LaTeX Info: Redefining \tbond on input line 69.
+LaTeX Info: Redefining \bond on input line 54.
+LaTeX Info: Redefining \dbond on input line 54.
+LaTeX Info: Redefining \tbond on input line 54.
+LaTeX Info: Redefining \bond on input line 56.
+LaTeX Info: Redefining \dbond on input line 56.
+LaTeX Info: Redefining \tbond on input line 56.
+LaTeX Info: Redefining \bond on input line 57.
+LaTeX Info: Redefining \dbond on input line 57.
+LaTeX Info: Redefining \tbond on input line 57.
+LaTeX Info: Redefining \bond on input line 58.
+LaTeX Info: Redefining \dbond on input line 58.
+LaTeX Info: Redefining \tbond on input line 58.
+LaTeX Info: Redefining \bond on input line 58.
+LaTeX Info: Redefining \dbond on input line 58.
+LaTeX Info: Redefining \tbond on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 72.
-LaTeX Info: Redefining \bond on input line 72.
-LaTeX Info: Redefining \dbond on input line 72.
-LaTeX Info: Redefining \tbond on input line 72.
+(Font)              <17.28> on input line 61.
+LaTeX Info: Redefining \bond on input line 61.
+LaTeX Info: Redefining \dbond on input line 61.
+LaTeX Info: Redefining \tbond on input line 61.
 
-Underfull \hbox (badness 1107) in paragraph at lines 72--72
+Underfull \hbox (badness 1107) in paragraph at lines 61--61
 []\T1/lmr/bx/n/17.28 Paper III: The In-flu-ence of Tem-per-a-ture
  []
 
-LaTeX Info: Redefining \bond on input line 75.
-LaTeX Info: Redefining \dbond on input line 75.
-LaTeX Info: Redefining \tbond on input line 75.
+LaTeX Info: Redefining \bond on input line 66.
+LaTeX Info: Redefining \dbond on input line 66.
+LaTeX Info: Redefining \tbond on input line 66.
+LaTeX Info: Redefining \bond on input line 69.
+LaTeX Info: Redefining \dbond on input line 69.
+LaTeX Info: Redefining \tbond on input line 69.
+LaTeX Info: Redefining \bond on input line 70.
+LaTeX Info: Redefining \dbond on input line 70.
+LaTeX Info: Redefining \tbond on input line 70.
+[29]
+LaTeX Info: Redefining \bond on input line 73.
+LaTeX Info: Redefining \dbond on input line 73.
+LaTeX Info: Redefining \tbond on input line 73.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
+LaTeX Info: Redefining \bond on input line 76.
+LaTeX Info: Redefining \dbond on input line 76.
+LaTeX Info: Redefining \tbond on input line 76.
 LaTeX Info: Redefining \bond on input line 78.
 LaTeX Info: Redefining \dbond on input line 78.
 LaTeX Info: Redefining \tbond on input line 78.
-LaTeX Info: Redefining \bond on input line 79.
-LaTeX Info: Redefining \dbond on input line 79.
-LaTeX Info: Redefining \tbond on input line 79.
-LaTeX Info: Redefining \bond on input line 82.
-LaTeX Info: Redefining \dbond on input line 82.
-LaTeX Info: Redefining \tbond on input line 82.
-[30]
+LaTeX Info: Redefining \bond on input line 78.
+LaTeX Info: Redefining \dbond on input line 78.
+LaTeX Info: Redefining \tbond on input line 78.
+LaTeX Info: Redefining \bond on input line 80.
+LaTeX Info: Redefining \dbond on input line 80.
+LaTeX Info: Redefining \tbond on input line 80.
+LaTeX Info: Redefining \bond on input line 80.
+LaTeX Info: Redefining \dbond on input line 80.
+LaTeX Info: Redefining \tbond on input line 80.
+LaTeX Info: Redefining \bond on input line 80.
+LaTeX Info: Redefining \dbond on input line 80.
+LaTeX Info: Redefining \tbond on input line 80.
+LaTeX Info: Redefining \bond on input line 81.
+LaTeX Info: Redefining \dbond on input line 81.
+LaTeX Info: Redefining \tbond on input line 81.
+LaTeX Info: Redefining \bond on input line 81.
+LaTeX Info: Redefining \dbond on input line 81.
+LaTeX Info: Redefining \tbond on input line 81.
+LaTeX Info: Redefining \bond on input line 81.
+LaTeX Info: Redefining \dbond on input line 81.
+LaTeX Info: Redefining \tbond on input line 81.
+LaTeX Info: Redefining \bond on input line 81.
+LaTeX Info: Redefining \dbond on input line 81.
+LaTeX Info: Redefining \tbond on input line 81.
+LaTeX Info: Redefining \bond on input line 81.
+LaTeX Info: Redefining \dbond on input line 81.
+LaTeX Info: Redefining \tbond on input line 81.
 LaTeX Info: Redefining \bond on input line 87.
 LaTeX Info: Redefining \dbond on input line 87.
 LaTeX Info: Redefining \tbond on input line 87.
-LaTeX Info: Redefining \bond on input line 87.
-LaTeX Info: Redefining \dbond on input line 87.
-LaTeX Info: Redefining \tbond on input line 87.
-LaTeX Info: Redefining \bond on input line 87.
-LaTeX Info: Redefining \dbond on input line 87.
-LaTeX Info: Redefining \tbond on input line 87.
-
-Underfull \hbox (badness 2781) in paragraph at lines 84--88
-[]\T1/lmr/m/n/12 (+20) Box model sim-u-la-tions were per-formed us-ing NMVOC em
-is-sions
- []
-
-LaTeX Info: Redefining \bond on input line 89.
-LaTeX Info: Redefining \dbond on input line 89.
-LaTeX Info: Redefining \tbond on input line 89.
-LaTeX Info: Redefining \bond on input line 92.
-LaTeX Info: Redefining \dbond on input line 92.
-LaTeX Info: Redefining \tbond on input line 92.
-LaTeX Info: Redefining \bond on input line 92.
-LaTeX Info: Redefining \dbond on input line 92.
-LaTeX Info: Redefining \tbond on input line 92.
-LaTeX Info: Redefining \bond on input line 94.
-LaTeX Info: Redefining \dbond on input line 94.
-LaTeX Info: Redefining \tbond on input line 94.
-LaTeX Info: Redefining \bond on input line 94.
-LaTeX Info: Redefining \dbond on input line 94.
-LaTeX Info: Redefining \tbond on input line 94.
-LaTeX Info: Redefining \bond on input line 97.
-LaTeX Info: Redefining \dbond on input line 97.
-LaTeX Info: Redefining \tbond on input line 97.
-)
+) [30]
+Chapter 4.
+(./tex_files/Conclusions.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-[32]
-Chapter 4.
-[33
+ [31
 
 
 
-] [34
+]
+LaTeX Info: Redefining \bond on input line 31.
+LaTeX Info: Redefining \dbond on input line 31.
+LaTeX Info: Redefining \tbond on input line 31.
+LaTeX Info: Redefining \bond on input line 33.
+LaTeX Info: Redefining \dbond on input line 33.
+LaTeX Info: Redefining \tbond on input line 33.
+
+Underfull \hbox (badness 1210) in paragraph at lines 31--35
+\T1/lmr/m/n/12 (+20) and $[]$ us-ing cen-tral Eu-ro-pean con-di-tions. In or-de
+r to ver-ify whether
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+LaTeX Info: Redefining \bond on input line 36.
+LaTeX Info: Redefining \dbond on input line 36.
+LaTeX Info: Redefining \tbond on input line 36.
+LaTeX Info: Redefining \bond on input line 37.
+LaTeX Info: Redefining \dbond on input line 37.
+LaTeX Info: Redefining \tbond on input line 37.
+LaTeX Info: Redefining \bond on input line 37.
+LaTeX Info: Redefining \dbond on input line 37.
+LaTeX Info: Redefining \tbond on input line 37.
+LaTeX Info: Redefining \bond on input line 37.
+LaTeX Info: Redefining \dbond on input line 37.
+LaTeX Info: Redefining \tbond on input line 37.
+LaTeX Info: Redefining \bond on input line 38.
+LaTeX Info: Redefining \dbond on input line 38.
+LaTeX Info: Redefining \tbond on input line 38.
+LaTeX Info: Redefining \bond on input line 38.
+LaTeX Info: Redefining \dbond on input line 38.
+LaTeX Info: Redefining \tbond on input line 38.
+LaTeX Info: Redefining \bond on input line 40.
+LaTeX Info: Redefining \dbond on input line 40.
+LaTeX Info: Redefining \tbond on input line 40.
+LaTeX Info: Redefining \bond on input line 41.
+LaTeX Info: Redefining \dbond on input line 41.
+LaTeX Info: Redefining \tbond on input line 41.
+LaTeX Info: Redefining \bond on input line 47.
+LaTeX Info: Redefining \dbond on input line 47.
+LaTeX Info: Redefining \tbond on input line 47.
+)
+[33] [34
 
 
 ]
 Chapter 5.
-[35
+(./tex_files/Outlook.tex
+LaTeX Info: Redefining \bond on input line 6.
+LaTeX Info: Redefining \dbond on input line 6.
+LaTeX Info: Redefining \tbond on input line 6.
+LaTeX Info: Redefining \bond on input line 7.
+LaTeX Info: Redefining \dbond on input line 7.
+LaTeX Info: Redefining \tbond on input line 7.
+LaTeX Info: Redefining \bond on input line 8.
+LaTeX Info: Redefining \dbond on input line 8.
+LaTeX Info: Redefining \tbond on input line 8.
 
-] [36
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-] (./main.bbl [37
+ [35
 
 ]
-LaTeX Info: Redefining \bond on input line 120.
-LaTeX Info: Redefining \dbond on input line 120.
-LaTeX Info: Redefining \tbond on input line 120.
- [38] [39] [40] [41] [42] [43] [44]) [45] [46
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36])
+[37] [38
 
 
 ]
 Chapter 6.
-[47
+[39
 
-] [48
+] [40
 
 
-] <img/paper1.pdf, id=275, page=1, 597.50786pt x 788.14133pt>
+] (./main.bbl [41
+
+]
+LaTeX Info: Redefining \bond on input line 125.
+LaTeX Info: Redefining \dbond on input line 125.
+LaTeX Info: Redefining \tbond on input line 125.
+ [42] [43] [44] [45] [46] [47] [48] [49]) [50]
+Chapter 7.
+[51
+
+
+
+] [52
+
+
+] <img/paper1.pdf, id=288, page=1, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
-Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page1 used on input line 87.
 (pdftex.def)             Requested size: 597.5064pt x 788.1394pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 1>
-Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page1 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
-Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page1 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 1>
-Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page1 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 1>
-Package pdftex.def Info: img/paper1.pdf, page1 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page1 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [49 <./img/paper1.pdf>]
-<img/paper1.pdf, id=305, page=2, 597.50786pt x 788.14133pt>
+ [53 <./img/paper1.pdf>]
+<img/paper1.pdf, id=317, page=2, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
-Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page2 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 2>
-Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page2 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 2>
-Package pdftex.def Info: img/paper1.pdf, page2 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page2 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [50 <./img/paper1.pdf>]
-<img/paper1.pdf, id=309, page=3, 597.50786pt x 788.14133pt>
+ [54 <./img/paper1.pdf>]
+<img/paper1.pdf, id=321, page=3, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
-Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page3 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 3>
-Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page3 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 3>
-Package pdftex.def Info: img/paper1.pdf, page3 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page3 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [51 <./img/paper1.pdf>]
-<img/paper1.pdf, id=313, page=4, 597.50786pt x 788.14133pt>
+ [55 <./img/paper1.pdf>]
+<img/paper1.pdf, id=326, page=4, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
-Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page4 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 4>
-Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page4 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 4>
-Package pdftex.def Info: img/paper1.pdf, page4 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page4 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [52 <./img/paper1.pdf>]
-<img/paper1.pdf, id=321, page=5, 597.50786pt x 788.14133pt>
+ [56 <./img/paper1.pdf>]
+<img/paper1.pdf, id=334, page=5, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
-Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page5 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 5>
-Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page5 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 5>
-Package pdftex.def Info: img/paper1.pdf, page5 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page5 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [53 <./img/paper1.pdf>]
-<img/paper1.pdf, id=325, page=6, 597.50786pt x 788.14133pt>
+ [57 <./img/paper1.pdf>]
+<img/paper1.pdf, id=338, page=6, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
-Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page6 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 6>
-Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page6 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 6>
-Package pdftex.def Info: img/paper1.pdf, page6 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page6 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [54 <./img/paper1.pdf>]
-<img/paper1.pdf, id=856, page=7, 597.50786pt x 788.14133pt>
+ [58 <./img/paper1.pdf>]
+<img/paper1.pdf, id=869, page=7, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
-Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page7 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 7>
-Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page7 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 7>
-Package pdftex.def Info: img/paper1.pdf, page7 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page7 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [55 <./img/paper1.pdf>]
-<img/paper1.pdf, id=880, page=8, 597.50786pt x 788.14133pt>
+ [59 <./img/paper1.pdf>]
+<img/paper1.pdf, id=892, page=8, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
-Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page8 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 8>
-Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page8 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 8>
-Package pdftex.def Info: img/paper1.pdf, page8 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page8 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [56 <./img/paper1.pdf>]
-<img/paper1.pdf, id=982, page=9, 597.50786pt x 788.14133pt>
+ [60 <./img/paper1.pdf>]
+<img/paper1.pdf, id=994, page=9, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
-Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page9 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 9>
-Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page9 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 9>
-Package pdftex.def Info: img/paper1.pdf, page9 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page9 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [57 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1002, page=10, 597.50786pt x 788.14133pt>
+ [61 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1015, page=10, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
-Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page10 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 10>
-Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page10 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 10>
-Package pdftex.def Info: img/paper1.pdf, page10 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page10 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [58 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1025, page=11, 597.50786pt x 788.14133pt>
+ [62 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1038, page=11, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
-Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page11 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 11>
-Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page11 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 11>
-Package pdftex.def Info: img/paper1.pdf, page11 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page11 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [59 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1048, page=12, 597.50786pt x 788.14133pt>
+ [63 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1061, page=12, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
-Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page12 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 12>
-Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page12 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 12>
-Package pdftex.def Info: img/paper1.pdf, page12 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page12 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [60 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1089, page=13, 597.50786pt x 788.14133pt>
+ [64 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1102, page=13, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
-Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page13 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 13>
-Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page13 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 13>
-Package pdftex.def Info: img/paper1.pdf, page13 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page13 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [61 <./img/paper1.pdf>]
-<img/paper1.pdf, id=1094, page=14, 597.50786pt x 788.14133pt>
+ [65 <./img/paper1.pdf>]
+<img/paper1.pdf, id=1107, page=14, 597.50786pt x 788.14133pt>
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
-Package pdftex.def Info: img/paper1.pdf, page14 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page14 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
  <use img/paper1.pdf, page 14>
-Package pdftex.def Info: img/paper1.pdf, page14 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page14 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
 File: img/paper1.pdf Graphic file (type pdf)
 
 <use img/paper1.pdf, page 14>
-Package pdftex.def Info: img/paper1.pdf, page14 used on input line 82.
+Package pdftex.def Info: img/paper1.pdf, page14 used on input line 87.
 (pdftex.def)             Requested size: 598.00783pt x 788.80083pt.
- [62 <./img/paper1.pdf>]
-<img/paper1-supplement.pdf, id=1100, page=1, 614.295pt x 794.97pt>
+ [66 <./img/paper1.pdf>]
+<img/paper1-supplement.pdf, id=1113, page=1, 614.295pt x 794.97pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
 <use img/paper1-supplement.pdf, page 1>
-Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 83
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 88
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
 <use img/paper1-supplement.pdf, page 1>
-Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 83
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 88
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
 <use img/paper1-supplement.pdf, page 1>
-Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 83
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 88
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
 <use img/paper1-supplement.pdf, page 1>
-Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 83
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 88
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
 <use img/paper1-supplement.pdf, page 1>
-Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 83
+Package pdftex.def Info: img/paper1-supplement.pdf, page1 used on input line 88
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
- [63 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1116, page=2, 597.50829pt x 845.0471pt>
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 2>
-Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 2>
-Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 2>
-Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
- [64 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1170, page=3, 597.50829pt x 845.0471pt>
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 3>
-Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 3>
-Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 3>
-Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
- [65 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1214, page=4, 597.50829pt x 845.0471pt>
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 4>
-Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 4>
-Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 4>
-Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
- [66 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1218, page=5, 597.50829pt x 845.0471pt>
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 5>
-Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 5>
-Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
-File: img/paper1-supplement.pdf Graphic file (type pdf)
-
-<use img/paper1-supplement.pdf, page 5>
-Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 83
-.
-(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [67 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1223, page=6, 597.50829pt x 845.0471pt>
+<img/paper1-supplement.pdf, id=1129, page=2, 597.50829pt x 845.0471pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 6>
-Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 83
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 6>
-Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 83
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 6>
-Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 83
+<use img/paper1-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper1-supplement.pdf, page2 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [68 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1242, page=7, 597.50829pt x 845.0471pt>
+<img/paper1-supplement.pdf, id=1183, page=3, 597.50829pt x 845.0471pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 7>
-Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 83
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 7>
-Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 83
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 7>
-Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 83
+<use img/paper1-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper1-supplement.pdf, page3 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [69 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1251, page=8, 597.50829pt x 845.0471pt>
+<img/paper1-supplement.pdf, id=1227, page=4, 597.50829pt x 845.0471pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 8>
-Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 83
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 8>
-Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 83
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 8>
-Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 83
+<use img/paper1-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper1-supplement.pdf, page4 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [70 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1286, page=9, 597.50829pt x 845.0471pt>
+<img/paper1-supplement.pdf, id=1231, page=5, 597.50829pt x 845.0471pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 9>
-Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 83
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 9>
-Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 83
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 9>
-Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 83
+<use img/paper1-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper1-supplement.pdf, page5 used on input line 88
 .
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [71 <./img/paper1-supplement.pdf>]
-<img/paper1-supplement.pdf, id=1290, page=10, 597.50829pt x 845.0471pt>
+<img/paper1-supplement.pdf, id=1235, page=6, 597.50829pt x 845.0471pt>
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 10>
-Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
-3.
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 88
+.
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 10>
-Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
-3.
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 88
+.
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
 File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-<use img/paper1-supplement.pdf, page 10>
-Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
-3.
+<use img/paper1-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper1-supplement.pdf, page6 used on input line 88
+.
 (pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
  [72 <./img/paper1-supplement.pdf>]
-Chapter 7.
-[73
+<img/paper1-supplement.pdf, id=1254, page=7, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-] [74
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
 
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
 
-]
+<use img/paper1-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper1-supplement.pdf, page7 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [73 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1264, page=8, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper1-supplement.pdf, page8 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [74 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1299, page=9, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper1-supplement.pdf, page9 used on input line 88
+.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [75 <./img/paper1-supplement.pdf>]
+<img/paper1-supplement.pdf, id=1303, page=10, 597.50829pt x 845.0471pt>
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+8.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+8.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+File: img/paper1-supplement.pdf Graphic file (type pdf)
+
+<use img/paper1-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper1-supplement.pdf, page10 used on input line 8
+8.
+(pdftex.def)             Requested size: 581.45137pt x 822.33806pt.
+ [76 <./img/paper1-supplement.pdf>]
 Chapter 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 88.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 88.
-LaTeX Info: Redefining \bond on input line 88.
-LaTeX Info: Redefining \dbond on input line 88.
-LaTeX Info: Redefining \tbond on input line 88.
-[75
-
-] [76
-
-
-]
-Chapter 9.
 [77
 
 ] [78
 
 
-] [79
+]
+Chapter 9.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 93.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 93.
+LaTeX Info: Redefining \bond on input line 93.
+LaTeX Info: Redefining \dbond on input line 93.
+LaTeX Info: Redefining \tbond on input line 93.
+[79
 
 ] [80
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+Chapter 10.
+[81
+
+] [82
+
+
+] [83
+
+] [84
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 103.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 22634 strings out of 495007
- 391400 string characters out of 3179690
- 530534 words of memory out of 3000000
- 25160 multiletter control sequences out of 15000+200000
- 109608 words of font info for 155 fonts, out of 3000000 for 9000
+ 22656 strings out of 495007
+ 391815 string characters out of 3179690
+ 531807 words of memory out of 3000000
+ 25174 multiletter control sequences out of 15000+200000
+ 109695 words of font info for 156 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,28n,94p,549b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -3619,10 +3671,10 @@ f/fonts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sftt1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
 uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
 
-Output written on main.pdf (92 pages, 1454247 bytes).
+Output written on main.pdf (96 pages, 1466844 bytes).
 PDF statistics:
- 1405 PDF objects out of 1440 (max. 8388607)
- 956 compressed objects within 10 object streams
+ 1417 PDF objects out of 1440 (max. 8388607)
+ 964 compressed objects within 10 object streams
  0 named destinations out of 1000 (max. 500000)
  24754 words of extra memory for PDF output out of 24883 (max. 10000000)
 

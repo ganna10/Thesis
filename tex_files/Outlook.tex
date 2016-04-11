@@ -1,0 +1,40 @@
+Although ozone pollution is a major problem in Europe, there is currently no legally binding limit value for ozone.
+The EU Directive 2008/50/EG sets a target value for human health requiring the mean eight hourly ozone concentration not to exceed $120$~$\mu$g~m$^{-3}$ (= $60$~ppbv) on more than $25$ calendar days.
+The same EU Directive also sets an AOT40 target value for the exposure of vegetation to ozone of less than $18,000$~$\mu$g~m$^{-3} \cdot$~h. 
+AOT40 is the sum of the differences between the mean hourly ozone values above $80$~$\mu$g~m$^{-3}$ (= $40$~ppbv) and the value of $80$~$\mu$g~m$^{-3}$ between 8~am and 8~pm from May to July.
+
+The EU has laws regulating the emissions of ozone precursors (\ce{NO_x} and VOC).
+While these laws have reduced the emissions of both \ce{NO_x} and VOC over Europe, the target value for ozone is regularly exceeded throughout Europe.
+The non-linear relationship between ozone, \ce{NO_x} and VOC as well as increased intercontinental transport of ozone and its precursors impact the response of ozone pollution despite reductions in precursor emissions.
+The European Environmental Agency (EEA) recommends further mitigation efforts on the local, regional and global scales to reduce ambient ozone levels.
+
+Setting a legally binding limit value for ambient ozone over Europe should inspire mitigation strategies at the local and regional scales in a bid to meet this limit.
+Meeting a limit value requires assessing different mitigation approaches and here AQ modelling will be a vital tool in determining the efficacy of a mitigation strategy for reducing ambient ozone. 
+Thus research aiming to improve model performance would also aid in increasing the confidence of AQ predictions from models, an asset for judging different mitigation strategies.
+
+The detailed process studies performed as part of this work were designed to ultimately improve model performance increasing the confidence of the predictions of AQ models for mitigation strategies.
+A number of recommendations to the AQ modelling community are listed based on these studies.
+AQ modelling groups should use up-to-date chemical mechanisms to incorporate the findings and recommendations from the chemical kinetics community.
+This is undoubtably more work for a modelling group as further work such as testing the model with a new chemical mechanism and translating emissions into the new chemical species would need to be performed.
+However as shown in the first study, updated versions of the same chemical mechanism produced more similar amounts of ozone to the near-explicit MCM~v3.2 chemical mechanism.
+Thus using an updated chemical mechanism should increase the confidence of the modelled ozone production from the degradation of emitted VOCs.
+
+As the lumped-intermediate chemical mechanism produced the most similar amounts of ozone to the MCM~v3.2, the approach of using a highly detailed chemical mechanism and lumping the degradation products appears promising for developing future chemical mechanisms.
+This approach did not break down the emitted VOC into smaller degradation products as fast as the lumped-molecule and lumped-structure chemical mechanisms, which was the main cause for the lower ozone production using these chemical mechanisms compared to the MCM~v3.2.
+Lumped-intermediate chemical mechanisms include more chemical species than lumped-molecule and lumped-structure chemical mechanisms making their use less appealling from a computational efficiency perspective.
+However gains in computational speed with modern computing centres might reduce this concern and facilitate the use of more complex chemical mechanisms as part of 3D models.
+
+One feature of future mitigation strategies could be to substitute the emissions of a more-reactive NMVOC with a less-reactive NMVOC thus changing the NMVOC speciation profile from emission sectors.
+Such mitigation strategies require updating emission inventories and assessing how the change in speciation could influence ambient ozone levels.
+The results of the second study indicate that ozone production close to emission sources would be reduced using such mitigation strategies but ozone production downwind may increase.
+
+A warmer climate is predicted in the future as a result of climate change and this may affect ozone production chemistry in future emission scenarios.
+The influence of meteorological variables on ozone production is extremely important with the third study demonstrating an increase in ozone production with temperature.
+A deeper understanding of the effects of meteorology on ozone production is required to ensure that mitigation strategies are robust enough to still reduce ambient ozone in the future.
+
+The oxidation of emitted NMVOC determined the increase of ozone with temperature further emphasising the importance of adequately representing both the speciation and initial degradation of emitted NMVOC.
+The increase of ozone with temperature was sensitive to atmospheric mixing with less atmospheric mixing allowing the secondary degradation of NMVOC to proceed further than situations with enhanced atmospheric mixing.
+Thus stressing the importance of representing the secondary degradation of NMVOC by the chemical mechanism used by an AQ model.
+
+The results from the detailed process studies performed in this work were all performed using a box model and further work using 3D models is required to verify how additional processes, such as regional transport, also influence ozone production with these conditions.
+The use of a box model was ideal for the scope of the studies of this thesis allowing a deeper insight into the chemical processes requiring a sharper focus when using more realistic 3-D models.

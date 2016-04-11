@@ -1,4 +1,4 @@
-\begin{thebibliography}{80}
+\begin{thebibliography}{83}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -17,6 +17,11 @@ R.~Atkinson.
 \newblock {Atmospheric chemistry of VOCs and NO$_{\text{x}}$}.
 \newblock \emph{Atmospheric Environment}, 34\penalty0 (12-14):\penalty0
   2063--2101, 2000.
+
+\bibitem[Atkinson and Arey(2003)]{Atkinson:2003}
+R.~Atkinson and J.~Arey.
+\newblock {Atmospheric Degradation of Volatile Organic Compounds}.
+\newblock \emph{Chemical Reviews}, 103:\penalty0 4605--4638, 2003.
 
 \bibitem[Baklanov et~al.(2014)Baklanov, Schl{\"u}nzen, Suppan, Baldasano,
   Brunner, Aksoyoglu, Carmichael, Douros, Flemming, Forkel, Galmarini, Gauss,
@@ -114,11 +119,11 @@ J.~Coates and T.~M. Butler.
 \newblock \emph{Atmospheric Chemistry and Physics}, 15\penalty0 (15):\penalty0
   8795--8808, 2015.
 
-\bibitem[Coates et~al.(2016)Coates, Mar, and Butler]{Coates:2016}
-J.~Coates, K.~A. Mar, and T.~M. Butler.
+\bibitem[Coates et~al.(2016)Coates, Mar, Ojha, and Butler]{Coates:2016}
+J.~Coates, K.~A. Mar, N.~Ojha, and T.~M. Butler.
 \newblock {The influence of temperature on ozone production under varying
   \ce{NO_x} conditions -- a modelling study}.
-\newblock \emph{Atmospheric Chemistry and Physics Discussions}, In preparation,
+\newblock \emph{Atmospheric Chemistry and Physics Discussions}, Submitted,
   2016.
 
 \bibitem[Coll et~al.(2010)Coll, Rousseau, Barletta, Meinardi, and
@@ -319,6 +324,22 @@ D.~W. Gunz and M.~R. Hoffmann.
 \newblock Atmospheric chemistry of peroxides: a review.
 \newblock \emph{Atmospheric Environment. Part A. General Topics}, 24\penalty0
   (7):\penalty0 1601 -- 1633, 1990.
+
+\bibitem[Hallquist et~al.(2009)Hallquist, Wenger, Baltensperger, Rudich,
+  Simpson, Claeys, Dommen, Donahue, George, Goldstein, Hamilton, Herrmann,
+  Hoffmann, Iinuma, Jang, Jenkin, Jimenez, Kiendler-Scharr, Maenhaut,
+  McFiggans, Mentel, Monod, Pr\'ev\^ot, Seinfeld, Surratt, Szmigielski, and
+  Wildt]{Hallquist:2009}
+M.~Hallquist, J.~C. Wenger, U.~Baltensperger, Y.~Rudich, D.~Simpson, M.~Claeys,
+  J.~Dommen, N.~M. Donahue, C.~George, A.~H. Goldstein, J.~F. Hamilton,
+  H.~Herrmann, T.~Hoffmann, Y.~Iinuma, M.~Jang, M.~E. Jenkin, J.~L. Jimenez,
+  A.~Kiendler-Scharr, W.~Maenhaut, G.~McFiggans, T.~F. Mentel, A.~Monod,
+  A.~S.~H. Pr\'ev\^ot, J.~H. Seinfeld, J.~D. Surratt, R.~Szmigielski, and
+  J.~Wildt.
+\newblock The formation, properties and impact of secondary organic aerosol:
+  current and emerging issues.
+\newblock \emph{Atmospheric Chemistry and Physics}, 9\penalty0 (14):\penalty0
+  5155--5236, 2009.
 
 \bibitem[Hauglustaine et~al.(1998)Hauglustaine, Brasseur, Walters, Rasch,
   M{\"u}ller, Emmons, and Carroll]{Hauglustaine:1998}
@@ -524,6 +545,13 @@ S.~E. Pusede, A.~L. Steiner, and R.~C. Cohen.
 \newblock \emph{Chemical Reviews}, 115\penalty0 (10):\penalty0 3898--3918,
   2015.
 
+\bibitem[Racherla and Adams(2008)]{Racherla:2008}
+P.~N. Racherla and P.~J. Adams.
+\newblock The response of surface ozone to climate change over the eastern
+  united states.
+\newblock \emph{Atmospheric Chemistry and Physics}, 8\penalty0 (4):\penalty0
+  871--885, 2008.
+
 \bibitem[Rickard et~al.(2015)Rickard, Young, Pilling, Jenkin, Pascoe, and
   Saunders]{MCM_Site}
 A.~Rickard, J.~Young, M.~J. Pilling, M.~E. Jenkin, S.~Pascoe, and S.~M.
@@ -639,7 +667,7 @@ E.~von Schneidemesser, J.~Coates, A.~J.~H. Visschedijk, H.~A.~C. Denier van~der
   Gon, and T.~M. Butler.
 \newblock Variation of the {NMVOC} speciation in the solvent sector and the
   sensitivity of modelled tropospheric ozone.
-\newblock \emph{Atmospheric Environment}, Submitted for Publication, 2016.
+\newblock \emph{Atmospheric Environment}, Accepted for Publication, 2016.
 
 \bibitem[{World Meteorological Organisation}(2011)]{WMO:2010}
 {World Meteorological Organisation}.
