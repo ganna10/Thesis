@@ -1,0 +1,85 @@
+\ProvidesPackage{style}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[version=3]{mhchem}
+\usepackage{ifthen}
+\usepackage{indentfirst}
+\usepackage{rotating}
+\usepackage{textcomp}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{chemarrow}
+\usepackage[none]{hyphenat}
+\usepackage{todonotes}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{adjustbox}
+\usepackage{array}
+\usepackage{authblk}
+\usepackage{caption}
+\captionsetup{belowskip=0pt, aboveskip=0pt}
+\usepackage[a4paper, headheight = 15pt, width=150mm, top=25mm, bottom=25mm, bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{natbib}
+\setcitestyle{authoryear, open = {(}, close = {)}}
+\setlength{\bibhang}{0pt}
+\usepackage{setspace}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{SIunits}
+\usepackage{numprint}
+\usepackage{mathtools}
+\usepackage{pdfpages}
+\usepackage[flushleft]{threeparttable}
+\usepackage{bibentry}
+\onehalfspacing
+\newcolumntype{P}[1]{>{\raggedright\let\newline\\\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\raggedright\let\newline\\\arraybackslash}m{#1}}
+\usepackage[hidelinks,pdftex,draft,
+           pdfauthor={Jane Coates},
+           pdftitle={Tropospheric Ozone Production Pathways with Detailed Chemical Mechanisms}, 
+           pdfsubject={Tropospheric Ozone Production Pathways with Detailed Chemical Mechanisms},
+           pdfkeywords={Ox production, atmospheric chemistry, thesis},
+           pdfproducer={Latex with hyperref},
+           pdfcreator={pdflatex}]{hyperref}
+\usepackage{doi}
+\usepackage{enumitem}
+
+\renewcommand{\contentsname}{Table of Contents}
+\renewcommand{\bibname}{References}
+\graphicspath{ {/local/home/coates/Documents/LaTeX/Thesis/img/} }
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\setlist{nosep,before=\vspace{-2mm},after=\vspace{-2mm}}
+
+\DeclareRobustCommand*\degree{\ensuremath{^{\circ}}}
+\@definecounter{reaction}
+\def\thereaction{R\@arabic\c@reaction}
+\let\c@org@eq\c@equation
+\let\org@theeq\theequation
+\def\setreaction{%
+  \global\let\c@equation\c@reaction
+  \global\let\theequation\thereaction}
+\def\setequation{%
+  \global\let\c@equation\c@org@eq
+  \global\let\theequation\org@theeq}
+\newenvironment{reaction}
+ {\let\c@equation\c@reaction
+  \let\theequation\thereaction
+  \incr@eqnum
+  \mathdisplay@push
+  \st@rredfalse \global\@eqnswtrue
+  \mathdisplay{equation}}
+ {\endmathdisplay{equation}%
+  \mathdisplay@pop
+  \ignorespacesafterend}
+\newenvironment{rxnarray}
+{\vspace{-2mm}\let\c@equation\c@reaction
+  \let\theequation\thereaction
+  \align\vspace{-2mm}}
+ {\endalign
+  \let\c@equation\c@reaction
+  \let\theequation\thereaction}
