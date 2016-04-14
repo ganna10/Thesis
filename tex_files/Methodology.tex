@@ -10,11 +10,13 @@ Solving the system of differential equations requires initial and boundary condi
 Initial conditions fix the starting concentrations of each species in every grid-box.
 Boundary conditions require knowledge of the concentration and transport of each species at the boundary edges of the model grid.
 
+\vbox{%
 Eulerian models are the most common type of AQ model \citep{Russell:2000}.
 These models describe the atmosphere by fixed grid-boxes where species are transported in and out of the boxes \citep{Seinfeld:2006}. 
 Box models are the simplest type of model (zero-dimensional) having uniform atmospheric concentrations that are a function of time.
 Whereas 3-D models describe atmospheric concentrations as a function of time, latitude, longitude and height requiring more computing power than a box model \citep{Seinfeld:2006}.
 Box models may lack realism but are useful for studying detailed processes influencing air quality.
+}
 
 \subsection{Model Description and Setup} \label{ss:model_setup}
 The MECCA (Module Efficiently Calculating the Chemistry of the Atmosphere) box model was used throughout this work.
@@ -55,6 +57,7 @@ Photolysis rates were paramaterised as a function of the solar zenith angle base
 This paramaterisation utilises the degree of latitude and in the first two studies $34$~\degree N, roughly the city of Los Angeles, was used.
 In the final study, the latitude was set to $51$~\degree N simulating central European conditions.
 
+\vspace{-6mm}
 \section{Chemical Mechanisms} \label{s:chemical_mechanisms}
 \begin{table}[t]%
     \begin{center}%
@@ -91,6 +94,7 @@ The lumped-molecule chemical mechanisms used in this work were Model for OZone a
 Lumped structure chemical mechanism represent emissions of NMVOC through emissions of mechanism species representing the bonds present in the NMVOC.
 The Carbon Bond mechanisms CBM-IV \citep{Gery:1989} and CB05 \citep{Yarwood:2005} were the lumped-structure chemical mechanisms used in this work.
 
+\newpage
 \subsection{Implementing Chemical Mechanisms in MECCA} \label{s:mechanisms_MECCA}
 Each chemical mechanism listed in Table~\ref{t:mechanisms} was adapted to the KPP format used in the MECCA box model.
 The WRF-Chem model \citep{Grell:2005} includes KPP versions of RADM2, RACM and CBM-IV and this was the source for these chemical mechanisms.
@@ -112,6 +116,7 @@ This labelling is repeated for every degradation product until the final degrada
 This tagging approach uses \ce{O_x} production as a proxy for \ce{O3} production and is only valid for \ce{NO_x}-limited and VOC-and-\ce{NO_x} sensitive chemistry not \ce{NO_x}-saturated conditions.
 The \ce{O_x} family includes \ce{O3}, \ce{NO2}, \ce{O(^1D)}, \ce{O(^3P)}, \ce{NO3}, \ce{N2O5} and other species involved in fast production and loss cycles with \ce{NO2}.
 
+\newpage
 All chemical mechanisms in Table~\ref{t:mechanisms} were tagged using the approach of \citet{Butler:2011}.
 In the first study, the tagging approach was the basis for comparing the respresentations of VOC degradation chemistry and their effects on ozone production.
 The second study used VOC-and-\ce{NO_x}-sensitive conditions and simulations using the tagged chemical mechanisms determined sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
@@ -162,12 +167,14 @@ Temperature-independent emissions of biogenic species (isoprene and monoterpenes
 Simulations using temperature-dependent emissions of isoprene used the MEGAN2.1 \citep{Guenther:2012} algorithm.
 All simulations were repeated using the CRI~v2, MOZART-4, RADM2 and CB05 chemical mechanisms.
 
+\vspace{-1mm}
 \subsubsection{\ce{NO_x} Initial Conditions} 
 \ce{NO_x} conditions generating VOC-and-\ce{NO_x} sensitive chemistry were used in the first two studies.
 This was achieved by emitting the amount of NO required to balance the source of radicals at each time step.
 While the final study assessed the relationship between ozone and temperature with different \ce{NO_x} conditions.
 For these simulations, a constant source of NO emissions was systematically varied between $5.0 \times 10^9$ and $1.5 \times 10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$ at each temperature used in this study ($15$ -- $40$~\degree C).
 
+\newpage
 \subsubsection{Boundary Conditions} 
 No chemical boundary conditions were used in the first two studies as the experiments considered a contained box.
 In the final study, MECCA included a diurnal profile of the PBL with vertical mixing into the free troposphere using the PBL heights from the BAERLIN2014 campaign \citep{Bonn:2016}.
