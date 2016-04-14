@@ -1,5 +1,5 @@
 This chapter details the methodology used to address the research questions of this work (Sect.~\ref{s:research_questions}).
-A brief description of AQ modelling followed by the model set-up used in the separate studies (Sect.~\ref{s:modelling}). 
+A brief description of AQ modelling is followed by the model set-up used in the separate studies (Sect.~\ref{s:modelling}). 
 The chemical mechanisms used in this work are introduced in Sect.~\ref{s:chemical_mechanisms} and the required initial and boundary conditions are described in Sect.~\ref{s:initial_conditions} 
 
 \section{Air Quality Modelling} \label{s:modelling}
@@ -47,8 +47,8 @@ Namelist files also specified the initial and boundary conditions of chemical sp
     \end{center}%
 \end{table}%
 The physical parameters used in MECCA throughout this work are detailed in Table~\ref{t:model_setup}.
-In the first two studies, temperature was held constant at $293$~K and the boundary layer height was fixed at $1000$~m.
-In the final study, MECCA was updated to include a diurnal boundary layer height and temperature was systematically varied between $288$ and $313$~K ($15$--$40$~\degree C).
+In the first two studies, temperature was held constant at $293$~K ($20$\degree C) and the boundary layer height was fixed at $1000$~m.
+In the final study, MECCA was updated to include a variable diurnal boundary layer height and temperature was systematically varied between $288$ and $313$~K ($15$--$40$~\degree C).
 These changes to the model setup for the final study are outlined in Paper~III (Chap.~\ref{c:paper_3}).
 
 Photolysis rates were paramaterised as a function of the solar zenith angle based on the approach of the MCM \citep{Jenkin:1997}.
@@ -84,7 +84,7 @@ The chemical mechanisms used in this study are listed in Table~\ref{t:mechanisms
 These chemical mechanisms were chosen as they are commonly used by the AQ modelling community as outlined by the review of European modelling groups by \citet{Baklanov:2014}.
 
 The Master Chemical Mechanism (MCM, \citet{Jenkin:1997, Jenkin:2003, Saunders:2003, Bloss:2005, MCM_Site}) is a near-explicit chemical mechanism with a high level of detail making it ideal as the reference chemical mechanism in each study of this work.
-The Common Representative Intermediates (CRI) chemical mechanism \citep{Jenkin:2008} is an lumped intermediate mechanism where the degradation productions are aggregated (lumped) rather than emitted VOC.
+The Common Representative Intermediates (CRI) chemical mechanism \citep{Jenkin:2008} is a lumped-intermediate mechanism where the degradation productions are aggregated (lumped) rather than emitted VOC.
 
 Lumped molecule chemical mechanisms aggregate primary VOC into mechanism species and is the most commonly used simplification technique.
 The lumped-molecule chemical mechanisms used in this work were Model for OZone and Related chemical Tracers (MOZART, \citet{Emmons:2010}), Regional Acid Deposition Model (RADM2, \citet{Stockwell:1990}), Regional Atmospheric Chemistry Mechanism (RACM, \citet{Stockwell:1997}) and RACM2 \citet{Goliff:2013}.
@@ -114,7 +114,7 @@ The \ce{O_x} family includes \ce{O3}, \ce{NO2}, \ce{O(^1D)}, \ce{O(^3P)}, \ce{NO
 
 All chemical mechanisms in Table~\ref{t:mechanisms} were tagged using the approach of \citet{Butler:2011}.
 In the first study, the tagging approach was the basis for comparing the respresentations of VOC degradation chemistry and their effects on ozone production.
-The second study used VOC-and-\ce{NOx}-sensitive conditions and simulations using the tagged chemical mechanisms determined sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
+The second study used VOC-and-\ce{NO_x}-sensitive conditions and simulations using the tagged chemical mechanisms determined sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
 Variable \ce{NO_x} conditions were used in the third study hence using the tagging approach was not possible.
 Thus all model simulations assessing the ozone-temperature relationship with different \ce{NO_x} conditions were performed with non-tagged versions of the chemical mechanisms.
 
@@ -134,13 +134,13 @@ These emissions were mapped to the appropriate chemical species of each chemical
             \hline \hline
             \textbf{Speciation} & \textbf{Comment} & \textbf{Reference} \\ 
             \hline \hline
-            TNO & European average &  \citet{Builtjes:2002} \\ \hline
-            IPCC & Model Specific & \citet{Ehhalt:2001} \\ \hline
-            EMEP & Model Specific & \citet{Simpson:2012} \\ \hline
-            DE94 & Country Specific & \citet{Friedrich:2002} \\ \hline
-            GR95 & Country Specific & \citet{Sidiropoulos:2007} \\ \hline
-            GR05 & Country Specific & \citet{Sidiropoulos:2007} \\ \hline
-            UK98 & Country Specific & \citet{Goodwin:2000} \\ \hline
+            TNO & European average &  \citet{Builtjes:2002} \\ 
+            IPCC & Model Specific & \citet{Ehhalt:2001} \\ 
+            EMEP & Model Specific & \citet{Simpson:2012} \\
+            DE94 & Country Specific & \citet{Friedrich:2002} \\ 
+            GR95 & Country Specific & \citet{Sidiropoulos:2007} \\ 
+            GR05 & Country Specific & \citet{Sidiropoulos:2007} \\ 
+            UK98 & Country Specific & \citet{Goodwin:2000} \\ 
             UK08 & Country Specific & \citet{Murrells:2010} \\ 
             \hline \hline
         \end{tabular}%
@@ -158,7 +158,7 @@ Model simulations were repeated using MOZART-4 and RADM2 to investigate whether 
 
 The final study looked at the ozone-temperature relationship over central Europe and used the emissions of NMVOC from Benelux (Belgium, Netherlands and Luxembourg).
 The TNO\_MACCIII emissions for the year 2011 were used as anthropogenic NMVOC emissions and mapped to MCM~v3.2 species.
-Temperature indepedent emissions of biogenic species (isoprene and monoterpenes) were taken from the EMEP speciation \citep{Simpson:2012}.
+Temperature-independent emissions of biogenic species (isoprene and monoterpenes) were taken from the EMEP speciation \citep{Simpson:2012}.
 Simulations using temperature-dependent emissions of isoprene used the MEGAN2.1 \citep{Guenther:2012} algorithm.
 All simulations were repeated using the CRI~v2, MOZART-4, RADM2 and CB05 chemical mechanisms.
 
@@ -166,10 +166,10 @@ All simulations were repeated using the CRI~v2, MOZART-4, RADM2 and CB05 chemica
 \ce{NO_x} conditions generating VOC-and-\ce{NO_x} sensitive chemistry were used in the first two studies.
 This was achieved by emitting the amount of NO required to balance the source of radicals at each time step.
 While the final study assessed the relationship between ozone and temperature with different \ce{NO_x} conditions.
-For these simulations, a constant source of NO emissions was systematically varied between $5.0 \times 10^9$ and $1.5 \times 10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$ at each temperature used in this study ($15$--$40$~\degree C).
+For these simulations, a constant source of NO emissions was systematically varied between $5.0 \times 10^9$ and $1.5 \times 10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$ at each temperature used in this study ($15$ -- $40$~\degree C).
 
 \subsubsection{Boundary Conditions} 
 No chemical boundary conditions were used in the first two studies as the experiments considered a contained box.
 In the final study, MECCA included a diurnal profile of the PBL with vertical mixing into the free troposphere using the PBL heights from the BAERLIN2014 campaign \citep{Bonn:2016}.
 The boundary conditions for the free troposphere mixing ratios for \ce{O3}, \ce{CH4} and CO were set to $50$~ppbv, $1.8$~ppmv and $116$~ppbv respectively. 
-These mixing ratios were taken from the $700$~hPa height using the MATCH-MPIC chemical weather forecast data (\url{http://cwf.iass-potsdam.de/}) from March~21st.
+These mixing ratios were taken from the $700$~hPa height using the MATCH-MPIC chemical weather forecast data (\url{http://cwf.iass-potsdam.de/}) from March~21st, 2014.
