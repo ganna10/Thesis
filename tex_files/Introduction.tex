@@ -131,6 +131,7 @@ Similar to CO oxidation, \ce{NO_x} conditions play a crucial role in the fate of
         \label{f:VOC_reaction}%
     \end{center}%
 \end{figure}%
+\newpage
 The general types of secondary degradation products formed during \ce{CH4} degradation can be extended to more complex non-methane VOCs (NMVOCs).
 Initial oxidation pathways of NMVOCs are reaction with OH, while unsaturated VOCs, such as alkenes, may react with ozone and photolysis is important for carbonyl species.
 During the night-time, reaction with the nitrate (\ce{NO3}) radical is typically more important than OH-oxidation due to the relatively higher night-time concentrations of \ce{NO3}.
@@ -181,13 +182,12 @@ The chemistry in low-\ce{NO_x} and high-\ce{NO_x} conditions indicates that ozon
 Figure~\ref{f:O3_isopleth}, from \citet{Jenkin:2000}, depicts the non-linear relationship between ozone as a function of VOC and \ce{NO_x}.
 This relationship can be divided into distinct regimes of ozone production: \emph{\ce{NO_x}-sensitive} (or \emph{\ce{NO_x}-limited}), \emph{\ce{NO_x}-saturated} (or \emph{VOC-limited}) and \emph{VOC-and-\ce{NO_x}-sensitive} regimes. 
 
-%balance of NOx & NMVOC for O3 production
-%The fate of peroxy radicals produced during VOC degradation depends on the ratio of the concentrations of radicals and \ce{NO_x} \citep{Kleinman:1991, Kleinman:1994}.
+\vbox{%
 In regions with low-\ce{NO_x} concentrations, \ce{RO2} are more likely to react with other radicals rather than convert NO to \ce{NO2} leading to ozone production.
-%The most common reactions are bimolecular destruction \eqref{r:HO2_OH}, which removes radicals, or combination of radicals \eqref{r:RO2_HO2} into reservoir species that may re-release radicals.
 Increasing \ce{NO_x} levels increases the number of NO to \ce{NO2} conversions by peroxy radicals leading to ozone production.
 While, increasing VOC levels has little effect on \ce{O3} production due to increased radical-radical reactions.
 This is \emph{\ce{NO_x}-sensitive} chemistry.  
+}
 
 On the other hand in regions with high levels of \ce{NO_x}, reactions between radicals and \ce{NO_x} are more likely to occur.
 The production of \ce{HNO3} increases through \eqref{r:NO2_OH} removing OH and \ce{NO2}.
@@ -206,11 +206,13 @@ Moreover, fresh emissions tend to occur in \ce{NO_x}-saturated areas before bein
 Representing the degradation chemistry for each VOC in a chemical transport model (CTM) is unrealistic.
 Even if all the secondary degradation pathways and products were known for every VOC, a CTM would be unable to efficiently solve the differential equations.
 
+\vbox{%
 The representation of atmospheric chemistry in a CTM is called a chemical mechanism.
 Chemical mechanisms are developed by simplifying and aggregating VOCs, degradation products and reactions.
 Less aggressive simplification approaches may result in a chemical mechanism having thousands of species while more aggressive simplification may result in only a hundred species. 
 Chemical mechanisms are verified by comparing the concentrations of field studies or controlled chamber study experiments to model simulations \citep{Stockwell:2012}.
 Section~\ref{s:chemical_mechanisms} includes further details of the simplification techniques used to develop chemical mechanisms.
+}
 
 Chemical mechanism comparison studies, such as \citet{Kuhn:1998}, \citet{Emmerson:2009} and \citet{Archibald:2010}, compared the outputs of different chemical mechanisms using the same model setup and initial conditions.
 These studies showed that the differences between chemical mechanisms led to large differences in simulated ozone concentrations.
@@ -262,7 +264,9 @@ The degradation of VOCs plays an important role in SOA (secondary organic aeroso
 The degradation of a VOC yields the maximum possible amount of ozone when every peroxy radical converts NO to \ce{NO2} called the \emph{ozone production potential} (OPP) of a VOC.
 In reality, the OPP of a VOC is never achieved as other reactions with peroxy radicals occur however the OPP is useful for assessing the amount of ozone produced from emitted VOCs.
 
+\vspace{-2mm}
 \subsubsection{Carbon Monoxide}
+\vspace{-2mm}
 Carbon monoxide is emitted directly into the troposphere through combustion and industrial processes.
 An equally-important source of CO is its formation during VOC degradation.
 \citet{Hauglustaine:1998} estimated that $881$~Tg~yr$^{-1}$ of CO was produced globally from chemical oxidation of VOC while $1219$~Tg~yr$^{-1}$ of CO was directly emitted.
@@ -270,7 +274,9 @@ An equally-important source of CO is its formation during VOC degradation.
 The reaction between CO and OH \eqref{r:CO_OH} is the main sink of CO.
 The OPP of CO is one as the degradation of CO produces one peroxy radical (\ce{HO2}), thus a maximum of one molecule of ozone may be produced during CO degradation.
 
+\vspace{-2mm}
 \subsubsection{Methane}
+\vspace{-2mm}
 Emissions of methane range between $500$ and $600$~Tg~\ce{CH4}~yr$^{-1}$ with $\sim$~$60$~\% of the emissions from anthropogenic sources.
 The main anthropogenic sources of \ce{CH4} are agriculture, fossil fuels and biomass burning with agriculture contributing $60$~\% of the anthropogenically emitted \ce{CH4}.
 Emissions from wetlands are the main natural source of methane emissions \citep{Kirschke:2013}.
@@ -305,15 +311,31 @@ OPPs for complex NMVOCs have been calculated using models by incrementally varyi
 Different OPP scales have been developed using different \ce{NO_x} conditions.
 The Maximum Incremental Reactivity (MIR) and Maximum Ozone Incremental Reactivity scales of \citet{Carter:1994} and the Tagged Ozone Production Potential (TOPP) of \citet{Butler:2011} are examples of OPP scales for NMVOCs.
 
+\vspace{-6mm}
 \subsection{Representing NMVOC Emissions in Models}
+\vspace{-2mm}
 %representation of VOC emissions in models using emission inventories
 Emissions of NMVOC species are a critical input in models and emission inventories are used to specify the type and quantity of emissions from source categories.
 Table~\ref{t:SNAP} lists the source sectors of emissions used by the TNO-MACCIII emission inventory \citep{Kuenen:2014}.
 Emission inventories are available for global or regional emissions.
 For example, EDGAR \citep{Olivier:2001} specifies global emissions while TNO-MACCII \citep{Kuenen:2014} specifies European emissions.
+
+Many uncertainties are associated with emission inventories.
+For example, \citet{Coll:2010} showed that large discrepancies arise between ambient measurements and emission inventories.
+Often temporal variation of emissions are not captured by emission inventories \citep{Boynard:2014}. 
+
+BVOC emissions depend on meteorological and biological variables and algorithms estimating BVOC emissions may be calculated as part of the model simulation instead of an emission inventory.
+Emissions of AVOCs may also depend on meteorological variables, for example, evaporative emissions increase with temperature \citep{Rubin:2006}.
+The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions using the temperature and radiation values determined from the model.
+Specifiying BVOC emissions using an algorithm or emission inventory influences modelled ozone concentrations. 
+For example, \citet{Curci:2009} noted large differences in summertime ozone concentrations over Europe when using a gridded emission inventory or an on-line algorithm for BVOC emissions.
+
+%emissions in models - lumping
+Emissions of the NMVOCs specified by an emission inventory are mapped to the chemical mechanism species used in the model.
+This mapping is not standardised throughout the modelling community with the same NMVOC emissions possibly being allocated to different chemical species even if using the same chemical mechanism \citep{Carter:2015}.
 \begin{table}[t]%
     \centering%
-    \caption[Emission source sectors in the TNO\_MACCIII]{Emission source sectors for anthropogenic emissions listed in the TNO-MACCIII inventory \citep{Kuenen:2014}.}%
+    \caption[Categories of emission source sectors]{Emission source sectors for anthropogenic emissions listed in the TNO-MACCII inventory \citep{Kuenen:2014}.}%
     \begin{tabular}{ll}%
         \hline \hline
         \textbf{Emission Source Category} & \textbf{Emission Source Category} \\
@@ -330,25 +352,33 @@ For example, EDGAR \citep{Olivier:2001} specifies global emissions while TNO-MAC
     \label{t:SNAP}%
 \end{table}% 
 
-Many uncertainties are associated with emission inventories.
-For example, \citet{Coll:2010} showed that large discrepancies arise between ambient measurements and emission inventories.
-Often temporal variation of emissions are not captured by emission inventories \citep{Boynard:2014}. 
-
-BVOC emissions depend on meteorological and biological variables and algorithms estimating BVOC emissions may be calculated as part of the model simulation instead of an emission inventory.
-Emissions of AVOCs may also depend on meteorological variables, for example, evaporative emissions increase with temperature \citep{Rubin:2006}.
-The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions using the temperature and radiation values determined from the model.
-Specifiying BVOC emissions using an algorithm or emission inventory influences modelled ozone concentrations. 
-For example, \citet{Curci:2009} noted large differences in summertime ozone concentrations over Europe when using a gridded emission inventory or an on-line algorithm for BVOC emissions.
-
-%emissions in models - lumping
-Emissions of the NMVOCs specified by an emission inventory are mapped to the chemical mechanism species used in the model.
-This mapping is not standardised throughout the modelling community with the same NMVOC emissions possibly being allocated to different chemical species even if using the same chemical mechanism \citep{Carter:2015}.
-
 The influence of the speciation of NMVOC emissions on modelled ozone production is determined as part of this work.
 Moreover, the effect of using the same speciations of NMVOC emissions with different chemical mechanisms is also explored.
 Section~\ref{s:research_questions} outlines the research questions and the results are presented in Sect.~\ref{s:EI_results}.
 
 \section{Effects of Meteorology on Ozone Production} \label{s:meteo_ozone}
+%metereology impacts 
+Meteorological conditions influence the production of ozone with clear and calm summer days typically having high ozone levels \citep{Duenas:2002}.
+\citet{Comrie:1997} noted a complex relationship between meteorology and ozone due to competing positive and negative effects on ozone production.
+Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects of specific meteorological variables on ozone production.
+
+Climate change is predicted to influence many meteorological variables and increase the number of heatwaves \citep{Karl:2003}.
+Thus understanding the influence of meteorology on ozone production is particularly important for future predictions of air quality and tackling ozone pollution in a changing climate.
+
+\vspace{-3mm}
+\subsubsection{Humidity}
+\vspace{-3mm}
+Humidity influences ozone production both positively and negatively.
+When \ce{O(^1D)}, originating from ozone photolysis \eqref{r:O3_hvb} reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
+However, the initiation of VOC degradation through reaction with OH can lead to ozone production (Sect.~\ref{s:ozone_chemistry}).
+These competing effects of water vapour on ozone production lead to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
+
+\vspace{-3mm}
+\subsubsection{Wind Speed}
+\vspace{-3mm}
+High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
+Model projections of \citet{Doherty:2013} showed that while climate change is expected to change large-scale atmospheric transport there is little influence on the spatial patterns of mean concentrations of ozone.
+
 \begin{table}[t]%
     \centering%
     \caption[Influence of meteorological variables on ozone production]{Influence of meteorological variables on ozone production, taken from \citet{Jacob:2009}.}%
@@ -366,24 +396,7 @@ Section~\ref{s:research_questions} outlines the research questions and the resul
         \hline \hline
     \end{tabular}%
     \label{t:meteo_vars}%
-\end{table}%
-%metereology impacts 
-Meteorological conditions influence the production of ozone with clear and calm summer days typically having high ozone levels \citep{Duenas:2002}.
-\citet{Comrie:1997} noted a complex relationship between meteorology and ozone due to competing positive and negative effects on ozone production.
-Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects of specific meteorological variables on ozone production.
-
-Climate change is predicted to influence many meteorological variables and increase the number of heatwaves \citep{Karl:2003}.
-Thus understanding the influence of meteorology on ozone production is particularly important for future predictions of air quality and tackling ozone pollution in a changing climate.
-
-\subsubsection{Humidity}
-Humidity influences ozone production both positively and negatively.
-When \ce{O(^1D)}, originating from ozone photolysis \eqref{r:O3_hvb} reacts with water vapour \eqref{r:O1D_H2O}, the production of OH radicals leads to ozone loss.
-However, the initiation of VOC degradation through reaction with OH can lead to ozone production (Sect.~\ref{s:ozone_chemistry}).
-These competing effects of water vapour on ozone production lead to a weak correlation of ozone production with water vapour \citep{Jacob:2009}.
-
-\subsubsection{Wind Speed}
-High wind speeds transport ozone precursors away from their sources leading to a generally negative effect on ozone pollution over a region.
-Model projections of \citet{Doherty:2013} showed that while climate change is expected to change large-scale atmospheric transport there is little influence on the spatial patterns of mean concentrations of ozone.
+\end{table}% 
 
 \subsubsection{Stagnation}
 During periods of low wind speeds, emissions of ozone precursors remain close to their sources.
@@ -398,14 +411,17 @@ This spatial effect of mixing height on ozone production depends on the differen
 Mixing between the PBL and free troposphere into regions with levels of surface ozone lower than the free troposphere is an additional source of ozone.
 Conversely, mixing of the elevated levels of ozone from polluted areas into the free troposphere reduces the burden of surface ozone.
 
+\newpage
 \subsubsection{Cloud Cover}
 Cloud cover negatively affects the photochemistry of ozone production with increased cloud cover reducing the amount of sunlight reaching the troposphere.
 \citet{Korsog:1991} showed a negative correlation between cloud cover and ozone and ozone levels in the study of \citet{Dawson:2007} were not significantly influenced by changes in cloud cover.
 
+\vspace{-1cm}
 \subsubsection{Precipitation}
 Precipiation influences the wet deposition rates of ozone and other chemical species.
 The studies of \citet{Dawson:2007} and \citet{Murazaki:2006} noted a minor influence of precipitation on ozone levels.
 
+\vspace{-1cm}
 \subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
 \citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over many areas of central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
@@ -419,6 +435,7 @@ The final part of this work addresses whether the increase in BVOC emissions or 
 The research questions for this study are detailed in Sect.~\ref{s:research_questions} and results are presented in Sect.~\ref{s:T-O3_results}.
 
 \section{Research Questions and Objectives of this Thesis} \label{s:research_questions}
+\vspace{-4mm}
 The detailed chemistry producing ozone cannot be fully represented in models for reasons of computational efficiency.
 Thus models select a particular representation of atmospheric chemistry raising the overarching research questions for this thesis:
 \begin{itemize}
@@ -444,6 +461,7 @@ By comparing the ozone produced using different emission inventories, the follow
 
 Finally, meteorology influences ozone production with temperature having the strongest positive correlation with ozone.
 Temperature directly influences ozone production through increasing biogenic emissions and speeding up the reaction rates of chemical reactions.
+\newpage
 \begin{itemize}
     \item Are temperature-dependent emissions or chemical processes more important for ozone production with increasing temperature? 
     \item How is the ozone-temperature relationship treated by different chemical mechanisms?
