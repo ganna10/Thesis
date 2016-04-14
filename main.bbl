@@ -1,4 +1,4 @@
-\begin{thebibliography}{83}
+\begin{thebibliography}{89}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -11,6 +11,13 @@ J.~Abbatt, C.~George, M.~Melamed, P.~Monks, S.~Pandis, and Y.~Rudich.
 \newblock New directions: Fundamentals of atmospheric chemistry: Keeping a
   three-legged stool balanced.
 \newblock \emph{Atmospheric Environment}, 84:\penalty0 390 -- 391, 2014.
+
+\bibitem[Archibald et~al.(2010)Archibald, Jenkin, and
+  Shallcross]{Archibald:2010}
+A.~Archibald, M.~Jenkin, and D.~Shallcross.
+\newblock An isoprene mechanism intercomparison.
+\newblock \emph{Atmospheric Environment}, 44\penalty0 (40):\penalty0 5356 --
+  5364, 2010.
 
 \bibitem[Atkinson(2000)]{Atkinson:2000}
 R.~Atkinson.
@@ -395,6 +402,11 @@ M.~E. Jenkin, S.~M. Saunders, V.~Wagner, and M.~J. Pilling.
 \newblock \emph{Atmospheric Chemistry and Physics}, 3\penalty0 (1):\penalty0
   181--193, 2003.
 
+\bibitem[Karl and Trenberth(2003)]{Karl:2003}
+T.~R. Karl and K.~E. Trenberth.
+\newblock Modern global climate change.
+\newblock \emph{Science}, 302\penalty0 (5651):\penalty0 1719--1723, 2003.
+
 \bibitem[Kirschke et~al.(2013)Kirschke, Bousquet, Ciais, Saunois, Canadell,
   Dlugokencky, Bergamaschi, Bergmann, Blake, Bruhwiler, Cameron-Smith,
   Castaldi, Chevallier, Feng, Fraser, Heimann, Hodson, Houweling, Josse,
@@ -419,6 +431,13 @@ L.~I. Kleinman.
 \newblock {Low and high NO$_{\text{x}}$ tropospheric photochemistry}.
 \newblock \emph{Journal of Geophysical Research}, 99\penalty0 (D8):\penalty0
   16,831--16,838, 1994.
+
+\bibitem[Korsog and Wolff(1991)]{Korsog:1991}
+P.~E. Korsog and G.~T. Wolff.
+\newblock An examination of urban ozone trends in the {Northeastern U.S.}
+  (1973--1983) using a robust statistical method.
+\newblock \emph{Atmospheric Environment. Part B. Urban Atmosphere}, 25\penalty0
+  (1):\penalty0 47 -- 57, 1991.
 
 \bibitem[Kubistin et~al.(2010)Kubistin, Harder, Martinez, Rudolf, Sander,
   Bozem, Eerdekens, Fischer, Gurk, Kl\"upfel, K\"onigstedt, Parchatka,
@@ -491,6 +510,14 @@ P.~S. Monks.
 \newblock Gas-phase radical chemistry in the troposphere.
 \newblock \emph{Chem. Soc. Rev.}, 34:\penalty0 376--395, 2005.
 
+\bibitem[Murazaki and Hess(2006)]{Murazaki:2006}
+K.~Murazaki and P.~Hess.
+\newblock How does climate change contribute to surface ozone change over the
+  united states?
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 111\penalty0
+  (D5), 2006.
+\newblock D05301.
+
 \bibitem[Murrells et~al.(2010)Murrells, N.R.P., Thistlethwaite, Wagner, Li,
   T.B., Norris, Walker, Stewart, Tsagatakis, Whiting, C.C., Okamura, Peirce,
   Sneddon, Webb, J.T., MacCarthy, Choudrie, and Brophy]{Murrells:2010}
@@ -559,6 +586,15 @@ A.~Rickard, J.~Young, M.~J. Pilling, M.~E. Jenkin, S.~Pascoe, and S.~M.
 \newblock {The Master Chemical Mechanism Version MCM v3.2}.
 \newblock \url{http://mcm.leeds.ac.uk/MCMv3.2/}, 2015.
 \newblock [Online; accessed 25-March-2015].
+
+\bibitem[Rubin et~al.(2006)Rubin, Kean, Harley, Millet, and
+  Goldstein]{Rubin:2006}
+J.~I. Rubin, A.~J. Kean, R.~A. Harley, D.~B. Millet, and A.~H. Goldstein.
+\newblock Temperature dependence of volatile organic compound evaporative
+  emissions from motor vehicles.
+\newblock \emph{Journal of Geophysical Research: Atmospheres}, 111\penalty0
+  (D3), 2006.
+\newblock D03305.
 
 \bibitem[Russell and Dennis(2000)]{Russell:2000}
 A.~Russell and R.~Dennis.
@@ -668,6 +704,22 @@ E.~von Schneidemesser, J.~Coates, H.~D. van~der Gon, A.~Visschedijk, and
 \newblock Variation of the {NMVOC} speciation in the solvent sector and the
   sensitivity of modelled tropospheric ozone.
 \newblock \emph{Atmospheric Environment}, 135:\penalty0 59 -- 72, 2016.
+
+\bibitem[Voulgarakis et~al.(2013)Voulgarakis, Naik, Lamarque, Shindell, Young,
+  Prather, Wild, Field, Bergmann, Cameron-Smith, Cionni, Collins, Dals{\o}ren,
+  Doherty, Eyring, Faluvegi, Folberth, Horowitz, Josse, MacKenzie, Nagashima,
+  Plummer, Righi, Rumbold, Stevenson, Strode, Sudo, Szopa, and
+  Zeng]{Voulgarakis:2013}
+A.~Voulgarakis, V.~Naik, J.-F. Lamarque, D.~T. Shindell, P.~J. Young, M.~J.
+  Prather, O.~Wild, R.~D. Field, D.~Bergmann, P.~Cameron-Smith, I.~Cionni,
+  W.~J. Collins, S.~B. Dals{\o}ren, R.~M. Doherty, V.~Eyring, G.~Faluvegi,
+  G.~A. Folberth, L.~W. Horowitz, B.~Josse, I.~A. MacKenzie, T.~Nagashima,
+  D.~A. Plummer, M.~Righi, S.~T. Rumbold, D.~S. Stevenson, S.~A. Strode,
+  K.~Sudo, S.~Szopa, and G.~Zeng.
+\newblock Analysis of present day and future {OH} and methane lifetime in the
+  {ACCMIP} simulations.
+\newblock \emph{Atmospheric Chemistry and Physics}, 13\penalty0 (5):\penalty0
+  2563--2587, 2013.
 
 \bibitem[{World Meteorological Organisation}(2011)]{WMO:2010}
 {World Meteorological Organisation}.
