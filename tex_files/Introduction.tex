@@ -277,7 +277,6 @@ Emissions from wetlands are the main natural source of methane emissions \citep{
 
 Methane has a lifetime in the atmosphere of about $10$~years, significantly longer than other VOCs \citep{Voulgarakis:2013}.
 The lifetime of a chemical species is the time required for the concentration of the species to decrease by $\frac{1}{e}$ \citep{Seinfeld:2006}.
-\todo[noline]{define lifetime}
 Thus, methane influences ozone production on the global rather than the regional scale and is important for background levels of ozone.  
 
 Reaction with OH \eqref{r:CH4_OH} is the main sink of methane and the secondary degradation of \ce{CH4} (Fig.~\ref{f:CH4_oxidation}) produces CO and four peroxy radicals ($1 \times$ \ce{CH3O2}, $3 \times$ \ce{HO2}).
@@ -294,7 +293,6 @@ This amount is dwarfed by emissions from biogenic sources -- $1000$~Tg~NMVOC~yr$
 Isoprene (\ce{C5H8}) emitted from vegetation dominates at the global scale however emissions of other NMVOC from vegetation, such as monoterpenes and sesquiterpenes, may be significant on the regional scale.
 
 Although isoprene is considered as a biogenic VOC (BVOC), it has been measured in the urban areas of London and Paris away from biogenic emission sources and during times where biogenic emissions are not important, such as freezing conditions in winter.
-\todo[noline]{check paper for statement of anthropogenic source of isoprene}
 Transport of isoprene is unlikely as isoprene is a highly reactive NMVOC indicating anthropogenic sources of isoprene \citep{vonSchneidemesser:2011}.
 Other NMVOC emitted from anthropogenic sources, such as methanol and acetaldehyde, are also emitted from vegetation \citep{Guenther:2012}.
 
@@ -303,8 +301,7 @@ Unsaturated NMVOC, such as alkenes, tend to have larger OPPs than alkanes (satur
 Even within a functional group of NMVOC different OPPs are calculated.
 For example, benzene and xylene are both aromatic compounds but as benzene is a more chemically stable molecule it has a lower OPP than xylene \citep{Carter:1994}.
 
-OPPs for complex NMVOCs are calculated using models by incrementally varying the concentration of an NMVOC and calculating the change in ozone.
-\todo[noline]{not the approach of TOPP}
+OPPs for complex NMVOCs have been calculated using models by incrementally varying the concentration of an NMVOC and calculating the change in ozone.
 Different OPP scales have been developed using different \ce{NO_x} conditions.
 The Maximum Incremental Reactivity (MIR) and Maximum Ozone Incremental Reactivity scales of \citet{Carter:1994} and the Tagged Ozone Production Potential (TOPP) of \citet{Butler:2011} are examples of OPP scales for NMVOCs.
 
@@ -337,14 +334,13 @@ Many uncertainties are associated with emission inventories.
 For example, \citet{Coll:2010} showed that large discrepancies arise between ambient measurements and emission inventories.
 Often temporal variation of emissions are not captured by emission inventories \citep{Boynard:2014}. 
 
-\todo[noline]{sentence on evaporative emissions}
 BVOC emissions depend on meteorological and biological variables and algorithms estimating BVOC emissions may be calculated as part of the model simulation instead of an emission inventory.
+Emissions of AVOCs may also depend on meteorological variables, for example, evaporative emissions increase with temperature \citep{Rubin:2006}.
 The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions using the temperature and radiation values determined from the model.
 Specifiying BVOC emissions using an algorithm or emission inventory influences modelled ozone concentrations. 
 For example, \citet{Curci:2009} noted large differences in summertime ozone concentrations over Europe when using a gridded emission inventory or an on-line algorithm for BVOC emissions.
 
 %emissions in models - lumping
-%Uncertainties when using emission inventories arise as the speciation of emissions to individual chemical species or groups differs between emission inventories.
 Emissions of the NMVOCs specified by an emission inventory are mapped to the chemical mechanism species used in the model.
 This mapping is not standardised throughout the modelling community with the same NMVOC emissions possibly being allocated to different chemical species even if using the same chemical mechanism \citep{Carter:2015}.
 
@@ -376,8 +372,7 @@ Meteorological conditions influence the production of ozone with clear and calm 
 \citet{Comrie:1997} noted a complex relationship between meteorology and ozone due to competing positive and negative effects on ozone production.
 Table~\ref{t:meteo_vars}, taken from \citet{Jacob:2009}, details the effects of specific meteorological variables on ozone production.
 
-Climate change is predicted to influence many meteorological variables and increase the number of heatwaves.
-\todo[noline]{heatwave reference}
+Climate change is predicted to influence many meteorological variables and increase the number of heatwaves \citep{Karl:2003}.
 Thus understanding the influence of meteorology on ozone production is particularly important for future predictions of air quality and tackling ozone pollution in a changing climate.
 
 \subsubsection{Humidity}
@@ -397,20 +392,24 @@ Heatwaves result from stagnant conditions along with high temperatures enhancing
 
 \subsubsection{Mixing Height}
 The effects of the mixing height of the planetary boundary layer (PBL) with the free troposphere depend on the region.
-For example, \citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with mixing height whereas regions with high ozone levels are negatively affected.
-\todo[noline]{check ref for higher (?) mixing height}
+For example, \citet{Dawson:2007} found that over the Eastern U.S., regions with low ozone are positively correlated with a higher mixing height whereas regions with high ozone levels are negatively affected.
 This spatial effect of mixing height on ozone production depends on the difference between ozone levels within the PBL and the free troposphere \citep{Jacob:2009}.
 
 Mixing between the PBL and free troposphere into regions with levels of surface ozone lower than the free troposphere is an additional source of ozone.
 Conversely, mixing of the elevated levels of ozone from polluted areas into the free troposphere reduces the burden of surface ozone.
 
-\todo[noline]{include sections on Cloud Cover and Precipitation}
+\subsubsection{Cloud Cover}
+Cloud cover negatively affects the photochemistry of ozone production with increased cloud cover reducing the amount of sunlight reaching the troposphere.
+\citet{Korsog:1991} showed a negative correlation between cloud cover and ozone and ozone levels in the study of \citet{Dawson:2007} were not significantly influenced by changes in cloud cover.
+
+\subsubsection{Precipitation}
+Precipiation influences the wet deposition rates of ozone and other chemical species.
+The studies of \citet{Dawson:2007} and \citet{Murazaki:2006} noted a minor influence of precipitation on ozone levels.
 
 \subsubsection{Temperature}
 Temperature is positively correlated with ozone in many areas.
 \citet{Otero:2016} showed that temperature was the main driver of summertime ozone values over many areas of central Europe while \citet{Camalier:2007} correlated ozone with temperature over the Eastern US.
-\citet{Sillman:1995a} illustrated that only ozone pollution produced from the chemistry described in Sect.~\ref{s:ozone_chemistry} is correlated with temperature rather than background ozone, the ozone levels without the influence of anthropogenic emissions.
-\todo[noline]{careful with background ozone definition, mention without CH4}
+\citet{Sillman:1995a} illustrated that only ozone pollution produced from the chemistry described in Sect.~\ref{s:ozone_chemistry} is correlated with temperature rather than background ozone, the ozone levels without the influence of local emissions of anthropogenic NMVOCs.
 
 Temperature directly influences ozone levels in two ways: increasing the emissions of VOCs from vegetation and speeding up the rates of chemical reactions.
 The review of \citet{Pusede:2015} showed that the temperature dependence of radical production, organic reactivity, the shorter lifetime of \ce{RO2NO2} and the formation of alkyl nitrates \eqref{r:RO2_NOb} affects ozone production.
