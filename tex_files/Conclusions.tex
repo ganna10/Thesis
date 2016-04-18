@@ -4,7 +4,7 @@ In each study the near-explicit MCM~v3.2 was the reference chemical mechanism in
 The first study compared the effects of different simplification techniques used by chemical mechanisms on ozone production.
 The reduced chemical mechanisms used in the comparison were developed through lumping VOC degradation intermediates (CRI~v2), aggregating emitted NMVOCs into lumped molecules (MOZART-4, RADM2, RACM, RACM2) and expressing the emitted NMVOCs by lumped structure species (CBM-IV, CB05).
 Out of these three simplification techniques, the lumped-intermediate approach produced the most similar amounts of ozone from each VOC to the MCM~v3.2 while the lumped-molecule and lumped-structure approaches generally produced less ozone than the MCM~v3.2 from the degradation of the VOC.
-Thus the technique of lumping intermediate species rather than lumping VOCs appears promising for representing ozone production in future chemical mechanisms.
+Thus the technique of lumping intermediate species rather than lumping emitted VOCs appears promising for representing ozone production in future chemical mechanisms.
 
 The second objective of the first study was to determine the processes responsible for the differences in ozone production using the different reduced chemical mechanisms.
 The largest differences in ozone production from the reduced chemical mechanisms versus the MCM~v3.2 were obtained for VOC represented by lumped mechanism species rather than those with VOC explicitly represented.
@@ -14,8 +14,8 @@ Even the detailed degradation chemistry of aromatic VOC in the MCM~v3.2 was unab
 
 Another process leading to lower ozone production from VOC degradation than the MCM~v3.2 was the faster break down of emitted VOC into smaller sized degradation products by lumped-molecule and lumped-structure chemical mechanisms.
 In particular, the faster break down of alkanes in lumped-molecule and lumped-structure chemical mechanisms led to a lower peak of ozone production than the MCM~v3.2.
-As alkanes are less-reactive VOC, they are more likely to be transported downwind of emission sources affecting ozone production in urban background areas.
-Thus underestimating the ozone production from alkanes may impact simulated ozone levels of urban background areas.
+As alkanes are less-reactive VOC, they are more likely to be transported downwind of emission sources affecting ozone production in rural areas.
+Thus underestimating the ozone production from alkanes may impact simulated ozone levels of rural areas.
 
 The second study looked at the influence of varying the speciation of NMVOC emissions from the solvent sector on ozone production.
 In box model experiments using the MCM~v3.2, differences in ozone production resulted from the different speciations of NMVOC emissions.
@@ -30,10 +30,10 @@ Given the results of this study, further modelling studies using different atmos
 The final study modelled the relationship between ozone, temperature and \ce{NO_x} using central European conditions.
 In order to verify whether temperature-dependent increases in reaction rates or isoprene emissions from nature are more important for the increase in ozone with temperature, separate simulations using a temperature-independent and temperature-dependent source of isoprene emissions were performed.
 From these simulations, the absolute increase in ozone with temperature due to faster reaction rates was slightly higher than the increase in ozone with temperature due to increased isoprene emissions with temperature regardless of \ce{NO_x} conditions.
-This result was surprising as studies (e.g. \citet{Racherla:2008}, \citet{Doherty:2013}) attributed the increase of ozone with temperature to increased isoprene emissions from vegetation.
-\todo[noline]{add explanation of what causes the difference}
+This result was somewhat surprising as studies (e.g. \citet{Racherla:2008}, \citet{Doherty:2013}) attributed the increase of ozone with temperature to increased isoprene emissions from vegetation.
+These studies also acknowledged the effects of temperature-dependent chemistry on ozone production with temperature further showing that both temperature-dependent chemistry and isoprene emissions are important for the increase of ozone with temperature.
 
-The increase in ozone with temperature in all \ce{NO_x} conditions was principally due to the faster loss rates of the emitted VOC with temperature as the OH-reactivity of the emitted VOC increased with temperature.
+The increase in ozone with temperature in all \ce{NO_x} conditions was principally due to the faster loss rates of the emitted VOC with temperature.
 As expected, peroxy nitrate (\ce{RO2NO2}) chemistry also played a role in the increase of ozone production with temperature with increased \ce{RO2NO2} decomposition at higher temperatures leading to more \ce{RO2} available to produce ozone.
 Thus the initial oxidation of emitted VOC and \ce{RO2NO2} chemistry are critical to modelling the relationship between ozone, temperature and \ce{NO_x}.
 
