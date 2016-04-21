@@ -1,8 +1,11 @@
+\vspace{-4mm}
 This chapter details the methodology used to address the research questions of this work (Sect.~\ref{s:research_questions}).
 A brief description of AQ modelling is followed by the model set-up used in the separate studies (Sect.~\ref{s:modelling}). 
 The chemical mechanisms used in this work are introduced in Sect.~\ref{s:chemical_mechanisms} and the required initial and boundary conditions are described in Sect.~\ref{s:initial_conditions}.
 
+\vspace{-3mm}
 \section{Air Quality Modelling} \label{s:modelling}
+\vspace{-3mm}
 AQ models are mathematical representations of the atmosphere designed to produce continuous output fields that aid in explaining sources of air pollution.
 All models numerically solve the system of differential equations describing the conservation of chemical species used by the model \citep{Russell:2000}.
 
@@ -30,22 +33,27 @@ The chemical mechanism included pseudo-unimolecular reactions specifying the emi
 The emitted chemical species and emission rates were read into the model using a namelist file.  
 Namelist files also specified the initial and boundary conditions of chemical species.
 
-\begin{table}[t]%
-    \begin{center}%
-        \caption{MECCA box model settings.}%
-        \begin{tabular}{ll}%
-            \hline \hline
-            \textbf{Model Parameter} & \textbf{Setting} \\
-            \hline \hline
-            Pressure & $1013$ hPa \\
-            Relative Humidity & $81$ \% \\
-            Starting Date and Time & 27th March 06:00 \\
-            Model Time Step & $20$ mins \\
-            \hline \hline
-        \end{tabular}%
-        \label{t:model_setup}%
-    \end{center}%
-\end{table}%
+{%
+    \renewcommand{\arraystretch}{1.1}%
+    \begin{table}[t]%
+        \begin{center}%
+            \caption{MECCA box model settings.}%
+            \vspace{3mm}
+            \begin{tabular}{ll}%
+                \hline \hline
+                \textbf{Model Parameter} & \textbf{Setting} \\
+                \hline \hline
+                Pressure & $1013$ hPa \\
+                Relative Humidity & $81$ \% \\
+                Starting Date and Time & 27th March 06:00 \\
+                Model Time Step & $20$ mins \\
+                \hline \hline
+            \end{tabular}%
+            \label{t:model_setup}%
+        \end{center}%
+    \end{table}%
+}
+
 The physical parameters used in MECCA throughout this work are detailed in Table~\ref{t:model_setup}.
 In the first two studies, temperature was held constant at $293$~K ($20$~\degree C) and the boundary layer height was fixed at $1000$~m.
 In the final study, MECCA was updated to include a variable diurnal boundary layer height and temperature was systematically varied between $288$~K and $313$~K ($15$--$40$~\degree C).
@@ -55,32 +63,36 @@ Photolysis rates were paramaterised as a function of the solar zenith angle base
 This paramaterisation utilises the degree of latitude and in the first two studies $34$~\degree N, roughly the city of Los Angeles, was used.
 In the final study, the latitude was set to $51$~\degree N, simulating central European conditions.
 
-\vspace{-6mm}
+\newpage
 \section{Chemical Mechanisms} \label{s:chemical_mechanisms}
-\begin{table}[t]%
-    \begin{center}%
-        \caption{Chemical mechanisms used in this work.}%
-        \scalebox{.85}[.85]{\begin{tabular}{lll}%
-                \hline \hline
-                \textbf{Chemical Mechanism} & \textbf{Lumping Type} & \textbf{Reference} \\
-                \hline \hline
-                \multirow{3}{*}{MCM v3.1 and v3.2} & \multirow{3}{*}{No lumping} & \citet{Jenkin:1997}, \citet{Jenkin:2003} \\
-                & & \citet{Saunders:2003}, \citet{Bloss:2005} \\
-                & & \citet{MCM_Site} \\
-                CRIv2 & Lumped intermediate & \citet{Jenkin:2008} \\
-                MOZART-4 & Lumped molecule & \citet{Emmons:2010} \\
-                RADM2 & Lumped molecule & \citet{Stockwell:1990} \\
-                RACM & Lumped molecule & \citet{Stockwell:1997} \\
-                RACM2 & Lumped molecule & \citet{Goliff:2013} \\
-                CBM-IV & Lumped structure & \citet{Gery:1989} \\
-                CB05 & Lumped structure & \citet{Yarwood:2005} \\
-                \hline \hline
-            \end{tabular}%
-        }%
-        \label{t:mechanisms}%
-    \end{center}%
-    %\vspace{-13mm}
-\end{table}%
+{%
+    \renewcommand{\arraystretch}{1.1}%
+    \begin{table}[t]%
+        \begin{center}%
+            \caption{Chemical mechanisms used in this work.}%
+            \vspace{4mm}
+            \scalebox{.85}[.85]{\begin{tabular}{lll}%
+                    \hline \hline
+                    \textbf{Chemical Mechanism} & \textbf{Lumping Type} & \textbf{Reference} \\
+                    \hline \hline
+                    \multirow{3}{*}{MCM v3.1 and v3.2} & \multirow{3}{*}{No lumping} & \citet{Jenkin:1997}, \citet{Jenkin:2003} \\
+                    & & \citet{Saunders:2003}, \citet{Bloss:2005} \\
+                    & & \citet{MCM_Site} \\
+                    CRIv2 & Lumped intermediate & \citet{Jenkin:2008} \\
+                    MOZART-4 & Lumped molecule & \citet{Emmons:2010} \\
+                    RADM2 & Lumped molecule & \citet{Stockwell:1990} \\
+                    RACM & Lumped molecule & \citet{Stockwell:1997} \\
+                    RACM2 & Lumped molecule & \citet{Goliff:2013} \\
+                    CBM-IV & Lumped structure & \citet{Gery:1989} \\
+                    CB05 & Lumped structure & \citet{Yarwood:2005} \\
+                    \hline \hline
+                \end{tabular}%
+            }%
+            \label{t:mechanisms}%
+        \end{center}% 
+    \end{table}%
+}
+
 The chemical mechanisms used in this study are listed in Table~\ref{t:mechanisms} with more details found in Paper~I (Sect.~\ref{s:chemical_mechanism_results}).
 These chemical mechanisms were chosen as they are commonly used by the AQ modelling community as outlined by the review of European modelling groups by \citet{Baklanov:2014}.
 
@@ -92,7 +104,7 @@ The lumped-molecule chemical mechanisms used in this work were Model for Ozone a
 Lumped-structure chemical mechanism represent emissions of NMVOC through emissions of mechanism species representing the bonds present in the NMVOC.
 Two versions of the Carbon Bond mechanisms (CBM-IV, \citep{Gery:1989} and CB05, \citep{Yarwood:2005}) were the lumped-structure chemical mechanisms used in this work.
 
-%\newpage
+\newpage
 \subsection{Implementing Chemical Mechanisms in MECCA} \label{s:mechanisms_MECCA}
 Each chemical mechanism listed in Table~\ref{t:mechanisms} was adapted to the KPP format used in the MECCA box model.
 The Weather Research and Forecasting-Chemistry (WRF-Chem) model \citep{Grell:2005} includes KPP versions of RADM2, RACM and CBM-IV and this was the source for these chemical mechanisms.
@@ -114,7 +126,7 @@ This labelling is repeated for every degradation product until the final degrada
 This tagging approach uses \ce{O_x} production as a proxy for \ce{O3} production and is only valid for \ce{NO_x}-limited and VOC-and-\ce{NO_x} sensitive chemistry, not \ce{NO_x}-saturated conditions.
 The \ce{O_x} family includes \ce{O3}, \ce{NO2}, \ce{O(^1D)}, \ce{O(^3P)}, \ce{NO3}, \ce{N2O5} and other species involved in fast production and loss cycles with \ce{NO2}.
 
-%\newpage
+\newpage
 All chemical mechanisms in Table~\ref{t:mechanisms} were tagged using the approach of \citet{Butler:2011}.
 In the first study, the tagging approach was the basis for comparing the respresentations of VOC degradation chemistry and their effects on ozone production.
 The second study also used VOC-and-\ce{NO_x}-sensitive conditions and the tagged chemical mechanisms were used to determine the sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
@@ -130,27 +142,30 @@ The initial conditions for NMVOC species differed in each experiment, a brief su
 The first study used the initial conditions of the Los Angeles simulation in \citet{Butler:2011} to determine the emissions needed for constant mixing ratios of the initial NMVOCs.
 These emissions were mapped to the appropriate chemical species of each chemical mechanism in Table~\ref{t:mechanisms} keeping the amount of emitted NMVOC constant between model runs.
 
-\begin{table}[t]%
-    \begin{center}%
-        \caption{Solvent sector emission inventories compared in this work.}%
-        \begin{tabular}{lllP{5.2cm}}%
-            \hline \hline
-            \textbf{Speciation} & \textbf{Comment} & \textbf{Reference} \\ 
-            \hline \hline
-            TNO & European average &  \citet{Builtjes:2002} \\ 
-            IPCC & Model Specific & \citet{Ehhalt:2001} \\ 
-            EMEP & Model Specific & \citet{Simpson:2012} \\
-            DE94 & Country Specific & \citet{Friedrich:2002} \\ 
-            GR95 & Country Specific & \citet{Sidiropoulos:2007} \\ 
-            GR05 & Country Specific & \citet{Sidiropoulos:2007} \\ 
-            UK98 & Country Specific & \citet{Goodwin:2000} \\ 
-            UK08 & Country Specific & \citet{Murrells:2010} \\ 
-            \hline \hline
-        \end{tabular}%
-        \label{t:solvent_speciations}%
-    \end{center}%
-    \vspace{-7mm}
-\end{table}%
+{%
+    \renewcommand{\arraystretch}{1.1}%
+    \begin{table}[t]%
+        \begin{center}%
+            \caption{Solvent sector emission inventories compared in this work.}%
+            \begin{tabular}{lllP{5.2cm}}%
+                \hline \hline
+                \textbf{Speciation} & \textbf{Comment} & \textbf{Reference} \\ 
+                \hline \hline
+                TNO & European average &  \citet{Builtjes:2002} \\ 
+                IPCC & Model Specific & \citet{Ehhalt:2001} \\ 
+                EMEP & Model Specific & \citet{Simpson:2012} \\
+                DE94 & Country Specific & \citet{Friedrich:2002} \\ 
+                GR95 & Country Specific & \citet{Sidiropoulos:2007} \\ 
+                GR05 & Country Specific & \citet{Sidiropoulos:2007} \\ 
+                UK98 & Country Specific & \citet{Goodwin:2000} \\ 
+                UK08 & Country Specific & \citet{Murrells:2010} \\ 
+                \hline \hline
+            \end{tabular}%
+            \label{t:solvent_speciations}%
+        \end{center}%
+        %\vspace{-7mm}
+    \end{table}%
+}
 The second study used NMVOC emissions specified by the emission inventories for the solvent sector listed in Table~\ref{t:solvent_speciations} over a theoretical urban area of $1000$~km$^2$ with total NMVOC emissions of $1000$~tons/day.
 The solvent sector contributes ${\sim}43$~\% by mass of total emissions \citep{AQEU:2011}, thus total NMVOC emissions of $430$~tons/day were used.
 Further simulations used emissions from all other sectors (remaining $570$~tons/day), while varying the solvent sector NMVOC emissions.
@@ -172,7 +187,7 @@ This was achieved by emitting the amount of NO required to balance the source of
 On the other hand, the final study assessed the relationship between ozone and temperature with different \ce{NO_x} conditions.
 For these simulations, a constant source of NO emissions was systematically varied between $5.0 \times 10^9$ and $1.5 \times 10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$ at each temperature used in this study ($15$ -- $40$~\degree C).
 
-%\newpage
+\newpage
 \subsubsection{Boundary Conditions} 
 No chemical boundary conditions were used in the first two studies, as the experiments considered a contained box.
 In the final study, MECCA included a diurnal profile of the PBL with vertical mixing into the free troposphere using the PBL heights from the BAERLIN2014 campaign \citep{Bonn:2016}.
