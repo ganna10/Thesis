@@ -1,6 +1,6 @@
 This chapter details the methodology used to address the research questions of this work (Sect.~\ref{s:research_questions}).
 A brief description of AQ modelling is followed by the model set-up used in the separate studies (Sect.~\ref{s:modelling}). 
-The chemical mechanisms used in this work are introduced in Sect.~\ref{s:chemical_mechanisms} and the required initial and boundary conditions are described in Sect.~\ref{s:initial_conditions} 
+The chemical mechanisms used in this work are introduced in Sect.~\ref{s:chemical_mechanisms} and the required initial and boundary conditions are described in Sect.~\ref{s:initial_conditions}.
 
 \section{Air Quality Modelling} \label{s:modelling}
 AQ models are mathematical representations of the atmosphere designed to produce continuous output fields that aid in explaining sources of air pollution.
@@ -10,13 +10,11 @@ Solving the system of differential equations requires initial and boundary condi
 Initial conditions fix the starting concentrations of each species in every grid-box.
 Boundary conditions require knowledge of the concentration and transport of each species at the boundary edges of the model grid.
 
-\vbox{%
 Eulerian models are the most common type of AQ model \citep{Russell:2000}.
 These models describe the atmosphere by fixed grid-boxes where species are transported in and out of the boxes \citep{Seinfeld:2006}. 
 Box models are the simplest type of model (zero-dimensional) having uniform atmospheric concentrations that are a function of time.
-Whereas 3-D models describe atmospheric concentrations as a function of time, latitude, longitude and height requiring more computing power than a box model \citep{Seinfeld:2006}.
+On the other hand, 3-D models describe atmospheric concentrations as a function of time, latitude, longitude and height requiring more computing power than a box model \citep{Seinfeld:2006}.
 Box models may lack realism but are useful for studying detailed processes influencing air quality.
-}
 
 \subsection{Model Description and Setup} \label{ss:model_setup}
 The MECCA (Module Efficiently Calculating the Chemistry of the Atmosphere) box model was used throughout this work.
@@ -25,7 +23,7 @@ MECCA was used in the published studies of \citet{Kubistin:2010} and \citet{Lour
 
 MECCA is written in Fortran code and runs on UNIX/Linux platforms.
 The Kinetic Pre-Processor (KPP, \citet{Damian:2002}) processed the chemical mechanism and generated Fortran code further compiled within MECCA.
-KPP has many choices of numerical solver for solving the differential equations, a Rosenbrock solver (ros3 option) was used throughout this work.
+KPP has many choices of numerical solvers for solving the differential equations, out of which a Rosenbrock solver (ros3 option) was used for this work.
 
 Emissions of species into the box and deposition of species out of the box were handled by KPP.
 The chemical mechanism included pseudo-unimolecular reactions specifying the emissions and dry deposition of chemical species with the relevant rate.
@@ -49,13 +47,13 @@ Namelist files also specified the initial and boundary conditions of chemical sp
     \end{center}%
 \end{table}%
 The physical parameters used in MECCA throughout this work are detailed in Table~\ref{t:model_setup}.
-In the first two studies, temperature was held constant at $293$~K ($20$\degree C) and the boundary layer height was fixed at $1000$~m.
-In the final study, MECCA was updated to include a variable diurnal boundary layer height and temperature was systematically varied between $288$ and $313$~K ($15$--$40$~\degree C).
+In the first two studies, temperature was held constant at $293$~K ($20$~\degree C) and the boundary layer height was fixed at $1000$~m.
+In the final study, MECCA was updated to include a variable diurnal boundary layer height and temperature was systematically varied between $288$~K and $313$~K ($15$--$40$~\degree C).
 These changes to the model setup for the final study are outlined in Paper~III (Chap.~\ref{c:paper_3}).
 
 Photolysis rates were paramaterised as a function of the solar zenith angle based on the approach of the MCM \citep{Jenkin:1997}.
 This paramaterisation utilises the degree of latitude and in the first two studies $34$~\degree N, roughly the city of Los Angeles, was used.
-In the final study, the latitude was set to $51$~\degree N simulating central European conditions.
+In the final study, the latitude was set to $51$~\degree N, simulating central European conditions.
 
 \vspace{-6mm}
 \section{Chemical Mechanisms} \label{s:chemical_mechanisms}
@@ -89,15 +87,15 @@ These chemical mechanisms were chosen as they are commonly used by the AQ modell
 The Master Chemical Mechanism (MCM, \citet{Jenkin:1997, Jenkin:2003, Saunders:2003, Bloss:2005, MCM_Site}) is a near-explicit chemical mechanism with a high level of detail making it ideal as the reference chemical mechanism in each study of this work.
 The Common Representative Intermediates (CRI) chemical mechanism \citep{Jenkin:2008} is a lumped-intermediate mechanism where the degradation productions are aggregated (lumped) rather than emitted VOC.
 
-Lumped molecule chemical mechanisms aggregate primary VOC into mechanism species and is the most commonly used simplification technique.
-The lumped-molecule chemical mechanisms used in this work were Model for OZone and Related chemical Tracers (MOZART, \citet{Emmons:2010}), Regional Acid Deposition Model (RADM2, \citet{Stockwell:1990}), Regional Atmospheric Chemistry Mechanism (RACM, \citet{Stockwell:1997}) and RACM2 \citet{Goliff:2013}.
-Lumped structure chemical mechanism represent emissions of NMVOC through emissions of mechanism species representing the bonds present in the NMVOC.
-The Carbon Bond mechanisms CBM-IV \citep{Gery:1989} and CB05 \citep{Yarwood:2005} were the lumped-structure chemical mechanisms used in this work.
+Lumped-molecule chemical mechanisms aggregate primary VOCs into mechanism species and this simplification approach is the most commonly used simplification technique.
+The lumped-molecule chemical mechanisms used in this work were Model for Ozone and Related chemical Tracers (MOZART, \citet{Emmons:2010}), Regional Acid Deposition Model (RADM2, \citet{Stockwell:1990}), Regional Atmospheric Chemistry Mechanism (RACM, \citet{Stockwell:1997}) and RACM2 \citet{Goliff:2013}.
+Lumped-structure chemical mechanism represent emissions of NMVOC through emissions of mechanism species representing the bonds present in the NMVOC.
+Two versions of the Carbon Bond mechanisms (CBM-IV, \citep{Gery:1989} and CB05, \citep{Yarwood:2005}) were the lumped-structure chemical mechanisms used in this work.
 
-\newpage
+%\newpage
 \subsection{Implementing Chemical Mechanisms in MECCA} \label{s:mechanisms_MECCA}
 Each chemical mechanism listed in Table~\ref{t:mechanisms} was adapted to the KPP format used in the MECCA box model.
-The WRF-Chem model \citep{Grell:2005} includes KPP versions of RADM2, RACM and CBM-IV and this was the source for these chemical mechanisms.
+The Weather Research and Forecasting-Chemistry (WRF-Chem) model \citep{Grell:2005} includes KPP versions of RADM2, RACM and CBM-IV and this was the source for these chemical mechanisms.
 The full version of the CRI~v2 was obtained from \mbox{\url{http://mcm.leeds.ac.uk/CRI}} while the original reference was the source for all other chemical mechanisms in Table~\ref{t:mechanisms}.
 
 In order to focus on the differences in the representation of VOC degradation between the chemical mechanisms, a number of harmonisations between the chemical mechanisms were implemented.
@@ -110,21 +108,21 @@ For example, source removal studies perform separate model simulations with and 
 Tagging is another approach where the chemical mechanism includes additional chemical species labelled (tagged) with source information.
 For example, \citet{Emmons:2012} tagged the MOZART-4 chemistry to attribute ozone production to emission sources of \ce{NO_x}.
 
-In \citet{Butler:2011}, tagged VOC chemistry allows allocation of ozone production to emitted VOC.
+In \citet{Butler:2011}, tagged VOC chemistry allows allocation of ozone production to emitted VOCs.
 Tagging involves labelling every organic degradation product produced during the degradation of a VOC with the name of the VOC.
 This labelling is repeated for every degradation product until the final degradation products (\ce{CO2} and \ce{H2O}) are produced, thus every VOC has a separate set of reactions fully describing its degradation.
-This tagging approach uses \ce{O_x} production as a proxy for \ce{O3} production and is only valid for \ce{NO_x}-limited and VOC-and-\ce{NO_x} sensitive chemistry not \ce{NO_x}-saturated conditions.
+This tagging approach uses \ce{O_x} production as a proxy for \ce{O3} production and is only valid for \ce{NO_x}-limited and VOC-and-\ce{NO_x} sensitive chemistry, not \ce{NO_x}-saturated conditions.
 The \ce{O_x} family includes \ce{O3}, \ce{NO2}, \ce{O(^1D)}, \ce{O(^3P)}, \ce{NO3}, \ce{N2O5} and other species involved in fast production and loss cycles with \ce{NO2}.
 
-\newpage
+%\newpage
 All chemical mechanisms in Table~\ref{t:mechanisms} were tagged using the approach of \citet{Butler:2011}.
 In the first study, the tagging approach was the basis for comparing the respresentations of VOC degradation chemistry and their effects on ozone production.
-The second study used VOC-and-\ce{NO_x}-sensitive conditions and simulations using the tagged chemical mechanisms determined sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
-Variable \ce{NO_x} conditions were used in the third study hence using the tagging approach was not possible.
-Thus all model simulations assessing the ozone-temperature relationship with different \ce{NO_x} conditions were performed with non-tagged versions of the chemical mechanisms.
+The second study also used VOC-and-\ce{NO_x}-sensitive conditions and the tagged chemical mechanisms were used to determine the sources of differences in ozone production from the solvent sector emission inventories of Table~\ref{t:solvent_speciations}.
+Since variable \ce{NO_x}-conditions were used in the third study, the tagging approach could not be used in this study.
+Thus, all model simulations assessing the ozone-temperature relationship with different \ce{NO_x} conditions were performed with non-tagged versions of the chemical mechanisms.
 
 \section{Initial and Boundary Conditions} \label{s:initial_conditions}
-In all simulations of this work, methane (\ce{CH4}) was fixed to $1.75$~ppmv while carbon monoxide (CO) and \ce{O3} were initialised at $200$~ppbv and $40$~ppbv and then allowed to evolve freely.
+In all simulations of this work, methane (\ce{CH4}) was fixed to $1.75$~ppmv, while carbon monoxide (CO) and \ce{O3} were initialised at $200$~ppbv and $40$~ppbv respectively and then allowed to evolve freely.
 The initial conditions for NMVOC emissions were held constant until noon of the first day of simulations to simulate a fresh emissions plume.
 
 \subsubsection{NMVOC Initial Conditions} 
@@ -154,29 +152,29 @@ These emissions were mapped to the appropriate chemical species of each chemical
     \vspace{-7mm}
 \end{table}%
 The second study used NMVOC emissions specified by the emission inventories for the solvent sector listed in Table~\ref{t:solvent_speciations} over a theoretical urban area of $1000$~km$^2$ with total NMVOC emissions of $1000$~tons/day.
-The solvent sector contributes $\sim43$~\% by mass of total emissions \citep{AQEU:2011}, thus total NMVOC emissions of $430$~tons/day were used.
-Further simulations used emissions from all other sectors (remaining $570$~tons/day) while varying the solvent sector NMVOC emissions.
-Additional simulations included BVOC emissions of isoprene and monoterpenes while varying the speciation of NMVOC emissions from the solvent sector.
+The solvent sector contributes ${\sim}43$~\% by mass of total emissions \citep{AQEU:2011}, thus total NMVOC emissions of $430$~tons/day were used.
+Further simulations used emissions from all other sectors (remaining $570$~tons/day), while varying the solvent sector NMVOC emissions.
+Additional simulations included BVOC emissions of isoprene and monoterpenes, while varying the speciation of NMVOC emissions from the solvent sector.
 
 The NMVOC emissions of the solvent sector were assigned to MCM~v3.2 species based on the speciations of each emission inventory.
 Model simulations were repeated using MOZART-4 and RADM2 to investigate whether changing the chemical mechanism affected the differences in ozone concentrations between the solvent sector emission inventories.
 
-The final study looked at the ozone-temperature relationship over central Europe and used the emissions of NMVOC from Benelux (Belgium, Netherlands and Luxembourg).
+The final study looked at the ozone-temperature relationship over central Europe and used the emissions of NMVOC from the Benelux (Belgium, Netherlands and Luxembourg) region.
 The TNO\_MACCIII emissions for the year 2011 were used as anthropogenic NMVOC emissions and mapped to MCM~v3.2 species.
 Temperature-independent emissions of biogenic species (isoprene and monoterpenes) were taken from the EMEP speciation \citep{Simpson:2012}.
-Simulations using temperature-dependent emissions of isoprene used the MEGAN2.1 \citep{Guenther:2012} algorithm.
+Simulations using temperature-dependent emissions of isoprene used the MEGAN2.1 algorithm \citep{Guenther:2012}.
 All simulations were repeated using the CRI~v2, MOZART-4, RADM2 and CB05 chemical mechanisms.
 
 \vspace{-1mm}
 \subsubsection{\ce{NO_x} Initial Conditions} 
 \ce{NO_x} conditions generating VOC-and-\ce{NO_x} sensitive chemistry were used in the first two studies.
 This was achieved by emitting the amount of NO required to balance the source of radicals at each time step.
-While the final study assessed the relationship between ozone and temperature with different \ce{NO_x} conditions.
+On the other hand, the final study assessed the relationship between ozone and temperature with different \ce{NO_x} conditions.
 For these simulations, a constant source of NO emissions was systematically varied between $5.0 \times 10^9$ and $1.5 \times 10^{12}$~molecules~(NO)~cm$^{-2}$~s$^{-1}$ at each temperature used in this study ($15$ -- $40$~\degree C).
 
-\newpage
+%\newpage
 \subsubsection{Boundary Conditions} 
-No chemical boundary conditions were used in the first two studies as the experiments considered a contained box.
+No chemical boundary conditions were used in the first two studies, as the experiments considered a contained box.
 In the final study, MECCA included a diurnal profile of the PBL with vertical mixing into the free troposphere using the PBL heights from the BAERLIN2014 campaign \citep{Bonn:2016}.
 The boundary conditions for the free troposphere mixing ratios for \ce{O3}, \ce{CH4} and CO were set to $50$~ppbv, $1.8$~ppmv and $116$~ppbv respectively. 
 These mixing ratios were taken from the $700$~hPa height using the MATCH-MPIC chemical weather forecast data (\url{http://cwf.iass-potsdam.de/}) from March~21st, 2014.
