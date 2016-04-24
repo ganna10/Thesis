@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  21 APR 2016 18:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.1.11)  24 APR 2016 10:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3258,77 +3258,77 @@ Underfull \hbox (badness 1448) in paragraph at lines 21--25
 n-ship be-tween
  []
 
-LaTeX Info: Redefining \bond on input line 32.
-LaTeX Info: Redefining \dbond on input line 32.
-LaTeX Info: Redefining \tbond on input line 32.
+LaTeX Info: Redefining \bond on input line 33.
+LaTeX Info: Redefining \dbond on input line 33.
+LaTeX Info: Redefining \tbond on input line 33.
 
-Underfull \hbox (badness 1097) in paragraph at lines 31--37
+Underfull \hbox (badness 1097) in paragraph at lines 32--38
 \T1/lmr/m/n/12 (+20) auf die Veg-e-ta-tion auswirkt. Ozon wird nicht di-rekt in
  die Tro-posphäre
  []
 
 
-Underfull \hbox (badness 3954) in paragraph at lines 31--37
+Underfull \hbox (badness 3954) in paragraph at lines 32--38
 \T1/lmr/m/n/12 (+20) ver-schiedene Chemiemech-a-nis-men zur Berech-nung der Ozo
 n-pro-duk-tion in
  []
 
 [42]
-Underfull \hbox (badness 3088) in paragraph at lines 38--42
+Underfull \hbox (badness 3088) in paragraph at lines 39--43
 \T1/lmr/m/n/12 (+20) Chemiemech-a-nis-men simulierte Ozon-pro-duk-tion während 
 des VOC-Abbaus
  []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 38--42
+Underfull \hbox (badness 7362) in paragraph at lines 39--43
 \T1/lmr/m/n/12 (+20) ver-glichen. Der Chemiemech-a-nis-mus CRI v2 mit zusam-men
 ge-fassten
  []
 
 
-Underfull \hbox (badness 4024) in paragraph at lines 43--48
+Underfull \hbox (badness 4024) in paragraph at lines 44--49
 []\T1/lmr/m/n/12 (+20) Der Ein-fluss der ^^RVOC Spe-ci-a-tion`` von VOC-Emissio
 nen durch
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 43--48
+Underfull \hbox (badness 2150) in paragraph at lines 44--49
 \T1/lmr/m/n/12 (+20) ein Emis-sion-sin-ven-tar wurde durch einen Ver-gle-ich de
 s aus ver-schiede-nen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
 \T1/lmr/m/n/12 (+20) Emis-sion-sin-ventaren des Lö-sungsmit-telsek-tors pro-duz
 ierten Ozons
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 43--48
+Underfull \hbox (badness 1184) in paragraph at lines 44--49
 \T1/lmr/m/n/12 (+20) VOC-Emissionsinventare und Chemiemech-a-nis-men (MCM v3.2,
  MOZART-4,
  []
 
-LaTeX Info: Redefining \bond on input line 49.
-LaTeX Info: Redefining \dbond on input line 49.
-LaTeX Info: Redefining \tbond on input line 49.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
 LaTeX Info: Redefining \bond on input line 50.
 LaTeX Info: Redefining \dbond on input line 50.
 LaTeX Info: Redefining \tbond on input line 50.
 LaTeX Info: Redefining \bond on input line 51.
 LaTeX Info: Redefining \dbond on input line 51.
 LaTeX Info: Redefining \tbond on input line 51.
+LaTeX Info: Redefining \bond on input line 52.
+LaTeX Info: Redefining \dbond on input line 52.
+LaTeX Info: Redefining \tbond on input line 52.
 
-Underfull \hbox (badness 1521) in paragraph at lines 49--53
+Underfull \hbox (badness 1521) in paragraph at lines 50--54
 \T1/lmr/m/n/12 (+20) (MCM v3.2, CRI v2, MOZART-4, RADM2 und CB05) aufgezeigt. B
 ei
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43])
-[44] (./main.bbl [45
+) [44] (./main.bbl [45
 
 
 
@@ -4397,7 +4397,783 @@ LaTeX Info: Redefining \tbond on input line 100.
 ] [104
 
 
-]
+] <img/paper3.pdf, id=2348, page=1, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 1>
+Package pdftex.def Info: img/paper3.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 1>
+Package pdftex.def Info: img/paper3.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 1>
+Package pdftex.def Info: img/paper3.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 1>
+Package pdftex.def Info: img/paper3.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 1>
+Package pdftex.def Info: img/paper3.pdf, page1 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [105 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2398, page=2, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 2>
+Package pdftex.def Info: img/paper3.pdf, page2 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 2>
+Package pdftex.def Info: img/paper3.pdf, page2 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 2>
+Package pdftex.def Info: img/paper3.pdf, page2 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [106 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2413, page=3, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 3>
+Package pdftex.def Info: img/paper3.pdf, page3 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 3>
+Package pdftex.def Info: img/paper3.pdf, page3 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 3>
+Package pdftex.def Info: img/paper3.pdf, page3 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [107 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2418, page=4, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 4>
+Package pdftex.def Info: img/paper3.pdf, page4 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 4>
+Package pdftex.def Info: img/paper3.pdf, page4 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 4>
+Package pdftex.def Info: img/paper3.pdf, page4 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [108 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2436, page=5, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 5>
+Package pdftex.def Info: img/paper3.pdf, page5 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 5>
+Package pdftex.def Info: img/paper3.pdf, page5 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 5>
+Package pdftex.def Info: img/paper3.pdf, page5 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [109 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2442, page=6, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 6>
+Package pdftex.def Info: img/paper3.pdf, page6 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 6>
+Package pdftex.def Info: img/paper3.pdf, page6 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 6>
+Package pdftex.def Info: img/paper3.pdf, page6 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [110 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2480, page=7, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 7>
+Package pdftex.def Info: img/paper3.pdf, page7 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 7>
+Package pdftex.def Info: img/paper3.pdf, page7 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 7>
+Package pdftex.def Info: img/paper3.pdf, page7 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [111 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2490, page=8, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 8>
+Package pdftex.def Info: img/paper3.pdf, page8 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 8>
+Package pdftex.def Info: img/paper3.pdf, page8 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 8>
+Package pdftex.def Info: img/paper3.pdf, page8 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [112 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2514, page=9, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 9>
+Package pdftex.def Info: img/paper3.pdf, page9 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 9>
+Package pdftex.def Info: img/paper3.pdf, page9 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 9>
+Package pdftex.def Info: img/paper3.pdf, page9 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [113 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2627, page=10, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 10>
+Package pdftex.def Info: img/paper3.pdf, page10 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 10>
+Package pdftex.def Info: img/paper3.pdf, page10 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 10>
+Package pdftex.def Info: img/paper3.pdf, page10 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [114 <./img/paper3.pdf>]
+<img/paper3.pdf, id=2632, page=11, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 11>
+Package pdftex.def Info: img/paper3.pdf, page11 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 11>
+Package pdftex.def Info: img/paper3.pdf, page11 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 11>
+Package pdftex.def Info: img/paper3.pdf, page11 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [115 <./img/paper3.pdf>]
+<img/paper3.pdf, id=3291, page=12, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 12>
+Package pdftex.def Info: img/paper3.pdf, page12 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 12>
+Package pdftex.def Info: img/paper3.pdf, page12 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 12>
+Package pdftex.def Info: img/paper3.pdf, page12 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [116 <./img/paper3.pdf>]
+<img/paper3.pdf, id=3296, page=13, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 13>
+Package pdftex.def Info: img/paper3.pdf, page13 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 13>
+Package pdftex.def Info: img/paper3.pdf, page13 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 13>
+Package pdftex.def Info: img/paper3.pdf, page13 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [117 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4572, page=14, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 14>
+Package pdftex.def Info: img/paper3.pdf, page14 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 14>
+Package pdftex.def Info: img/paper3.pdf, page14 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 14>
+Package pdftex.def Info: img/paper3.pdf, page14 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [118 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4577, page=15, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 15>
+Package pdftex.def Info: img/paper3.pdf, page15 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 15>
+Package pdftex.def Info: img/paper3.pdf, page15 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 15>
+Package pdftex.def Info: img/paper3.pdf, page15 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [119 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4582, page=16, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 16>
+Package pdftex.def Info: img/paper3.pdf, page16 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 16>
+Package pdftex.def Info: img/paper3.pdf, page16 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 16>
+Package pdftex.def Info: img/paper3.pdf, page16 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [120 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4592, page=17, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 17>
+Package pdftex.def Info: img/paper3.pdf, page17 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 17>
+Package pdftex.def Info: img/paper3.pdf, page17 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 17>
+Package pdftex.def Info: img/paper3.pdf, page17 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [121 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4598, page=18, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 18>
+Package pdftex.def Info: img/paper3.pdf, page18 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 18>
+Package pdftex.def Info: img/paper3.pdf, page18 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 18>
+Package pdftex.def Info: img/paper3.pdf, page18 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [122 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4603, page=19, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 19>
+Package pdftex.def Info: img/paper3.pdf, page19 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 19>
+Package pdftex.def Info: img/paper3.pdf, page19 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 19>
+Package pdftex.def Info: img/paper3.pdf, page19 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [123 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4613, page=20, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 20>
+Package pdftex.def Info: img/paper3.pdf, page20 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 20>
+Package pdftex.def Info: img/paper3.pdf, page20 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 20>
+Package pdftex.def Info: img/paper3.pdf, page20 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [124 <./img/paper3.pdf>]
+<img/paper3.pdf, id=4618, page=21, 597.50829pt x 845.0471pt>
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 21>
+Package pdftex.def Info: img/paper3.pdf, page21 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+ <use img/paper3.pdf, page 21>
+Package pdftex.def Info: img/paper3.pdf, page21 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3.pdf Graphic file (type pdf)
+
+<use img/paper3.pdf, page 21>
+Package pdftex.def Info: img/paper3.pdf, page21 used on input line 102.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [125 <./img/paper3.pdf>]
+<img/paper3-supplement.pdf, id=4625, page=1, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper3-supplement.pdf, page1 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper3-supplement.pdf, page1 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper3-supplement.pdf, page1 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper3-supplement.pdf, page1 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 1>
+Package pdftex.def Info: img/paper3-supplement.pdf, page1 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [126 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4659, page=2, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper3-supplement.pdf, page2 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper3-supplement.pdf, page2 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 2>
+Package pdftex.def Info: img/paper3-supplement.pdf, page2 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [127 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4665, page=3, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper3-supplement.pdf, page3 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper3-supplement.pdf, page3 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 3>
+Package pdftex.def Info: img/paper3-supplement.pdf, page3 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [128 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4686, page=4, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper3-supplement.pdf, page4 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper3-supplement.pdf, page4 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 4>
+Package pdftex.def Info: img/paper3-supplement.pdf, page4 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [129 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4691, page=5, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper3-supplement.pdf, page5 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper3-supplement.pdf, page5 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 5>
+Package pdftex.def Info: img/paper3-supplement.pdf, page5 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [130 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4696, page=6, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper3-supplement.pdf, page6 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper3-supplement.pdf, page6 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 6>
+Package pdftex.def Info: img/paper3-supplement.pdf, page6 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [131 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4701, page=7, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper3-supplement.pdf, page7 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper3-supplement.pdf, page7 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 7>
+Package pdftex.def Info: img/paper3-supplement.pdf, page7 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [132 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4716, page=8, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper3-supplement.pdf, page8 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper3-supplement.pdf, page8 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 8>
+Package pdftex.def Info: img/paper3-supplement.pdf, page8 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [133 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4722, page=9, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper3-supplement.pdf, page9 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper3-supplement.pdf, page9 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 9>
+Package pdftex.def Info: img/paper3-supplement.pdf, page9 used on input line 10
+3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [134 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4727, page=10, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper3-supplement.pdf, page10 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper3-supplement.pdf, page10 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 10>
+Package pdftex.def Info: img/paper3-supplement.pdf, page10 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [135 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4732, page=11, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 11>
+Package pdftex.def Info: img/paper3-supplement.pdf, page11 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 11>
+Package pdftex.def Info: img/paper3-supplement.pdf, page11 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 11>
+Package pdftex.def Info: img/paper3-supplement.pdf, page11 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [136 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4737, page=12, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 12>
+Package pdftex.def Info: img/paper3-supplement.pdf, page12 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 12>
+Package pdftex.def Info: img/paper3-supplement.pdf, page12 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 12>
+Package pdftex.def Info: img/paper3-supplement.pdf, page12 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [137 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4742, page=13, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 13>
+Package pdftex.def Info: img/paper3-supplement.pdf, page13 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 13>
+Package pdftex.def Info: img/paper3-supplement.pdf, page13 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 13>
+Package pdftex.def Info: img/paper3-supplement.pdf, page13 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [138 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4747, page=14, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 14>
+Package pdftex.def Info: img/paper3-supplement.pdf, page14 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 14>
+Package pdftex.def Info: img/paper3-supplement.pdf, page14 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 14>
+Package pdftex.def Info: img/paper3-supplement.pdf, page14 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [139 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4753, page=15, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 15>
+Package pdftex.def Info: img/paper3-supplement.pdf, page15 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 15>
+Package pdftex.def Info: img/paper3-supplement.pdf, page15 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 15>
+Package pdftex.def Info: img/paper3-supplement.pdf, page15 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [140 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4758, page=16, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 16>
+Package pdftex.def Info: img/paper3-supplement.pdf, page16 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 16>
+Package pdftex.def Info: img/paper3-supplement.pdf, page16 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 16>
+Package pdftex.def Info: img/paper3-supplement.pdf, page16 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [141 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4763, page=17, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 17>
+Package pdftex.def Info: img/paper3-supplement.pdf, page17 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 17>
+Package pdftex.def Info: img/paper3-supplement.pdf, page17 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 17>
+Package pdftex.def Info: img/paper3-supplement.pdf, page17 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [142 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4768, page=18, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 18>
+Package pdftex.def Info: img/paper3-supplement.pdf, page18 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 18>
+Package pdftex.def Info: img/paper3-supplement.pdf, page18 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 18>
+Package pdftex.def Info: img/paper3-supplement.pdf, page18 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [143 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4773, page=19, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 19>
+Package pdftex.def Info: img/paper3-supplement.pdf, page19 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 19>
+Package pdftex.def Info: img/paper3-supplement.pdf, page19 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 19>
+Package pdftex.def Info: img/paper3-supplement.pdf, page19 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [144 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=4782, page=20, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 20>
+Package pdftex.def Info: img/paper3-supplement.pdf, page20 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 20>
+Package pdftex.def Info: img/paper3-supplement.pdf, page20 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 20>
+Package pdftex.def Info: img/paper3-supplement.pdf, page20 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [145 <./img/paper3-supplement.pdf>]
+<img/paper3-supplement.pdf, id=5846, page=21, 597.50829pt x 845.0471pt>
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 21>
+Package pdftex.def Info: img/paper3-supplement.pdf, page21 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 21>
+Package pdftex.def Info: img/paper3-supplement.pdf, page21 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: img/paper3-supplement.pdf Graphic file (type pdf)
+
+<use img/paper3-supplement.pdf, page 21>
+Package pdftex.def Info: img/paper3-supplement.pdf, page21 used on input line 1
+03.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [146 <./img/paper3-supplement.pdf>]
 Chapter 10.
 (./tex_files/Publications.texpdfTeX warning (ext4): destination with the same i
 dentifier (name{cite.Coates:2015}) has been already used, duplicate ignored
@@ -4420,29 +5196,29 @@ l.7     \bibentry{Coates:2016}
 LaTeX Info: Redefining \bond on input line 7.
 LaTeX Info: Redefining \dbond on input line 7.
 LaTeX Info: Redefining \tbond on input line 7.
- [105
+ [147
 
-]) [106] (./tex_files/Appendix.tex)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+]) [148] (./tex_files/Appendix.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
 
-[107
+[149
 
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D919643804DA29AF2203151A292EAE31;2928.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 23368 strings out of 495007
- 401786 string characters out of 3179690
- 545567 words of memory out of 3000000
- 25558 multiletter control sequences out of 15000+200000
+ 23542 strings out of 495007
+ 405928 string characters out of 3179690
+ 547014 words of memory out of 3000000
+ 25686 multiletter control sequences out of 15000+200000
  110043 words of font info for 160 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,28n,94p,549b,754s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4462,29 +5238,36 @@ ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
-Output written on main.pdf (119 pages, 2548626 bytes).
+lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx6.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/
+lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></us
+r/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/ty
+pe1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fti1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+Output written on main.pdf (161 pages, 4301699 bytes).
 PDF statistics:
- 2509 PDF objects out of 2984 (max. 8388607)
- 1948 compressed objects within 20 object streams
- 295 named destinations out of 1000 (max. 500000)
- 25162 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 6029 PDF objects out of 6186 (max. 8388607)
+ 4312 compressed objects within 44 object streams
+ 337 named destinations out of 1000 (max. 500000)
+ 25392 words of extra memory for PDF output out of 29859 (max. 10000000)
 
