@@ -134,7 +134,7 @@ During the night-time, reaction with the nitrate (\ce{NO3}) radical is typically
     \end{center}%
 \end{figure}% 
 Figure~\ref{f:VOC_reaction} represents a general and simplified reaction scheme for VOCs in the troposphere. 
-The initial oxidation of NMVOC produces \ce{RO2} radicals and the fate of the \ce{RO2} determines whether net loss or production of ozone occurs.
+The initial oxidation of NMVOCs produces \ce{RO2} radicals and the fate of the \ce{RO2} determines whether net loss or production of ozone occurs.
 \vspace{7mm}
 \begin{rxnarray}
     \ce{RO2 + NO} & \xrightarrow[]{\text{M}} \ce{RONO2} \label{r:RO2_NOa} \\
@@ -150,7 +150,7 @@ The initial oxidation of NMVOC produces \ce{RO2} radicals and the fate of the \c
 All degradation pathways of \ce{RO2} that produce \ce{NO2} result in \ce{O3} formation due to \eqref{r:NO2_hv} and \eqref{r:O_O2}. 
 Reaction with \ce{HO2} forms a hydroperoxide (ROOH) which may either be deposited or photolysed producing an alkoxy (RO) radical and OH.
 The carbonyl and alcohol products resulting from reactions between \ce{RO2} radicals follows a similar sequence of reactions and can produce further \ce{O3}. 
-Thus the subsequent reactions of secondary degradation products of a VOC may lead to further production of ozone.
+Thus the subsequent reactions of secondary degradation products of a NMVOC may lead to further production of ozone.
 
 Reaction of \ce{RO2} with \ce{NO2} \eqref{r:RO2_NO2} forms peroxy nitrates (\ce{RO2NO2}) which are a temporary reservoir for \ce{RO2} and \ce{NO_x}.
 The thermal decomposition rate of \ce{RO2NO2} is highly temperature dependent.
@@ -171,7 +171,7 @@ The chemistry in low-\ce{NO_x} and high-\ce{NO_x} conditions indicates that ozon
 Figure~\ref{f:O3_isopleth}, taken from \citet{Jenkin:2000}, depicts the non-linear relationship between ozone as a function of VOC and \ce{NO_x}.
 This relationship can be divided into distinct regimes of ozone production: \emph{\ce{NO_x}-sensitive} (or \emph{\ce{NO_x}-limited}), \emph{\ce{NO_x}-saturated} (or \emph{VOC-limited}) and \emph{VOC-and-\ce{NO_x}-sensitive} regimes. 
 
-In regions with low-\ce{NO_x} concentrations, \ce{RO2} are more likely to react with other radicals rather than convert NO to \ce{NO2} leading to ozone production.
+In regions with low-\ce{NO_x} concentrations, \ce{RO2} are more likely to react with other radicals rather than convert NO to \ce{NO2}.
 Increasing \ce{NO_x} levels increases the number of NO to \ce{NO2} conversions by peroxy radicals leading to ozone production.
 However, increasing VOC levels has little effect on \ce{O3} production due to increased radical-radical reactions.
 This is \emph{\ce{NO_x}-sensitive}~chemistry.
@@ -201,7 +201,7 @@ Moreover, fresh emissions tend to occur in \ce{NO_x}-saturated areas before bein
 
 \subsection{Representing Atmospheric Chemistry in Models} \label{ss:chemistry_models}
 Representing the degradation chemistry for each VOC in a chemical transport model is unrealistic.
-Even if all the secondary degradation pathways and products were known for every VOC, a chemical transport model would be unable to efficiently solve the differential equations.
+Even if all the secondary degradation pathways and products were known for every VOC, a chemical transport model would be unable to efficiently solve the system of differential equations.
 
 The representation of atmospheric chemistry in a chemical transport model is called a chemical mechanism.
 Chemical mechanisms are developed by simplifying and aggregating VOCs, degradation products and reactions.
@@ -315,7 +315,7 @@ The Maximum Incremental Reactivity (MIR) and Maximum Ozone Incremental Reactivit
 \vspace{-2mm}
 %representation of VOC emissions in models using emission inventories
 Emissions of NMVOC species are a critical input in models and emission inventories are used to specify the type and quantity of emissions from source categories.
-Table~\ref{t:SNAP} lists the source sectors of emissions used by the TNO-MACCIII emission inventory \citep{Kuenen:2014}.
+Table~\ref{t:SNAP} lists the source sectors of emissions used by the TNO-MACCII emission inventory \citep{Kuenen:2014}.
 Emission inventories are available for global or regional emissions.
 For example, EDGAR \citep{Olivier:2001} specifies global emissions while TNO-MACCII \citep{Kuenen:2014} specifies European emissions.
 
@@ -325,7 +325,7 @@ Often temporal variation of emissions are not captured by emission inventories \
 
 BVOC emissions depend on meteorological and biological variables and algorithms estimating BVOC emissions may be calculated as part of the model simulation instead of an emission inventory.
 Emissions of AVOCs may also depend on meteorological variables, for example, evaporative emissions increase with temperature \citep{Rubin:2006}.
-The Model of Emissions of Gases and Aerosols from Nature (MEGAN) \citep{Guenther:2006, Guenther:2012} calculates BVOC emissions using the temperature and radiation values determined from the model.
+The Model of Emissions of Gases and Aerosols from Nature (MEGAN, \citet{Guenther:2006, Guenther:2012}) calculates BVOC emissions using the temperature and radiation values determined from the model.
 Specifiying BVOC emissions using an algorithm or emission inventory influences modelled ozone concentrations. 
 For example, \citet{Curci:2009} noted large differences in summertime ozone concentrations over Europe when using a gridded emission inventory or an on-line algorithm for BVOC emissions.
 
