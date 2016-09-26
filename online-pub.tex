@@ -1,0 +1,117 @@
+\documentclass[12pt,twoside,openright,a4paper]{report}
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf, .png, .jpg}
+\usepackage{tex_files/style}
+
+\sloppy
+
+\title{
+    \textbf{{\Huge{Tropospheric Ozone Production \\Pathways with Detailed Chemical Mechanisms}}}\\ \vspace{2cm}
+    \normalsize{{Dissertation zur Erlangung des akademischen Grades} \\
+    {des Doktors der Naturwissenschaften} \\
+    {am Fachbereich Geowissenschaften} \\
+    {an der Freien Universit\"{a}t Berlin}\\} \vspace{2cm}
+    \textbf{{Vorgelegt von} \\
+    {Jane Coates} \\
+    {im April 2016} \\} \vspace{3cm}
+    {\includegraphics[scale=0.5]{img/FU_logo}}
+}
+%removing author and date for maketitle
+\author{\vspace{-5ex}}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\nobibliography*
+
+\pagenumbering{Alph}
+\maketitle
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\input{tex_files/Supervisors}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\pagenumbering{roman}
+
+%\chapter*{Abstract}
+%\clearpage{\pagestyle{empty}\cleardoublepage}
+\chapter*{Acknowledgements}
+\input{tex_files/Acknowledgements}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\singlespacing
+\tableofcontents{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
+\onehalfspacing
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\listoftables{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\listoffigures{\fancyhead[LE]{\contentsname}\fancyhead[RE]{}}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\fancyhf{}
+\fancyhead[RO,LE]{Tropospheric Ozone Production Pathways}
+\fancyhead[LO,RE]{Chapter \thechapter}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,RE]{Jane Coates}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\chapter{Introduction} \label{c:introduction}
+\pagenumbering{arabic}
+\input{tex_files/Introduction}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Methodology} \label{c:methodology}
+\input{tex_files/Methodology}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\addtocontents{toc}{\protect\newpage}
+\chapter{Presentation of Papers} \label{c:papers}
+%% update section titles for TOC
+\input{tex_files/Papers}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Overall Discussion and Conclusions} \label{c:conclusions}
+\input{tex_files/Conclusions}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Outlook} \label{c:outlook}
+\input{tex_files/Outlook}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Summary and Zusammenfassung} \label{c:summary}
+\input{tex_files/Summary}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\fancyhead[LO,RE]{References}
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{abbrvnat}
+\bibliography{References} 
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\chapter{Paper I: A comparison of chemical mechanisms using tagged ozone production potential (TOPP) analysis} \label{c:paper_1}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\includepdf[pages=-]{img/paper1.pdf}
+\includepdf[pages=-]{img/paper1-supplement.pdf}
+
+\chapter{Paper II: Variation of the NMVOC Speciation in the Solvent Sector and the Sensitivity of Modelled Tropospheric Ozone} \label{c:paper_2}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+This article has been removed due to copyright issues. The original article is found at \url{http://dx.doi.org/10.1016/j.atmosenv.2016.03.057}.
+%\includepdf[pages=-]{img/paper2.pdf}
+%\includepdf[pages=-]{img/paper2-supplement.pdf}
+
+\chapter{Paper III: The Influence of Temperature on Ozone Production under varying \ce{NO_x} Conditions -- a modelling study} \label{c:paper_3}
+\setcounter{page}{103}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+\includepdf[pages=-]{img/paper3.pdf}
+\includepdf[pages=-]{img/paper3-supplement.pdf}
+
+\fancyhead[LO,RE]{Chapter \thechapter}
+\chapter{Publication List}
+\input{tex_files/Publications}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+
+\addcontentsline{toc}{chapter}{Appendix}
+\chapter*{Appendix}
+\input{tex_files/Appendix}
+
+\end{document}
